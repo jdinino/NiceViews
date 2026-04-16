@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>You'll Thank Me After — Nice Views</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -51,9 +51,10 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 
 /* LAYOUT */
 .main{display:grid;grid-template-columns:260px 1fr;min-height:calc(100vh - 120px)}
+@media(max-width:900px){.main{grid-template-columns:1fr}.sidebar{max-height:280px}}
 
 /* SIDEBAR */
-.sidebar{background:var(--white);border-right:1px solid rgba(15,26,46,.06);padding:16px;overflow-y:auto;-webkit-overflow-scrolling:touch;max-height:calc(100vh - 120px)}
+.sidebar{background:var(--white);border-right:1px solid rgba(15,26,46,.06);padding:16px;overflow-y:auto;max-height:calc(100vh - 120px)}
 .section-title{font-size:.58rem;text-transform:uppercase;letter-spacing:2px;color:var(--text-light);font-weight:600;margin-bottom:8px;margin-top:14px}
 .section-title:first-child{margin-top:0}
 
@@ -62,7 +63,6 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
   display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;border:1.5px solid rgba(15,26,46,.08);
   border-radius:8px;font-family:inherit;font-size:.78rem;color:var(--text);background:var(--cream);
   cursor:pointer;transition:all .2s;margin-bottom:5px;text-align:left;font-weight:500;
-  min-height:44px;touch-action:manipulation;
 }
 .route-btn:hover{border-color:var(--gold);background:var(--gold-dim)}
 .route-btn.active{background:var(--night);color:var(--gold);border-color:var(--night)}
@@ -78,7 +78,6 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .spot-detail{font-size:.72rem;color:var(--text-light)}
 
 /* MAP */
-/* MAP */
 #map{width:100%;height:calc(100vh - 120px)}
 
 /* MARKER STYLES */
@@ -88,7 +87,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 
 /* POPUP */
 .leaflet-popup-content-wrapper{border-radius:12px;box-shadow:var(--shadow-lg);overflow:hidden;padding:0}
-.leaflet-popup-content{margin:0;min-width:240px;max-width:300px}
+.leaflet-popup-content{margin:0;min-width:260px;max-width:300px}
 .leaflet-popup-tip{box-shadow:none}
 
 .vp{font-family:'Source Sans 3',sans-serif}
@@ -104,9 +103,8 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .vp-item strong{color:var(--night);font-weight:600}
 .vp-links{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}
 .vp-link{
-  display:inline-flex;align-items:center;gap:3px;padding:6px 12px;
+  display:inline-flex;align-items:center;gap:3px;padding:4px 10px;
   border-radius:6px;font-size:.65rem;font-weight:600;text-decoration:none;transition:all .2s;
-  touch-action:manipulation;min-height:36px;
 }
 .vp-link-maps{background:rgba(91,143,185,.1);color:var(--sky)}
 .vp-link-maps:hover{background:rgba(91,143,185,.2)}
@@ -116,17 +114,17 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .vp-link-w3w:hover{background:rgba(212,98,59,.16)}
 
 /* BOTTOM LIST */
-.bottom-panel{grid-column:1/-1;background:var(--white);border-top:3px solid var(--gold);padding-bottom:env(safe-area-inset-bottom)}
-.tab-bar{display:flex;background:var(--night);padding:0;flex-shrink:0}
-.tab-btn{padding:10px 20px;border:none;background:transparent;color:rgba(255,255,255,.4);font-family:inherit;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:1.2px;cursor:pointer;transition:all .2s;position:relative;touch-action:manipulation}
+.bottom-panel{grid-column:1/-1;background:var(--white);border-top:3px solid var(--gold)}
+.tab-bar{display:flex;background:var(--night);padding:0}
+.tab-btn{padding:10px 20px;border:none;background:transparent;color:rgba(255,255,255,.4);font-family:inherit;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:1.2px;cursor:pointer;transition:all .2s;position:relative}
 .tab-btn.active{color:var(--gold)}
 .tab-btn.active::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--gold)}
 
-.tab-content{display:none;padding:16px;max-height:320px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.tab-content{display:none;padding:16px;max-height:320px;overflow-y:auto}
 .tab-content.active{display:block}
 
 .spot-table{width:100%;border-collapse:collapse;font-size:.76rem}
-.spot-table th{text-align:left;padding:8px 10px;background:var(--night);color:var(--gold-light);font-weight:600;text-transform:uppercase;letter-spacing:.7px;font-size:.6rem;position:sticky;top:0;cursor:pointer;white-space:nowrap;z-index:1}
+.spot-table th{text-align:left;padding:8px 10px;background:var(--night);color:var(--gold-light);font-weight:600;text-transform:uppercase;letter-spacing:.7px;font-size:.6rem;position:sticky;top:0;cursor:pointer;white-space:nowrap}
 .spot-table th:hover{background:var(--night-mid)}
 .spot-table td{padding:7px 10px;border-bottom:1px solid rgba(15,26,46,.05)}
 .spot-table tr:hover td{background:var(--gold-dim)}
@@ -137,50 +135,8 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .route-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .route-card{background:var(--cream);border-radius:10px;padding:16px;border-left:4px solid var(--gold)}
 .route-card h3{font-family:'Playfair Display',serif;font-size:1rem;color:var(--night);margin-bottom:8px}
-.route-stop{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:.78rem;color:var(--text-mid);cursor:pointer;touch-action:manipulation}
+.route-stop{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:.78rem;color:var(--text-mid)}
 .route-stop .stop-num{width:20px;height:20px;border-radius:50%;background:var(--night);color:var(--gold);font-size:.6rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-
-/* TABLET: <=900px */
-@media(max-width:900px){
-  .main{grid-template-columns:1fr}
-  .sidebar{max-height:220px;border-right:none;border-bottom:1px solid rgba(15,26,46,.06)}
-  #map{height:50vh}
-}
-
-/* PHONE: <=600px */
-@media(max-width:600px){
-  .header{padding:20px 16px 16px}
-  .header h1{font-size:1.6rem}
-  .header .subtitle{font-size:.7rem;letter-spacing:1.5px;margin-top:4px}
-  .header .tagline{font-size:.82rem;margin-top:2px}
-
-  .sidebar{max-height:160px;padding:10px 12px}
-  .section-title.legend-title,.legend-grid,.section-title.showing-title,.spot-count,.spot-detail{display:none}
-  .route-btn{padding:8px 10px;font-size:.72rem;margin-bottom:3px;border-radius:6px}
-  .route-btn .route-count{display:none}
-
-  .leaflet-popup-content{min-width:200px;max-width:260px}
-  .vp-img{height:120px}
-  .vp-name{font-size:.95rem}
-  .vp-grid{grid-template-columns:1fr}
-
-  .bottom-panel{max-height:240px}
-  .tab-content{padding:10px}
-  .spot-table .col-gps,.spot-table .col-w3w{display:none}
-  .spot-table th{padding:6px 8px}
-  .spot-table td{padding:5px 8px}
-
-  .route-cards{grid-template-columns:1fr}
-}
-
-/* SMALL PHONE: <=380px */
-@media(max-width:380px){
-  .header h1{font-size:1.4rem}
-  .header .subtitle{font-size:.62rem}
-  .sidebar{max-height:140px}
-  .leaflet-popup-content{min-width:180px;max-width:240px}
-  .vp-link{padding:5px 8px;font-size:.6rem}
-}
 </style>
 </head>
 <body>
@@ -204,7 +160,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
     <button class="route-btn" data-route="east"><span class="route-icon">&#8594;</span>Going East<span class="route-count">5</span></button>
     <button class="route-btn" data-route="west"><span class="route-icon">&#8592;</span>Going West<span class="route-count">9</span></button>
 
-    <div class="section-title legend-title">Legend</div>
+    <div class="section-title">Legend</div>
     <div class="legend-grid">
       <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 18L9 10L13 15L17 8L21 18Z" fill="#5B8FB9" opacity=".8"/><path d="M1 18L8 7L13 14L18 5L23 18Z" fill="none" stroke="#5B8FB9" stroke-width="1.5"/></svg></div>Mountain</div>
       <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M6 4C6 4 8 9 8 12C8 15 6 16 6 16" stroke="#5B8FB9" stroke-width="2" fill="none"/><path d="M10 6C10 6 12 10 12 13C12 16 10 17 10 17" stroke="#5B8FB9" stroke-width="2" fill="none" opacity=".6"/><path d="M3 18H21" stroke="#5B8FB9" stroke-width="1.5"/></svg></div>Waterfall</div>
@@ -216,12 +172,14 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
       <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 3L14 9H20L15 13L17 19L12 15L7 19L9 13L4 9H10Z" fill="#2D5F3A" stroke="#2D5F3A" stroke-width="1"/></svg></div>Park</div>
     </div>
 
-    <div class="section-title showing-title" style="margin-top:16px">Showing</div>
+    <div class="section-title" style="margin-top:16px">Showing</div>
     <div class="spot-count" id="spotCount">22 spots</div>
     <div class="spot-detail" id="spotDetail">All locations</div>
   </div>
 
-  <div id="map"></div>
+  <div style="position:relative">
+    <div id="map"></div>
+  </div>
 
   <div class="bottom-panel">
     <div class="tab-bar">
@@ -234,8 +192,8 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
           <th>#</th>
           <th>Name</th>
           <th>Category</th>
-          <th class="col-gps">GPS</th>
-          <th class="col-w3w">What3Words</th>
+          <th>GPS</th>
+          <th>What3Words</th>
         </tr></thead>
         <tbody id="tableBody"></tbody>
       </table>
@@ -264,7 +222,7 @@ function initApp(){
 // === MAP ===
 const map = L.map('map',{zoomControl:true}).setView([42.48,-71.30],10);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{
-  attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:19,subdomains:'abcd'
+  attribution:'© OpenStreetMap © CARTO',maxZoom:19,subdomains:'abcd'
 }).addTo(map);
 
 // Create markers
@@ -301,7 +259,7 @@ SPOTS.forEach(s => {
         </div>
       </div>
     </div>
-  `,{maxWidth:300,minWidth:240});
+  `,{maxWidth:300,minWidth:260});
 
   m.on('popupopen', async function(){
     const el = document.getElementById(imgId);
@@ -346,6 +304,7 @@ function updateAll(){
   document.getElementById('spotCount').textContent = filtered.length + ' spots';
   document.getElementById('spotDetail').textContent = activeRoute==='all' ? 'All locations' : ROUTES[activeRoute].label;
 
+  // Fit bounds
   if(filtered.length > 1){
     const bounds = L.latLngBounds(filtered.map(s=>[s.lat,s.lng]));
     map.fitBounds(bounds,{padding:[40,40],maxZoom:13});
@@ -371,7 +330,7 @@ document.querySelectorAll('.route-btn').forEach(btn=>{
 function updateTable(data){
   document.getElementById('tableBody').innerHTML = data.map(s=>{
     const cat = CATS[s.cat];
-    return '<tr onclick="flyTo('+s.id+')"><td style="font-weight:700;color:var(--text-light)">#'+s.id+'</td><td><strong>'+s.name+'</strong><br><span style="font-size:.68rem;color:var(--text-light)">'+s.note+'</span></td><td><span class="cat-badge" style="background:'+cat.color+'">'+cat.label+'</span></td><td class="col-gps" style="font-size:.68rem;font-family:monospace"><a href="https://www.google.com/maps?q='+s.lat+','+s.lng+'" target="_blank" rel="noopener" style="color:var(--sky);text-decoration:none">'+s.lat.toFixed(4)+', '+s.lng.toFixed(4)+'</a></td><td class="col-w3w" style="font-size:.68rem">'+(s.w3w?'<a href="https://what3words.com/'+s.w3w+'" target="_blank" rel="noopener" style="color:var(--sunset);text-decoration:none">///'+s.w3w+'</a>':'—')+'</td></tr>';
+    return '<tr onclick="flyTo('+s.id+')"><td style="font-weight:700;color:var(--text-light)">#'+s.id+'</td><td><strong>'+s.name+'</strong><br><span style="font-size:.68rem;color:var(--text-light)">'+s.note+'</span></td><td><span class="cat-badge" style="background:'+cat.color+'">'+cat.label+'</span></td><td style="font-size:.68rem;font-family:monospace"><a href="https://www.google.com/maps?q='+s.lat+','+s.lng+'" target="_blank" rel="noopener" style="color:var(--sky);text-decoration:none">'+s.lat.toFixed(4)+', '+s.lng.toFixed(4)+'</a></td><td style="font-size:.68rem">'+(s.w3w?'<a href="https://what3words.com/'+s.w3w+'" target="_blank" rel="noopener" style="color:var(--sunset);text-decoration:none">///'+s.w3w+'</a>':'—')+'</td></tr>';
   }).join('');
 }
 
@@ -385,7 +344,7 @@ function updateRouteCards(){
     const order = ROUTE_ORDER[dir];
     const stops = order.map((id,i)=>{
       const s = SPOTS.find(x=>x.id===id);
-      return '<div class="route-stop" onclick="flyTo('+s.id+')"><span class="stop-num">'+(i+1)+'</span>'+s.name+'</div>';
+      return '<div class="route-stop" onclick="flyTo('+s.id+')" style="cursor:pointer"><span class="stop-num">'+(i+1)+'</span>'+s.name+'</div>';
     }).join('');
     return '<div class="route-card" style="border-color:'+colors[dir]+'"><h3>'+labels[dir]+'</h3>'+stops+'</div>';
   }).join('');
@@ -409,9 +368,6 @@ document.querySelectorAll('.tab-btn').forEach(btn=>{
     document.getElementById('tab-'+btn.dataset.tab).classList.add('active');
   });
 });
-
-// Invalidate map size after layout settles
-setTimeout(()=>map.invalidateSize(),100);
 
 // Init
 updateAll();
