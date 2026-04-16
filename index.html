@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>You'll Thank Me After — Nice Views</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -54,7 +54,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 @media(max-width:900px){.main{grid-template-columns:1fr}.sidebar{max-height:280px}}
 
 /* SIDEBAR */
-.sidebar{background:var(--white);border-right:1px solid rgba(15,26,46,.06);padding:16px;overflow-y:auto;max-height:calc(100vh - 120px)}
+.sidebar{background:var(--white);border-right:1px solid rgba(15,26,46,.06);padding:16px;overflow-y:auto;-webkit-overflow-scrolling:touch;max-height:calc(100vh - 120px)}
 .section-title{font-size:.58rem;text-transform:uppercase;letter-spacing:2px;color:var(--text-light);font-weight:600;margin-bottom:8px;margin-top:14px}
 .section-title:first-child{margin-top:0}
 
@@ -63,6 +63,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
   display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;border:1.5px solid rgba(15,26,46,.08);
   border-radius:8px;font-family:inherit;font-size:.78rem;color:var(--text);background:var(--cream);
   cursor:pointer;transition:all .2s;margin-bottom:5px;text-align:left;font-weight:500;
+  min-height:44px;touch-action:manipulation;
 }
 .route-btn:hover{border-color:var(--gold);background:var(--gold-dim)}
 .route-btn.active{background:var(--night);color:var(--gold);border-color:var(--night)}
@@ -114,13 +115,13 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .vp-link-w3w:hover{background:rgba(212,98,59,.16)}
 
 /* BOTTOM LIST */
-.bottom-panel{grid-column:1/-1;background:var(--white);border-top:3px solid var(--gold)}
+.bottom-panel{grid-column:1/-1;background:var(--white);border-top:3px solid var(--gold);padding-bottom:env(safe-area-inset-bottom)}
 .tab-bar{display:flex;background:var(--night);padding:0}
-.tab-btn{padding:10px 20px;border:none;background:transparent;color:rgba(255,255,255,.4);font-family:inherit;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:1.2px;cursor:pointer;transition:all .2s;position:relative}
+.tab-btn{padding:10px 20px;border:none;background:transparent;color:rgba(255,255,255,.4);font-family:inherit;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:1.2px;cursor:pointer;transition:all .2s;position:relative;touch-action:manipulation}
 .tab-btn.active{color:var(--gold)}
 .tab-btn.active::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--gold)}
 
-.tab-content{display:none;padding:16px;max-height:320px;overflow-y:auto}
+.tab-content{display:none;padding:16px;max-height:320px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .tab-content.active{display:block}
 
 .spot-table{width:100%;border-collapse:collapse;font-size:.76rem}
@@ -137,6 +138,44 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .route-card h3{font-family:'Playfair Display',serif;font-size:1rem;color:var(--night);margin-bottom:8px}
 .route-stop{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:.78rem;color:var(--text-mid)}
 .route-stop .stop-num{width:20px;height:20px;border-radius:50%;background:var(--night);color:var(--gold);font-size:.6rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+
+/* TABLET: <=900px */
+@media(max-width:900px){
+  .main{grid-template-columns:1fr}
+  .sidebar{max-height:240px;border-right:none;border-bottom:1px solid rgba(15,26,46,.06)}
+  #map{height:50vh}
+}
+
+/* PHONE: <=600px */
+@media(max-width:600px){
+  .header{padding:20px 16px 16px}
+  .header h1{font-size:1.6rem}
+  .header .subtitle{font-size:.7rem;letter-spacing:1.5px;margin-top:4px}
+  .header .tagline{font-size:.82rem;margin-top:2px}
+  .sidebar{max-height:160px;padding:10px 12px}
+  .legend-grid,.section-title:nth-of-type(3),.spot-count,.spot-detail{display:none}
+  .section-title:nth-of-type(4){display:none}
+  .route-btn{padding:8px 10px;font-size:.72rem;margin-bottom:3px}
+  .route-btn .route-count{display:none}
+  #map{height:55vh}
+  .leaflet-popup-content{min-width:200px;max-width:260px}
+  .vp-img{height:120px}
+  .vp-name{font-size:.95rem}
+  .vp-grid{grid-template-columns:1fr}
+  .tab-content{max-height:250px}
+  .spot-table th:nth-child(4),.spot-table td:nth-child(4),
+  .spot-table th:nth-child(5),.spot-table td:nth-child(5){display:none}
+  .route-cards{grid-template-columns:1fr}
+}
+
+/* SMALL PHONE: <=380px */
+@media(max-width:380px){
+  .header h1{font-size:1.4rem}
+  .header .subtitle{font-size:.62rem}
+  .sidebar{max-height:140px}
+  .leaflet-popup-content{min-width:180px;max-width:240px}
+  .vp-link{padding:4px 8px;font-size:.6rem}
+}
 </style>
 </head>
 <body>
