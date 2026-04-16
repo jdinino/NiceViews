@@ -19,13 +19,12 @@
   --text:#0F1A2E;--text-mid:#4A5568;--text-light:#8896A7;
   --shadow:0 4px 20px rgba(15,26,46,.12);--shadow-lg:0 12px 40px rgba(15,26,46,.18);
 }
-html{overflow:hidden;height:100%}
-body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--text);overflow:hidden;height:100%;display:flex;flex-direction:column}
+body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--text);overflow-x:hidden}
 
 /* HEADER */
 .header{
   background:linear-gradient(135deg,var(--night) 0%,var(--night-mid) 50%,#2A1F3D 100%);
-  padding:32px 40px 28px;position:relative;overflow:hidden;flex-shrink:0;
+  padding:32px 40px 28px;position:relative;overflow:hidden;
 }
 .header::before{
   content:'';position:absolute;top:0;left:0;right:0;bottom:0;
@@ -51,10 +50,10 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 }
 
 /* LAYOUT */
-.main{display:grid;grid-template-columns:260px 1fr;flex:1;overflow:hidden;grid-template-rows:1fr auto}
+.main{display:grid;grid-template-columns:260px 1fr;min-height:calc(100vh - 120px)}
 
 /* SIDEBAR */
-.sidebar{background:var(--white);border-right:1px solid rgba(15,26,46,.06);padding:16px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.sidebar{background:var(--white);border-right:1px solid rgba(15,26,46,.06);padding:16px;overflow-y:auto;-webkit-overflow-scrolling:touch;max-height:calc(100vh - 120px)}
 .section-title{font-size:.58rem;text-transform:uppercase;letter-spacing:2px;color:var(--text-light);font-weight:600;margin-bottom:8px;margin-top:14px}
 .section-title:first-child{margin-top:0}
 
@@ -79,8 +78,8 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .spot-detail{font-size:.72rem;color:var(--text-light)}
 
 /* MAP */
-.map-wrap{position:relative;overflow:hidden}
-#map{position:absolute;top:0;left:0;right:0;bottom:0}
+/* MAP */
+#map{width:100%;height:calc(100vh - 120px)}
 
 /* MARKER STYLES */
 .marker-icon{display:flex;align-items:center;justify-content:center;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
@@ -117,13 +116,13 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .vp-link-w3w:hover{background:rgba(212,98,59,.16)}
 
 /* BOTTOM LIST */
-.bottom-panel{grid-column:1/-1;background:var(--white);border-top:3px solid var(--gold);display:flex;flex-direction:column;max-height:320px;padding-bottom:env(safe-area-inset-bottom)}
+.bottom-panel{grid-column:1/-1;background:var(--white);border-top:3px solid var(--gold);padding-bottom:env(safe-area-inset-bottom)}
 .tab-bar{display:flex;background:var(--night);padding:0;flex-shrink:0}
-.tab-btn{padding:10px 20px;border:none;background:transparent;color:rgba(255,255,255,.4);font-family:inherit;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:1.2px;cursor:pointer;transition:all .2s;position:relative;min-height:44px;touch-action:manipulation}
+.tab-btn{padding:10px 20px;border:none;background:transparent;color:rgba(255,255,255,.4);font-family:inherit;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:1.2px;cursor:pointer;transition:all .2s;position:relative;touch-action:manipulation}
 .tab-btn.active{color:var(--gold)}
 .tab-btn.active::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--gold)}
 
-.tab-content{display:none;padding:16px;overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1}
+.tab-content{display:none;padding:16px;max-height:320px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .tab-content.active{display:block}
 
 .spot-table{width:100%;border-collapse:collapse;font-size:.76rem}
@@ -143,10 +142,9 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 
 /* TABLET: <=900px */
 @media(max-width:900px){
-  .main{grid-template-columns:1fr;grid-template-rows:auto 1fr auto}
+  .main{grid-template-columns:1fr}
   .sidebar{max-height:220px;border-right:none;border-bottom:1px solid rgba(15,26,46,.06)}
-  #map{min-height:300px}
-  .bottom-panel{max-height:260px}
+  #map{height:50vh}
 }
 
 /* PHONE: <=600px */
@@ -223,9 +221,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
     <div class="spot-detail" id="spotDetail">All locations</div>
   </div>
 
-  <div class="map-wrap">
-    <div id="map"></div>
-  </div>
+  <div id="map"></div>
 
   <div class="bottom-panel">
     <div class="tab-bar">
