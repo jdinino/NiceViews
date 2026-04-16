@@ -1,6 +1,6 @@
-# You'll Thank Me After — Nice Views
+# Nice Views
 
-Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, and mountain vistas — all within 30 miles of Chelmsford, MA.
+Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, and mountain vistas — all within 30 miles of Chelmsford, MA. 
 
 **[View the live map →](https://yourusername.github.io/NiceViews/)**
 
