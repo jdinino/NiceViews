@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>You'll Thank Me After — Nice Views</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --night:#0F1A2E;--night-mid:#1A2744;--night-light:#243352;
+  --gold:#E8A838;--gold-light:#F2C56B;--gold-pale:#FBE8C4;--gold-dim:rgba(232,168,56,.12);
+  --sunset:#D4623B;--sunset-light:#E8845A;
+  --sky:#5B8FB9;--sky-light:#7CAFD4;--sky-pale:#C5DFF0;
+  --pine:#2D5F3A;--pine-light:#4A8B5E;
+  --sand:#F5EDE0;--cream:#FDF8F0;--white:#FFFFFF;
+  --text:#0F1A2E;--text-mid:#4A5568;--text-light:#8896A7;
+  --shadow:0 4px 20px rgba(15,26,46,.12);--shadow-lg:0 12px 40px rgba(15,26,46,.18);
+}
+html{overflow:hidden;height:100%}
+body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--text);overflow:hidden;height:100%;display:flex;flex-direction:column}
+
+/* HEADER */
+.header{
+  background:linear-gradient(135deg,var(--night) 0%,var(--night-mid) 50%,#2A1F3D 100%);
+  padding:32px 40px 28px;position:relative;overflow:hidden;flex-shrink:0;
+}
+.header::before{
+  content:'';position:absolute;top:0;left:0;right:0;bottom:0;
+  background:radial-gradient(ellipse at 70% 20%,rgba(232,168,56,.15) 0%,transparent 60%),
+             radial-gradient(ellipse at 20% 80%,rgba(212,98,59,.1) 0%,transparent 50%);
+}
+.header::after{
+  content:'';position:absolute;top:0;left:0;right:0;bottom:0;
+  background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.header h1{
+  font-family:'Playfair Display',serif;font-size:2.4rem;color:var(--gold);
+  letter-spacing:-.5px;position:relative;line-height:1.1;
+}
+.header h1 em{font-style:italic;color:var(--gold-light)}
+.header .subtitle{
+  font-size:.85rem;color:rgba(255,255,255,.5);margin-top:6px;font-weight:300;
+  letter-spacing:2px;text-transform:uppercase;position:relative;
+}
+.header .tagline{
+  font-family:'Playfair Display',serif;font-style:italic;font-size:1rem;
+  color:rgba(255,255,255,.35);margin-top:4px;position:relative;
+}
+
+/* LAYOUT */
+.main{display:grid;grid-template-columns:260px 1fr;flex:1;overflow:hidden;grid-template-rows:1fr auto}
+
+/* SIDEBAR */
+.sidebar{background:var(--white);border-right:1px solid rgba(15,26,46,.06);padding:16px;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.section-title{font-size:.58rem;text-transform:uppercase;letter-spacing:2px;color:var(--text-light);font-weight:600;margin-bottom:8px;margin-top:14px}
+.section-title:first-child{margin-top:0}
+
+/* ROUTE BUTTONS */
+.route-btn{
+  display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;border:1.5px solid rgba(15,26,46,.08);
+  border-radius:8px;font-family:inherit;font-size:.78rem;color:var(--text);background:var(--cream);
+  cursor:pointer;transition:all .2s;margin-bottom:5px;text-align:left;font-weight:500;
+  min-height:44px;touch-action:manipulation;
+}
+.route-btn:hover{border-color:var(--gold);background:var(--gold-dim)}
+.route-btn.active{background:var(--night);color:var(--gold);border-color:var(--night)}
+.route-btn .route-icon{font-size:1rem;width:22px;text-align:center;flex-shrink:0}
+.route-btn .route-count{margin-left:auto;font-size:.65rem;opacity:.5;font-weight:600}
+
+/* CATEGORY LEGEND */
+.legend-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:.7rem;color:var(--text-mid);padding:3px 0}
+.legend-icon{width:18px;height:18px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+
+.spot-count{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--night)}
+.spot-detail{font-size:.72rem;color:var(--text-light)}
+
+/* MAP */
+.map-wrap{position:relative;overflow:hidden}
+#map{width:100%;height:100%}
+
+/* MARKER STYLES */
+.marker-icon{display:flex;align-items:center;justify-content:center;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
+.marker-icon:hover{transform:scale(1.3);z-index:9999!important}
+.marker-icon svg{transition:transform .15s}
+
+/* POPUP */
+.leaflet-popup-content-wrapper{border-radius:12px;box-shadow:var(--shadow-lg);overflow:hidden;padding:0}
+.leaflet-popup-content{margin:0;min-width:240px;max-width:300px}
+.leaflet-popup-tip{box-shadow:none}
+
+.vp{font-family:'Source Sans 3',sans-serif}
+.vp-img{width:100%;height:150px;background:var(--night-light);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.vp-img img{width:100%;height:100%;object-fit:cover}
+.vp-img .vp-loading{color:rgba(255,255,255,.3);font-size:.7rem}
+.vp-img .vp-cat{position:absolute;top:8px;left:8px;padding:3px 10px;border-radius:12px;font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#fff}
+.vp-body{padding:14px 16px 12px}
+.vp-name{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--night);line-height:1.2;margin-bottom:2px}
+.vp-num{font-size:.62rem;color:var(--text-light);font-weight:600;margin-bottom:8px}
+.vp-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px 10px}
+.vp-item{font-size:.72rem;color:var(--text-mid)}
+.vp-item strong{color:var(--night);font-weight:600}
+.vp-links{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}
+.vp-link{
+  display:inline-flex;align-items:center;gap:3px;padding:6px 12px;
+  border-radius:6px;font-size:.65rem;font-weight:600;text-decoration:none;transition:all .2s;
+  touch-action:manipulation;min-height:36px;
+}
+.vp-link-maps{background:rgba(91,143,185,.1);color:var(--sky)}
+.vp-link-maps:hover{background:rgba(91,143,185,.2)}
+.vp-link-sv{background:rgba(232,168,56,.1);color:var(--gold)}
+.vp-link-sv:hover{background:rgba(232,168,56,.2)}
+.vp-link-w3w{background:rgba(212,98,59,.08);color:var(--sunset)}
+.vp-link-w3w:hover{background:rgba(212,98,59,.16)}
+
+/* BOTTOM LIST */
+.bottom-panel{grid-column:1/-1;background:var(--white);border-top:3px solid var(--gold);display:flex;flex-direction:column;max-height:320px;padding-bottom:env(safe-area-inset-bottom)}
+.tab-bar{display:flex;background:var(--night);padding:0;flex-shrink:0}
+.tab-btn{padding:10px 20px;border:none;background:transparent;color:rgba(255,255,255,.4);font-family:inherit;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:1.2px;cursor:pointer;transition:all .2s;position:relative;min-height:44px;touch-action:manipulation}
+.tab-btn.active{color:var(--gold)}
+.tab-btn.active::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--gold)}
+
+.tab-content{display:none;padding:16px;overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1}
+.tab-content.active{display:block}
+
+.spot-table{width:100%;border-collapse:collapse;font-size:.76rem}
+.spot-table th{text-align:left;padding:8px 10px;background:var(--night);color:var(--gold-light);font-weight:600;text-transform:uppercase;letter-spacing:.7px;font-size:.6rem;position:sticky;top:0;cursor:pointer;white-space:nowrap;z-index:1}
+.spot-table th:hover{background:var(--night-mid)}
+.spot-table td{padding:7px 10px;border-bottom:1px solid rgba(15,26,46,.05)}
+.spot-table tr:hover td{background:var(--gold-dim)}
+.spot-table tr{cursor:pointer}
+.cat-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.3px;color:#fff}
+
+/* ROUTE CARDS */
+.route-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.route-card{background:var(--cream);border-radius:10px;padding:16px;border-left:4px solid var(--gold)}
+.route-card h3{font-family:'Playfair Display',serif;font-size:1rem;color:var(--night);margin-bottom:8px}
+.route-stop{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:.78rem;color:var(--text-mid);cursor:pointer;touch-action:manipulation}
+.route-stop .stop-num{width:20px;height:20px;border-radius:50%;background:var(--night);color:var(--gold);font-size:.6rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+
+/* TABLET: <=900px */
+@media(max-width:900px){
+  .main{grid-template-columns:1fr;grid-template-rows:auto 1fr auto}
+  .sidebar{max-height:220px;border-right:none;border-bottom:1px solid rgba(15,26,46,.06)}
+  #map{min-height:300px}
+  .bottom-panel{max-height:260px}
+}
+
+/* PHONE: <=600px */
+@media(max-width:600px){
+  .header{padding:20px 16px 16px}
+  .header h1{font-size:1.6rem}
+  .header .subtitle{font-size:.7rem;letter-spacing:1.5px;margin-top:4px}
+  .header .tagline{font-size:.82rem;margin-top:2px}
+
+  .sidebar{max-height:160px;padding:10px 12px}
+  .section-title.legend-title,.legend-grid,.section-title.showing-title,.spot-count,.spot-detail{display:none}
+  .route-btn{padding:8px 10px;font-size:.72rem;margin-bottom:3px;border-radius:6px}
+  .route-btn .route-count{display:none}
+
+  .leaflet-popup-content{min-width:200px;max-width:260px}
+  .vp-img{height:120px}
+  .vp-name{font-size:.95rem}
+  .vp-grid{grid-template-columns:1fr}
+
+  .bottom-panel{max-height:240px}
+  .tab-content{padding:10px}
+  .spot-table .col-gps,.spot-table .col-w3w{display:none}
+  .spot-table th{padding:6px 8px}
+  .spot-table td{padding:5px 8px}
+
+  .route-cards{grid-template-columns:1fr}
+}
+
+/* SMALL PHONE: <=380px */
+@media(max-width:380px){
+  .header h1{font-size:1.4rem}
+  .header .subtitle{font-size:.62rem}
+  .sidebar{max-height:140px}
+  .leaflet-popup-content{min-width:180px;max-width:240px}
+  .vp-link{padding:5px 8px;font-size:.6rem}
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>You'll Thank Me <em>After</em></h1>
+  <div class="subtitle">Nice Views &middot; Scenic Spots Near Chelmsford, MA</div>
+  <div class="tagline">Mountains, waterfalls, beaches, and hidden gems &mdash; all within 30 miles</div>
+</div>
+
+<div class="main">
+  <div class="sidebar">
+    <div class="section-title">Routes</div>
+    <button class="route-btn active" data-route="all"><span class="route-icon">&#9678;</span>All Spots<span class="route-count">22</span></button>
+    <button class="route-btn" data-route="local"><span class="route-icon">&#8634;</span>Local Loop<span class="route-count">7</span></button>
+    <button class="route-btn" data-route="ponds"><span class="route-icon">&#9728;</span>Ponds, Falls &amp; Mountains<span class="route-count">8</span></button>
+    <button class="route-btn" data-route="boston"><span class="route-icon">&#9875;</span>Boston &amp; Beaches<span class="route-count">6</span></button>
+
+    <div class="section-title">By Direction</div>
+    <button class="route-btn" data-route="north"><span class="route-icon">&#8593;</span>Going North<span class="route-count">4</span></button>
+    <button class="route-btn" data-route="south"><span class="route-icon">&#8595;</span>Going South<span class="route-count">3</span></button>
+    <button class="route-btn" data-route="east"><span class="route-icon">&#8594;</span>Going East<span class="route-count">5</span></button>
+    <button class="route-btn" data-route="west"><span class="route-icon">&#8592;</span>Going West<span class="route-count">9</span></button>
+
+    <div class="section-title legend-title">Legend</div>
+    <div class="legend-grid">
+      <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M3 18L9 10L13 15L17 8L21 18Z" fill="#5B8FB9" opacity=".8"/><path d="M1 18L8 7L13 14L18 5L23 18Z" fill="none" stroke="#5B8FB9" stroke-width="1.5"/></svg></div>Mountain</div>
+      <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M6 4C6 4 8 9 8 12C8 15 6 16 6 16" stroke="#5B8FB9" stroke-width="2" fill="none"/><path d="M10 6C10 6 12 10 12 13C12 16 10 17 10 17" stroke="#5B8FB9" stroke-width="2" fill="none" opacity=".6"/><path d="M3 18H21" stroke="#5B8FB9" stroke-width="1.5"/></svg></div>Waterfall</div>
+      <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M2 14C5 11 8 14 12 11C16 8 19 11 22 14" stroke="#E8A838" stroke-width="2" fill="none"/><path d="M2 18C5 15 8 18 12 15C16 12 19 15 22 18" stroke="#E8A838" stroke-width="1.5" fill="none" opacity=".5"/></svg></div>Beach</div>
+      <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><ellipse cx="12" cy="13" rx="9" ry="5" fill="none" stroke="#5B8FB9" stroke-width="1.5"/><path d="M8 11C9 9 11 8 12 8C13 8 15 9 16 11" stroke="#5B8FB9" stroke-width="1" fill="none" opacity=".5"/></svg></div>Pond / Lake</div>
+      <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M4 12C7 8 10 14 13 10C16 6 19 12 22 8" stroke="#5B8FB9" stroke-width="2" fill="none"/><path d="M4 16C7 12 10 18 13 14C16 10 19 16 22 12" stroke="#5B8FB9" stroke-width="1.5" fill="none" opacity=".4"/></svg></div>River / Canal</div>
+      <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><circle cx="12" cy="10" r="5" fill="none" stroke="#D4623B" stroke-width="1.5"/><path d="M12 15V20" stroke="#D4623B" stroke-width="1.5"/><path d="M9 18H15" stroke="#D4623B" stroke-width="1.5"/></svg></div>Lookout</div>
+      <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M4 18V8L12 3L20 8V18" fill="none" stroke="#8896A7" stroke-width="1.5"/><path d="M9 18V13H15V18" fill="none" stroke="#8896A7" stroke-width="1.5"/></svg></div>Historic</div>
+      <div class="legend-item"><div class="legend-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 3L14 9H20L15 13L17 19L12 15L7 19L9 13L4 9H10Z" fill="#2D5F3A" stroke="#2D5F3A" stroke-width="1"/></svg></div>Park</div>
+    </div>
+
+    <div class="section-title showing-title" style="margin-top:16px">Showing</div>
+    <div class="spot-count" id="spotCount">22 spots</div>
+    <div class="spot-detail" id="spotDetail">All locations</div>
+  </div>
+
+  <div class="map-wrap">
+    <div id="map"></div>
+  </div>
+
+  <div class="bottom-panel">
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="list">All Spots</button>
+      <button class="tab-btn" data-tab="routes">Route Planner</button>
+    </div>
+    <div class="tab-content active" id="tab-list">
+      <table class="spot-table" id="spotTable">
+        <thead><tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Category</th>
+          <th class="col-gps">GPS</th>
+          <th class="col-w3w">What3Words</th>
+        </tr></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+    <div class="tab-content" id="tab-routes">
+      <div class="route-cards" id="routeCards"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// === GLOBALS (loaded from spots.json) ===
+let SPOTS, WIKI_TERMS, CATS, ROUTES, ROUTE_ORDER;
+
+fetch('spots.json').then(r=>r.json()).then(data=>{
+  SPOTS = data.spots;
+  WIKI_TERMS = data.wikiTerms;
+  CATS = data.cats;
+  ROUTES = data.routes;
+  ROUTE_ORDER = data.routeOrder;
+  initApp();
+});
+
+function initApp(){
+
+// === MAP ===
+const map = L.map('map',{zoomControl:true}).setView([42.48,-71.30],10);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/voyager/{z}/{x}/{y}{r}.png',{
+  attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:19,subdomains:'abcd'
+}).addTo(map);
+
+// Create markers
+const spotMarkers = {};
+SPOTS.forEach(s => {
+  const cat = CATS[s.cat];
+  const icon = L.divIcon({
+    className:'marker-icon',
+    html:cat.svg,
+    iconSize:[24,24],
+    iconAnchor:[12,12]
+  });
+  const m = L.marker([s.lat,s.lng],{icon});
+
+  const imgId = 'vp-img-'+s.id;
+  const svUrl = 'https://www.google.com/maps/@'+s.lat+','+s.lng+',3a,75y,90t/data=!3m4!1e1!3m2!1d'+s.lat+'!2d'+s.lng;
+  const mapsUrl = 'https://www.google.com/maps?q='+s.lat+','+s.lng;
+  const w3wUrl = s.w3w ? 'https://what3words.com/'+s.w3w : null;
+
+  m.bindPopup(`
+    <div class="vp">
+      <div class="vp-img" id="${imgId}"><span class="vp-loading">Loading image...</span><div class="vp-cat" style="background:${cat.color}">${cat.label}</div></div>
+      <div class="vp-body">
+        <div class="vp-name">${s.name}</div>
+        <div class="vp-num">#${s.id} &middot; ${s.note}</div>
+        <div class="vp-grid">
+          <div class="vp-item"><strong>GPS:</strong> ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)}</div>
+          ${s.w3w ? '<div class="vp-item"><strong>W3W:</strong> '+s.w3w+'</div>' : ''}
+        </div>
+        <div class="vp-links">
+          <a href="${mapsUrl}" target="_blank" rel="noopener" class="vp-link vp-link-maps">&#x1F5FA; Maps</a>
+          <a href="${svUrl}" target="_blank" rel="noopener" class="vp-link vp-link-sv">&#x1F4CD; Street View</a>
+          ${w3wUrl ? '<a href="'+w3wUrl+'" target="_blank" rel="noopener" class="vp-link vp-link-w3w">/// What3Words</a>' : ''}
+        </div>
+      </div>
+    </div>
+  `,{maxWidth:300,minWidth:240});
+
+  m.on('popupopen', async function(){
+    const el = document.getElementById(imgId);
+    if(el && !el.querySelector('img')){
+      const wiki = WIKI_TERMS[s.name];
+      if(wiki){
+        try{
+          const resp = await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(wiki));
+          if(resp.ok){
+            const data = await resp.json();
+            const src = data.thumbnail ? data.thumbnail.source.replace(/\/\d+px-/,'/600px-') : null;
+            if(src){
+              el.innerHTML = '<img src="'+src+'" alt="'+s.name+'"><div class="vp-cat" style="background:'+cat.color+'">'+cat.label+'</div>';
+              return;
+            }
+          }
+        }catch(e){}
+      }
+      el.innerHTML = '<span class="vp-loading" style="font-size:2rem">'+{mountain:'⛰️',waterfall:'💧',beach:'🏖️',pond:'🌊',river:'🌊',lookout:'🔭',historic:'🏛️',park:'🌳'}[s.cat]+'</span><div class="vp-cat" style="background:'+cat.color+'">'+cat.label+'</div>';
+    }
+  });
+
+  spotMarkers[s.id] = m;
+});
+
+// === FILTERING ===
+let activeRoute = 'all';
+const allLayer = L.layerGroup();
+SPOTS.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
+allLayer.addTo(map);
+
+function getFiltered(){
+  if(activeRoute === 'all') return SPOTS;
+  return SPOTS.filter(s => s.routes.includes(activeRoute));
+}
+
+function updateAll(){
+  const filtered = getFiltered();
+  allLayer.clearLayers();
+  filtered.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
+
+  document.getElementById('spotCount').textContent = filtered.length + ' spots';
+  document.getElementById('spotDetail').textContent = activeRoute==='all' ? 'All locations' : ROUTES[activeRoute].label;
+
+  if(filtered.length > 1){
+    const bounds = L.latLngBounds(filtered.map(s=>[s.lat,s.lng]));
+    map.fitBounds(bounds,{padding:[40,40],maxZoom:13});
+  } else if(filtered.length === 1){
+    map.setView([filtered[0].lat,filtered[0].lng],14);
+  }
+
+  updateTable(filtered);
+  updateRouteCards();
+}
+
+// Route buttons
+document.querySelectorAll('.route-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.route-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    activeRoute = btn.dataset.route;
+    updateAll();
+  });
+});
+
+// === TABLE ===
+function updateTable(data){
+  document.getElementById('tableBody').innerHTML = data.map(s=>{
+    const cat = CATS[s.cat];
+    return '<tr onclick="flyTo('+s.id+')"><td style="font-weight:700;color:var(--text-light)">#'+s.id+'</td><td><strong>'+s.name+'</strong><br><span style="font-size:.68rem;color:var(--text-light)">'+s.note+'</span></td><td><span class="cat-badge" style="background:'+cat.color+'">'+cat.label+'</span></td><td class="col-gps" style="font-size:.68rem;font-family:monospace"><a href="https://www.google.com/maps?q='+s.lat+','+s.lng+'" target="_blank" rel="noopener" style="color:var(--sky);text-decoration:none">'+s.lat.toFixed(4)+', '+s.lng.toFixed(4)+'</a></td><td class="col-w3w" style="font-size:.68rem">'+(s.w3w?'<a href="https://what3words.com/'+s.w3w+'" target="_blank" rel="noopener" style="color:var(--sunset);text-decoration:none">///'+s.w3w+'</a>':'—')+'</td></tr>';
+  }).join('');
+}
+
+// === ROUTE CARDS ===
+function updateRouteCards(){
+  const directions = ['east','north','south','west'];
+  const labels = {east:'Going East →',north:'Going North ↑',south:'Going South ↓',west:'Going West ←'};
+  const colors = {east:'var(--sky)',north:'var(--pine)',south:'var(--sunset)',west:'var(--gold)'};
+
+  document.getElementById('routeCards').innerHTML = directions.map(dir=>{
+    const order = ROUTE_ORDER[dir];
+    const stops = order.map((id,i)=>{
+      const s = SPOTS.find(x=>x.id===id);
+      return '<div class="route-stop" onclick="flyTo('+s.id+')"><span class="stop-num">'+(i+1)+'</span>'+s.name+'</div>';
+    }).join('');
+    return '<div class="route-card" style="border-color:'+colors[dir]+'"><h3>'+labels[dir]+'</h3>'+stops+'</div>';
+  }).join('');
+}
+
+// === FLY TO ===
+window.flyTo = function(id){
+  const s = SPOTS.find(x=>x.id===id);
+  if(s){
+    map.flyTo([s.lat,s.lng],15,{duration:1});
+    setTimeout(()=>spotMarkers[id].openPopup(),800);
+  }
+};
+
+// === TABS ===
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-'+btn.dataset.tab).classList.add('active');
+  });
+});
+
+// Invalidate map size after layout settles
+setTimeout(()=>map.invalidateSize(),100);
+
+// Init
+updateAll();
+
+} // end initApp
+</script>
+</body>
+</html>
