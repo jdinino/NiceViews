@@ -2,7 +2,7 @@
 
 Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, and mountain vistas — all within 30 miles of Chelmsford, MA. 
 
-**[View the live map →](https://yourusername.github.io/NiceViews/)**
+**[View the live map →](https://jdinino.github.io/NiceViews/)**
 
 ## What's Here
 
