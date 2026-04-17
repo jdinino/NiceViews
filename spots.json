@@ -613,7 +613,7 @@
       "color": "#2D5F3A",
       "bg": "rgba(45,95,58,.12)",
       "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><polygon points=\"12,2 7,10 10,10 5,17 11,17 11,22 13,22 13,17 19,17 14,10 17,10\" fill=\"#2D5F3A\" stroke=\"#1A3D24\" stroke-width=\"0.75\" stroke-linejoin=\"round\"/><rect x=\"11\" y=\"17\" width=\"2\" height=\"5\" fill=\"#6B4A2B\"/></svg>",
-      "icon": "osa:entertainment_colored/park"
+      "icon": "osa:functional-icons/tree_broadleaved"
     },
     "canal": {
       "label": "Dam / Canal",
