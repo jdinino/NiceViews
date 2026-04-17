@@ -570,49 +570,57 @@
       "label": "Mountain",
       "color": "#4A7FB5",
       "bg": "rgba(74,127,181,.15)",
-      "svg": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\"><path d=\"M1 22L7.5 5L12 13L17 2L23 22Z\" fill=\"#4A7FB5\" stroke=\"#1A3D60\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"M15 5L17 2L19 7L17.5 7Z\" fill=\"#fff\" opacity=\".7\"/><path d=\"M5.5 10L7.5 5L9.5 11L7 11Z\" fill=\"#fff\" opacity=\".4\"/></svg>"
+      "svg": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\"><path d=\"M1 22L7.5 5L12 13L17 2L23 22Z\" fill=\"#4A7FB5\" stroke=\"#1A3D60\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"M15 5L17 2L19 7L17.5 7Z\" fill=\"#fff\" opacity=\".7\"/><path d=\"M5.5 10L7.5 5L9.5 11L7 11Z\" fill=\"#fff\" opacity=\".4\"/></svg>",
+      "icon": "osa:tourist/mountain"
     },
     "waterfall": {
       "label": "Waterfall",
       "color": "#4A8FB5",
       "bg": "rgba(74,143,181,.15)",
-      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M7 3C7 3 9 9 9 13C9 17 7 19 7 19\" stroke=\"#4A8FB5\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M12 5C12 5 14 10 14 14C14 18 12 19 12 19\" stroke=\"#4A8FB5\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\".7\"/><path d=\"M17 7C17 7 19 11 19 14C19 17 17 19 17 19\" stroke=\"#4A8FB5\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>"
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M7 3C7 3 9 9 9 13C9 17 7 19 7 19\" stroke=\"#4A8FB5\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M12 5C12 5 14 10 14 14C14 18 12 19 12 19\" stroke=\"#4A8FB5\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\".7\"/><path d=\"M17 7C17 7 19 11 19 14C19 17 17 19 17 19\" stroke=\"#4A8FB5\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>",
+      "icon": "osa:water/waterfall"
     },
     "beach": {
       "label": "Beach",
       "color": "#D4963B",
       "bg": "rgba(212,150,59,.15)",
-      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10.5\" fill=\"#E8C878\"/><path d=\"M1.5 12 A10.5 10.5 0 0 1 22.5 12 Q18 14 12 12 Q6 10 1.5 12 Z\" fill=\"#5B8FB9\"/><path d=\"M3 5 Q6 3.5 9 5 T15 5 T20 5\" stroke=\"#C5DFF0\" stroke-width=\"1\" fill=\"none\"/><path d=\"M3 8.5 Q6 7 9 8.5 T15 8.5 T20 8.5\" stroke=\"#C5DFF0\" stroke-width=\"0.8\" fill=\"none\" opacity=\".75\"/><circle cx=\"7\" cy=\"17\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"12\" cy=\"19\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"16\" cy=\"16.5\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"10\" cy=\"20\" r=\".4\" fill=\"#8A5820\" opacity=\".7\"/><circle cx=\"14\" cy=\"20\" r=\".4\" fill=\"#8A5820\" opacity=\".7\"/><circle cx=\"12\" cy=\"12\" r=\"10.5\" fill=\"none\" stroke=\"#8A5820\" stroke-width=\"1\"/></svg>"
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10.5\" fill=\"#E8C878\"/><path d=\"M1.5 12 A10.5 10.5 0 0 1 22.5 12 Q18 14 12 12 Q6 10 1.5 12 Z\" fill=\"#5B8FB9\"/><path d=\"M3 5 Q6 3.5 9 5 T15 5 T20 5\" stroke=\"#C5DFF0\" stroke-width=\"1\" fill=\"none\"/><path d=\"M3 8.5 Q6 7 9 8.5 T15 8.5 T20 8.5\" stroke=\"#C5DFF0\" stroke-width=\"0.8\" fill=\"none\" opacity=\".75\"/><circle cx=\"7\" cy=\"17\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"12\" cy=\"19\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"16\" cy=\"16.5\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"10\" cy=\"20\" r=\".4\" fill=\"#8A5820\" opacity=\".7\"/><circle cx=\"14\" cy=\"20\" r=\".4\" fill=\"#8A5820\" opacity=\".7\"/><circle cx=\"12\" cy=\"12\" r=\"10.5\" fill=\"none\" stroke=\"#8A5820\" stroke-width=\"1\"/></svg>",
+      "icon": "osa:tourist/beach2"
     },
     "river": {
       "label": "River",
       "color": "#5B8FB9",
       "bg": "rgba(91,143,185,.15)",
-      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 8C8 4 10 12 14 8C18 4 20 10 24 6\" stroke=\"#5B8FB9\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 14C8 10 10 18 14 14C18 10 20 16 24 12\" stroke=\"#5B8FB9\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>"
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 8C8 4 10 12 14 8C18 4 20 10 24 6\" stroke=\"#5B8FB9\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 14C8 10 10 18 14 14C18 10 20 16 24 12\" stroke=\"#5B8FB9\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>",
+      "icon": "osa:water/river"
     },
     "lookout": {
       "label": "Lookout",
       "color": "#D4623B",
       "bg": "rgba(212,98,59,.15)",
-      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\" fill=\"#D4623B\" stroke=\"#8A3820\" stroke-width=\"1\"/><rect x=\"8\" y=\"3\" width=\"8\" height=\"5\" rx=\"1\" fill=\"#D4623B\" stroke=\"#8A3820\" stroke-width=\"1\"/><circle cx=\"12\" cy=\"14\" r=\"4.5\" fill=\"#fff\" stroke=\"#8A3820\" stroke-width=\"1\"/><circle cx=\"12\" cy=\"14\" r=\"2.5\" fill=\"#D4623B\"/><circle cx=\"18\" cy=\"10\" r=\"1\" fill=\"#fff\"/></svg>"
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\" fill=\"#D4623B\" stroke=\"#8A3820\" stroke-width=\"1\"/><rect x=\"8\" y=\"3\" width=\"8\" height=\"5\" rx=\"1\" fill=\"#D4623B\" stroke=\"#8A3820\" stroke-width=\"1\"/><circle cx=\"12\" cy=\"14\" r=\"4.5\" fill=\"#fff\" stroke=\"#8A3820\" stroke-width=\"1\"/><circle cx=\"12\" cy=\"14\" r=\"2.5\" fill=\"#D4623B\"/><circle cx=\"18\" cy=\"10\" r=\"1\" fill=\"#fff\"/></svg>",
+      "icon": "osa:special/photo_camera"
     },
     "historic": {
       "label": "Historic",
       "color": "#7A7A8E",
       "bg": "rgba(122,122,142,.12)",
-      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 20V9L12 3L20 9V20\" fill=\"none\" stroke=\"#7A7A8E\" stroke-width=\"2\"/><path d=\"M9 20V14H15V20\" fill=\"none\" stroke=\"#7A7A8E\" stroke-width=\"1.5\"/><path d=\"M2 20H22\" stroke=\"#7A7A8E\" stroke-width=\"1.5\"/></svg>"
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 20V9L12 3L20 9V20\" fill=\"none\" stroke=\"#7A7A8E\" stroke-width=\"2\"/><path d=\"M9 20V14H15V20\" fill=\"none\" stroke=\"#7A7A8E\" stroke-width=\"1.5\"/><path d=\"M2 20H22\" stroke=\"#7A7A8E\" stroke-width=\"1.5\"/></svg>",
+      "icon": "osa:tourist/monument"
     },
     "park": {
       "label": "Park",
       "color": "#2D5F3A",
       "bg": "rgba(45,95,58,.12)",
-      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><polygon points=\"12,2 7,10 10,10 5,17 11,17 11,22 13,22 13,17 19,17 14,10 17,10\" fill=\"#2D5F3A\" stroke=\"#1A3D24\" stroke-width=\"0.75\" stroke-linejoin=\"round\"/><rect x=\"11\" y=\"17\" width=\"2\" height=\"5\" fill=\"#6B4A2B\"/></svg>"
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><polygon points=\"12,2 7,10 10,10 5,17 11,17 11,22 13,22 13,17 19,17 14,10 17,10\" fill=\"#2D5F3A\" stroke=\"#1A3D24\" stroke-width=\"0.75\" stroke-linejoin=\"round\"/><rect x=\"11\" y=\"17\" width=\"2\" height=\"5\" fill=\"#6B4A2B\"/></svg>",
+      "icon": "osa:entertainment_colored/park"
     },
     "canal": {
       "label": "Dam / Canal",
       "color": "#4A8090",
       "bg": "rgba(74,128,144,.15)",
-      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"><path d=\"M2 7H22\" stroke=\"#4A8090\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M2 17H22\" stroke=\"#4A8090\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 12H20\" stroke=\"#4A8090\" stroke-width=\"1\" stroke-dasharray=\"2,2\" opacity=\".6\"/></svg>"
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"><path d=\"M2 7H22\" stroke=\"#4A8090\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M2 17H22\" stroke=\"#4A8090\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 12H20\" stroke=\"#4A8090\" stroke-width=\"1\" stroke-dasharray=\"2,2\" opacity=\".6\"/></svg>",
+      "icon": "osa:water/dam"
     }
   },
   "routes": {
