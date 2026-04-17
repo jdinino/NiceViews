@@ -646,7 +646,7 @@
       "images": [
         "images/32a.jpg"
       ],
-      "icon": "osa:tourist/castle",
+      "icon": "osa:tourist/historic_manor",
       "cats": [
         "historic",
         "lookout"
