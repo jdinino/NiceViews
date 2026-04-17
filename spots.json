@@ -456,6 +456,85 @@
       "cats": [
         "lookout"
       ]
+    },
+    {
+      "id": 23,
+      "name": "Cascading Waters",
+      "lat": 42.2755,
+      "lng": -71.8178,
+      "w3w": "",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "60-foot roadside waterfall in Worcester — powerful in spring. Park at 135 Olean St.",
+      "images": [
+        "images/23a.jpg",
+        "images/23b.jpg"
+      ],
+      "icon": "osa:water/waterfall",
+      "cats": [
+        "waterfall"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Shining Rock Trail",
+      "lat": 42.1475,
+      "lng": -71.648,
+      "w3w": "",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Former granite quarries with sweeping Blackstone River Valley views from rocky ledges.",
+      "images": [
+        "images/24a.jpg",
+        "images/24b.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout",
+        "historic"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Tucker Brook Falls",
+      "lat": 42.8292,
+      "lng": -71.7182,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Wide 12-foot cascade fanning over rocky ledges — Tucker Brook Town Forest, Milford NH.",
+      "images": [
+        "images/25a.jpg",
+        "images/25b.jpg"
+      ],
+      "icon": "osa:water/waterfall",
+      "cats": [
+        "waterfall"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Lower Purgatory Falls",
+      "lat": 42.8588,
+      "lng": -71.6946,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "12-foot waterfall splitting over a massive glacial boulder — gushes in spring.",
+      "images": [
+        "images/26a.jpg",
+        "images/26b.jpg"
+      ],
+      "icon": "osa:water/waterfall",
+      "cats": [
+        "waterfall"
+      ]
     }
   ],
   "wikiTerms": {
@@ -480,7 +559,11 @@
     "Winter Island Beach": "Winter_Island_(Salem,_Massachusetts)",
     "Singing Beach": "Singing_Beach",
     "Blue Hills Observatory": "Blue_Hill_Meteorological_Observatory",
-    "Dresser Hill View": "Southbridge,_Massachusetts"
+    "Dresser Hill View": "Southbridge,_Massachusetts",
+    "Cascading Waters": "Worcester,_Massachusetts",
+    "Shining Rock Trail": "Northbridge,_Massachusetts",
+    "Tucker Brook Falls": "Milford,_New_Hampshire",
+    "Lower Purgatory Falls": "Lyndeborough,_New_Hampshire"
   },
   "cats": {
     "mountain": {
@@ -575,6 +658,8 @@
       18
     ],
     "north": [
+      26,
+      25,
       4,
       3,
       2,
@@ -594,7 +679,9 @@
       10,
       11,
       12,
-      22
+      22,
+      23,
+      24
     ]
   }
 }
