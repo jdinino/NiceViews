@@ -38,7 +38,6 @@
       "icon": "osa:landuse/industrial",
       "cats": [
         "historic",
-        "river",
         "park"
       ]
     },
@@ -586,13 +585,6 @@
       "bg": "rgba(212,150,59,.15)",
       "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10.5\" fill=\"#E8C878\"/><path d=\"M1.5 12 A10.5 10.5 0 0 1 22.5 12 Q18 14 12 12 Q6 10 1.5 12 Z\" fill=\"#5B8FB9\"/><path d=\"M3 5 Q6 3.5 9 5 T15 5 T20 5\" stroke=\"#C5DFF0\" stroke-width=\"1\" fill=\"none\"/><path d=\"M3 8.5 Q6 7 9 8.5 T15 8.5 T20 8.5\" stroke=\"#C5DFF0\" stroke-width=\"0.8\" fill=\"none\" opacity=\".75\"/><circle cx=\"7\" cy=\"17\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"12\" cy=\"19\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"16\" cy=\"16.5\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"10\" cy=\"20\" r=\".4\" fill=\"#8A5820\" opacity=\".7\"/><circle cx=\"14\" cy=\"20\" r=\".4\" fill=\"#8A5820\" opacity=\".7\"/><circle cx=\"12\" cy=\"12\" r=\"10.5\" fill=\"none\" stroke=\"#8A5820\" stroke-width=\"1\"/></svg>",
       "icon": "osa:tourist/beach2"
-    },
-    "river": {
-      "label": "River",
-      "color": "#5B8FB9",
-      "bg": "rgba(91,143,185,.15)",
-      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 8C8 4 10 12 14 8C18 4 20 10 24 6\" stroke=\"#5B8FB9\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 14C8 10 10 18 14 14C18 10 20 16 24 12\" stroke=\"#5B8FB9\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>",
-      "icon": "osa:water/river"
     },
     "lookout": {
       "label": "Lookout",
