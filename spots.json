@@ -617,8 +617,8 @@
     {
       "id": 31,
       "name": "Crane Beach",
-      "lat": 42.693,
-      "lng": -70.7681,
+      "lat": 42.6784,
+      "lng": -70.7414,
       "w3w": "",
       "routes": [
         "east",
@@ -636,8 +636,8 @@
     {
       "id": 32,
       "name": "Castle Hill (Crane Estate)",
-      "lat": 42.692,
-      "lng": -70.761,
+      "lat": 42.6854,
+      "lng": -70.7791,
       "w3w": "",
       "routes": [
         "east"
