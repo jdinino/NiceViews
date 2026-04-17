@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NiceViews — Browse Icon Sets</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f3ee;color:#222;height:100vh;overflow:hidden;display:flex;flex-direction:column}
+  header{background:#2D5F3A;color:#fff;padding:10px 16px;flex-shrink:0;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+  header h1{margin:0 0 8px;font-size:1rem}
+  .tabs{display:flex;gap:4px;flex-wrap:wrap}
+  .tab{background:rgba(255,255,255,.15);color:#fff;border:0;padding:7px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.8rem;white-space:nowrap}
+  .tab:hover{background:rgba(255,255,255,.25)}
+  .tab.active{background:#E8A838;color:#1A3D24}
+  .toolbar{padding:10px 16px;background:#fff;border-bottom:1px solid #ddd;display:flex;gap:10px;align-items:center;flex-shrink:0}
+  .toolbar input{flex:1;padding:8px 12px;border:1px solid #ccc;border-radius:4px;font-size:.9rem}
+  .toolbar .info{font-size:.8rem;color:#666}
+  .toolbar button{background:#2D5F3A;color:#fff;border:0;padding:8px 14px;border-radius:4px;cursor:pointer;font-size:.8rem;font-weight:600}
+  .grid-wrap{flex:1;overflow-y:auto;padding:12px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:6px}
+  .cell{background:#fff;border:1px solid #e3dfd4;border-radius:6px;padding:6px;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;transition:transform .1s,border-color .1s;min-height:84px}
+  .cell:hover{border-color:#2D5F3A;transform:scale(1.08);z-index:2}
+  .cell img{width:36px;height:36px;object-fit:contain;pointer-events:none}
+  .cell .nm{font-size:.58rem;color:#666;text-align:center;word-break:break-all;line-height:1.15;max-width:100%;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .loading{text-align:center;padding:40px;color:#666}
+  #loadMore{width:100%;margin-top:12px;padding:12px;background:#E8A838;color:#1A3D24;border:0;border-radius:4px;font-weight:600;cursor:pointer;font-size:.9rem}
+  #loadMore:disabled{opacity:.5;cursor:default}
+  #selected{position:fixed;bottom:0;left:0;right:0;background:#1A3D24;color:#fff;padding:10px 16px;display:none;align-items:center;gap:12px;box-shadow:0 -2px 10px rgba(0,0,0,.3);z-index:100}
+  #selected.show{display:flex}
+  #selected img{width:32px;height:32px;background:#fff;padding:3px;border-radius:4px}
+  #selected code{flex:1;font-family:monospace;font-size:.85rem;background:rgba(0,0,0,.3);padding:6px 10px;border-radius:4px;user-select:all}
+  #selected button{background:#E8A838;color:#1A3D24;border:0;padding:6px 14px;border-radius:4px;cursor:pointer;font-weight:600}
+</style>
+</head>
+<body>
+<header>
+  <h1>Browse Icon Sets — click to copy ref</h1>
+  <div class="tabs" id="tabs"></div>
+</header>
+<div class="toolbar">
+  <input type="search" id="search" placeholder="Search icons...">
+  <span class="info" id="info">Loading...</span>
+</div>
+<div class="grid-wrap">
+  <div class="grid" id="grid"></div>
+  <button id="loadMore" style="display:none">Load more</button>
+</div>
+<div id="selected">
+  <img id="selImg">
+  <code id="selCode"></code>
+  <button id="copyBtn">Copy</button>
+  <button id="closeBtn">✕</button>
+</div>
+
+<script>
+const SETS = [
+  {prefix:'fluent-emoji-flat', label:'Fluent Emoji (Flat)'},
+  {prefix:'openmoji', label:'OpenMoji'},
+  {prefix:'tabler', label:'Tabler'},
+  {prefix:'ph', label:'Phosphor'},
+  {prefix:'material-symbols', label:'Material Symbols'}
+];
+const PAGE_SIZE = 300;
+let currentSet = SETS[0];
+let allIcons = [];
+let filteredIcons = [];
+let renderedCount = 0;
+let filterText = '';
+
+const tabsEl = document.getElementById('tabs');
+const gridEl = document.getElementById('grid');
+const infoEl = document.getElementById('info');
+const searchEl = document.getElementById('search');
+const loadMoreEl = document.getElementById('loadMore');
+const selEl = document.getElementById('selected');
+const selImg = document.getElementById('selImg');
+const selCode = document.getElementById('selCode');
+
+SETS.forEach((s,i) => {
+  const b = document.createElement('button');
+  b.className = 'tab' + (i===0?' active':'');
+  b.textContent = s.label;
+  b.onclick = () => selectSet(s, b);
+  tabsEl.appendChild(b);
+});
+
+async function selectSet(set, btn) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  currentSet = set;
+  gridEl.innerHTML = '<div class="loading">Loading '+set.label+'...</div>';
+  loadMoreEl.style.display = 'none';
+  infoEl.textContent = 'Loading...';
+  try {
+    const r = await fetch(`https://api.iconify.design/collection?prefix=${set.prefix}`);
+    const data = await r.json();
+    allIcons = [];
+    if (data.uncategorized) allIcons.push(...data.uncategorized);
+    if (data.categories) Object.values(data.categories).forEach(a => allIcons.push(...a));
+    if (data.hidden) {} // skip hidden
+    // Dedupe
+    allIcons = [...new Set(allIcons)];
+    applyFilter();
+  } catch(e) {
+    gridEl.innerHTML = '<div class="loading">Failed to load: '+e.message+'</div>';
+  }
+}
+
+function applyFilter() {
+  filterText = searchEl.value.trim().toLowerCase();
+  if (filterText) {
+    filteredIcons = allIcons.filter(n => n.toLowerCase().includes(filterText));
+  } else {
+    filteredIcons = allIcons;
+  }
+  renderedCount = 0;
+  gridEl.innerHTML = '';
+  renderMore();
+}
+
+function renderMore() {
+  const end = Math.min(renderedCount + PAGE_SIZE, filteredIcons.length);
+  const frag = document.createDocumentFragment();
+  for (let i = renderedCount; i < end; i++) {
+    const name = filteredIcons[i];
+    const cell = document.createElement('div');
+    cell.className = 'cell';
+    cell.title = name;
+    const ref = `${currentSet.prefix}:${name}`;
+    cell.onclick = () => selectIcon(ref);
+    cell.innerHTML = `<img src="https://api.iconify.design/${ref}.svg" loading="lazy" alt="${name}"><div class="nm">${name}</div>`;
+    frag.appendChild(cell);
+  }
+  gridEl.appendChild(frag);
+  renderedCount = end;
+  infoEl.textContent = `${renderedCount.toLocaleString()} / ${filteredIcons.length.toLocaleString()} shown${filterText?` (filtered)`:''}`;
+  loadMoreEl.style.display = renderedCount < filteredIcons.length ? 'block' : 'none';
+}
+
+function selectIcon(ref) {
+  selImg.src = `https://api.iconify.design/${ref}.svg`;
+  selCode.textContent = ref;
+  selEl.classList.add('show');
+}
+
+document.getElementById('copyBtn').onclick = () => {
+  navigator.clipboard.writeText(selCode.textContent);
+};
+document.getElementById('closeBtn').onclick = () => selEl.classList.remove('show');
+
+let t;
+searchEl.addEventListener('input', () => {
+  clearTimeout(t);
+  t = setTimeout(applyFilter, 200);
+});
+loadMoreEl.onclick = renderMore;
+
+// init
+selectSet(SETS[0], document.querySelector('.tab'));
+</script>
+</body>
+</html>

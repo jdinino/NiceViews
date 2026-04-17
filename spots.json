@@ -1,76 +1,600 @@
 {
   "spots": [
-    {"id":1,"name":"Rynne Beach / Pawtucket Blvd / Lowell Riverwalk North","lat":42.6433,"lng":-71.3401,"w3w":"descended.soils.unity","cat":"beach","routes":["local","north"],"note":"Where the riverwalk meets the beach"},
-    {"id":2,"name":"Lowell Riverwalk South View","lat":42.6502,"lng":-71.3112,"w3w":"audio.become.crust","cat":"river","routes":["local","north"],"note":"South-facing view along the Merrimack"},
-    {"id":3,"name":"Rogers Fort Hill Park","lat":42.6350,"lng":-71.2964,"w3w":"await.famous.juices","cat":"park","routes":["local","north"],"note":"Hilltop park with river panorama"},
-    {"id":4,"name":"Wamesit Falls Overlook","lat":42.6276,"lng":-71.2975,"w3w":"chains.engine.early","cat":"waterfall","routes":["local","north"],"note":"Dramatic falls on the Concord River"},
-    {"id":5,"name":"Middlesex Canal","lat":42.5922,"lng":-71.2829,"w3w":"milk.markers.tins","cat":"river","routes":["local","south"],"note":"Historic 1803 canal towpath"},
-    {"id":6,"name":"Winning Pond","lat":42.5523,"lng":-71.2982,"w3w":"scale.excusing.veggies","cat":"pond","routes":["local","south"],"note":"Quiet pond with reflections"},
-    {"id":7,"name":"The Millstream Falls","lat":42.5783,"lng":-71.3315,"w3w":"premiums.server.borders","cat":"waterfall","routes":["local","east"],"note":"Looks like a house but isn't — hidden gem"},
-    {"id":8,"name":"Heart Pond Beach","lat":42.5686,"lng":-71.3817,"w3w":"charity.brushing.money","cat":"beach","routes":["ponds","west"],"note":"Secluded heart-shaped pond"},
-    {"id":9,"name":"Trap Falls","lat":42.6723,"lng":-71.7757,"w3w":"noticing.daredevil.coupon","cat":"waterfall","routes":["ponds","west"],"note":"Dramatic cascading waterfall in Ashby"},
-    {"id":10,"name":"Barrett Park","lat":42.5197,"lng":-71.7724,"w3w":"shift.they.aims","cat":"park","routes":["ponds","west"],"note":"Peaceful park with long views"},
-    {"id":11,"name":"Sholan Farms View","lat":42.4870,"lng":-71.7760,"w3w":"topics.unreported.cycles","cat":"lookout","routes":["ponds","west"],"note":"Hilltop orchard with sweeping vista"},
-    {"id":12,"name":"Wachusett Mountain 360° Vista","lat":42.4877,"lng":-71.8864,"w3w":"irrigate.quickening.wrong","cat":"mountain","routes":["ponds","west"],"note":"Full panoramic summit views — highest point nearby"},
-    {"id":13,"name":"Old Stone Church View","lat":42.3751,"lng":-71.7788,"w3w":"downstream.slice.differ","cat":"historic","routes":["ponds","west"],"note":"Ruins on the Wachusett Reservoir shore"},
-    {"id":14,"name":"Wachusett Dam","lat":42.4023,"lng":-71.6868,"w3w":"indulgence.wisdom.supporter","cat":"historic","routes":["ponds","west"],"note":"Massive dam with reservoir views"},
-    {"id":15,"name":"Prospect Hill Rd (Harvard)","lat":42.5029,"lng":-71.6107,"w3w":"trombone.artists.third","cat":"lookout","routes":["ponds","west"],"note":"Elevated road with western views"},
-    {"id":16,"name":"Walden Pond","lat":42.4411,"lng":-71.3349,"w3w":"earliest.splint.repels","cat":"pond","routes":["boston","south"],"note":"Thoreau's iconic pond — crystal clear water"},
-    {"id":17,"name":"Prospect Hill (view of Boston)","lat":42.3841,"lng":-71.2552,"w3w":"chemistry.cones.march","cat":"lookout","routes":["boston","south"],"note":"Distant Boston skyline vista"},
-    {"id":18,"name":"Forest River Park Beach","lat":42.5073,"lng":-70.8845,"w3w":"slide.across.cafe","cat":"beach","routes":["boston","east"],"note":"Sandy beach with harbor views"},
-    {"id":19,"name":"Winter Island Beach","lat":42.5265,"lng":-70.8683,"w3w":"telling.shaver.noisy","cat":"beach","routes":["boston","east"],"note":"Rocky shore with lighthouse views"},
-    {"id":20,"name":"Singing Beach","lat":42.5702,"lng":-70.7608,"w3w":"butternut.coursework.radically","cat":"beach","routes":["boston","east"],"note":"Sand that squeaks when you walk — unique"},
-    {"id":21,"name":"Blue Hills Observatory","lat":42.2128,"lng":-71.1143,"w3w":"","cat":"mountain","routes":["boston","south"],"note":"Weather observatory with Boston skyline views"},
-    {"id":22,"name":"Dresser Hill View","lat":42.0939,"lng":-71.9695,"w3w":"bypassed.signals.hacking","cat":"lookout","routes":["west"],"note":"Elevated hilltop with far-reaching views"}
+    {
+      "id": 1,
+      "name": "Rynne Beach / Pawtucket Blvd / Lowell Riverwalk North",
+      "lat": 42.6433,
+      "lng": -71.3401,
+      "w3w": "descended.soils.unity",
+      "routes": [
+        "local",
+        "north"
+      ],
+      "note": "Where the riverwalk meets the beach",
+      "images": [
+        "images/1b.webp",
+        "images/1.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "park",
+        "beach"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lowell Riverwalk South View",
+      "lat": 42.6502,
+      "lng": -71.3112,
+      "w3w": "audio.become.crust",
+      "routes": [
+        "local",
+        "north"
+      ],
+      "note": "South-facing view along the Merrimack",
+      "images": [
+        "images/2.jpg"
+      ],
+      "icon": "osa:landuse/industrial",
+      "cats": [
+        "historic",
+        "river",
+        "park"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rogers Fort Hill Park",
+      "lat": 42.635,
+      "lng": -71.2964,
+      "w3w": "await.famous.juices",
+      "routes": [
+        "local",
+        "north"
+      ],
+      "note": "Hilltop park with river panorama",
+      "images": [
+        "images/3.jpg"
+      ],
+      "icon": "osa:entertainment_colored/park",
+      "cats": [
+        "park"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Wamesit Falls Overlook",
+      "lat": 42.6276,
+      "lng": -71.2975,
+      "w3w": "chains.engine.early",
+      "routes": [
+        "local",
+        "north"
+      ],
+      "note": "Dramatic falls on the Concord River",
+      "images": [
+        "images/4.jpg"
+      ],
+      "icon": "osa:water/waterfall",
+      "cats": [
+        "waterfall"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Middlesex Canal",
+      "lat": 42.5922,
+      "lng": -71.2829,
+      "w3w": "milk.markers.tins",
+      "routes": [
+        "local",
+        "south"
+      ],
+      "note": "Historic 1803 canal towpath",
+      "images": [
+        "images/5.jpg"
+      ],
+      "icon": "osa:water/canal",
+      "cats": [
+        "canal",
+        "historic"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Winning Pond",
+      "lat": 42.5523,
+      "lng": -71.2982,
+      "w3w": "scale.excusing.veggies",
+      "routes": [
+        "local",
+        "south"
+      ],
+      "note": "Quiet pond with reflections",
+      "images": [
+        "images/6.jpg"
+      ],
+      "icon": "osa:entertainment_colored/park",
+      "cats": [
+        "park"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Millstream Falls",
+      "lat": 42.5783,
+      "lng": -71.3315,
+      "w3w": "premiums.server.borders",
+      "routes": [
+        "local",
+        "east"
+      ],
+      "note": "Hidden gem at 105 Mill Rd. Park across the street, knock on the white door — if no answer, walk the property.",
+      "images": [
+        "images/7a.jpg",
+        "images/7b.jpg",
+        "images/7c.jpg",
+        "images/7d.jpg",
+        "images/7e.jpg"
+      ],
+      "icon": "osa:poi/watermill",
+      "cats": [
+        "waterfall",
+        "historic"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Heart Pond Beach",
+      "lat": 42.5686,
+      "lng": -71.3817,
+      "w3w": "charity.brushing.money",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Secluded heart-shaped pond",
+      "images": [
+        "images/8a.jpg",
+        "images/8b.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Trap Falls",
+      "lat": 42.6723,
+      "lng": -71.7757,
+      "w3w": "noticing.daredevil.coupon",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Dramatic cascading waterfall in Ashby",
+      "images": [
+        "images/9a.jpg",
+        "images/9b.jpg",
+        "images/9c.jpg",
+        "images/9d.jpg",
+        "images/9e.jpg",
+        "images/9f.jpg"
+      ],
+      "icon": "osa:water/waterfall",
+      "cats": [
+        "waterfall"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Barrett Park",
+      "lat": 42.5197,
+      "lng": -71.7724,
+      "w3w": "shift.they.aims",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Peaceful park with long views",
+      "images": [
+        "images/10a.jpg",
+        "images/10b.jpg"
+      ],
+      "icon": "osa:entertainment_colored/park",
+      "cats": [
+        "park"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Sholan Farms View",
+      "lat": 42.487,
+      "lng": -71.776,
+      "w3w": "topics.unreported.cycles",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Hilltop orchard with sweeping vista",
+      "images": [
+        "images/11a.jpg",
+        "images/11b.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Wachusett Mountain 360° Vista",
+      "lat": 42.4877,
+      "lng": -71.8864,
+      "w3w": "irrigate.quickening.wrong",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Full panoramic summit views — highest point nearby",
+      "images": [
+        "images/12c.jpg",
+        "images/12a.jpg",
+        "images/12b.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout",
+        "mountain"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Old Stone Church View",
+      "lat": 42.3751,
+      "lng": -71.7788,
+      "w3w": "downstream.slice.differ",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Ruins on the Wachusett Reservoir shore",
+      "images": [
+        "images/13a.jpg",
+        "images/13b.jpg"
+      ],
+      "icon": "osa:additional/building_type_cathedral",
+      "cats": [
+        "historic"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Wachusett Dam",
+      "lat": 42.4023,
+      "lng": -71.6868,
+      "w3w": "indulgence.wisdom.supporter",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Massive dam with reservoir views",
+      "images": [
+        "images/14a.jpg",
+        "images/14b.jpg",
+        "images/14c.jpg"
+      ],
+      "icon": "osa:water/dam",
+      "cats": [
+        "canal",
+        "historic"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Prospect Hill Rd (Harvard)",
+      "lat": 42.5029,
+      "lng": -71.6107,
+      "w3w": "trombone.artists.third",
+      "routes": [
+        "ponds",
+        "west"
+      ],
+      "note": "Elevated road with western views",
+      "images": [
+        "images/15.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Walden Pond",
+      "lat": 42.4411,
+      "lng": -71.3349,
+      "w3w": "earliest.splint.repels",
+      "routes": [
+        "boston",
+        "south"
+      ],
+      "note": "National Historic Landmark — where Thoreau lived 1845–47. Crystal clear glacial water, no streams in or out.",
+      "images": [
+        "images/16a.jpg",
+        "images/16b.jpg"
+      ],
+      "icon": "osa:entertainment_colored/park",
+      "cats": [
+        "park",
+        "historic",
+        "beach"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Prospect Hill (view of Boston)",
+      "lat": 42.3841,
+      "lng": -71.2552,
+      "w3w": "chemistry.cones.march",
+      "routes": [
+        "boston",
+        "south"
+      ],
+      "note": "Distant Boston skyline vista",
+      "images": [
+        "images/17.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Forest River Park Beach",
+      "lat": 42.5073,
+      "lng": -70.8845,
+      "w3w": "slide.across.cafe",
+      "routes": [
+        "boston",
+        "east"
+      ],
+      "note": "Sandy beach with harbor views",
+      "images": [
+        "images/18a.jpg",
+        "images/18b.jpg",
+        "images/18c.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Winter Island Beach",
+      "lat": 42.5265,
+      "lng": -70.8683,
+      "w3w": "telling.shaver.noisy",
+      "routes": [
+        "boston",
+        "east"
+      ],
+      "note": "Rocky shore with Fort Pickering Lighthouse (1871). Walk the breakwater for close views.",
+      "images": [
+        "images/19b.jpg",
+        "images/19a.jpg",
+        "images/19c.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach",
+        "historic"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Singing Beach",
+      "lat": 42.5702,
+      "lng": -70.7608,
+      "w3w": "butternut.coursework.radically",
+      "routes": [
+        "boston",
+        "east"
+      ],
+      "note": "Sand that squeaks when you walk — unique",
+      "images": [
+        "images/20a.jpg",
+        "images/20b.jpg",
+        "images/20c.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Blue Hills Observatory",
+      "lat": 42.2128,
+      "lng": -71.1143,
+      "w3w": "",
+      "routes": [
+        "boston",
+        "south"
+      ],
+      "note": "Weather observatory with Boston skyline views",
+      "images": [
+        "images/21a.jpg",
+        "images/21b.webp",
+        "images/21c.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout",
+        "historic"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Dresser Hill View",
+      "lat": 42.0939,
+      "lng": -71.9695,
+      "w3w": "bypassed.signals.hacking",
+      "routes": [
+        "west"
+      ],
+      "note": "Elevated hilltop with far-reaching views — spectacular sunsets over rolling hills",
+      "images": [
+        "images/22a.jpg",
+        "images/22b.jpg",
+        "images/22c.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    }
   ],
   "wikiTerms": {
-    "Rynne Beach / Pawtucket Blvd / Lowell Riverwalk North":"Lowell,_Massachusetts",
-    "Lowell Riverwalk South View":"Lowell_National_Historical_Park",
-    "Rogers Fort Hill Park":"Fort_Hill_Park_(Lowell,_Massachusetts)",
-    "Wamesit Falls Overlook":"Wamesit",
-    "Middlesex Canal":"Middlesex_Canal",
-    "Winning Pond":"Billerica,_Massachusetts",
-    "The Millstream Falls":"Chelmsford,_Massachusetts",
-    "Heart Pond Beach":"Chelmsford,_Massachusetts",
-    "Trap Falls":"Trap_Falls_(Massachusetts)",
-    "Barrett Park":"Leominster,_Massachusetts",
-    "Sholan Farms View":"Leominster,_Massachusetts",
-    "Wachusett Mountain 360° Vista":"Wachusett_Mountain",
-    "Old Stone Church View":"Wachusett_Reservoir",
-    "Wachusett Dam":"Wachusett_Dam",
-    "Prospect Hill Rd (Harvard)":"Harvard,_Massachusetts",
-    "Walden Pond":"Walden_Pond",
-    "Prospect Hill (view of Boston)":"Waltham,_Massachusetts",
-    "Forest River Park Beach":"Salem,_Massachusetts",
-    "Winter Island Beach":"Winter_Island_(Salem,_Massachusetts)",
-    "Singing Beach":"Singing_Beach",
-    "Blue Hills Observatory":"Blue_Hill_Meteorological_Observatory",
-    "Dresser Hill View":"Southbridge,_Massachusetts"
+    "Rynne Beach / Pawtucket Blvd / Lowell Riverwalk North": "Lowell,_Massachusetts",
+    "Lowell Riverwalk South View": "Lowell_National_Historical_Park",
+    "Rogers Fort Hill Park": "Fort_Hill_Park_(Lowell,_Massachusetts)",
+    "Wamesit Falls Overlook": "Wamesit",
+    "Middlesex Canal": "Middlesex_Canal",
+    "Winning Pond": "Billerica,_Massachusetts",
+    "The Millstream Falls": "Chelmsford,_Massachusetts",
+    "Heart Pond Beach": "Chelmsford,_Massachusetts",
+    "Trap Falls": "Trap_Falls_(Massachusetts)",
+    "Barrett Park": "Leominster,_Massachusetts",
+    "Sholan Farms View": "Leominster,_Massachusetts",
+    "Wachusett Mountain 360° Vista": "Wachusett_Mountain",
+    "Old Stone Church View": "Wachusett_Reservoir",
+    "Wachusett Dam": "Wachusett_Dam",
+    "Prospect Hill Rd (Harvard)": "Harvard,_Massachusetts",
+    "Walden Pond": "Walden_Pond",
+    "Prospect Hill (view of Boston)": "Waltham,_Massachusetts",
+    "Forest River Park Beach": "Salem,_Massachusetts",
+    "Winter Island Beach": "Winter_Island_(Salem,_Massachusetts)",
+    "Singing Beach": "Singing_Beach",
+    "Blue Hills Observatory": "Blue_Hill_Meteorological_Observatory",
+    "Dresser Hill View": "Southbridge,_Massachusetts"
   },
   "cats": {
-    "mountain":{"label":"Mountain","color":"#4A7FB5","bg":"rgba(74,127,181,.15)","svg":"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M3 19L9 9L13 15L17 7L21 19Z\" fill=\"#4A7FB5\"/><path d=\"M3 19L9 9L13 15L17 7L21 19Z\" fill=\"none\" stroke=\"#2A5A8A\" stroke-width=\"1\"/><path d=\"M15 10L17 7L19 12\" fill=\"#fff\" opacity=\".3\"/></svg>"},
-    "waterfall":{"label":"Waterfall","color":"#4A8FB5","bg":"rgba(74,143,181,.15)","svg":"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M7 3C7 3 9 9 9 13C9 17 7 19 7 19\" stroke=\"#4A8FB5\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M12 5C12 5 14 10 14 14C14 18 12 19 12 19\" stroke=\"#4A8FB5\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\".7\"/><path d=\"M17 7C17 7 19 11 19 14C19 17 17 19 17 19\" stroke=\"#4A8FB5\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>"},
-    "beach":{"label":"Beach","color":"#D4963B","bg":"rgba(212,150,59,.15)","svg":"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"17\" cy=\"5\" r=\"3.5\" fill=\"#E8A838\"/><path d=\"M1 16C4 12 7 16 10 13C13 10 16 14 19 11C22 8 23 12 24 10\" stroke=\"#4A8FB5\" stroke-width=\"2\" fill=\"none\"/><path d=\"M1 20C4 16 7 20 10 17C13 14 16 18 19 15C22 12 23 16 24 14\" stroke=\"#D4963B\" stroke-width=\"2\" fill=\"none\" opacity=\".6\"/></svg>"},
-    "pond":{"label":"Pond / Lake","color":"#5B8FB9","bg":"rgba(91,143,185,.15)","svg":"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><ellipse cx=\"12\" cy=\"14\" rx=\"10\" ry=\"6\" fill=\"#5B8FB9\" opacity=\".2\" stroke=\"#5B8FB9\" stroke-width=\"1.5\"/><path d=\"M6 12C8 10 10 13 12 11C14 9 16 12 18 10\" stroke=\"#5B8FB9\" stroke-width=\"1.5\" fill=\"none\"/></svg>"},
-    "river":{"label":"River / Canal","color":"#5B8FB9","bg":"rgba(91,143,185,.15)","svg":"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 8C8 4 10 12 14 8C18 4 20 10 24 6\" stroke=\"#5B8FB9\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 14C8 10 10 18 14 14C18 10 20 16 24 12\" stroke=\"#5B8FB9\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>"},
-    "lookout":{"label":"Lookout","color":"#D4623B","bg":"rgba(212,98,59,.15)","svg":"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"9\" r=\"6\" fill=\"none\" stroke=\"#D4623B\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"9\" r=\"2\" fill=\"#D4623B\"/><path d=\"M12 15V21\" stroke=\"#D4623B\" stroke-width=\"2\"/><path d=\"M8 19H16\" stroke=\"#D4623B\" stroke-width=\"2\"/></svg>"},
-    "historic":{"label":"Historic","color":"#7A7A8E","bg":"rgba(122,122,142,.12)","svg":"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 20V9L12 3L20 9V20\" fill=\"none\" stroke=\"#7A7A8E\" stroke-width=\"2\"/><path d=\"M9 20V14H15V20\" fill=\"none\" stroke=\"#7A7A8E\" stroke-width=\"1.5\"/><path d=\"M2 20H22\" stroke=\"#7A7A8E\" stroke-width=\"1.5\"/></svg>"},
-    "park":{"label":"Park","color":"#2D5F3A","bg":"rgba(45,95,58,.12)","svg":"<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 2L15 8H20L16 12L18 18L12 14.5L6 18L8 12L4 8H9Z\" fill=\"#2D5F3A\"/></svg>"}
+    "mountain": {
+      "label": "Mountain",
+      "color": "#4A7FB5",
+      "bg": "rgba(74,127,181,.15)",
+      "svg": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\"><path d=\"M1 22L7.5 5L12 13L17 2L23 22Z\" fill=\"#4A7FB5\" stroke=\"#1A3D60\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"M15 5L17 2L19 7L17.5 7Z\" fill=\"#fff\" opacity=\".7\"/><path d=\"M5.5 10L7.5 5L9.5 11L7 11Z\" fill=\"#fff\" opacity=\".4\"/></svg>"
+    },
+    "waterfall": {
+      "label": "Waterfall",
+      "color": "#4A8FB5",
+      "bg": "rgba(74,143,181,.15)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M7 3C7 3 9 9 9 13C9 17 7 19 7 19\" stroke=\"#4A8FB5\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M12 5C12 5 14 10 14 14C14 18 12 19 12 19\" stroke=\"#4A8FB5\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\" opacity=\".7\"/><path d=\"M17 7C17 7 19 11 19 14C19 17 17 19 17 19\" stroke=\"#4A8FB5\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>"
+    },
+    "beach": {
+      "label": "Beach",
+      "color": "#D4963B",
+      "bg": "rgba(212,150,59,.15)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10.5\" fill=\"#E8C878\"/><path d=\"M1.5 12 A10.5 10.5 0 0 1 22.5 12 Q18 14 12 12 Q6 10 1.5 12 Z\" fill=\"#5B8FB9\"/><path d=\"M3 5 Q6 3.5 9 5 T15 5 T20 5\" stroke=\"#C5DFF0\" stroke-width=\"1\" fill=\"none\"/><path d=\"M3 8.5 Q6 7 9 8.5 T15 8.5 T20 8.5\" stroke=\"#C5DFF0\" stroke-width=\"0.8\" fill=\"none\" opacity=\".75\"/><circle cx=\"7\" cy=\"17\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"12\" cy=\"19\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"16\" cy=\"16.5\" r=\".5\" fill=\"#8A5820\"/><circle cx=\"10\" cy=\"20\" r=\".4\" fill=\"#8A5820\" opacity=\".7\"/><circle cx=\"14\" cy=\"20\" r=\".4\" fill=\"#8A5820\" opacity=\".7\"/><circle cx=\"12\" cy=\"12\" r=\"10.5\" fill=\"none\" stroke=\"#8A5820\" stroke-width=\"1\"/></svg>"
+    },
+    "river": {
+      "label": "River",
+      "color": "#5B8FB9",
+      "bg": "rgba(91,143,185,.15)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 8C8 4 10 12 14 8C18 4 20 10 24 6\" stroke=\"#5B8FB9\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 14C8 10 10 18 14 14C18 10 20 16 24 12\" stroke=\"#5B8FB9\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".4\"/></svg>"
+    },
+    "lookout": {
+      "label": "Lookout",
+      "color": "#D4623B",
+      "bg": "rgba(212,98,59,.15)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\" fill=\"#D4623B\" stroke=\"#8A3820\" stroke-width=\"1\"/><rect x=\"8\" y=\"3\" width=\"8\" height=\"5\" rx=\"1\" fill=\"#D4623B\" stroke=\"#8A3820\" stroke-width=\"1\"/><circle cx=\"12\" cy=\"14\" r=\"4.5\" fill=\"#fff\" stroke=\"#8A3820\" stroke-width=\"1\"/><circle cx=\"12\" cy=\"14\" r=\"2.5\" fill=\"#D4623B\"/><circle cx=\"18\" cy=\"10\" r=\"1\" fill=\"#fff\"/></svg>"
+    },
+    "historic": {
+      "label": "Historic",
+      "color": "#7A7A8E",
+      "bg": "rgba(122,122,142,.12)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M4 20V9L12 3L20 9V20\" fill=\"none\" stroke=\"#7A7A8E\" stroke-width=\"2\"/><path d=\"M9 20V14H15V20\" fill=\"none\" stroke=\"#7A7A8E\" stroke-width=\"1.5\"/><path d=\"M2 20H22\" stroke=\"#7A7A8E\" stroke-width=\"1.5\"/></svg>"
+    },
+    "park": {
+      "label": "Park",
+      "color": "#2D5F3A",
+      "bg": "rgba(45,95,58,.12)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><polygon points=\"12,2 7,10 10,10 5,17 11,17 11,22 13,22 13,17 19,17 14,10 17,10\" fill=\"#2D5F3A\" stroke=\"#1A3D24\" stroke-width=\"0.75\" stroke-linejoin=\"round\"/><rect x=\"11\" y=\"17\" width=\"2\" height=\"5\" fill=\"#6B4A2B\"/></svg>"
+    },
+    "canal": {
+      "label": "Dam / Canal",
+      "color": "#4A8090",
+      "bg": "rgba(74,128,144,.15)",
+      "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"><path d=\"M2 7H22\" stroke=\"#4A8090\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M2 17H22\" stroke=\"#4A8090\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 12H20\" stroke=\"#4A8090\" stroke-width=\"1\" stroke-dasharray=\"2,2\" opacity=\".6\"/></svg>"
+    }
   },
   "routes": {
-    "all":{"label":"All Spots","icon":"\u25ce"},
-    "local":{"label":"Local Loop","icon":"\u21ba"},
-    "ponds":{"label":"Ponds, Falls & Mountains","icon":"\u2600"},
-    "boston":{"label":"Boston & Beaches","icon":"\u2693"},
-    "north":{"label":"Going North","icon":"\u2191"},
-    "south":{"label":"Going South","icon":"\u2193"},
-    "east":{"label":"Going East","icon":"\u2192"},
-    "west":{"label":"Going West","icon":"\u2190"}
+    "all": {
+      "label": "All Spots",
+      "icon": "◎"
+    },
+    "local": {
+      "label": "Local Loop",
+      "icon": "↺"
+    },
+    "ponds": {
+      "label": "Ponds, Falls & Mountains",
+      "icon": "☀"
+    },
+    "boston": {
+      "label": "Boston & Beaches",
+      "icon": "⚓"
+    },
+    "north": {
+      "label": "Going North",
+      "icon": "↑"
+    },
+    "south": {
+      "label": "Going South",
+      "icon": "↓"
+    },
+    "east": {
+      "label": "Going East",
+      "icon": "→"
+    },
+    "west": {
+      "label": "Going West",
+      "icon": "←"
+    }
   },
   "routeOrder": {
-    "east":[7,5,20,19,18],
-    "north":[4,3,2,1],
-    "south":[6,16,17],
-    "west":[8,15,14,13,9,10,11,12,22]
+    "east": [
+      7,
+      5,
+      20,
+      19,
+      18
+    ],
+    "north": [
+      4,
+      3,
+      2,
+      1
+    ],
+    "south": [
+      6,
+      16,
+      17
+    ],
+    "west": [
+      8,
+      15,
+      14,
+      13,
+      9,
+      10,
+      11,
+      12,
+      22
+    ]
   }
 }
