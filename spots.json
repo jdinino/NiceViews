@@ -534,6 +534,180 @@
       "cats": [
         "waterfall"
       ]
+    },
+    {
+      "id": 27,
+      "name": "Mount Monadnock",
+      "lat": 42.8608,
+      "lng": -72.1081,
+      "w3w": "",
+      "routes": [
+        "north",
+        "ponds"
+      ],
+      "note": "Iconic lone peak (3,165 ft) in Jaffrey NH — one of the most-climbed mountains in the world.",
+      "images": [
+        "images/27a.jpg"
+      ],
+      "icon": "osa:tourist/mountain",
+      "cats": [
+        "mountain",
+        "lookout"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Pack Monadnock",
+      "lat": 42.8601,
+      "lng": -71.8789,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "2,290 ft summit in Miller State Park, Peterborough NH — auto road to the top.",
+      "images": [
+        "images/28a.jpg"
+      ],
+      "icon": "osa:tourist/mountain",
+      "cats": [
+        "mountain",
+        "lookout"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Gleason Falls",
+      "lat": 43.1437,
+      "lng": -71.9558,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "10-foot cascade tumbling under a historic stone arch bridge, Hillsborough NH.",
+      "images": [
+        "images/29a.jpg",
+        "images/29b.jpg"
+      ],
+      "icon": "osa:water/waterfall",
+      "cats": [
+        "waterfall",
+        "historic"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Mount Watatic",
+      "lat": 42.6952,
+      "lng": -71.8911,
+      "w3w": "",
+      "routes": [
+        "west",
+        "ponds"
+      ],
+      "note": "1,832 ft summit with 360° views spanning Wachusett, Monadnock, and Boston skyline.",
+      "images": [
+        "images/30a.jpg"
+      ],
+      "icon": "osa:tourist/mountain",
+      "cats": [
+        "mountain",
+        "lookout"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Crane Beach",
+      "lat": 42.693,
+      "lng": -70.7681,
+      "w3w": "",
+      "routes": [
+        "east",
+        "boston"
+      ],
+      "note": "4-mile barrier beach with rolling dunes — Ipswich. Part of the Crane Estate.",
+      "images": [
+        "images/31a.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Castle Hill (Crane Estate)",
+      "lat": 42.692,
+      "lng": -70.761,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Grand Stuart-style mansion on a hilltop with Grand Allée sloping down to the Atlantic.",
+      "images": [
+        "images/32a.jpg"
+      ],
+      "icon": "osa:tourist/castle",
+      "cats": [
+        "historic",
+        "lookout"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Halibut Point State Park",
+      "lat": 42.6882,
+      "lng": -70.6302,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Abandoned granite quarry at Cape Ann's tip with rocky Atlantic shoreline views.",
+      "images": [
+        "images/33a.jpg"
+      ],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout",
+        "historic"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Motif No. 1 / Bearskin Neck",
+      "lat": 42.6593,
+      "lng": -70.6151,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Famous red fishing shack called the most-painted building in America — Rockport harbor.",
+      "images": [
+        "images/34a.jpg"
+      ],
+      "icon": "osa:tourist/monument",
+      "cats": [
+        "historic",
+        "lookout"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Cochituate State Park",
+      "lat": 42.331,
+      "lng": -71.3647,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "625-acre lake park in Natick — swimming, boating, and woodland trails.",
+      "images": [
+        "images/35a.jpg"
+      ],
+      "icon": "osa:entertainment_colored/park",
+      "cats": [
+        "park",
+        "beach"
+      ]
     }
   ],
   "wikiTerms": {
@@ -562,7 +736,16 @@
     "Cascading Waters": "Worcester,_Massachusetts",
     "Shining Rock Trail": "Northbridge,_Massachusetts",
     "Tucker Brook Falls": "Milford,_New_Hampshire",
-    "Lower Purgatory Falls": "Lyndeborough,_New_Hampshire"
+    "Lower Purgatory Falls": "Lyndeborough,_New_Hampshire",
+    "Mount Monadnock": "Mount_Monadnock",
+    "Pack Monadnock": "Pack_Monadnock",
+    "Gleason Falls": "Hillsborough,_New_Hampshire",
+    "Mount Watatic": "Mount_Watatic",
+    "Crane Beach": "Crane_Beach_(Massachusetts)",
+    "Castle Hill (Crane Estate)": "Castle_Hill_(Ipswich,_Massachusetts)",
+    "Halibut Point State Park": "Halibut_Point_State_Park",
+    "Motif No. 1 / Bearskin Neck": "Motif_Number_1",
+    "Cochituate State Park": "Cochituate_State_Park"
   },
   "cats": {
     "mountain": {
@@ -655,9 +838,16 @@
       5,
       20,
       19,
-      18
+      18,
+      31,
+      32,
+      33,
+      34
     ],
     "north": [
+      29,
+      28,
+      27,
       26,
       25,
       4,
@@ -668,7 +858,8 @@
     "south": [
       6,
       16,
-      17
+      17,
+      35
     ],
     "west": [
       8,
@@ -681,7 +872,8 @@
       12,
       22,
       23,
-      24
+      24,
+      30
     ]
   }
 }
