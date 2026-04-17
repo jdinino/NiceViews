@@ -459,8 +459,8 @@
     {
       "id": 23,
       "name": "Cascading Waters",
-      "lat": 42.2755,
-      "lng": -71.8178,
+      "lat": 42.286,
+      "lng": -71.8619,
       "w3w": "",
       "routes": [
         "ponds",
@@ -519,8 +519,8 @@
     {
       "id": 26,
       "name": "Lower Purgatory Falls",
-      "lat": 42.8588,
-      "lng": -71.6946,
+      "lat": 42.8596,
+      "lng": -71.7,
       "w3w": "",
       "routes": [
         "north"
@@ -558,8 +558,8 @@
     {
       "id": 28,
       "name": "Pack Monadnock",
-      "lat": 42.8601,
-      "lng": -71.8789,
+      "lat": 42.862,
+      "lng": -71.8786,
       "w3w": "",
       "routes": [
         "north"
@@ -597,8 +597,8 @@
     {
       "id": 30,
       "name": "Mount Watatic",
-      "lat": 42.6952,
-      "lng": -71.8911,
+      "lat": 42.6968,
+      "lng": -71.8926,
       "w3w": "",
       "routes": [
         "west",
@@ -655,8 +655,8 @@
     {
       "id": 33,
       "name": "Halibut Point State Park",
-      "lat": 42.6882,
-      "lng": -70.6302,
+      "lat": 42.6893,
+      "lng": -70.6328,
       "w3w": "",
       "routes": [
         "east"
@@ -693,8 +693,8 @@
     {
       "id": 35,
       "name": "Cochituate State Park",
-      "lat": 42.331,
-      "lng": -71.3647,
+      "lat": 42.3048,
+      "lng": -71.3696,
       "w3w": "",
       "routes": [
         "south"
