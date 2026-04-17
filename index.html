@@ -365,7 +365,7 @@ function renderLegend(){
   const grid = document.getElementById('legendGrid');
   const repIcon = {};
   for(const s of SPOTS){ const k = s.cats[0]; if(!repIcon[k]) repIcon[k] = s.icon; }
-  grid.innerHTML = Object.entries(CATS).map(([k,c])=>{
+  grid.innerHTML = Object.entries(CATS).sort((a,b)=>a[1].label.localeCompare(b[1].label)).map(([k,c])=>{
     const ic = repIcon[k] || c.icon;
     const disc = ic
       ? `<span class="legend-icon" style="width:22px;height:22px;border-radius:50%;background:${c.color};border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.2);display:inline-flex;align-items:center;justify-content:center"><img src="${iconUrl(ic)}" style="width:14px;height:14px;filter:brightness(0) invert(1)"></span>`
