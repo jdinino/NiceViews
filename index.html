@@ -753,11 +753,42 @@ function updateRouteCards(){
 
 window.flyTo = function(id){
   const s = SPOTS.find(x=>x.id===id);
-  if(s){
-    map.flyTo([s.lat,s.lng],15,{duration:1});
-    setTimeout(()=>openSheet(s),800);
+  if(!s) return;
+  // If the spot is a toggle-cat (restroom/road), make sure its layer is on.
+  Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
+    if(s.cats.includes(cat) && !toggleState[route].on){
+      toggleState[route].on = true;
+      toggleState[route].layer.addTo(map);
+      const btn = document.querySelector('.route-btn[data-route="'+route+'"]');
+      if(btn) btn.classList.add('active');
+    }
+  });
+  // Otherwise: if the spot isn't in the current radio filter, switch to a
+  // filter that includes it (its first route, or 'all').
+  if(!isToggleSpot(s)){
+    const inFilter = (activeRoute === 'all') || (activeRoute === 'nearby' && isNearbyMatches(s)) || (s.routes||[]).includes(activeRoute);
+    if(!inFilter){
+      const newRoute = (s.routes && s.routes.length) ? s.routes[0] : 'all';
+      activeRoute = newRoute;
+      document.querySelectorAll('.route-btn').forEach(b => {
+        if(!toggleState[b.dataset.route]) b.classList.toggle('active', b.dataset.route === newRoute);
+      });
+      // Re-filter without fitBounds (don't yank the view since we're flying)
+      const filtered = getFiltered();
+      allLayer.clearLayers();
+      filtered.forEach(x => allLayer.addLayer(spotMarkers[x.id]));
+      document.getElementById('spotCount').textContent = filtered.length + ' spots';
+      document.getElementById('spotDetail').textContent = ROUTES[newRoute] ? ROUTES[newRoute].label : 'All locations';
+      updateTable(filtered);
+    }
   }
+  map.flyTo([s.lat,s.lng],15,{duration:1});
+  setTimeout(()=>openSheet(s),800);
 };
+
+function isNearbyMatches(s){
+  return !isToggleSpot(s) && nearbyDist(s) <= NEARBY_M;
+}
 
 document.querySelectorAll('.tab-btn').forEach(btn=>{
   btn.addEventListener('click',()=>{
