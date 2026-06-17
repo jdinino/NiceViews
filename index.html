@@ -408,8 +408,9 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
 // Render route buttons from data
 (function renderRoutes(){
   const container = document.getElementById('routeButtons');
-  const countFor = key => key==='all' ? SPOTS.length : SPOTS.filter(s=>s.routes.includes(key)).length;
-  const order = ['all','local','ponds','boston','north','south','east','west'];
+  const isRestroom = s => s.cats.includes('restroom');
+  const countFor = key => key==='all' ? SPOTS.filter(s=>!isRestroom(s)).length : SPOTS.filter(s=>s.routes.includes(key)).length;
+  const order = ['all','local','ponds','boston','north','south','east','west','restrooms'];
   container.innerHTML = order.filter(k=>k==='all'||ROUTES[k]).map((k,i)=>{
     const r = k==='all' ? {label:'All Spots', icon:'◎'} : ROUTES[k];
     return `<button class="route-btn${i===0?' active':''}" data-route="${k}"><span class="route-icon">${r.icon}</span>${r.label}<span class="route-count">${countFor(k)}</span></button>`;
@@ -592,7 +593,8 @@ SPOTS.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
 allLayer.addTo(map);
 
 function getFiltered(){
-  if(activeRoute === 'all') return SPOTS;
+  // 'All Spots' excludes restrooms — they only show via their own filter.
+  if(activeRoute === 'all') return SPOTS.filter(s => !s.cats.includes('restroom'));
   return SPOTS.filter(s => s.routes.includes(activeRoute));
 }
 

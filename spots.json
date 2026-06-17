@@ -708,6 +708,2790 @@
         "park",
         "beach"
       ]
+    },
+    {
+      "id": 100,
+      "name": "Boston City Hall",
+      "lat": 42.3604,
+      "lng": -71.0578,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 City Hall Square, Boston, MA 02203 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "John Joseph Moakley United States Courthouse",
+      "lat": 42.3549,
+      "lng": -71.0462,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Courthouse Wy, Boston, MA 02210 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "State Transportation Building",
+      "lat": 42.3515,
+      "lng": -71.0665,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 Park Plaza, Boston, MA 02116 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "The State House",
+      "lat": 42.3577,
+      "lng": -71.0636,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "24 Beacon street · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Mattahunt - Boston Centers for Youth and Families",
+      "lat": 42.2758,
+      "lng": -71.104,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 Hebron Street, Mattapan, MA 02126 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Paris St. - Boston Centers for Youth and Family",
+      "lat": 42.3729,
+      "lng": -71.0375,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "112 Paris St, East Boston, MA 02128 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Hyde Park - Boston Centers for Youth and Families",
+      "lat": 42.2564,
+      "lng": -71.121,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1179 River St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Tobin - Boston Centers for Youth and Families",
+      "lat": 42.3322,
+      "lng": -71.0982,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1481 Tremont St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Curley - Boston Centers for Youth and Families",
+      "lat": 42.3291,
+      "lng": -71.0359,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1663 Columbia Rd · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Roche - Boston Centers for Youth and Families",
+      "lat": 42.287,
+      "lng": -71.1493,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1716 Centre St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Ohrenberger - Boston Centers for Youth and Families",
+      "lat": 42.2608,
+      "lng": -71.1495,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "175 W Boundary Road, Boston MA 02132 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Curtis Hall - Boston Centers for Youth and Families",
+      "lat": 42.3088,
+      "lng": -71.1149,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "20 South St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Shelburne - Boston Centers for Youth and Families",
+      "lat": 42.3225,
+      "lng": -71.0902,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2730 Washington St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Nazzaro - Boston Centers for Youth and Families",
+      "lat": 42.3653,
+      "lng": -71.0545,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "30 North Bennet St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Vine Street - Boston Centers for Youth and Families",
+      "lat": 42.3268,
+      "lng": -71.0767,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "339 Dudley St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Jackson/Mann - Boston Centers for Youth and Families",
+      "lat": 42.3521,
+      "lng": -71.1375,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "40 Armington Street, Allston MA 02134 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Mildred Avenue - Boston Centers for Youth and Families",
+      "lat": 42.2764,
+      "lng": -71.0909,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 Mildred Avenue, Boston MA 02126 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Roslindale - Boston Centers for Youth and Families",
+      "lat": 42.2866,
+      "lng": -71.1277,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "6 Cummins Highway · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "District 1 Engine 5 - Boston Fire Department",
+      "lat": 42.3791,
+      "lng": -71.0302,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "360 Saratoga St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "District 1 Engine 56 & Ladder 21 - Boston Fire Department",
+      "lat": 42.388,
+      "lng": -71.0039,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Ashley St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "District 1 Engine 9 & Ladder 2 - Boston Fire Department",
+      "lat": 42.368,
+      "lng": -71.0387,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "239 Sumner · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "District 11 Engine 29 and Ladder 11 - Boston Fire Department",
+      "lat": 42.3427,
+      "lng": -71.1535,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "138 Chestnut Hill Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "District 11 Engine 51 - Boston Fire Department",
+      "lat": 42.3513,
+      "lng": -71.1682,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "425 Faneuil St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "District 12 and Engine 49 - Boston Fire Department",
+      "lat": 42.2368,
+      "lng": -71.1308,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "209 Neponset Valley Pkwy · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "District 12 Engine 48 and Ladder 28 - Boston Fire Department",
+      "lat": 42.255,
+      "lng": -71.1199,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "60 Fairmount Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "District 12 Engine 55 - Boston Fire Department",
+      "lat": 42.264,
+      "lng": -71.1549,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5115 Washington St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "District 3 Engine 50 - Boston Fire Department",
+      "lat": 42.3742,
+      "lng": -71.061,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "34 Winthrop St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "District 4 Engine 22, W-25, and Haz Mat - Boston Fire Department",
+      "lat": 42.3405,
+      "lng": -71.0775,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "700 Tremont St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "District 4 Engine 33 and Ladder 15 - Boston Fire Department",
+      "lat": 42.348,
+      "lng": -71.0856,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "941 Boylston St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "District 4 Engine 7 and Tower 17 - Boston Fire Department",
+      "lat": 42.3489,
+      "lng": -71.071,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "200 Columbus Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "District 6 Engine 10, Rescue 1, and Tower Ladder 3 - Boston Fire Department",
+      "lat": 42.3549,
+      "lng": -71.0526,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "125 Purchase St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "District 6 Engine 39, Ladder 18 and C-11 Hospital Rep - Boston Fire Department",
+      "lat": 42.3393,
+      "lng": -71.0503,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "272 D. St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "District 7 Engine 14, Ladder 4, Safety Chief H-1 - Boston Fire Department",
+      "lat": 42.3288,
+      "lng": -71.0824,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "174 Dudley St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "District 7 Engine 17 and Ladder 7 - Boston Fire Department",
+      "lat": 42.3079,
+      "lng": -71.0616,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Parish St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "District 8 Engine 20 - Boston Fire Department",
+      "lat": 42.2886,
+      "lng": -71.0477,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "301 Neponset Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "District 9 Engine 37 and Ladder 26 - Boston Fire Department",
+      "lat": 42.3372,
+      "lng": -71.096,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "560 Huntington Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "District 9 Engine 42 and Rescue 2 - Boston Fire Department",
+      "lat": 42.3185,
+      "lng": -71.0979,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1870 Columbus Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Engine 16 - Boston Fire Department",
+      "lat": 42.2783,
+      "lng": -71.0788,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "9 Gallivan Blvd, Dorchester 02122 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Engine 17 - Boston Fire Department",
+      "lat": 42.3079,
+      "lng": -71.0616,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "44 Winter St, Dorchester 02122 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Engine 18 - Boston Fire Department",
+      "lat": 42.2865,
+      "lng": -71.0639,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1884 Dorchester Avenue, 02121 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Engine 2 - Boston Fire Department",
+      "lat": 42.335,
+      "lng": -71.0371,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "700 E Fourth St, Boston 02127 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Engine 21 - Boston Fire Department",
+      "lat": 42.3183,
+      "lng": -71.0632,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "641 Columbia Road, Dorchester 02121 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Engine 24 - Boston Fire Department",
+      "lat": 42.3075,
+      "lng": -71.0822,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "36 Washington St, Dorchester 02121 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "Engine 28 - Boston Fire Department",
+      "lat": 42.3106,
+      "lng": -71.1144,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "746 Centre St, Jamaica Plain 02130 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Engine 3 - Boston Fire Department",
+      "lat": 42.34,
+      "lng": -71.0685,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "618 Harrison Ave, Boston 02118 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "Engine 30 - Boston Fire Department",
+      "lat": 42.284,
+      "lng": -71.1566,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1940 Centre St West Roxbury 02132 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Engine 32 - Boston Fire Department",
+      "lat": 42.3839,
+      "lng": -71.0715,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "525 Main Street, Charlestown 02129 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Engine 4 - Boston Fire Department",
+      "lat": 42.3608,
+      "lng": -71.0657,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "200 Cambridge St, Boston, 02114 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "Engine 41 - Boston Fire Department",
+      "lat": 42.3538,
+      "lng": -71.136,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "460 Cambridge St, Allston 02135 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Engine 52 - Boston Fire Department",
+      "lat": 42.2909,
+      "lng": -71.0897,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "975 Blue Hill Avenue Boston 02124 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Engine 53 - Boston Fire Department",
+      "lat": 42.279,
+      "lng": -71.1175,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "945 Canterbury St Roslindale 02131 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Engine 8 - Boston Fire Department",
+      "lat": 42.3657,
+      "lng": -71.0531,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "392 Hanover St Boston 02109 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Spaulding Rehabilitation Hospital Boston",
+      "lat": 42.3786,
+      "lng": -71.0491,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "300 1st Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "Long Wharf Marriott",
+      "lat": 42.3602,
+      "lng": -71.0507,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "296 State St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Battery Wharf Boston Hotel",
+      "lat": 42.3675,
+      "lng": -71.05,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 Battery Wharf · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Residence Inn by Marriott Boston Harbor",
+      "lat": 42.3706,
+      "lng": -71.0603,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "34-44 Charles River Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Hampton Inn & Homewood Suites",
+      "lat": 42.344,
+      "lng": -71.0378,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "670 Summer St, Boston, MA 02210 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "Boston Harbor Hotel",
+      "lat": 42.3562,
+      "lng": -71.0503,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "70 Rowes Wharf · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "The Envoy Hotel",
+      "lat": 42.3537,
+      "lng": -71.0481,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "70 Sleeper St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Boston Yacht Haven Inn & Marina",
+      "lat": 42.362,
+      "lng": -71.0484,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "87 Commercial Wharf · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "InterContinental Hotel",
+      "lat": 42.3539,
+      "lng": -71.052,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "500 Atlantic Avenue, Boston, MA 02210 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Jamaica Plain Branch - Boston Public Library",
+      "lat": 42.3086,
+      "lng": -71.1149,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "12 Sedgwick St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "Mattapan Branch - Boston Public Library",
+      "lat": 42.2775,
+      "lng": -71.0931,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1350 Blue Hill Av · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Shaw-Roxbury Branch - Boston Public Library",
+      "lat": 42.3281,
+      "lng": -71.0837,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "149 Dudley Street, Roxbury MA 02119 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Parker Hill Branch - Boston Public Library",
+      "lat": 42.3323,
+      "lng": -71.0991,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1497 Tremont St, Roxbury, MA 02120 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 165,
+      "name": "West End Branch - Boston Public Library",
+      "lat": 42.3614,
+      "lng": -71.065,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "151 Cambridge St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Fields Corner Branch - Boston Public Library",
+      "lat": 42.2989,
+      "lng": -71.0603,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1520 Dorchester Av · Temporarily Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Charlestown Branch - Boston Public Library",
+      "lat": 42.3758,
+      "lng": -71.0644,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "179 Main St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "West Roxbury Branch - Boston Public Library",
+      "lat": 42.2834,
+      "lng": -71.1574,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1961 Centre St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Chinatown Branch - Boston Public Library",
+      "lat": 42.3521,
+      "lng": -71.0631,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Boylston St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Egleston Square Branch - Boston Public Library",
+      "lat": 42.3141,
+      "lng": -71.0956,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2044 Columbus Av · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "North End Branch - Boston Public Library",
+      "lat": 42.3641,
+      "lng": -71.055,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Parmenter St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Lower Mills Branch - Boston Public Library",
+      "lat": 42.2735,
+      "lng": -71.0685,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "27 Richmond St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Honan-Allston Branch - Boston Public Library",
+      "lat": 42.3601,
+      "lng": -71.1281,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "300 North Harvard St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Hyde Park Branch - Boston Public Library",
+      "lat": 42.2571,
+      "lng": -71.1221,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "35 Harvard Av · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 175,
+      "name": "East Boston Branch - Boston Public Library",
+      "lat": 42.3778,
+      "lng": -71.0286,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "365 Bremen St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Brighton Branch - Boston Public Library",
+      "lat": 42.3477,
+      "lng": -71.1529,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "40 Academy Hill Rd · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Grove Hall Branch - Boston Public Library",
+      "lat": 42.308,
+      "lng": -71.0812,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "41 Geneva Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Faneuil Branch - Boston Public Library",
+      "lat": 42.3513,
+      "lng": -71.1679,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "419 Faneuil St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Roslindale Branch - Boston Public Library",
+      "lat": 42.2856,
+      "lng": -71.1287,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4246 Washington St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Connolly Branch - Boston Public Library",
+      "lat": 42.3206,
+      "lng": -71.1111,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "433 Centre St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Uphams Corner Branch - Boston Public Library",
+      "lat": 42.3148,
+      "lng": -71.0675,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "500 Columbia Rd · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 182,
+      "name": "South Boston Branch - Boston Public Library",
+      "lat": 42.3358,
+      "lng": -71.0387,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "646 East Broadway · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 183,
+      "name": "South End Branch - Boston Public Library",
+      "lat": 42.3413,
+      "lng": -71.077,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "685 Tremont St · Temporarily Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Adams Street Branch - Boston Public Library",
+      "lat": 42.2863,
+      "lng": -71.0544,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "690 Adams St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Codman Square Branch - Boston Public Library",
+      "lat": 42.2875,
+      "lng": -71.071,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "690 Washington St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Boston Public Library (Central/Copley)",
+      "lat": 42.3494,
+      "lng": -71.0789,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "700 Boylston St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Back Bay Station",
+      "lat": 42.3474,
+      "lng": -71.0757,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "145 Dartmouth St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 188,
+      "name": "JFK/UMass Station",
+      "lat": 42.3213,
+      "lng": -71.0521,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "599 Old Colony Avenue · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 189,
+      "name": "South Station",
+      "lat": 42.3519,
+      "lng": -71.055,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "700 Atlantic Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 190,
+      "name": "Ashmont Station",
+      "lat": 42.2845,
+      "lng": -71.0638,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Dorchester Ave &amp;, Ashmont St, Boston, MA 02124 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 191,
+      "name": "Airport Station",
+      "lat": 42.3743,
+      "lng": -71.0298,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Transportation Way &amp; Service Road · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 192,
+      "name": "North Station",
+      "lat": 42.3657,
+      "lng": -71.0613,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "186 Canal Street, Boston, MA 02114 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 193,
+      "name": "Chinatown Station",
+      "lat": 42.3524,
+      "lng": -71.0626,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Washington St &amp; Boylston Street · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 194,
+      "name": "Simons Theatre at New England Aquarium",
+      "lat": 42.3592,
+      "lng": -71.0498,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Central Wharf · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 195,
+      "name": "Edward M. Kennedy Institute for the United States Senate",
+      "lat": 42.3159,
+      "lng": -71.035,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "210 Morrissey Blvd · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 196,
+      "name": "The Institute of Contemporary Art",
+      "lat": 42.3529,
+      "lng": -71.043,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Harbor Shore Dr · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 197,
+      "name": "ICA Watershed",
+      "lat": 42.3635,
+      "lng": -71.0332,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "256 Marginal Street, Boston, MA 02128 · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 198,
+      "name": "Boston Tea Party Ship",
+      "lat": 42.3522,
+      "lng": -71.0513,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "306 Congress St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 199,
+      "name": "Boston Children's Museum",
+      "lat": 42.3519,
+      "lng": -71.05,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "308 Congress St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Visitor Center at the Charlestown Navy Yard",
+      "lat": 42.3731,
+      "lng": -71.057,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Boston National Historical Park · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 201,
+      "name": "John F Kennedy Presidential Library and Museum",
+      "lat": 42.3131,
+      "lng": -71.0332,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Columbia Point, Boston, MA 02125 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "Schrafft's City Center",
+      "lat": 42.3848,
+      "lng": -71.0705,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "529 Main Street, Charlestown, MA 02129 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Seaport West",
+      "lat": 42.3498,
+      "lng": -71.0428,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "155 Seaport Blvd · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Pilot House",
+      "lat": 42.364,
+      "lng": -71.0501,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Atlantic Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Seaport East",
+      "lat": 42.3489,
+      "lng": -71.0408,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Seaport Lane · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 206,
+      "name": "313 Congress St",
+      "lat": 42.3513,
+      "lng": -71.0502,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "313 Congress St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "51 Sleeper St",
+      "lat": 42.3525,
+      "lng": -71.0486,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "51 Sleeper St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 208,
+      "name": "88 Black Falcon Ave",
+      "lat": 42.3438,
+      "lng": -71.0242,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "88 Black Falcon Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 209,
+      "name": "Classic Harbor Line Offices",
+      "lat": 42.3564,
+      "lng": -71.0502,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "60 Rowes Wharf, Boston, MA 02110 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "125 High Street",
+      "lat": 42.3552,
+      "lng": -71.0534,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "125 High Street, Boston MA 02110 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "53 State",
+      "lat": 42.3584,
+      "lng": -71.0562,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "53 State Street, Boston, MA 02109 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 212,
+      "name": "One Post Office Square",
+      "lat": 42.3569,
+      "lng": -71.0553,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Post Office Square, Boston, MA 02109 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 213,
+      "name": "Webster Financial Center",
+      "lat": 42.3557,
+      "lng": -71.0575,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 Franklin Street, Boston, MA 02110 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 214,
+      "name": "100 Federal Street",
+      "lat": 42.3554,
+      "lng": -71.056,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 Federal Street, Boston, MA 02110 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 215,
+      "name": "Five Hundred Boylston",
+      "lat": 42.3506,
+      "lng": -71.0744,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "500 Boylston Street, Boston, MA 02116 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 216,
+      "name": "Boston Common Visitor Information Center",
+      "lat": 42.3555,
+      "lng": -71.0639,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "139 Tremont Street · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 217,
+      "name": "Piers Park",
+      "lat": 42.3654,
+      "lng": -71.0365,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "211-255 Marginal St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 218,
+      "name": "Dartmouth St Comfort Station - Charles River Esplanade",
+      "lat": 42.3548,
+      "lng": -71.0795,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Dartmouth Street Footbridge, Back St, Boston, MA 02116 · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 219,
+      "name": "Hatch Shell - Charles River Esplanade",
+      "lat": 42.3575,
+      "lng": -71.0734,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "47 David G Mugar Way, Boston, MA 02108 · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 220,
+      "name": "Boston Common Frog Pond",
+      "lat": 42.3561,
+      "lng": -71.0657,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Frog Pond · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 221,
+      "name": "City Square Park Interpretive Center",
+      "lat": 42.372,
+      "lng": -71.0621,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "City Square, Boston, MA 02129 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 222,
+      "name": "Post Office Square Garage",
+      "lat": 42.3562,
+      "lng": -71.0555,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Zero Post Office Square · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 223,
+      "name": "The Boston Harbor Cruises Ferry Center",
+      "lat": 42.3597,
+      "lng": -71.0507,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Long Wharf · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 224,
+      "name": "Constitution Beach",
+      "lat": 42.3843,
+      "lng": -71.0097,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "0 Barnes Ave · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 225,
+      "name": "William J. Devine Golf Course Club House at Franklin Park",
+      "lat": 42.301,
+      "lng": -71.0885,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Circuit Drive. · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 226,
+      "name": "Charlestown Marina",
+      "lat": 42.3757,
+      "lng": -71.0497,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Pier 8 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 227,
+      "name": "Carson Beach",
+      "lat": 42.3262,
+      "lng": -71.0483,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "165 William J. Day Blvd · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 228,
+      "name": "Castle Island",
+      "lat": 42.3377,
+      "lng": -71.0124,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2010 William J Day Blvd · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 229,
+      "name": "Jamaica Pond Boat House",
+      "lat": 42.3158,
+      "lng": -71.1174,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "507 Jamaica Way · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 230,
+      "name": "DCR Steriti Memorial Rink",
+      "lat": 42.3681,
+      "lng": -71.0572,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "561 Commerical St · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 231,
+      "name": "Savin Hill & Malibu Beach",
+      "lat": 42.3085,
+      "lng": -71.0517,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "68 Denny St · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 232,
+      "name": "Tenean Beach",
+      "lat": 42.2923,
+      "lng": -71.0428,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Conley St · Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 233,
+      "name": "Clippership Wharf",
+      "lat": 42.3677,
+      "lng": -71.0414,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "63 Lewis Street, East Boston, MA 02128 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 234,
+      "name": "Coppersmith Village",
+      "lat": 42.3724,
+      "lng": -71.0413,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "75-109 Border Street, East Boston, MA 02128 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 235,
+      "name": "Park Lane Seaport Apartments",
+      "lat": 42.3481,
+      "lng": -71.0379,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Park Lane · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 236,
+      "name": "The Eddy Apartments",
+      "lat": 42.3712,
+      "lng": -71.0439,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 New St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 237,
+      "name": "Boston East Apartments",
+      "lat": 42.3735,
+      "lng": -71.0409,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "126 Border St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 238,
+      "name": "The Sunshine Biscuit Building",
+      "lat": 42.3667,
+      "lng": -71.0593,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "226 Causeway St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 239,
+      "name": "HarborView at the Navy Yard",
+      "lat": 42.3773,
+      "lng": -71.0499,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "250 1st Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 240,
+      "name": "The Artist Building at 300 Summer",
+      "lat": 42.35,
+      "lng": -71.0491,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "300 Summer St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 241,
+      "name": "Portside at East Pier",
+      "lat": 42.3671,
+      "lng": -71.0405,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "50 Lewis St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 242,
+      "name": "St Regis Residences",
+      "lat": 42.3509,
+      "lng": -71.0428,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "150 Seaport Blvd, Boston, MA 02210 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 243,
+      "name": "The Benjamin Seaport Residences Apartments",
+      "lat": 42.3534,
+      "lng": -71.0478,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Northern Ave, Boston, MA 02210 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 244,
+      "name": "Pier 4 Residences",
+      "lat": 42.3527,
+      "lng": -71.0423,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "300 Pier 4 Blvd., Boston, MA 02210 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 245,
+      "name": "The Mark Condos",
+      "lat": 42.3686,
+      "lng": -71.0433,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "99 Sumner St Retail Unit, Boston, MA 02128 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 246,
+      "name": "Joe's American Bar & Grill",
+      "lat": 42.362,
+      "lng": -71.0507,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 Atlantic Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 247,
+      "name": "75 on Liberty Wharf",
+      "lat": 42.3491,
+      "lng": -71.0389,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "220 Northern Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 248,
+      "name": "Tony C's Seaport",
+      "lat": 42.349,
+      "lng": -71.0386,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "250 Northern Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 249,
+      "name": "Del Frisco's Double Eagle Steak House",
+      "lat": 42.3489,
+      "lng": -71.0385,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "250 Northern Ave, Suite 200 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 250,
+      "name": "Legal Harborside",
+      "lat": 42.3487,
+      "lng": -71.0379,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "270 Northern Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 251,
+      "name": "Chart House",
+      "lat": 42.3602,
+      "lng": -71.0495,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "60 Long Wharf · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 252,
+      "name": "Legal Seafoods / Provisions",
+      "lat": 42.3594,
+      "lng": -71.0513,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "255 State St, Boston, MA 02109 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 253,
+      "name": "Hook Lobster",
+      "lat": 42.355,
+      "lng": -71.051,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "440 Atlantic Ave, Boston, MA 02110 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 254,
+      "name": "The Barking Crab",
+      "lat": 42.3538,
+      "lng": -71.0486,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "88 Sleeper St, Boston, MA 02210 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 255,
+      "name": "Boston Public Market",
+      "lat": 42.3626,
+      "lng": -71.0579,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 Hanover Street, Boston, MA 02108 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 256,
+      "name": "1 Lincoln",
+      "lat": 42.3522,
+      "lng": -71.0579,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Lincoln Street, Boston, MA 02111 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 257,
+      "name": "Copley Place",
+      "lat": 42.3471,
+      "lng": -71.0784,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 Huntington Avenue, Boston, MA 02116 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 258,
+      "name": "High Street Place Food Hall",
+      "lat": 42.3542,
+      "lng": -71.0559,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 High Street, Boston, MA 02110 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 259,
+      "name": "Prudential Center",
+      "lat": 42.3474,
+      "lng": -71.0817,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "800 Boylston Street, Boston, MA 02199 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 260,
+      "name": "City Toilet",
+      "lat": 42.3597,
+      "lng": -71.0571,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 City Hall Plaza · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 261,
+      "name": "City Toilet",
+      "lat": 42.3448,
+      "lng": -71.0342,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "12 Drydock Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 262,
+      "name": "City Toilet",
+      "lat": 42.329,
+      "lng": -71.0849,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "140 Dudley St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 263,
+      "name": "City Toilet",
+      "lat": 42.371,
+      "lng": -71.0577,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "197 Eighth St · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 264,
+      "name": "City Toilet",
+      "lat": 42.3602,
+      "lng": -71.05,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Long Wharf · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 265,
+      "name": "City Toilet",
+      "lat": 42.3592,
+      "lng": -71.0508,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "206 Atlantic Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 266,
+      "name": "Old North Church",
+      "lat": 42.3662,
+      "lng": -71.0546,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "193 Salem · Temporarily Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 267,
+      "name": "Paul Revere House",
+      "lat": 42.3637,
+      "lng": -71.0537,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "19N Square · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 268,
+      "name": "One Constitution Center",
+      "lat": 42.3722,
+      "lng": -71.058,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Constitution Plaza · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 269,
+      "name": "Independence Wharf",
+      "lat": 42.3542,
+      "lng": -71.0512,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "470 Atlantic Ave · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 270,
+      "name": "Fan Pier Boston",
+      "lat": 42.3532,
+      "lng": -71.0454,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "One Marina Park Drive · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 271,
+      "name": "Quincy Market",
+      "lat": 42.3602,
+      "lng": -71.0547,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 S Market St, Boston, MA 02109 · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 272,
+      "name": "Boston Common Seasonal Public Restroom",
+      "lat": 42.3554,
+      "lng": -71.0688,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Seasonal",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 273,
+      "name": "Faneuil Hall",
+      "lat": 42.3601,
+      "lng": -71.0563,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 S. Market St. · Year-round",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
     }
   ],
   "wikiTerms": {
@@ -796,6 +3580,13 @@
       "bg": "rgba(74,128,144,.15)",
       "svg": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"><path d=\"M2 7H22\" stroke=\"#4A8090\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M2 17H22\" stroke=\"#4A8090\" stroke-width=\"2.5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M4 12H20\" stroke=\"#4A8090\" stroke-width=\"1\" stroke-dasharray=\"2,2\" opacity=\".6\"/></svg>",
       "icon": "osa:water/dam"
+    },
+    "restroom": {
+      "label": "Restroom",
+      "color": "#9C5DB5",
+      "bg": "rgba(156,93,181,.15)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#9C5DB5\"/><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"14\" fill=\"#fff\" font-family=\"sans-serif\">WC</text></svg>",
+      "icon": "osa:amenity/toilets"
     }
   },
   "routes": {
@@ -830,6 +3621,10 @@
     "west": {
       "label": "Going West",
       "icon": "←"
+    },
+    "restrooms": {
+      "label": "Restrooms",
+      "icon": "🚻"
     }
   },
   "routeOrder": {
