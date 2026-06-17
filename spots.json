@@ -12022,9 +12022,9 @@
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mount_Kearsarge_from_The_Bulkhead.jpg/330px-Mount_Kearsarge_from_The_Bulkhead.jpg"
       ],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "lookout"
+        "mountain"
       ]
     },
     {
@@ -12040,9 +12040,9 @@
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Mount_Washington_Hotel%2C_Bretton_Woods%2C_NH.jpg/330px-Mount_Washington_Hotel%2C_Bretton_Woods%2C_NH.jpg"
       ],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "lookout"
+        "historic"
       ]
     },
     {
@@ -12682,9 +12682,9 @@
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg/330px-Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg"
       ],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "lookout"
+        "mountain"
       ]
     },
     {
@@ -12700,27 +12700,9 @@
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mount_Tambora_Volcano%2C_Sumbawa_Island%2C_Indonesia.jpg/330px-Mount_Tambora_Volcano%2C_Sumbawa_Island%2C_Indonesia.jpg"
       ],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "lookout"
-      ]
-    },
-    {
-      "id": 1061,
-      "name": "Mount Wachusett",
-      "lat": 42.4891,
-      "lng": -71.8866,
-      "w3w": "",
-      "routes": [
-        "west"
-      ],
-      "note": "Road",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/North_County_Massachusetts.png/330px-North_County_Massachusetts.png"
-      ],
-      "icon": "osa:special/photo_camera",
-      "cats": [
-        "lookout"
+        "mountain"
       ]
     },
     {
@@ -12855,22 +12837,6 @@
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
-      ]
-    },
-    {
-      "id": 1071,
-      "name": "Rockport Bearskin Neck",
-      "lat": 42.6611,
-      "lng": -70.614,
-      "w3w": "",
-      "routes": [
-        "east"
-      ],
-      "note": "Bearskin Nck",
-      "images": [],
-      "icon": "osa:special/photo_camera",
-      "cats": [
-        "lookout"
       ]
     },
     {
