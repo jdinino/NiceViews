@@ -57,6 +57,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 }
 .sidebar::-webkit-scrollbar{display:none}
 .sidebar .section-title,.sidebar .legend-grid,.sidebar .spot-count,.sidebar .spot-detail{display:none}
+#routeButtons{display:flex;gap:5px;flex-shrink:0}
 
 /* ROUTE BUTTONS — pills on mobile */
 .route-btn{
@@ -286,6 +287,7 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
     border-bottom:none;border-right:1px solid rgba(15,26,46,.06);
     gap:0;
   }
+  #routeButtons{display:block}
   .sidebar .section-title{display:block;font-size:.58rem;text-transform:uppercase;letter-spacing:2px;color:var(--text-light);font-weight:600;margin-bottom:8px;margin-top:14px}
   .sidebar .section-title:first-child{margin-top:0}
   .sidebar .legend-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px}
