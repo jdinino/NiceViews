@@ -406,12 +406,12 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
   };
   const themedOrder = ['all','nearby','local','ponds','boston','restrooms','roads'];
   const directionOrder = ['north','south','east','west'];
+  // Buttons starting in the 'active' state: 'All Spots' radio + 'roads' toggle.
+  const ACTIVE_AT_LOAD = new Set(['all','roads']);
   function renderGroup(arr){
     return arr.filter(k=>k==='all'||ROUTES[k]).map((k,i)=>{
       const r = k==='all' ? {label:'All Spots', icon:'◎'} : ROUTES[k];
-      // Only the first themed button starts active (All Spots). Direction
-      // buttons never start active.
-      const isActiveDefault = (arr === themedOrder && i === 0);
+      const isActiveDefault = ACTIVE_AT_LOAD.has(k);
       return `<button class="route-btn${isActiveDefault?' active':''}" data-route="${k}"><span class="route-icon">${r.icon}</span>${r.label}<span class="route-count">${countFor(k)}</span></button>`;
     }).join('');
   }
@@ -601,8 +601,10 @@ const allLayer = L.layerGroup();
 SPOTS.forEach(s => { if(!isToggleSpot(s)) allLayer.addLayer(spotMarkers[s.id]); });
 allLayer.addTo(map);
 
-// Each toggle route has its own independent layer, off by default. Map route key → cat key.
+// Each toggle route has its own independent layer. Riders' Roads is on by
+// default; Restrooms is off. Map route key → cat key.
 const TOGGLE_LAYERS = {restrooms:'restroom', roads:'road'};
+const TOGGLE_DEFAULTS_ON = new Set(['roads']);
 const toggleState = {};
 Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
   const spotsInCat = SPOTS.filter(s => s.cats.includes(cat));
@@ -619,7 +621,10 @@ Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
       });
     });
   }
-  toggleState[route] = { layer: L.layerGroup(layers), on: false };
+  const defaultOn = TOGGLE_DEFAULTS_ON.has(route);
+  const lg = L.layerGroup(layers);
+  if(defaultOn) lg.addTo(map);
+  toggleState[route] = { layer: lg, on: defaultOn };
 });
 
 function getFiltered(){
