@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>You'll Thank Me After — Nice Views</title>
+<title>Nice Views &mdash; Scenic Spots, Roads, &amp; Restrooms Across MA &amp; NH</title>
+<meta name="description" content="Interactive Leaflet map of curated scenic viewpoints, waterfalls, beaches, motorcycle routes, and public restrooms across Massachusetts and New Hampshire.">
+<meta name="theme-color" content="#0F1A2E">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -330,8 +332,8 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
 <body>
 <div class="header">
   <h1>You'll Thank Me <em>After</em></h1>
-  <div class="subtitle">Nice Views &middot; Scenic Spots Near Chelmsford, MA</div>
-  <div class="tagline">Mountains, waterfalls, beaches, and hidden gems &mdash; all within 30 miles</div>
+  <div class="subtitle">Nice Views &middot; Scenic Spots Across MA &amp; NH</div>
+  <div class="tagline">Mountains, waterfalls, beaches, motorcycle routes, and hidden gems</div>
 </div>
 
 <div class="main">
@@ -400,6 +402,19 @@ fetch('spots.json').then(r=>r.json()).then(data=>{
 
 function initApp(){
 
+// 'Within 30 mi' filter — distance from the user's GPS position if known,
+// otherwise from Chelmsford center. lastUserLatLng is updated by the GPS
+// watcher at the bottom of initApp.
+let lastUserLatLng = null;
+const NEARBY_CENTER_DEFAULT = [42.6, -71.35];
+const NEARBY_M = 30 * 1609.34;
+function nearbyDist(s){
+  const c = lastUserLatLng ? [lastUserLatLng.lat, lastUserLatLng.lng] : NEARBY_CENTER_DEFAULT;
+  const dlat = (s.lat - c[0]) * 111000;
+  const dlng = (s.lng - c[1]) * 111000 * Math.cos(c[0]*Math.PI/180);
+  return Math.sqrt(dlat*dlat + dlng*dlng);
+}
+
 const map = L.map('map',{zoomControl:true}).setView([42.48,-71.30],10);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
   attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:19,subdomains:'abcd'
@@ -411,8 +426,12 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
   // Cats whose entries render via their own toggle layer, never in the route radio.
   const TOGGLE_CATS = ['restroom','road','attraction'];
   const isToggleSpot = s => s.cats.some(c => TOGGLE_CATS.includes(c));
-  const countFor = key => key==='all' ? SPOTS.filter(s=>!isToggleSpot(s)).length : SPOTS.filter(s=>s.routes.includes(key)).length;
-  const order = ['all','local','ponds','boston','north','south','east','west','restrooms','roads','attractions'];
+  const countFor = key => {
+    if(key==='all') return SPOTS.filter(s=>!isToggleSpot(s)).length;
+    if(key==='nearby') return SPOTS.filter(s=>!isToggleSpot(s) && nearbyDist(s) <= NEARBY_M).length;
+    return SPOTS.filter(s=>s.routes.includes(key)).length;
+  };
+  const order = ['all','nearby','local','ponds','boston','north','south','east','west','restrooms','roads','attractions'];
   container.innerHTML = order.filter(k=>k==='all'||ROUTES[k]).map((k,i)=>{
     const r = k==='all' ? {label:'All Spots', icon:'◎'} : ROUTES[k];
     return `<button class="route-btn${i===0?' active':''}" data-route="${k}"><span class="route-icon">${r.icon}</span>${r.label}<span class="route-count">${countFor(k)}</span></button>`;
@@ -624,6 +643,7 @@ Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
 function getFiltered(){
   // Scenic routes only — toggle-cat spots render via their own layers, never here.
   if(activeRoute === 'all') return SPOTS.filter(s => !isToggleSpot(s));
+  if(activeRoute === 'nearby') return SPOTS.filter(s => !isToggleSpot(s) && nearbyDist(s) <= NEARBY_M);
   return SPOTS.filter(s => s.routes.includes(activeRoute) && !isToggleSpot(s));
 }
 
@@ -717,7 +737,7 @@ if(activePill)activePill.scrollIntoView({block:'nearest',inline:'start'});
 updateAll();
 
 // ===== USER GPS LOCATION =====
-let userMarker=null, userAccuracy=null, lastUserLatLng=null;
+let userMarker=null, userAccuracy=null;
 const userIcon = L.divIcon({className:'',html:'<div class="user-dot"></div>',iconSize:[18,18],iconAnchor:[9,9]});
 
 const LocateControl = L.Control.extend({
@@ -754,6 +774,7 @@ function startLocate(){
 map.on('locationfound',function(e){
   locateCtl.setActive(true);
   locateCtl.setError(false);
+  const firstFix = !lastUserLatLng;
   lastUserLatLng = e.latlng;
   if(userMarker){
     userMarker.setLatLng(e.latlng);
@@ -762,6 +783,10 @@ map.on('locationfound',function(e){
     userMarker = L.marker(e.latlng,{icon:userIcon,interactive:false,keyboard:false,zIndexOffset:1000}).addTo(map);
     userAccuracy = L.circle(e.latlng,{radius:e.accuracy,color:'#3b82f6',weight:1,fillColor:'#3b82f6',fillOpacity:.08,interactive:false}).addTo(map);
   }
+  // If 'Within 30 mi' is active, recompute the filter against the new center.
+  // Recompute on every fix only on the first one; otherwise small jitter would
+  // refit map bounds on every GPS tick.
+  if(activeRoute === 'nearby' && firstFix) updateAll();
 });
 
 map.on('locationerror',function(){
