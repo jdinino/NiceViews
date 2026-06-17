@@ -604,10 +604,21 @@ allLayer.addTo(map);
 const TOGGLE_LAYERS = {restrooms:'restroom', roads:'road', attractions:'attraction'};
 const toggleState = {};
 Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
-  toggleState[route] = {
-    layer: L.layerGroup(SPOTS.filter(s => s.cats.includes(cat)).map(s => spotMarkers[s.id])),
-    on: false
-  };
+  const spotsInCat = SPOTS.filter(s => s.cats.includes(cat));
+  const layers = spotsInCat.map(s => spotMarkers[s.id]);
+  // Roads can include OSM polyline geometry (s.way = array of way segments).
+  if(cat === 'road'){
+    const c = CATS[cat].color;
+    spotsInCat.forEach(s => {
+      if(!Array.isArray(s.way)) return;
+      s.way.forEach(seg => {
+        if(seg && seg.length >= 2){
+          layers.push(L.polyline(seg, {color:c, weight:4, opacity:.7, interactive:false}));
+        }
+      });
+    });
+  }
+  toggleState[route] = { layer: L.layerGroup(layers), on: false };
 });
 
 function getFiltered(){
