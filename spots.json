@@ -24540,7 +24540,7 @@
       "routes": [
         "roads"
       ],
-      "note": "Lancaster Twn",
+      "note": "",
       "images": [],
       "icon": "tb:motorbike",
       "cats": [
@@ -39204,7 +39204,7 @@
       "routes": [
         "roads"
       ],
-      "note": "NER NH BONE pick",
+      "note": "",
       "images": [],
       "icon": "tb:motorbike",
       "cats": [
@@ -40305,14 +40305,14 @@
     },
     {
       "id": 1112,
-      "name": "NH Bear Notch",
+      "name": "Bear Notch",
       "lat": 44.078,
       "lng": -71.2822,
       "w3w": "",
       "routes": [
         "roads"
       ],
-      "note": "Bartlett Twn",
+      "note": "",
       "images": [],
       "icon": "tb:motorbike",
       "cats": [
@@ -40321,14 +40321,14 @@
     },
     {
       "id": 1114,
-      "name": "NH Franconia",
+      "name": "Franconia",
       "lat": 44.2272,
       "lng": -71.7478,
       "w3w": "",
       "routes": [
         "roads"
       ],
-      "note": "Franconia Twn",
+      "note": "",
       "images": [],
       "icon": "tb:motorbike",
       "cats": [
@@ -40337,7 +40337,7 @@
     },
     {
       "id": 1116,
-      "name": "NH Hurricane",
+      "name": "Hurricane",
       "lat": 44.0787,
       "lng": -71.0316,
       "w3w": "",
@@ -40354,7 +40354,7 @@
     },
     {
       "id": 1118,
-      "name": "NH Mt Washington Auto Rd Bottom",
+      "name": "Mt Washington Auto Rd Bottom",
       "lat": 44.2888,
       "lng": -71.226,
       "w3w": "",
@@ -43934,7 +43934,7 @@
     },
     {
       "id": 1119,
-      "name": "NH Route 302 West",
+      "name": "Route 302 West",
       "lat": 44.2699,
       "lng": -71.5381,
       "w3w": "",
@@ -45912,7 +45912,7 @@
     },
     {
       "id": 1120,
-      "name": "North 109A/ Chickville Rd",
+      "name": "Chickville Rd",
       "lat": 43.7595,
       "lng": -71.1501,
       "w3w": "",
@@ -75214,7 +75214,7 @@
       "routes": [
         "roads"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [],
       "icon": "tb:motorbike",
       "cats": [
@@ -75223,7 +75223,7 @@
     },
     {
       "id": 1150,
-      "name": "Bash Bish NY",
+      "name": "Bash Bish Falls Rd",
       "lat": 42.1186,
       "lng": -73.5286,
       "w3w": "",
@@ -77309,7 +77309,7 @@
     },
     {
       "id": 1160,
-      "name": "Drift Road1",
+      "name": "Drift Road",
       "lat": 41.621,
       "lng": -71.0605,
       "w3w": "",
@@ -82600,7 +82600,7 @@
     },
     {
       "id": 1167,
-      "name": "Greylock  Memorial",
+      "name": "Greylock Memorial",
       "lat": 42.6373,
       "lng": -73.1669,
       "w3w": "",
@@ -96928,7 +96928,7 @@
     },
     {
       "id": 1182,
-      "name": "MA 119 West1",
+      "name": "MA 119 West",
       "lat": 42.7122,
       "lng": -71.9283,
       "w3w": "",
@@ -133966,7 +133966,7 @@
     },
     {
       "id": 1209,
-      "name": "MA Adamsville Rd",
+      "name": "Adamsville Rd",
       "lat": 42.6581,
       "lng": -72.7146,
       "w3w": "",
@@ -135188,7 +135188,7 @@
     },
     {
       "id": 1210,
-      "name": "MA Bashbish North",
+      "name": "Bashbish North",
       "lat": 42.1569,
       "lng": -73.4227,
       "w3w": "",
@@ -135204,7 +135204,7 @@
     },
     {
       "id": 1211,
-      "name": "MA Mt Greylock North Notch Rd",
+      "name": "Mt Greylock North Notch Rd",
       "lat": 42.6987,
       "lng": -73.1341,
       "w3w": "",
@@ -139256,7 +139256,7 @@
     },
     {
       "id": 1212,
-      "name": "MA Mt Greylock South Rockwell Rd",
+      "name": "Mt Greylock South Rockwell Rd",
       "lat": 42.5481,
       "lng": -73.2263,
       "w3w": "",
@@ -144180,7 +144180,7 @@
     },
     {
       "id": 1213,
-      "name": "MA Zoar Rd",
+      "name": "Zoar Rd",
       "lat": 42.6384,
       "lng": -72.9079,
       "w3w": "",
@@ -147203,7 +147203,7 @@
       "routes": [
         "roads"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [],
       "icon": "tb:motorbike",
       "cats": [
@@ -178278,7 +178278,7 @@
     },
     {
       "id": 1404,
-      "name": "NH Route 302 West (other end)",
+      "name": "Route 302 West (other end)",
       "lat": 44.2481,
       "lng": -71.4382,
       "w3w": "",
