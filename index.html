@@ -408,9 +408,11 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
 // Render route buttons from data
 (function renderRoutes(){
   const container = document.getElementById('routeButtons');
-  const isRestroom = s => s.cats.includes('restroom');
-  const countFor = key => key==='all' ? SPOTS.filter(s=>!isRestroom(s)).length : SPOTS.filter(s=>s.routes.includes(key)).length;
-  const order = ['all','local','ponds','boston','north','south','east','west','restrooms'];
+  // Cats whose entries render via their own toggle layer, never in the route radio.
+  const TOGGLE_CATS = ['restroom','road','attraction'];
+  const isToggleSpot = s => s.cats.some(c => TOGGLE_CATS.includes(c));
+  const countFor = key => key==='all' ? SPOTS.filter(s=>!isToggleSpot(s)).length : SPOTS.filter(s=>s.routes.includes(key)).length;
+  const order = ['all','local','ponds','boston','north','south','east','west','restrooms','roads','attractions'];
   container.innerHTML = order.filter(k=>k==='all'||ROUTES[k]).map((k,i)=>{
     const r = k==='all' ? {label:'All Spots', icon:'◎'} : ROUTES[k];
     return `<button class="route-btn${i===0?' active':''}" data-route="${k}"><span class="route-icon">${r.icon}</span>${r.label}<span class="route-count">${countFor(k)}</span></button>`;
@@ -592,21 +594,26 @@ SPOTS.forEach(s => {
 });
 
 let activeRoute = 'all';
+const TOGGLE_CATS = ['restroom','road','attraction'];
+const isToggleSpot = s => s.cats.some(c => TOGGLE_CATS.includes(c));
 const allLayer = L.layerGroup();
-SPOTS.forEach(s => { if(!s.cats.includes('restroom')) allLayer.addLayer(spotMarkers[s.id]); });
+SPOTS.forEach(s => { if(!isToggleSpot(s)) allLayer.addLayer(spotMarkers[s.id]); });
 allLayer.addTo(map);
 
-// Restrooms live on their own independent layer — toggled on/off by the
-// Restrooms button without affecting activeRoute or the map view.
-const restroomLayer = L.layerGroup(
-  SPOTS.filter(s => s.cats.includes('restroom')).map(s => spotMarkers[s.id])
-);
-let restroomsOn = false;
+// Each toggle route has its own independent layer, off by default. Map route key → cat key.
+const TOGGLE_LAYERS = {restrooms:'restroom', roads:'road', attractions:'attraction'};
+const toggleState = {};
+Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
+  toggleState[route] = {
+    layer: L.layerGroup(SPOTS.filter(s => s.cats.includes(cat)).map(s => spotMarkers[s.id])),
+    on: false
+  };
+});
 
 function getFiltered(){
-  // Scenic routes only — restrooms render via restroomLayer, never here.
-  if(activeRoute === 'all') return SPOTS.filter(s => !s.cats.includes('restroom'));
-  return SPOTS.filter(s => s.routes.includes(activeRoute) && !s.cats.includes('restroom'));
+  // Scenic routes only — toggle-cat spots render via their own layers, never here.
+  if(activeRoute === 'all') return SPOTS.filter(s => !isToggleSpot(s));
+  return SPOTS.filter(s => s.routes.includes(activeRoute) && !isToggleSpot(s));
 }
 
 function updateAll(){
@@ -630,15 +637,19 @@ function updateAll(){
 
 document.querySelectorAll('.route-btn').forEach(btn=>{
   btn.addEventListener('click',()=>{
-    if(btn.dataset.route === 'restrooms'){
-      restroomsOn = !restroomsOn;
-      btn.classList.toggle('active', restroomsOn);
+    const route = btn.dataset.route;
+    if(toggleState[route]){
+      const t = toggleState[route];
+      t.on = !t.on;
+      btn.classList.toggle('active', t.on);
       btn.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
-      if(restroomsOn) restroomLayer.addTo(map);
-      else map.removeLayer(restroomLayer);
+      if(t.on) t.layer.addTo(map);
+      else map.removeLayer(t.layer);
       return;
     }
-    document.querySelectorAll('.route-btn:not([data-route="restrooms"])').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.route-btn').forEach(b => {
+      if(!toggleState[b.dataset.route]) b.classList.remove('active');
+    });
     btn.classList.add('active');
     btn.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
     closeSheet();

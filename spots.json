@@ -11844,6 +11844,4214 @@
       "cats": [
         "restroom"
       ]
+    },
+    {
+      "id": 1000,
+      "name": "Armont View",
+      "lat": 43.8533,
+      "lng": -71.6922,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1001,
+      "name": "Balsams Hotel View",
+      "lat": 44.8666,
+      "lng": -71.3031,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Hwy 26",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1002,
+      "name": "Bear Notch Overlook 1",
+      "lat": 44.0379,
+      "lng": -71.3232,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Bear Notch Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1003,
+      "name": "Bear Notch Overlook 2",
+      "lat": 44.0453,
+      "lng": -71.3061,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Bear Notch",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1004,
+      "name": "Bear Notch Overlook 3",
+      "lat": 44.0465,
+      "lng": -71.2931,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Bartlett Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1005,
+      "name": "Beaver Brook Falls NH View",
+      "lat": 44.9201,
+      "lng": -71.4648,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "N44.92006° W71.46467°",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1006,
+      "name": "Beaver Pond NH View",
+      "lat": 44.0444,
+      "lng": -71.7927,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1007,
+      "name": "Cathedral Ledge",
+      "lat": 44.0632,
+      "lng": -71.1672,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Echo Lake-Cathedral Ledge St Park",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1008,
+      "name": "Crawford Notch View",
+      "lat": 44.1826,
+      "lng": -71.3992,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Crawford Notch State Park",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1009,
+      "name": "Crawford Notch View 2",
+      "lat": 44.1468,
+      "lng": -71.3658,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "1352 Crawford Notch Rd / Bartlett, NH, 03812, USA",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1010,
+      "name": "Dixville Notch",
+      "lat": 44.864,
+      "lng": -71.2943,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "N44.86391° W71.29429°",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1011,
+      "name": "Echo Lake Beach",
+      "lat": 44.1786,
+      "lng": -71.6962,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Franconia Notch State Park",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1012,
+      "name": "Franconia Notch View",
+      "lat": 44.17,
+      "lng": -71.6861,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1013,
+      "name": "Gilmanton NH 107 View",
+      "lat": 43.3918,
+      "lng": -71.363,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "1284 Province Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1014,
+      "name": "Hancock Scenic Overlook (Kanc)",
+      "lat": 44.0349,
+      "lng": -71.5163,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Hancock",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1015,
+      "name": "High Point",
+      "lat": 42.7689,
+      "lng": -71.7761,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "665 Greenville Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1016,
+      "name": "Intervale NH 16 Vista",
+      "lat": 44.0752,
+      "lng": -71.1397,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Intervale",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1017,
+      "name": "Jefferson NH 115",
+      "lat": 44.3478,
+      "lng": -71.5189,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "1801 Hwy 115",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1018,
+      "name": "Kinsman Notch View",
+      "lat": 44.04,
+      "lng": -71.7918,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "N44.03996° W71.79196°",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1019,
+      "name": "Libby Museum View",
+      "lat": 43.6141,
+      "lng": -71.2587,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1020,
+      "name": "Little Squam Lake",
+      "lat": 43.7241,
+      "lng": -71.6101,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Little Squam",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1021,
+      "name": "Mount Kearsarge",
+      "lat": 43.3801,
+      "lng": -71.8582,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Kearsarge Mountain Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1022,
+      "name": "Mount Washington Hotel",
+      "lat": 44.2542,
+      "lng": -71.4498,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "308 Mt Washington Hotel Rd / Bretton Woods, NH, 03575, USA",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1023,
+      "name": "Mt Washington Summit",
+      "lat": 44.2697,
+      "lng": -71.3025,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Mt Washington Auto Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1024,
+      "name": "NH 11 Alton Bay",
+      "lat": 43.5152,
+      "lng": -71.2669,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Alton Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1025,
+      "name": "NH 118 in Warren",
+      "lat": 43.9769,
+      "lng": -71.7847,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Route 118",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1026,
+      "name": "NH 171 Vista",
+      "lat": 43.7179,
+      "lng": -71.3135,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Moultonborough Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1027,
+      "name": "Pemi Scenic Overlook (Kanc)",
+      "lat": 44.0263,
+      "lng": -71.495,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Pemi",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1028,
+      "name": "Pinkham Notch View",
+      "lat": 44.2407,
+      "lng": -71.2541,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Pinkham",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1029,
+      "name": "Polly's Pancake Parlor View",
+      "lat": 44.2214,
+      "lng": -71.773,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "672 Sugar Hill Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1030,
+      "name": "Portsmouth Lighthouse View",
+      "lat": 43.0695,
+      "lng": -70.7129,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "N43.06947° W70.71288°",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1031,
+      "name": "Reflection Pond NH",
+      "lat": 44.3959,
+      "lng": -71.1205,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1032,
+      "name": "Saco Lake",
+      "lat": 44.2189,
+      "lng": -71.4105,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1033,
+      "name": "Silver Cascade",
+      "lat": 44.2067,
+      "lng": -71.4032,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1034,
+      "name": "Springfield Rest Area",
+      "lat": 43.4675,
+      "lng": -72.1026,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "I-89 Rest Stop",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1035,
+      "name": "Sugar Hill Scenic Overlook (Kanc)",
+      "lat": 44.0096,
+      "lng": -71.4278,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "N44.00966° W71.42766°",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1036,
+      "name": "Sunapee Boat Launch",
+      "lat": 43.3855,
+      "lng": -72.0803,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "N43° 23.132' W72° 04.820'",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1037,
+      "name": "Sunapee Lake",
+      "lat": 43.4301,
+      "lng": -72.0668,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "N43° 25.803' W72° 04.005'",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1038,
+      "name": "Sunset Hill",
+      "lat": 44.2115,
+      "lng": -71.7873,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "181 Sunset Hill Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1039,
+      "name": "Wangan Scenic Overlook (Kanc)",
+      "lat": 44.0241,
+      "lng": -71.4928,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "Livermore Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1040,
+      "name": "Weir's Beach",
+      "lat": 43.6042,
+      "lng": -71.4569,
+      "w3w": "",
+      "routes": [
+        "north"
+      ],
+      "note": "71 Lakeside Ave",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1041,
+      "name": "Aquinnah Cliffs",
+      "lat": 41.3471,
+      "lng": -70.8362,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "43 Aquinnah Cir",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1042,
+      "name": "Atlantic Rd Gloucester",
+      "lat": 42.6052,
+      "lng": -70.6335,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "129 Atlantic Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1043,
+      "name": "Bourne Railroad Bridge",
+      "lat": 41.7402,
+      "lng": -70.6152,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1044,
+      "name": "Cape Cod Canal at Sandwich",
+      "lat": 41.7738,
+      "lng": -70.499,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Canal Service Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1045,
+      "name": "Chatham Fish Pier",
+      "lat": 41.6889,
+      "lng": -69.9513,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Chatham Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1046,
+      "name": "Chatham Light",
+      "lat": 41.6709,
+      "lng": -69.9496,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Chatham Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1047,
+      "name": "Chickatawbut Overlook",
+      "lat": 42.2263,
+      "lng": -71.0609,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1048,
+      "name": "Edgartown Harbor Light",
+      "lat": 41.3926,
+      "lng": -70.5062,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "171 N Water St",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1049,
+      "name": "Enfield Lookout",
+      "lat": 42.3089,
+      "lng": -72.3356,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Ware Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1050,
+      "name": "Fort Revere Park",
+      "lat": 42.3044,
+      "lng": -70.9037,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "N42.30435° W70.90369°",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1051,
+      "name": "French King Bridge",
+      "lat": 42.5989,
+      "lng": -72.4988,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Gill Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1052,
+      "name": "Glacial Potholes/ Falls",
+      "lat": 42.6028,
+      "lng": -72.7393,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Shelburne Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1053,
+      "name": "Hammond Castle Museum1",
+      "lat": 42.5853,
+      "lng": -70.6936,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Hammond Castle Museum",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1054,
+      "name": "MA 47 CT River View",
+      "lat": 42.4839,
+      "lng": -72.5672,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1055,
+      "name": "Marblehead - Front St/Ft Sewall",
+      "lat": 42.5078,
+      "lng": -70.8437,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "N42.50785° W70.84367°",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1056,
+      "name": "Marblehead Light",
+      "lat": 42.5049,
+      "lng": -70.8328,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "N42.50492° W70.83285°",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1057,
+      "name": "Menemsha",
+      "lat": 41.3547,
+      "lng": -70.7666,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "Menemsha",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1058,
+      "name": "Mohawk Trail View",
+      "lat": 42.6973,
+      "lng": -73.0659,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Florida Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1059,
+      "name": "Mount Holyoke",
+      "lat": 42.3,
+      "lng": -72.5871,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Skinner Park Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1060,
+      "name": "Mount Tom Lookout",
+      "lat": 42.2665,
+      "lng": -72.6391,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Christopher Clark Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1061,
+      "name": "Mount Wachusett",
+      "lat": 42.4891,
+      "lng": -71.8866,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Road",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1062,
+      "name": "Mt Greylock View",
+      "lat": 42.6348,
+      "lng": -73.165,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Mt Greylock State Reservation",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1063,
+      "name": "Old Silver Beach",
+      "lat": 41.6234,
+      "lng": -70.6395,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "Falmouth Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1064,
+      "name": "Old Stone Church",
+      "lat": 42.3758,
+      "lng": -71.7797,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "West Boylston Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1065,
+      "name": "Pilgrim Monument1",
+      "lat": 42.0528,
+      "lng": -70.1893,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Provincetown Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1066,
+      "name": "Plymouth Harbor",
+      "lat": 41.9597,
+      "lng": -70.6645,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Plymouth Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1067,
+      "name": "Powder Point Bridge",
+      "lat": 42.0485,
+      "lng": -70.6474,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Powder Point Brg",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1068,
+      "name": "Prospect Hill",
+      "lat": 42.5073,
+      "lng": -71.6076,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Fruitlands Museums",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1069,
+      "name": "Ptown Rotary",
+      "lat": 42.037,
+      "lng": -70.1968,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1070,
+      "name": "Quabbin Tower",
+      "lat": 42.2989,
+      "lng": -72.3327,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Ware Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1071,
+      "name": "Rockport Bearskin Neck",
+      "lat": 42.6611,
+      "lng": -70.614,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Bearskin Nck",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1072,
+      "name": "Rockport Wharf",
+      "lat": 42.6587,
+      "lng": -70.6147,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "99 T Whrf / Rockport Twn, MA, 01966, USA",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1073,
+      "name": "Route 202 Lookout",
+      "lat": 42.5101,
+      "lng": -72.3284,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1074,
+      "name": "Route 91 Scenic View",
+      "lat": 42.2527,
+      "lng": -72.6213,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Road",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1075,
+      "name": "Rte 2 Hairpin",
+      "lat": 42.7093,
+      "lng": -73.063,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Clarksburg Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1076,
+      "name": "Sagamore Bridge View",
+      "lat": 41.7775,
+      "lng": -70.5417,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "36 Canal St",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1077,
+      "name": "Scargo Hill Observation Tower",
+      "lat": 41.7395,
+      "lng": -70.18,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "Dennis Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1078,
+      "name": "Scituate Light",
+      "lat": 42.2049,
+      "lng": -70.7163,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "90 Lighthouse Rd",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1079,
+      "name": "Sugarloaf Mountain",
+      "lat": 42.4699,
+      "lng": -72.5921,
+      "w3w": "",
+      "routes": [
+        "west"
+      ],
+      "note": "Deerfield Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1080,
+      "name": "Surf Drive Falmouth1",
+      "lat": 41.5401,
+      "lng": -70.6304,
+      "w3w": "",
+      "routes": [
+        "south"
+      ],
+      "note": "Falmouth Twn",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1081,
+      "name": "Wellfleet View",
+      "lat": 41.9342,
+      "lng": -69.9799,
+      "w3w": "",
+      "routes": [
+        "east"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "osa:special/photo_camera",
+      "cats": [
+        "lookout"
+      ]
+    },
+    {
+      "id": 1082,
+      "name": "107 North",
+      "lat": 43.6071,
+      "lng": -71.4589,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Mount Washington Cruises",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1083,
+      "name": "107 South",
+      "lat": 43.0331,
+      "lng": -71.1642,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "27 Freetown Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1084,
+      "name": "Bay Rd N",
+      "lat": 43.1269,
+      "lng": -70.9176,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Hanover Hill Group",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1085,
+      "name": "Bay Rd S",
+      "lat": 43.0826,
+      "lng": -70.9345,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Bay Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1086,
+      "name": "Gorham Pond Rd",
+      "lat": 43.0821,
+      "lng": -71.6176,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1001 Gorham Pond Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1087,
+      "name": "Halls Brook Rd",
+      "lat": 43.795,
+      "lng": -71.8402,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Halls Brook Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1088,
+      "name": "NH 10 North",
+      "lat": 44.3083,
+      "lng": -71.7811,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "397 Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1089,
+      "name": "NH 10 South",
+      "lat": 43.7039,
+      "lng": -72.3007,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Hwy 10 and E Wheelock St and S Park St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1090,
+      "name": "NH 112 East",
+      "lat": 43.9783,
+      "lng": -71.1335,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "White Mountain Hwy and Kancamagus Hwy",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1091,
+      "name": "NH 112 West",
+      "lat": 44.1527,
+      "lng": -71.9759,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Dartmouth College Hwy and Lisbon Rd and Wild Ammonoosuc Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1092,
+      "name": "NH 116 East",
+      "lat": 44.0876,
+      "lng": -72.0242,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Dartmouth College Rd and Benton Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1093,
+      "name": "NH 117 East",
+      "lat": 44.2311,
+      "lng": -71.7554,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Main St and Sugar Hill Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1094,
+      "name": "NH 117 West",
+      "lat": 44.2368,
+      "lng": -71.8823,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "N Main St and Hwy 117",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1095,
+      "name": "NH 118 North",
+      "lat": 44.0205,
+      "lng": -71.7333,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Sawyer Hwy and Lost River Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1096,
+      "name": "NH 118 South",
+      "lat": 43.6505,
+      "lng": -72.0143,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Canaan",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1097,
+      "name": "NH 135 North",
+      "lat": 44.4872,
+      "lng": -71.5689,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Lancaster Twn",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1098,
+      "name": "NH 135 South",
+      "lat": 44.1307,
+      "lng": -72.0306,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "S Court St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1099,
+      "name": "NH 142 North",
+      "lat": 44.4267,
+      "lng": -71.6728,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Wing Rd and Pond View Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1100,
+      "name": "NH 142 South",
+      "lat": 44.2215,
+      "lng": -71.7351,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Forest Hill Rd and Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1101,
+      "name": "NH 145 South",
+      "lat": 44.8956,
+      "lng": -71.4958,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "US 3 and Main St and Hwy 145",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1102,
+      "name": "NH 16 North",
+      "lat": 44.8615,
+      "lng": -71.0466,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "St./Prv. Border",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1103,
+      "name": "NH 16 South",
+      "lat": 44.111,
+      "lng": -71.1758,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "White Mountain Hwy",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1104,
+      "name": "NH 175 North",
+      "lat": 44.022,
+      "lng": -71.6829,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Daniel Webster Hwy and Eastside Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1105,
+      "name": "NH 175 South",
+      "lat": 43.7254,
+      "lng": -71.6077,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Holderness Rd and Scenic View Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1106,
+      "name": "NH 26 East",
+      "lat": 44.6985,
+      "lng": -71.0337,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "St./Prv. Border",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1107,
+      "name": "NH 26 West",
+      "lat": 44.8931,
+      "lng": -71.4972,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Hwy 26 and US 3 and S Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1108,
+      "name": "NH 3 Canada Border",
+      "lat": 45.2529,
+      "lng": -71.2053,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "US 3",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1109,
+      "name": "NH 302 East",
+      "lat": 44.0618,
+      "lng": -71.1668,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Road",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1110,
+      "name": "NH 49 North",
+      "lat": 43.9431,
+      "lng": -71.5075,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1111,
+      "name": "NH 49 South",
+      "lat": 43.8621,
+      "lng": -71.6327,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "429 Waterville Rd / Campton Twn, NH, 03223, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1112,
+      "name": "NH Bear Notch North",
+      "lat": 44.078,
+      "lng": -71.2822,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Bartlett Twn",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1113,
+      "name": "NH Bear Notch South",
+      "lat": 43.9935,
+      "lng": -71.3298,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Kancamagus Hwy and Bear Notch Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1114,
+      "name": "NH Franconia North",
+      "lat": 44.2272,
+      "lng": -71.7478,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Franconia Twn",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1115,
+      "name": "NH Franconia South",
+      "lat": 44.0301,
+      "lng": -71.688,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "North Woodstock",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1116,
+      "name": "NH Hurricane East",
+      "lat": 44.0787,
+      "lng": -71.0316,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "S Main St and Chathams Rd and Hurricane Mountain Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1117,
+      "name": "NH Hurricane West",
+      "lat": 44.0768,
+      "lng": -71.1387,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "White Mountain Hwy and Hurricane Mountain Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1118,
+      "name": "NH Mt Washington Auto Rd Bottom",
+      "lat": 44.2888,
+      "lng": -71.226,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Mt Washington Auto Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1119,
+      "name": "NH Route 302 West",
+      "lat": 44.2699,
+      "lng": -71.5381,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "School St and US 302 and Daniel Webster Hwy and US 3",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1120,
+      "name": "North 109A/ Chickville Rd",
+      "lat": 43.7595,
+      "lng": -71.1501,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "97 Folsom Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1121,
+      "name": "Route 109A",
+      "lat": 43.5908,
+      "lng": -71.2052,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Elm St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1122,
+      "name": "Route 113 North",
+      "lat": 43.8775,
+      "lng": -71.2205,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "8 Deer Hill Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1123,
+      "name": "Route 119 East",
+      "lat": 42.781,
+      "lng": -72.1408,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "9 Richmond Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1124,
+      "name": "Route 119 West",
+      "lat": 42.8511,
+      "lng": -72.5567,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "19 Bridge St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1125,
+      "name": "Route 123 North",
+      "lat": 43.1222,
+      "lng": -72.4314,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "696 Whitcomb Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1126,
+      "name": "Route 123 South",
+      "lat": 42.9728,
+      "lng": -71.9846,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "50 Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1127,
+      "name": "Route 123A East",
+      "lat": 43.1703,
+      "lng": -72.2191,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Hwy 123a",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1128,
+      "name": "Route 123A West",
+      "lat": 43.152,
+      "lng": -72.35,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "5 Acworth Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1129,
+      "name": "Route 129 West",
+      "lat": 43.2904,
+      "lng": -71.5612,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "45 Tilton-Alton Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1130,
+      "name": "Route 132 North",
+      "lat": 43.6931,
+      "lng": -71.6292,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2 S Depot St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1131,
+      "name": "Route 132 South",
+      "lat": 43.4565,
+      "lng": -71.5653,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Sanborn Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1132,
+      "name": "Route 136 West",
+      "lat": 42.8991,
+      "lng": -71.9385,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Greenfield Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1133,
+      "name": "Route 137 North",
+      "lat": 42.9868,
+      "lng": -71.9371,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Bennington Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1134,
+      "name": "Route 137 South",
+      "lat": 42.815,
+      "lng": -72.0234,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 North St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1135,
+      "name": "Route 140 East",
+      "lat": 43.4563,
+      "lng": -71.2213,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Frank C Gilman Hwy",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1136,
+      "name": "Route 149 East",
+      "lat": 43.0547,
+      "lng": -71.7142,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1 Deering Center Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1137,
+      "name": "Route 149 West",
+      "lat": 43.112,
+      "lng": -71.9191,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "299 W Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1138,
+      "name": "Route 153 North",
+      "lat": 43.9787,
+      "lng": -71.1185,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Pleasant St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1139,
+      "name": "Route 153 South",
+      "lat": 43.554,
+      "lng": -71.0263,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2104 Wakefield Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1140,
+      "name": "Route 1A South",
+      "lat": 42.9189,
+      "lng": -70.7996,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "516 Ocean Blvd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1141,
+      "name": "Route 1B North",
+      "lat": 43.0721,
+      "lng": -70.7501,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "431 Marcy St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1142,
+      "name": "Route 31 North",
+      "lat": 43.2929,
+      "lng": -72.1441,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "7 Washington Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1143,
+      "name": "Route 31 South",
+      "lat": 42.7086,
+      "lng": -71.7845,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "691 Fitchburg Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1144,
+      "name": "South Route 113/ Winona",
+      "lat": 43.6905,
+      "lng": -71.5103,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Waukewan Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1145,
+      "name": "W Shore Rd",
+      "lat": 43.6169,
+      "lng": -71.7376,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 W Shore Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1146,
+      "name": "Acapseket St",
+      "lat": 41.5786,
+      "lng": -70.5689,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "4 Shore St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1147,
+      "name": "Baptist Corner Rd S",
+      "lat": 42.5264,
+      "lng": -72.7892,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "19 Baptist Corner Rd / Ashfield Twn, MA, 01330, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1148,
+      "name": "Bardswell Ferry Rd N",
+      "lat": 42.5866,
+      "lng": -72.6892,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "274 Shelburne Center Rd / Shelburne Falls, MA, 01370, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1149,
+      "name": "Bardwells Ferry Bridge",
+      "lat": 42.5554,
+      "lng": -72.6778,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1150,
+      "name": "Bash Bish NY",
+      "lat": 42.1186,
+      "lng": -73.5286,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "195 Hwy 344",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1151,
+      "name": "Bournedale Road",
+      "lat": 41.7754,
+      "lng": -70.5618,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "4 Bournedale Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1152,
+      "name": "Browning Pond Rd",
+      "lat": 42.3063,
+      "lng": -71.9853,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2 Browning Pond Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1153,
+      "name": "Bull Hill Rd",
+      "lat": 42.4449,
+      "lng": -72.5537,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1 Bull Hill Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1154,
+      "name": "Canal",
+      "lat": 41.7775,
+      "lng": -70.5403,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "66 Canal St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1155,
+      "name": "Chester Village Mart",
+      "lat": 42.3201,
+      "lng": -72.9541,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Chester Village Mart",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1156,
+      "name": "Cumbys Williamstown",
+      "lat": 42.706,
+      "lng": -73.1902,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Cumberland Farms",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1157,
+      "name": "DD Scituate",
+      "lat": 42.1949,
+      "lng": -70.7251,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Dunkin Donuts",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1158,
+      "name": "DDStart",
+      "lat": 42.1596,
+      "lng": -70.9029,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Dunkin Donuts",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1159,
+      "name": "Dover Rd",
+      "lat": 42.2329,
+      "lng": -71.2195,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "4 Dover Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1160,
+      "name": "Drift Road1",
+      "lat": 41.621,
+      "lng": -71.0605,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1 Drift Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1161,
+      "name": "E Hawley Rd N",
+      "lat": 42.6246,
+      "lng": -72.8817,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "6 E Hawley Rd / Charlemont Twn, MA, 01339, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1162,
+      "name": "E River Rd - S",
+      "lat": 42.2753,
+      "lng": -72.9138,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "5 E River Rd / Huntington, MA, 01050, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1163,
+      "name": "Farm Rd Sherborn",
+      "lat": 42.2386,
+      "lng": -71.3691,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2 Farm Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1164,
+      "name": "Farm Road",
+      "lat": 42.3474,
+      "lng": -71.5086,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Farm Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1165,
+      "name": "Four Family's Gas",
+      "lat": 42.6281,
+      "lng": -72.8711,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Four Family's",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1166,
+      "name": "Glezen Road",
+      "lat": 42.368,
+      "lng": -71.2915,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Boston Post Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1167,
+      "name": "Greylock  Memorial",
+      "lat": 42.6373,
+      "lng": -73.1669,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Greylock War Memorial",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1168,
+      "name": "Hail to Sunrise Monument",
+      "lat": 42.6398,
+      "lng": -72.9126,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Hail to Sunrise Monument",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1169,
+      "name": "Halfway Pond Rd",
+      "lat": 41.8504,
+      "lng": -70.5897,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Halfway Pond Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1170,
+      "name": "Hawley Rd S",
+      "lat": 42.5298,
+      "lng": -72.8069,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "18 Hawley Rd / Ashfield Twn, MA, 01330, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1171,
+      "name": "Isaac's Restaurant",
+      "lat": 41.9601,
+      "lng": -70.6657,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Isaac's Restaurant",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1172,
+      "name": "Jerusalem Road",
+      "lat": 42.2597,
+      "lng": -70.8446,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "894 Jerusalem Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1173,
+      "name": "MA 105 North",
+      "lat": 41.9932,
+      "lng": -70.8726,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "696 Thompson St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1174,
+      "name": "MA 105 South",
+      "lat": 41.7259,
+      "lng": -70.7767,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "503 Front St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1175,
+      "name": "MA 112 North",
+      "lat": 42.734,
+      "lng": -72.7212,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "567 Jacksonville Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1176,
+      "name": "MA 112 South",
+      "lat": 42.2336,
+      "lng": -72.8796,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1 E Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1177,
+      "name": "MA 116 East",
+      "lat": 42.4849,
+      "lng": -72.6186,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "112 Conway Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1178,
+      "name": "MA 116 West",
+      "lat": 42.5898,
+      "lng": -73.1137,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "267 Savoy Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1179,
+      "name": "MA 117 East",
+      "lat": 42.3767,
+      "lng": -71.267,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1315 Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1180,
+      "name": "MA 117 West",
+      "lat": 42.49,
+      "lng": -71.7212,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2896 N Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1181,
+      "name": "MA 119 East",
+      "lat": 42.5513,
+      "lng": -71.4807,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Great Rd and Ramp",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1182,
+      "name": "MA 119 West1",
+      "lat": 42.7122,
+      "lng": -71.9283,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Hwy 119",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1183,
+      "name": "MA 122 East",
+      "lat": 42.3112,
+      "lng": -71.9277,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "693 Pleasant St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1184,
+      "name": "MA 122 West",
+      "lat": 42.5372,
+      "lng": -72.3044,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1 Petersham Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1185,
+      "name": "MA 127",
+      "lat": 42.5554,
+      "lng": -70.8511,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "260 Hale St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1186,
+      "name": "MA 133",
+      "lat": 42.7069,
+      "lng": -70.9583,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "996 Haverhill St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1187,
+      "name": "MA 2 East",
+      "lat": 42.5856,
+      "lng": -72.6232,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "201 Mohawk Trl",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1188,
+      "name": "MA 2 West",
+      "lat": 42.7508,
+      "lng": -73.343,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "77 Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1189,
+      "name": "MA 20 East",
+      "lat": 42.1244,
+      "lng": -72.7486,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "14 Franklin St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1190,
+      "name": "MA 20 West",
+      "lat": 42.2965,
+      "lng": -73.2368,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "4 Water St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1191,
+      "name": "MA 23 East",
+      "lat": 42.1651,
+      "lng": -72.8329,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "7 Blandford Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1192,
+      "name": "MA 23 West",
+      "lat": 42.1959,
+      "lng": -73.3612,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Main St and Pleasant St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1193,
+      "name": "MA 31 South",
+      "lat": 42.0253,
+      "lng": -71.9463,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Dresser Hill Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1194,
+      "name": "MA 32 North",
+      "lat": 42.7211,
+      "lng": -72.2624,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "498 Swanzey Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1195,
+      "name": "MA 32 South",
+      "lat": 42.0322,
+      "lng": -72.3213,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Stafford Rd and Hwy 32",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1196,
+      "name": "MA 32A",
+      "lat": 42.3492,
+      "lng": -72.1992,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Petersham Rd and Hardwick Rd and Barre Rd and Greenwich Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1197,
+      "name": "MA 40 East",
+      "lat": 42.6309,
+      "lng": -71.4079,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Groton Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1198,
+      "name": "MA 47 North",
+      "lat": 42.5182,
+      "lng": -72.5281,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Federal St and N Leverett Rd and Leverett Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1199,
+      "name": "MA 47 South",
+      "lat": 42.2593,
+      "lng": -72.5747,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1 Hadley St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1200,
+      "name": "MA 57 East",
+      "lat": 42.0549,
+      "lng": -72.7703,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "4 Granville Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1201,
+      "name": "MA 57 West",
+      "lat": 42.1829,
+      "lng": -73.2881,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Pixley Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1202,
+      "name": "MA 62 East",
+      "lat": 42.4365,
+      "lng": -71.5049,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1 Gleasondale Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1203,
+      "name": "MA 62 West",
+      "lat": 42.4229,
+      "lng": -72.1042,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "12 Mechanic St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1204,
+      "name": "MA 6A",
+      "lat": 41.777,
+      "lng": -70.0054,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "227 Cranberry Hwy",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1205,
+      "name": "MA 8 North1",
+      "lat": 42.8949,
+      "lng": -72.9766,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1497 River Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1206,
+      "name": "MA 8 South",
+      "lat": 42.0399,
+      "lng": -73.0559,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2 S Main St",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1207,
+      "name": "MA 8A N",
+      "lat": 42.7361,
+      "lng": -72.8164,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "394 Hwy8a / Heath Twn, MA, 01346, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1208,
+      "name": "MA 8A S",
+      "lat": 42.5416,
+      "lng": -72.9411,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "8 Hallockville Rd / Plainfield Twn, MA, 01070, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1209,
+      "name": "MA Adamsville Rd",
+      "lat": 42.6581,
+      "lng": -72.7146,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2 Adamsville Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1210,
+      "name": "MA Bashbish North",
+      "lat": 42.1569,
+      "lng": -73.4227,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2 Mt Washington Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1211,
+      "name": "MA Mt Greylock North Notch Rd",
+      "lat": 42.6987,
+      "lng": -73.1341,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "3 Notch Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1212,
+      "name": "MA Mt Greylock South Rockwell Rd",
+      "lat": 42.5481,
+      "lng": -73.2263,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Greylock Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1213,
+      "name": "MA Zoar Rd",
+      "lat": 42.6384,
+      "lng": -72.9079,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "6 Zoar Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1214,
+      "name": "McDonald's",
+      "lat": 42.093,
+      "lng": -70.7155,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "McDonald's",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1215,
+      "name": "Myles Standish Restrooms",
+      "lat": 41.839,
+      "lng": -70.6912,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1216,
+      "name": "N Leverett Rd - East",
+      "lat": 42.5022,
+      "lng": -72.4372,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "56 Lakeview Rd / Shutesbury Twn, MA, 01072, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1217,
+      "name": "Nobska Lighthouse",
+      "lat": 41.5155,
+      "lng": -70.6553,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "398 Nobska Rd / Falmouth Twn, MA 02543",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1218,
+      "name": "Quabbin Loop East",
+      "lat": 42.2824,
+      "lng": -72.3076,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Ware Enfield Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1219,
+      "name": "Quabbin Loop West",
+      "lat": 42.284,
+      "lng": -72.3298,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Winsor Dam Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1220,
+      "name": "Readsboro Rd N",
+      "lat": 42.7391,
+      "lng": -72.9287,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1221,
+      "name": "River Rd N",
+      "lat": 42.4229,
+      "lng": -72.9864,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "10 River Rd / Worthington Twn, MA, 01098, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1222,
+      "name": "Tucker Rd",
+      "lat": 41.6394,
+      "lng": -70.9836,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1495 Tucker Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1223,
+      "name": "Tully Rd East",
+      "lat": 42.6142,
+      "lng": -72.2268,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "597 Pinedale Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1224,
+      "name": "Warwick Rd",
+      "lat": 42.6943,
+      "lng": -72.4561,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "1 Warwick Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1225,
+      "name": "Wendell Rd North",
+      "lat": 42.5993,
+      "lng": -72.3583,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "Wendell Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1226,
+      "name": "Whiley Road",
+      "lat": 42.5795,
+      "lng": -71.5214,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "2 Whiley Rd",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1227,
+      "name": "Zoar Rd S",
+      "lat": 42.6559,
+      "lng": -72.937,
+      "w3w": "",
+      "routes": [
+        "roads"
+      ],
+      "note": "507 Zoar Rd / Charlemont Twn, MA, 01339, USA",
+      "images": [],
+      "icon": "tb:motorbike",
+      "cats": [
+        "road"
+      ]
+    },
+    {
+      "id": 1228,
+      "name": "Alpine Adventures Outdoor Recreation",
+      "lat": 44.0389,
+      "lng": -71.675,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N44.03890° W71.67498°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1229,
+      "name": "Brick Store",
+      "lat": 44.167,
+      "lng": -71.9655,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "The Brick Store",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1230,
+      "name": "Cannon Mountain Aerial Tramway",
+      "lat": 44.1703,
+      "lng": -71.6881,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Cannon Mountain Aerial Tramway",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1231,
+      "name": "Castle in the Clouds",
+      "lat": 43.7296,
+      "lng": -71.3373,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N43.72961° W71.33731°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1232,
+      "name": "Cathedral of the Pines",
+      "lat": 42.7734,
+      "lng": -71.988,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Cathedral of the Pines",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1233,
+      "name": "Conway Scenic Railroad",
+      "lat": 44.0523,
+      "lng": -71.1287,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "North Conway Scenic Railroad",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1234,
+      "name": "Flume Gorge, The",
+      "lat": 44.0969,
+      "lng": -71.6805,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Road",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1235,
+      "name": "Lower Falls - Kancamagus Hwy",
+      "lat": 44.0156,
+      "lng": -71.2458,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N44.01590° W71.24566°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1236,
+      "name": "Madison Boulder",
+      "lat": 43.9319,
+      "lng": -71.1672,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N43.93189° W71.16722°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1237,
+      "name": "Mt Washington Auto Road",
+      "lat": 44.2893,
+      "lng": -71.2274,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Mt Washington Auto Road",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1238,
+      "name": "Mt Washington Cog Railway",
+      "lat": 44.2672,
+      "lng": -71.3562,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Base Station Rd",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1239,
+      "name": "Ordination Roack",
+      "lat": 43.8544,
+      "lng": -71.28,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N43.85440° W71.28000°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1240,
+      "name": "Pemi Valley Excursions Moose Tour",
+      "lat": 44.029,
+      "lng": -71.6856,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N44.02903° W71.68556°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1241,
+      "name": "Redstone Rocket",
+      "lat": 43.9252,
+      "lng": -71.8915,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N43.92521° W71.89154°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1242,
+      "name": "Rocky Gorge Scenic Area",
+      "lat": 44.0017,
+      "lng": -71.2771,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Albany Twn",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1243,
+      "name": "Sabbaday Falls",
+      "lat": 43.9977,
+      "lng": -71.3934,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "NER NH BONE pick",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1244,
+      "name": "Squam Lakes Natural Science Center",
+      "lat": 43.7318,
+      "lng": -71.5884,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N43.73178° W71.58837°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1245,
+      "name": "Wright Museum of WWII",
+      "lat": 43.5891,
+      "lng": -71.2056,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "E Stanley Wright Museum",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1246,
+      "name": "Bash Bish Falls",
+      "lat": 42.115,
+      "lng": -73.4913,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1247,
+      "name": "Battleship Cove",
+      "lat": 41.7045,
+      "lng": -71.1621,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Battleship Cove / 5 Water St / Fall River, MA, 02721, USA / 508-678-1100",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1248,
+      "name": "Bridge of Flowers",
+      "lat": 42.6041,
+      "lng": -72.7404,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Deerfield River",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1249,
+      "name": "Bunker Hill Monument",
+      "lat": 42.376,
+      "lng": -71.061,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Bunker Hill Monument",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1250,
+      "name": "Clara Barton Homestead",
+      "lat": 42.1543,
+      "lng": -71.8948,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Clara Barton Birthplace Museum",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1251,
+      "name": "Fork in the Road",
+      "lat": 41.5474,
+      "lng": -71.1254,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "NER MA BONE pick",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1252,
+      "name": "Fort Pickering",
+      "lat": 42.5271,
+      "lng": -70.8671,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N42.52708° W70.86714°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1253,
+      "name": "Gloucester Fisherman Memorial",
+      "lat": 42.6102,
+      "lng": -70.6704,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N42.61021° W70.67035°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1254,
+      "name": "Helicopter - Freetown Service Memorial Park",
+      "lat": 41.7637,
+      "lng": -71.0134,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Freetown Twn",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1255,
+      "name": "Hoosac Tunnel East Portal",
+      "lat": 42.6748,
+      "lng": -72.9957,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N42° 40.493' W72° 59.748'",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1256,
+      "name": "Longfellow's Wayside Inn",
+      "lat": 42.3573,
+      "lng": -71.4692,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Longfellow's Wayside Inn",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1257,
+      "name": "Minute Man Visitor's Center",
+      "lat": 42.4482,
+      "lng": -71.2696,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "Battle Road Visitor Center",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1258,
+      "name": "National Monument To the Forefathers",
+      "lat": 41.9599,
+      "lng": -70.6749,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "National Monument To the Forefathers",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1259,
+      "name": "New Bedford Whaling Museum",
+      "lat": 41.6347,
+      "lng": -70.9234,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "New Bedford Whaling Museum / 18 Johnny Cake Hl / New Bedford, MA, 02740, USA / 508-997-0046",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1260,
+      "name": "Old North Bridge",
+      "lat": 42.4707,
+      "lng": -71.3535,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "North Bridge Visitor Center",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1261,
+      "name": "Snoopy Rock",
+      "lat": 42.0828,
+      "lng": -72.378,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "N42.08281° W72.37800°",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
+    },
+    {
+      "id": 1262,
+      "name": "Stone Animals",
+      "lat": 42.683,
+      "lng": -70.6239,
+      "w3w": "",
+      "routes": [
+        "attractions"
+      ],
+      "note": "37 Phillips Ave / Rockport Twn,MA 01966",
+      "images": [],
+      "icon": "osa:tourist/museum",
+      "cats": [
+        "attraction"
+      ]
     }
   ],
   "wikiTerms": {
@@ -11939,6 +16147,20 @@
       "bg": "rgba(156,93,181,.15)",
       "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#9C5DB5\"/><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"14\" fill=\"#fff\" font-family=\"sans-serif\">WC</text></svg>",
       "icon": "osa:amenity/toilets"
+    },
+    "road": {
+      "label": "Riders’ Road",
+      "color": "#3357A7",
+      "bg": "rgba(51,87,167,.15)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#3357A7\"/><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"13\" fill=\"#fff\" font-family=\"sans-serif\">✪</text></svg>",
+      "icon": "tb:motorbike"
+    },
+    "attraction": {
+      "label": "Attraction",
+      "color": "#B5723B",
+      "bg": "rgba(181,114,59,.15)",
+      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#B5723B\"/><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"13\" fill=\"#fff\" font-family=\"sans-serif\">★</text></svg>",
+      "icon": "osa:tourist/museum"
     }
   },
   "routes": {
@@ -11977,6 +16199,14 @@
     "restrooms": {
       "label": "Restrooms",
       "icon": "🚻"
+    },
+    "roads": {
+      "label": "Riders’ Roads",
+      "icon": "🏍️"
+    },
+    "attractions": {
+      "label": "Attractions",
+      "icon": "★"
     }
   },
   "routeOrder": {
