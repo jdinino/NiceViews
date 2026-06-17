@@ -37797,7 +37797,7 @@
       "id": 1109,
       "name": "NH 302",
       "lat": 44.0618,
-      "lng": -71.1668,
+      "lng": -71.1399,
       "w3w": "",
       "routes": [
         "roads"
@@ -46087,8 +46087,8 @@
     {
       "id": 1120,
       "name": "Chickville Rd",
-      "lat": 43.7595,
-      "lng": -71.1501,
+      "lat": 43.7464,
+      "lng": -71.1503,
       "w3w": "",
       "routes": [
         "roads"
@@ -143553,8 +143553,8 @@
     {
       "id": 1212,
       "name": "Mt Greylock South Rockwell Rd",
-      "lat": 42.5481,
-      "lng": -73.2263,
+      "lat": 42.5479,
+      "lng": -73.2189,
       "w3w": "",
       "routes": [
         "roads"
@@ -153573,8 +153573,8 @@
     {
       "id": 1223,
       "name": "Tully Rd East",
-      "lat": 42.6142,
-      "lng": -72.2268,
+      "lat": 42.6147,
+      "lng": -72.2385,
       "w3w": "",
       "routes": [
         "roads"
@@ -155659,8 +155659,8 @@
     {
       "id": 1225,
       "name": "Wendell Rd North",
-      "lat": 42.5993,
-      "lng": -72.3583,
+      "lat": 42.6102,
+      "lng": -72.358,
       "w3w": "",
       "routes": [
         "roads"
