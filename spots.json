@@ -3350,22 +3350,6 @@
       ]
     },
     {
-      "id": 265,
-      "name": "City Toilet",
-      "lat": 42.3592,
-      "lng": -71.0508,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "206 Atlantic Ave · Year-round",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
       "id": 266,
       "name": "Old North Church",
       "lat": 42.3662,
@@ -4038,22 +4022,6 @@
       ]
     },
     {
-      "id": 308,
-      "name": "One Constitution Center",
-      "lat": 42.3715,
-      "lng": -71.0599,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "1 Constitution Plaza, Charlestown, MA · Monday Through Friday, 7 A.M. - 7 P.M.",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
       "id": 309,
       "name": "Newton City Hall",
       "lat": 42.3374,
@@ -4470,22 +4438,6 @@
       ]
     },
     {
-      "id": 335,
-      "name": "Faneuil Hall",
-      "lat": 42.3597,
-      "lng": -71.0551,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "4 S Market St, Boston, MA · Monday through Saturday: 10AM - 9PM\r\nSunday: 11AM - 7PM",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
       "id": 336,
       "name": "Bcyf Paris Street Pool",
       "lat": 42.3724,
@@ -4543,38 +4495,6 @@
         "restrooms"
       ],
       "note": "365 S Bremen St, Boston, MA · Monday, Thursday: 12PM - 8PM\r\nTuesday, Wednesday: 10AM - 6PM\r\nFriday, Saturday: 9AM - 5PM\r\nSunday: CLOSED",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
-      "id": 340,
-      "name": "Portside At East Pier",
-      "lat": 42.3664,
-      "lng": -71.0401,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "40 E Pier Dr, East Boston, MA · 10AM - 7PM",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
-      "id": 341,
-      "name": "Independence Wharf",
-      "lat": 42.3544,
-      "lng": -71.0517,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "470 Atlantic Avenue, Boston, MA · 7AM - 6PM",
       "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
@@ -4671,22 +4591,6 @@
         "restrooms"
       ],
       "note": "87 Commercial Wharf, Boston, MA · 8AM - 6PM",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
-      "id": 348,
-      "name": "Pilot House",
-      "lat": 42.3634,
-      "lng": -71.0508,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "32 Atlantic Ave, Boston, MA · 24/7",
       "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
@@ -7142,22 +7046,6 @@
       ]
     },
     {
-      "id": 502,
-      "name": "Lynn Public Library",
-      "lat": 42.4645,
-      "lng": -70.9537,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "5 North Common St., Lynn, MA",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
       "id": 503,
       "name": "Lynnfield Public Library",
       "lat": 42.5394,
@@ -7407,22 +7295,6 @@
         "restrooms"
       ],
       "note": "94 State St., Newburyport, MA",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
-      "id": 519,
-      "name": "Newton Free Library",
-      "lat": 42.3359,
-      "lng": -71.2079,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "330 Homer Street, Newton, MA",
       "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
@@ -8111,38 +7983,6 @@
         "restrooms"
       ],
       "note": "143 School St., Walpole, MA",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
-      "id": 563,
-      "name": "Waltham Public Library",
-      "lat": 42.3767,
-      "lng": -71.2395,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "735 Main St., Waltham, MA",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
-      "id": 564,
-      "name": "Watertown Free Public Library",
-      "lat": 42.3675,
-      "lng": -71.1868,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "123 Main St., Watertown, MA",
       "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
@@ -10966,22 +10806,6 @@
       ]
     },
     {
-      "id": 741,
-      "name": "Watertown Town Hall",
-      "lat": 42.3686,
-      "lng": -71.1878,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "149 Main Street, Watertown, MA",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
       "id": 742,
       "name": "Lowell City Hall",
       "lat": 42.6463,
@@ -11366,22 +11190,6 @@
       ]
     },
     {
-      "id": 766,
-      "name": "Arlington Town Hall",
-      "lat": 42.4158,
-      "lng": -71.1564,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "730 Massachusetts Avenue, Arlington, MA",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
       "id": 767,
       "name": "Georgetown Town Hall",
       "lat": 42.7226,
@@ -11487,22 +11295,6 @@
         "restrooms"
       ],
       "note": "149 Dudley St., Roxbury, MA",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
-      "id": 774,
-      "name": "Putterham Branch Library",
-      "lat": 42.3025,
-      "lng": -71.1501,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "959 West Roxbury Parkway, Chestnut Hill, MA",
       "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
@@ -12963,22 +12755,6 @@
       "icon": "osa:tourist/beach2",
       "cats": [
         "beach"
-      ]
-    },
-    {
-      "id": 1064,
-      "name": "Old Stone Church",
-      "lat": 42.3758,
-      "lng": -71.7797,
-      "w3w": "",
-      "routes": [
-        "west"
-      ],
-      "note": "West Boylston Twn",
-      "images": [],
-      "icon": "osa:special/photo_camera",
-      "cats": [
-        "lookout"
       ]
     },
     {
@@ -137377,22 +137153,6 @@
         "restrooms"
       ],
       "note": "373 Britton Street, Chicopee, MA",
-      "images": [],
-      "icon": "osa:amenity/toilets",
-      "cats": [
-        "restroom"
-      ]
-    },
-    {
-      "id": 1377,
-      "name": "Greenfield Public Library",
-      "lat": 42.5882,
-      "lng": -72.5987,
-      "w3w": "",
-      "routes": [
-        "restrooms"
-      ],
-      "note": "412 Main St., Greenfield, MA",
       "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
