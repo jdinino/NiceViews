@@ -12637,7 +12637,8 @@
       "lng": -70.6335,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "boston"
       ],
       "note": "129 Atlantic Rd",
       "images": [],
@@ -13745,7 +13746,9 @@
       "lat": 42.6102,
       "lng": -70.6704,
       "w3w": "",
-      "routes": [],
+      "routes": [
+        "boston"
+      ],
       "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Gloucester_MA_-_Fisherman%27s_Memorial.jpg/500px-Gloucester_MA_-_Fisherman%27s_Memorial.jpg",
@@ -233787,6 +233790,154 @@
             -73.08693
           ]
         ]
+      ]
+    },
+    {
+      "id": 1427,
+      "name": "Hampton Beach",
+      "lat": 42.9074,
+      "lng": -70.8105,
+      "w3w": "",
+      "routes": [
+        "north",
+        "boston"
+      ],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Greetings_from_Hampton_Beach%2C_New_Hampshire_-_Large_Letter_Postcard_%288562359521%29.jpg/500px-Greetings_from_Hampton_Beach%2C_New_Hampshire_-_Large_Letter_Postcard_%288562359521%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Greetings_from_Hampton_Beach%2C_New_Hampshire_-_Large_Letter_Postcard_%285356965928%29.jpg/500px-Greetings_from_Hampton_Beach%2C_New_Hampshire_-_Large_Letter_Postcard_%285356965928%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/MVRTA_route_83_bus_at_Hampton_Beach%2C_July_2018.jpg/500px-MVRTA_route_83_bus_at_Hampton_Beach%2C_July_2018.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 1428,
+      "name": "Seabrook Beach",
+      "lat": 42.8843,
+      "lng": -70.8236,
+      "w3w": "",
+      "routes": [
+        "north",
+        "boston"
+      ],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Eastmans_Fishing_Fleet%2C_Seabrook_Beach_NH.jpg/330px-Eastmans_Fishing_Fleet%2C_Seabrook_Beach_NH.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Eastmans_Fishing_Fleet%2C_Seabrook_Beach_NH.jpg/500px-Eastmans_Fishing_Fleet%2C_Seabrook_Beach_NH.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 1429,
+      "name": "Plum Island Beach",
+      "lat": 42.8159,
+      "lng": -70.8138,
+      "w3w": "",
+      "routes": [
+        "east",
+        "boston"
+      ],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Surfside_apartments_and_cottages%2C_Plum_Island_Beach%2C_Massachusetts_%2883654%29.jpg/500px-Surfside_apartments_and_cottages%2C_Plum_Island_Beach%2C_Massachusetts_%2883654%29.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 1430,
+      "name": "Salisbury Beach",
+      "lat": 42.8317,
+      "lng": -70.8265,
+      "w3w": "",
+      "routes": [
+        "east",
+        "boston"
+      ],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Longest_wooden_bridge_in_world%2C_connecting_Hampton_Beach%2C_N.H._and_Salisbury_Beach%2C_Mass_%2862529%29.jpg/500px-Longest_wooden_bridge_in_world%2C_connecting_Hampton_Beach%2C_N.H._and_Salisbury_Beach%2C_Mass_%2862529%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Surf%2C_Salisbury_Beach%2C_MA.jpg/500px-The_Surf%2C_Salisbury_Beach%2C_MA.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 1431,
+      "name": "Wingaersheek Beach",
+      "lat": 42.6501,
+      "lng": -70.6842,
+      "w3w": "",
+      "routes": [
+        "east",
+        "boston"
+      ],
+      "note": "",
+      "images": [],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 1432,
+      "name": "Good Harbor Beach",
+      "lat": 42.6195,
+      "lng": -70.6314,
+      "w3w": "",
+      "routes": [
+        "east",
+        "boston"
+      ],
+      "note": "",
+      "images": [],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 1433,
+      "name": "Niles Beach",
+      "lat": 42.5959,
+      "lng": -70.6544,
+      "w3w": "",
+      "routes": [
+        "east",
+        "boston"
+      ],
+      "note": "",
+      "images": [],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
+      ]
+    },
+    {
+      "id": 1434,
+      "name": "Wallis Sands Beach",
+      "lat": 43.003,
+      "lng": -70.7322,
+      "w3w": "",
+      "routes": [
+        "north",
+        "boston"
+      ],
+      "note": "",
+      "images": [],
+      "icon": "osa:tourist/beach2",
+      "cats": [
+        "beach"
       ]
     }
   ],
