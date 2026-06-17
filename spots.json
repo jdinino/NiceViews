@@ -2191,9 +2191,7 @@
         "restrooms"
       ],
       "note": "145 Dartmouth St · Year-round",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rar-92-01_amtrak_wreck_coaches_2.png/330px-Rar-92-01_amtrak_wreck_coaches_2.png"
-      ],
+      "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -11851,9 +11849,7 @@
         "north"
       ],
       "note": "NER NH BONE pick",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/KF2.jpg/330px-KF2.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11885,9 +11881,7 @@
         "north"
       ],
       "note": "Bear Notch Rd",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bar_Nothing_%281921%29_-_1.jpg/330px-Bar_Nothing_%281921%29_-_1.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11903,9 +11897,7 @@
         "north"
       ],
       "note": "Bear Notch",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bar_Nothing_%281921%29_-_1.jpg/330px-Bar_Nothing_%281921%29_-_1.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11921,9 +11913,7 @@
         "north"
       ],
       "note": "Bartlett Twn",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bar_Nothing_%281921%29_-_1.jpg/330px-Bar_Nothing_%281921%29_-_1.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12097,9 +12087,7 @@
         "north"
       ],
       "note": "Hancock",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/HancockNH_TownHall.jpg/330px-HancockNH_TownHall.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12115,9 +12103,7 @@
         "west"
       ],
       "note": "665 Greenville Rd",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/HighPoint%2CNC.jpg/330px-HighPoint%2CNC.jpg"
-      ],
+      "images": [],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -12295,9 +12281,7 @@
         "north"
       ],
       "note": "Route 118",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Kia_UVO_Premium_1.0_Headunit_from_a_2015_K900.png/330px-Kia_UVO_Premium_1.0_Headunit_from_a_2015_K900.png"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12331,9 +12315,7 @@
         "north"
       ],
       "note": "Pemi",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peru_-_143_E.JPG/330px-Peru_-_143_E.JPG"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12417,9 +12399,7 @@
         "north"
       ],
       "note": "NER NH BONE pick",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Salt_Lake_Union_Pacific_Railroad_Station%2C_South_Temple_at_400_West%2C_Central_City_West%2C_Salt_Lake_City%2C_UT%2C_USA.jpg/330px-Salt_Lake_Union_Pacific_Railroad_Station%2C_South_Temple_at_400_West%2C_Central_City_West%2C_Salt_Lake_City%2C_UT%2C_USA.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12541,9 +12521,7 @@
         "north"
       ],
       "note": "Livermore Twn",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Beacon_St%2C_Waban_MA.jpg/330px-Beacon_St%2C_Waban_MA.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12677,9 +12655,7 @@
         "south"
       ],
       "note": "NER MA BONE pick",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Moswetuset.jpg/330px-Moswetuset.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12713,9 +12689,7 @@
         "west"
       ],
       "note": "Ware Twn",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Fountain_Island_%281%29.jpg/330px-Fountain_Island_%281%29.jpg"
-      ],
+      "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12901,9 +12875,7 @@
         "west"
       ],
       "note": "Christopher Clark Rd",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mount_Tambora_Volcano%2C_Sumbawa_Island%2C_Indonesia.jpg/330px-Mount_Tambora_Volcano%2C_Sumbawa_Island%2C_Indonesia.jpg"
-      ],
+      "images": [],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -12987,9 +12959,7 @@
         "east"
       ],
       "note": "Powder Point Brg",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Duxbury_Beach%2C_Duxbury_MA.jpg/330px-Duxbury_Beach%2C_Duxbury_MA.jpg"
-      ],
+      "images": [],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
