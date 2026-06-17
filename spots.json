@@ -13010,9 +13010,9 @@
       ],
       "note": "N44.03890° W71.67498°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:functional-icons/tree_broadleaved",
       "cats": [
-        "attraction"
+        "park"
       ]
     },
     {
@@ -13026,9 +13026,9 @@
       ],
       "note": "The Brick Store",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -13090,9 +13090,9 @@
       ],
       "note": "North Conway Scenic Railroad",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -13202,9 +13202,9 @@
       ],
       "note": "N44.02903° W71.68556°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:functional-icons/tree_broadleaved",
       "cats": [
-        "attraction"
+        "park"
       ]
     },
     {
@@ -13266,9 +13266,9 @@
       ],
       "note": "N43.73178° W71.58837°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:functional-icons/tree_broadleaved",
       "cats": [
-        "attraction"
+        "park"
       ]
     },
     {
@@ -13378,9 +13378,9 @@
       ],
       "note": "NER MA BONE pick",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -13538,9 +13538,9 @@
       ],
       "note": "N42.08281° W72.37800°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -13554,9 +13554,9 @@
       ],
       "note": "37 Phillips Ave / Rockport Twn,MA 01966",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -154694,13 +154694,6 @@
       "bg": "rgba(51,87,167,.15)",
       "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#3357A7\"/><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"13\" fill=\"#fff\" font-family=\"sans-serif\">✪</text></svg>",
       "icon": "tb:motorbike"
-    },
-    "attraction": {
-      "label": "Attraction",
-      "color": "#B5723B",
-      "bg": "rgba(181,114,59,.15)",
-      "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#B5723B\"/><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"13\" fill=\"#fff\" font-family=\"sans-serif\">★</text></svg>",
-      "icon": "osa:tourist/museum"
     }
   },
   "routes": {
@@ -154747,10 +154740,6 @@
     "roads": {
       "label": "Riders’ Roads",
       "icon": "🏍️"
-    },
-    "attractions": {
-      "label": "Attractions",
-      "icon": "★"
     }
   },
   "routeOrder": {

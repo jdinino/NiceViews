@@ -9,8 +9,8 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 | Layer | Count | Source |
 | --- | --- | --- |
 | Curated scenic spots | 35 | Hand-picked within ~30 mi of Chelmsford |
-| NER scenic views, attractions, mountains, waterfalls | ~115 | [New England Riders B-O-N-E](https://www.newenglandriders.org/b-o-n-e/) |
-| Motorcycle-friendly road segments (with OSM polylines where matched) | 109 | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
+| NER scenic views, mountains, waterfalls, historic + park sites | ~115 | [New England Riders B-O-N-E](https://www.newenglandriders.org/b-o-n-e/) |
+| Motorcycle-friendly road segments (with OSM polylines where matched) | 100 | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
 | Public restrooms | 810 | [City of Boston Public Amenities Map](https://www.google.com/maps/d/viewer?mid=1yciPnqgJqtqKFcZI4NAvRm6ey9A_wT0) + [bathroomaccess.com](https://bathroomaccess.com) |
 
 ## Filters
@@ -26,7 +26,6 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 **Toggle layers (overlay independently on top of any radio filter):**
 - 🚻 **Restrooms** — 810 public restrooms
 - 🏍️ **Riders' Roads** — motorcycle routes with road geometry highlighted
-- ★ **Attractions** — museums, monuments, and unusual stops
 
 ## Spot Details
 
@@ -38,7 +37,7 @@ Each marker opens a sheet with:
 
 ## Features
 
-- Leaflet map with category-specific icons (mountain, waterfall, beach, lookout, historic, park, canal, road, attraction, restroom)
+- Leaflet map with category-specific icons (mountain, waterfall, beach, lookout, historic, park, canal, road, restroom)
 - Live GPS location: auto-locate on load, pulsing blue dot, recenter button
 - Fullscreen map toggle (top-right) for mobile real-estate
 - Route Planner tab with ordered stop sequences by direction

@@ -424,14 +424,14 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
 (function renderRoutes(){
   const container = document.getElementById('routeButtons');
   // Cats whose entries render via their own toggle layer, never in the route radio.
-  const TOGGLE_CATS = ['restroom','road','attraction'];
+  const TOGGLE_CATS = ['restroom','road'];
   const isToggleSpot = s => s.cats.some(c => TOGGLE_CATS.includes(c));
   const countFor = key => {
     if(key==='all') return SPOTS.filter(s=>!isToggleSpot(s)).length;
     if(key==='nearby') return SPOTS.filter(s=>!isToggleSpot(s) && nearbyDist(s) <= NEARBY_M).length;
     return SPOTS.filter(s=>s.routes.includes(key)).length;
   };
-  const order = ['all','nearby','local','ponds','boston','north','south','east','west','restrooms','roads','attractions'];
+  const order = ['all','nearby','local','ponds','boston','north','south','east','west','restrooms','roads'];
   container.innerHTML = order.filter(k=>k==='all'||ROUTES[k]).map((k,i)=>{
     const r = k==='all' ? {label:'All Spots', icon:'◎'} : ROUTES[k];
     return `<button class="route-btn${i===0?' active':''}" data-route="${k}"><span class="route-icon">${r.icon}</span>${r.label}<span class="route-count">${countFor(k)}</span></button>`;
@@ -620,7 +620,7 @@ SPOTS.forEach(s => { if(!isToggleSpot(s)) allLayer.addLayer(spotMarkers[s.id]); 
 allLayer.addTo(map);
 
 // Each toggle route has its own independent layer, off by default. Map route key → cat key.
-const TOGGLE_LAYERS = {restrooms:'restroom', roads:'road', attractions:'attraction'};
+const TOGGLE_LAYERS = {restrooms:'restroom', roads:'road'};
 const toggleState = {};
 Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
   const spotsInCat = SPOTS.filter(s => s.cats.includes(cat));
