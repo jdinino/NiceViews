@@ -372,12 +372,13 @@ fetch('spots.json').then(r=>r.json()).then(data=>{
 
 function initApp(){
 
-// 'Within 30 mi' filter — distance from the user's GPS position if known,
-// otherwise from Chelmsford center. lastUserLatLng is updated by the GPS
-// watcher at the bottom of initApp.
+// Distance-based filters. 'Local Loop' = within 10 mi, 'Within 30 mi' = 30 mi.
+// Origin is the user's GPS position if known, else Chelmsford center.
+// lastUserLatLng is updated by the GPS watcher at the bottom of initApp.
 let lastUserLatLng = null;
 const NEARBY_CENTER_DEFAULT = [42.6, -71.35];
 const NEARBY_M = 30 * 1609.34;
+const LOCAL_M = 10 * 1609.34;
 function nearbyDist(s){
   const c = lastUserLatLng ? [lastUserLatLng.lat, lastUserLatLng.lng] : NEARBY_CENTER_DEFAULT;
   const dlat = (s.lat - c[0]) * 111000;
@@ -399,6 +400,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
   const countFor = key => {
     if(key==='all') return SPOTS.filter(s=>!isToggleSpot(s)).length;
     if(key==='nearby') return SPOTS.filter(s=>!isToggleSpot(s) && nearbyDist(s) <= NEARBY_M).length;
+    if(key==='local')  return SPOTS.filter(s=>!isToggleSpot(s) && nearbyDist(s) <= LOCAL_M).length;
     return SPOTS.filter(s=>s.routes.includes(key)).length;
   };
   const themedOrder = ['all','nearby','local','ponds','boston','restrooms','roads'];
@@ -623,6 +625,7 @@ function getFiltered(){
   // Scenic routes only — toggle-cat spots render via their own layers, never here.
   if(activeRoute === 'all') return SPOTS.filter(s => !isToggleSpot(s));
   if(activeRoute === 'nearby') return SPOTS.filter(s => !isToggleSpot(s) && nearbyDist(s) <= NEARBY_M);
+  if(activeRoute === 'local')  return SPOTS.filter(s => !isToggleSpot(s) && nearbyDist(s) <= LOCAL_M);
   return SPOTS.filter(s => s.routes.includes(activeRoute) && !isToggleSpot(s));
 }
 
@@ -815,7 +818,7 @@ map.on('locationfound',function(e){
   // without yanking the map view. Refresh route planner unconditionally;
   // only fitBounds the active filter if 'Within 30 mi' is selected.
   if(firstFix){
-    if(activeRoute === 'nearby') updateAll();
+    if(activeRoute === 'nearby' || activeRoute === 'local') updateAll();
     else updateRouteCards();
   }
 });
