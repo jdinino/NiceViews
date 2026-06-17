@@ -719,7 +719,9 @@
         "restrooms"
       ],
       "note": "1 City Hall Square, Boston, MA 02203 · Year-round",
-      "images": [],
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Boston_City_Hall_-_Boston%2C_MA_-_DSC04704_%28cropped%29.JPG?width=400"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -735,7 +737,9 @@
         "restrooms"
       ],
       "note": "1 Courthouse Wy, Boston, MA 02210 · Year-round",
-      "images": [],
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/MoakleyFederalCourthouseRear.JPG?width=400"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -751,7 +755,9 @@
         "restrooms"
       ],
       "note": "10 Park Plaza, Boston, MA 02116 · Year-round",
-      "images": [],
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2010_StuartSt_CharlesSt_Boston.jpg?width=400"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -767,7 +773,9 @@
         "restrooms"
       ],
       "note": "24 Beacon street · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Dome-Massachusetts-State-House-Boston.jpg/500px-Dome-Massachusetts-State-House-Boston.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -815,7 +823,9 @@
         "restrooms"
       ],
       "note": "1179 River St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/2_%22Lollypop%22_style_bike_racks_to_the_side_of_the_Hyde_Park_Municipal_Building_in_Boston.jpg/500px-2_%22Lollypop%22_style_bike_racks_to_the_side_of_the_Hyde_Park_Municipal_Building_in_Boston.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -895,7 +905,9 @@
         "restrooms"
       ],
       "note": "20 South St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Boston_Public_Library_Jamaica_Plain_Branch_west_and_south_sides.JPG/500px-Boston_Public_Library_Jamaica_Plain_Branch_west_and_south_sides.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -991,7 +1003,9 @@
         "restrooms"
       ],
       "note": "6 Cummins Highway · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/BostonMA_RoslindaleSubstation.jpg/330px-BostonMA_RoslindaleSubstation.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1007,7 +1021,9 @@
         "restrooms"
       ],
       "note": "360 Saratoga St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Boston_Fire_Department%2C_Engine_5_Firehouse_%281%29.jpg/500px-Boston_Fire_Department%2C_Engine_5_Firehouse_%281%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1023,7 +1039,9 @@
         "restrooms"
       ],
       "note": "1 Ashley St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Boston_Fire_Department%2C_Engine_56_and_Ladder_21_Firehouse.jpg/500px-Boston_Fire_Department%2C_Engine_56_and_Ladder_21_Firehouse.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1039,7 +1057,9 @@
         "restrooms"
       ],
       "note": "239 Sumner · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Boston_Fire_Department%2C_Engine_9_and_Ladder_2_Firehouse_%281%29.jpg/500px-Boston_Fire_Department%2C_Engine_9_and_Ladder_2_Firehouse_%281%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1103,7 +1123,9 @@
         "restrooms"
       ],
       "note": "60 Fairmount Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Fairmount_and_parking_lot.JPG/500px-Fairmount_and_parking_lot.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1135,7 +1157,9 @@
         "restrooms"
       ],
       "note": "34 Winthrop St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Boston_Fire_Department_-_Engine_50_%28Charlestown%29.jpg/500px-Boston_Fire_Department_-_Engine_50_%28Charlestown%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1167,7 +1191,9 @@
         "restrooms"
       ],
       "note": "941 Boylston St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tennis_and_Racquet_Club%2C_Boston_MA.jpg/330px-Tennis_and_Racquet_Club%2C_Boston_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1183,7 +1209,9 @@
         "restrooms"
       ],
       "note": "200 Columbus Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/MBTA_Pride_Bus_1833_at_Berkeley_and_Columbus_Oct_2024.jpg/500px-MBTA_Pride_Bus_1833_at_Berkeley_and_Columbus_Oct_2024.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1199,7 +1227,9 @@
         "restrooms"
       ],
       "note": "125 Purchase St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/BPD_Chief_and_Officers_Minutes_Before_Arrests_%286238188941%29.jpg/500px-BPD_Chief_and_Officers_Minutes_Before_Arrests_%286238188941%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1231,7 +1261,9 @@
         "restrooms"
       ],
       "note": "174 Dudley St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Boston_Fire_Department_District_7_Roxbury_MA.jpg/500px-Boston_Fire_Department_District_7_Roxbury_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1279,7 +1311,9 @@
         "restrooms"
       ],
       "note": "560 Huntington Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Boston_Fire_Department_station_560_Huntington_Avenue_Engine_37_Ladder_26_IMG_5046.jpg/500px-Boston_Fire_Department_station_560_Huntington_Avenue_Engine_37_Ladder_26_IMG_5046.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1295,7 +1329,9 @@
         "restrooms"
       ],
       "note": "1870 Columbus Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Boston_Fire_Department_1870_Columbus_Avenue.jpg/500px-Boston_Fire_Department_1870_Columbus_Avenue.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1407,7 +1443,9 @@
         "restrooms"
       ],
       "note": "746 Centre St, Jamaica Plain 02130 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Fuel_station_at_Boston_Fire_Department_Firehouse_in_Jamaica_Plain.JPG/500px-Fuel_station_at_Boston_Fire_Department_Firehouse_in_Jamaica_Plain.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1439,7 +1477,9 @@
         "restrooms"
       ],
       "note": "1940 Centre St West Roxbury 02132 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Boston_FIre_Department_Engine_30_and_Ladder_25_firehouse.jpg/500px-Boston_FIre_Department_Engine_30_and_Ladder_25_firehouse.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1551,7 +1591,9 @@
         "restrooms"
       ],
       "note": "300 1st Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Spaulding_Rehabilitation_Hospital_in_Charlestown.JPG/330px-Spaulding_Rehabilitation_Hospital_in_Charlestown.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1567,7 +1609,9 @@
         "restrooms"
       ],
       "note": "296 State St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2017_Boston_Marriott_Long_Wharf.jpg/330px-2017_Boston_Marriott_Long_Wharf.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1599,7 +1643,9 @@
         "restrooms"
       ],
       "note": "34-44 Charles River Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Residence_Inn_Marriott_%2811232222213%29.jpg/500px-Residence_Inn_Marriott_%2811232222213%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1631,7 +1677,9 @@
         "restrooms"
       ],
       "note": "70 Rowes Wharf · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Boston_Harbor_Hotel_%2854959755872%29.jpg/330px-Boston_Harbor_Hotel_%2854959755872%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1663,7 +1711,9 @@
         "restrooms"
       ],
       "note": "87 Commercial Wharf · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Happiness_At_The_Yacht_Haven_%28173557383%29.jpeg/500px-Happiness_At_The_Yacht_Haven_%28173557383%29.jpeg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1679,7 +1729,9 @@
         "restrooms"
       ],
       "note": "500 Atlantic Avenue, Boston, MA 02210 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/InterContinental_Boston_MA.jpg/500px-InterContinental_Boston_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1695,7 +1747,9 @@
         "restrooms"
       ],
       "note": "12 Sedgwick St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Boston_Public_Library_Jamaica_Plain_Branch%3B_west_side.JPG/500px-Boston_Public_Library_Jamaica_Plain_Branch%3B_west_side.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1727,7 +1781,9 @@
         "restrooms"
       ],
       "note": "149 Dudley Street, Roxbury MA 02119 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Boston_Public_Library_Shaw-Roxbury_Branch_interior_December_2025.jpg/500px-Boston_Public_Library_Shaw-Roxbury_Branch_interior_December_2025.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1743,7 +1799,9 @@
         "restrooms"
       ],
       "note": "1497 Tremont St, Roxbury, MA 02120 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Boston_PL_Parker_Hill_jeh.jpg/500px-Boston_PL_Parker_Hill_jeh.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1759,7 +1817,9 @@
         "restrooms"
       ],
       "note": "151 Cambridge St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Old_West_Church%2C_Boston%2C_MA_exterior.png/330px-Old_West_Church%2C_Boston%2C_MA_exterior.png"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1775,7 +1835,9 @@
         "restrooms"
       ],
       "note": "1520 Dorchester Av · Temporarily Closed",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Fields_Corner_Carhouse_and_waiting_room_-_postcard.jpg/500px-Fields_Corner_Carhouse_and_waiting_room_-_postcard.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1791,7 +1853,9 @@
         "restrooms"
       ],
       "note": "179 Main St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Five_Cents_Savings_Bank_Building_in_the_Charlestown_section_of_Boston%2C_Massachusetts_LCCN2011633550.tif/lossy-page1-330px-Five_Cents_Savings_Bank_Building_in_the_Charlestown_section_of_Boston%2C_Massachusetts_LCCN2011633550.tif.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1823,7 +1887,9 @@
         "restrooms"
       ],
       "note": "2 Boylston St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Passage_to_southbound_elevator_at_Chinatown_station%2C_July_2019.JPG/500px-Passage_to_southbound_elevator_at_Chinatown_station%2C_July_2019.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1839,7 +1905,9 @@
         "restrooms"
       ],
       "note": "2044 Columbus Av · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Boston_Public_Library_Egleston_Square.jpg/500px-Boston_Public_Library_Egleston_Square.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1855,7 +1923,9 @@
         "restrooms"
       ],
       "note": "25 Parmenter St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Painted_street_lighting_control_box_Salem_Street_North_End_Boston.jpg/500px-Painted_street_lighting_control_box_Salem_Street_North_End_Boston.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1935,7 +2005,9 @@
         "restrooms"
       ],
       "note": "40 Academy Hill Rd · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Brighton_Branch_of_the_Boston_Public_Library.jpg/500px-Brighton_Branch_of_the_Boston_Public_Library.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1951,7 +2023,9 @@
         "restrooms"
       ],
       "note": "41 Geneva Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/3_silver_staple_style_bike_racks_behind_Grove_Hall_Library.jpg/500px-3_silver_staple_style_bike_racks_behind_Grove_Hall_Library.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1983,7 +2057,9 @@
         "restrooms"
       ],
       "note": "4246 Washington St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Roslindale_Baptist_Church.JPG/330px-Roslindale_Baptist_Church.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -1999,7 +2075,9 @@
         "restrooms"
       ],
       "note": "433 Centre St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Boston_Public_Library_Connolly_Branch_in_Jamaica_Plain.JPG/500px-Boston_Public_Library_Connolly_Branch_in_Jamaica_Plain.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2095,7 +2173,9 @@
         "restrooms"
       ],
       "note": "700 Boylston St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Boston_Library_eb1.jpg/330px-Boston_Library_eb1.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2111,7 +2191,9 @@
         "restrooms"
       ],
       "note": "145 Dartmouth St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rar-92-01_amtrak_wreck_coaches_2.png/330px-Rar-92-01_amtrak_wreck_coaches_2.png"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2127,7 +2209,9 @@
         "restrooms"
       ],
       "note": "599 Old Colony Avenue · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Busway_and_footbridge_at_JFK_UMass_station%2C_April_2016.JPG/500px-Busway_and_footbridge_at_JFK_UMass_station%2C_April_2016.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2143,7 +2227,9 @@
         "restrooms"
       ],
       "note": "700 Atlantic Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/South_Station_Boston_2025.jpg/500px-South_Station_Boston_2025.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2159,7 +2245,9 @@
         "restrooms"
       ],
       "note": "Dorchester Ave &amp;, Ashmont St, Boston, MA 02124 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/MBTA_route_18_bus_at_Ashmont_station%2C_January_2016.JPG/500px-MBTA_route_18_bus_at_Ashmont_station%2C_January_2016.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2175,7 +2263,9 @@
         "restrooms"
       ],
       "note": "Transportation Way &amp; Service Road · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Logan_Airport_Shuttle_and_104_bus_at_Airport_station.jpg/500px-Logan_Airport_Shuttle_and_104_bus_at_Airport_station.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2191,7 +2281,9 @@
         "restrooms"
       ],
       "note": "186 Canal Street, Boston, MA 02114 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Orange_Line_southbound_at_North_Station%2C_February_2006.jpg/500px-Orange_Line_southbound_at_North_Station%2C_February_2006.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2207,7 +2299,9 @@
         "restrooms"
       ],
       "note": "Washington St &amp; Boylston Street · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Northbound_faregates_at_Chinatown_station%2C_July_2019.JPG/500px-Northbound_faregates_at_Chinatown_station%2C_July_2019.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2239,7 +2333,9 @@
         "restrooms"
       ],
       "note": "210 Morrissey Blvd · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/United_Airlines_-_N547UA_%287186076860%29.jpg/500px-United_Airlines_-_N547UA_%287186076860%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2287,7 +2383,9 @@
         "restrooms"
       ],
       "note": "306 Congress St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Boston_Tea_Party_Ship_%26_Museum%2C_Boston_%28493622%29_%2811062417793%29.jpg/500px-Boston_Tea_Party_Ship_%26_Museum%2C_Boston_%28493622%29_%2811062417793%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2303,7 +2401,9 @@
         "restrooms"
       ],
       "note": "308 Congress St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Boston%2C_Museum_Wharf%2C_Hood_Milk_Bottle.jpg/500px-Boston%2C_Museum_Wharf%2C_Hood_Milk_Bottle.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2367,7 +2467,9 @@
         "restrooms"
       ],
       "note": "155 Seaport Blvd · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Boston_Skyline_from_Seaport_-_panoramio.jpg/500px-Boston_Skyline_from_Seaport_-_panoramio.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2447,7 +2549,9 @@
         "restrooms"
       ],
       "note": "88 Black Falcon Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Former_Boston_bus_shelter_roofs_at_JC_Decaux_on_Black_Falcon_Ave.jpg/500px-Former_Boston_bus_shelter_roofs_at_JC_Decaux_on_Black_Falcon_Ave.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2543,7 +2647,9 @@
         "restrooms"
       ],
       "note": "100 Federal Street, Boston, MA 02110 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/101_Federal_Street%2C_Boston_MA.jpg/500px-101_Federal_Street%2C_Boston_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2559,7 +2665,9 @@
         "restrooms"
       ],
       "note": "500 Boylston Street, Boston, MA 02116 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/500_Boylston_St%2C_Boston_%28493519%29_%2811061344913%29.jpg/500px-500_Boylston_St%2C_Boston_%28493519%29_%2811061344913%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2575,7 +2683,9 @@
         "restrooms"
       ],
       "note": "139 Tremont Street · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2010_Boston_Halifax_Christmas_tree_on_Boston_Common_USA_5273771973.jpg/500px-2010_Boston_Halifax_Christmas_tree_on_Boston_Common_USA_5273771973.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2591,7 +2701,9 @@
         "restrooms"
       ],
       "note": "211-255 Marginal St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Piers_Park_%281%29.jpg/500px-Piers_Park_%281%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2607,7 +2719,9 @@
         "restrooms"
       ],
       "note": "Dartmouth Street Footbridge, Back St, Boston, MA 02116 · Seasonal",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Boston_with_Charles_River_and_Longfellow_Bridge_in_2008_%28165458337%29.jpg/500px-Boston_with_Charles_River_and_Longfellow_Bridge_in_2008_%28165458337%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2623,7 +2737,9 @@
         "restrooms"
       ],
       "note": "47 David G Mugar Way, Boston, MA 02108 · Seasonal",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hatch_Shell_exterior_panel_renovation_in_progress_in_June_2018.jpg/500px-Hatch_Shell_exterior_panel_renovation_in_progress_in_June_2018.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2639,7 +2755,9 @@
         "restrooms"
       ],
       "note": "Frog Pond · Seasonal",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/View_from_Boston_Common_Frog_Pond%2C_Massachusetts_%28493523%29_%2811061275685%29.jpg/500px-View_from_Boston_Common_Frog_Pond%2C_Massachusetts_%28493523%29_%2811061275685%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2655,7 +2773,9 @@
         "restrooms"
       ],
       "note": "City Square, Boston, MA 02129 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/City_Square_station%2C_circa_1901.jpg/500px-City_Square_station%2C_circa_1901.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2671,7 +2791,9 @@
         "restrooms"
       ],
       "note": "Zero Post Office Square · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/50_Post_Office_Square_%2854960642936%29.jpg/500px-50_Post_Office_Square_%2854960642936%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2687,7 +2809,9 @@
         "restrooms"
       ],
       "note": "1 Long Wharf · Seasonal",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/2010-09-29_Boston_Harbor_02.JPG/500px-2010-09-29_Boston_Harbor_02.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2831,7 +2955,9 @@
         "restrooms"
       ],
       "note": "Conley St · Seasonal",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Tenean_Beach_November_2025_2.jpg/500px-Tenean_Beach_November_2025_2.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2959,7 +3085,9 @@
         "restrooms"
       ],
       "note": "300 Summer St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Dwinnel_%26_Wright_Co.%2C_coffee_%26_spices%2C_311-319_Summer_St.%2C_front_1898-1907_-_DPLA_-_64218fb2eafdf1c73702ad4d42e272ae.jpg/500px-Dwinnel_%26_Wright_Co.%2C_coffee_%26_spices%2C_311-319_Summer_St.%2C_front_1898-1907_-_DPLA_-_64218fb2eafdf1c73702ad4d42e272ae.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -2975,7 +3103,9 @@
         "restrooms"
       ],
       "note": "50 Lewis St · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Conrail_caboose_in_East_Boston_Greenway%2C_May_2012.JPG/500px-Conrail_caboose_in_East_Boston_Greenway%2C_May_2012.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3023,7 +3153,9 @@
         "restrooms"
       ],
       "note": "300 Pier 4 Blvd., Boston, MA 02210 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pier_4_building_detail%2C_Seaport_District%2C_Boston%2C_Massachusetts%2C_US_%28PPL1-Corrected%29_julesvernex2.jpg/500px-Pier_4_building_detail%2C_Seaport_District%2C_Boston%2C_Massachusetts%2C_US_%28PPL1-Corrected%29_julesvernex2.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3087,7 +3219,9 @@
         "restrooms"
       ],
       "note": "250 Northern Ave · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/MBTA_route_4_bus_on_Northern_Ave_in_Seaport_May_2026.jpg/500px-MBTA_route_4_bus_on_Northern_Ave_in_Seaport_May_2026.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3135,7 +3269,9 @@
         "restrooms"
       ],
       "note": "60 Long Wharf · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Custom_House_Block_11_10_2025_02.jpg/500px-Custom_House_Block_11_10_2025_02.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3183,7 +3319,9 @@
         "restrooms"
       ],
       "note": "88 Sleeper St, Boston, MA 02210 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/The_Barking_Crab_%284739477399%29.jpg/500px-The_Barking_Crab_%284739477399%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3199,7 +3337,9 @@
         "restrooms"
       ],
       "note": "100 Hanover Street, Boston, MA 02108 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Haymarket_busway_from_Boston_Public_Market_roof%2C_October_2015.JPG/500px-Haymarket_busway_from_Boston_Public_Market_roof%2C_October_2015.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3231,7 +3371,9 @@
         "restrooms"
       ],
       "note": "100 Huntington Avenue, Boston, MA 02116 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Copley_Place%2C_Boston%2C_United_States_%28Unsplash%29.jpg/500px-Copley_Place%2C_Boston%2C_United_States_%28Unsplash%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3247,7 +3389,9 @@
         "restrooms"
       ],
       "note": "100 High Street, Boston, MA 02110 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/160_Federal_Street_entrance_%28High_Street_side%29.jpg/500px-160_Federal_Street_entrance_%28High_Street_side%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3263,7 +3407,9 @@
         "restrooms"
       ],
       "note": "800 Boylston Street, Boston, MA 02199 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Prudential_-_St._Botolph%2C_Boston%2C_MA%2C_USA_-_panoramio_%2815%29.jpg/500px-Prudential_-_St._Botolph%2C_Boston%2C_MA%2C_USA_-_panoramio_%2815%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3359,7 +3505,9 @@
         "restrooms"
       ],
       "note": "193 Salem · Temporarily Closed",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/North_End%2C_Boston%2C_MA%2C_USA_-_panoramio_%2822%29.jpg/500px-North_End%2C_Boston%2C_MA%2C_USA_-_panoramio_%2822%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3375,7 +3523,9 @@
         "restrooms"
       ],
       "note": "19N Square · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Paul_Revere_House_2021.jpg/500px-Paul_Revere_House_2021.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3391,7 +3541,9 @@
         "restrooms"
       ],
       "note": "2 Constitution Plaza · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/USS_Constitution_-_2014.JPG/500px-USS_Constitution_-_2014.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3439,7 +3591,9 @@
         "restrooms"
       ],
       "note": "2 S Market St, Boston, MA 02109 · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Quincy_Market_interior.jpg/500px-Quincy_Market_interior.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3455,7 +3609,9 @@
         "restrooms"
       ],
       "note": "Seasonal",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Boston_Common_November_2016_panorama.jpg/500px-Boston_Common_November_2016_panorama.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3471,7 +3627,9 @@
         "restrooms"
       ],
       "note": "4 S. Market St. · Year-round",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Faneuil_Hall_%282638600793%29.jpg/500px-Faneuil_Hall_%282638600793%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3631,7 +3789,9 @@
         "restrooms"
       ],
       "note": "40 College Ave, Somerville Ma, MA · Monday - Friday: 9:00 AM - 6:00 PM\r\nSaturday: 9:00 AM - 1:00 PM\r\nSunday: Closed",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Somerville_Public_Library_West_Branch%2C_Massachusetts%2C_May_2026.jpg/500px-Somerville_Public_Library_West_Branch%2C_Massachusetts%2C_May_2026.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3743,7 +3903,9 @@
         "restrooms"
       ],
       "note": "245 Concord Ave, Cambridge Ma, MA · 10 a.m. to 6 p.m. Monday, Wednesday, and Friday",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Boudreau_branch_-_Cambridge_Public_Library_MA_USA.png/500px-Boudreau_branch_-_Cambridge_Public_Library_MA_USA.png"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3775,7 +3937,9 @@
         "restrooms"
       ],
       "note": "345 Broadway, Cambridge Ma, MA · 8:30 a.m. to 8 p.m. Monday; 8:30 a.m. to 5 p.m. Tuesdays through Thursdays; 8:30 a.m. to 12 p.m. Fridays",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cambridge_City_Hall_Annex%2C_formerly_Harvard_Grammar_School.jpg/500px-Cambridge_City_Hall_Annex%2C_formerly_Harvard_Grammar_School.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3791,7 +3955,9 @@
         "restrooms"
       ],
       "note": "831 Massachusetts Ave, Cambridge Ma, MA · 8:30 a.m. to 5 p.m. weekdays and from 6 to 10 p.m. on hearing (?) nights",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cambridge%2C_Massachusetts_US_Post_Office_-_Clifton_Merriman_Building_%2823173682734%29.jpg/500px-Cambridge%2C_Massachusetts_US_Post_Office_-_Clifton_Merriman_Building_%2823173682734%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3871,7 +4037,9 @@
         "restrooms"
       ],
       "note": "394 Boston Post Rd, Weston, MA · 24/7",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gardens_and_pergola_next_to_the_Josiah_Smith_Tavern%2C_Weston_MA.jpg/500px-Gardens_and_pergola_next_to_the_Josiah_Smith_Tavern%2C_Weston_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -3919,7 +4087,9 @@
         "restrooms"
       ],
       "note": "301 Washington St, Boston, MA · 24/7",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Boston_Police_District_14_building_Dec_2024.jpg/500px-Boston_Police_District_14_building_Dec_2024.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4063,7 +4233,9 @@
         "restrooms"
       ],
       "note": "51 Geneva Avenue, Dorchester Ma, MA · Monday Through Friday: 10 A.M. - 6 P.M.\r\nSaturday And Sunday: Closed",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/3_silver_staple_style_bike_racks_behind_Grove_Hall_Library.jpg/500px-3_silver_staple_style_bike_racks_behind_Grove_Hall_Library.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4095,7 +4267,9 @@
         "restrooms"
       ],
       "note": "308 Weston Road, Wellesley, MA · Tuesday - Saturday: 10 AM - 5 PM\r\nSunday: Closed",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Wellesley_Free_Library_Fells_Branch%2C_May_2017.JPG/500px-Wellesley_Free_Library_Fells_Branch%2C_May_2017.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4191,7 +4365,9 @@
         "restrooms"
       ],
       "note": "610 Main St, Waltham, MA · Weekdays: 8:30 AM - 4:30 PM\r\nWeekends: Closed",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Waltham_%28Massachusetts%29_City_Hall.jpg/500px-Waltham_%28Massachusetts%29_City_Hall.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4207,7 +4383,9 @@
         "restrooms"
       ],
       "note": "735 Main St, Waltham, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: 1 PM - 5 PM",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Buttrick_Library_Waltham.JPG/500px-Buttrick_Library_Waltham.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4255,7 +4433,9 @@
         "restrooms"
       ],
       "note": "7 Parish Street, Dorchester Ma, MA · 24/7",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Field%2C_camp%2C_hospital_and_prison_in_the_civil_war%2C_1863-1865%3B_Charles_A._Humphreys%2C_chaplain%2C_Second_Massachusetts_cavalry_volunteers_%281918%29_%2814576015579%29.jpg/500px-Field%2C_camp%2C_hospital_and_prison_in_the_civil_war%2C_1863-1865%3B_Charles_A._Humphreys%2C_chaplain%2C_Second_Massachusetts_cavalry_volunteers_%281918%29_%2814576015579%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4527,7 +4707,9 @@
         "restrooms"
       ],
       "note": "3347 Washington St, Boston, MA · 24/7",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Boston_Police_Department_District_E-13_Station_in_Jamaica_Plain%2C_Boston%3B_east_side.JPG/500px-Boston_Police_Department_District_E-13_Station_in_Jamaica_Plain%2C_Boston%3B_east_side.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4575,7 +4757,9 @@
         "restrooms"
       ],
       "note": "50 Battery St, Boston, MA · 24/7",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Marine_1_%2849219691648%29.jpg/500px-Marine_1_%2849219691648%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4751,7 +4935,9 @@
         "restrooms"
       ],
       "note": "131 Dartmouth St, Boston, MA · 24/7",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Boston%27s_Dartmouth_St_near_Back_Bay_Station.png/500px-Boston%27s_Dartmouth_St_near_Back_Bay_Station.png"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4767,7 +4953,9 @@
         "restrooms"
       ],
       "note": "1400 Massachusetts Avenue, Cambridge, MA · 24/7",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Harvard_Northbound_MBTA_Red_Line_Platform%2C_June_2024.jpg/500px-Harvard_Northbound_MBTA_Red_Line_Platform%2C_June_2024.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4799,7 +4987,9 @@
         "restrooms"
       ],
       "note": "35 Cambridgepark Dr, Cambridge, MA · 24/7",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Alewife_MBTA_station_at_night_-_52682487684.jpg/500px-Alewife_MBTA_station_at_night_-_52682487684.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4831,7 +5021,9 @@
         "restrooms"
       ],
       "note": "355 Artisan Way, Somerville, MA · TBD",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Steel_trusses_at_Assembly_Row%2C_Somerville_MA.jpg/500px-Steel_trusses_at_Assembly_Row%2C_Somerville_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4863,7 +5055,9 @@
         "restrooms"
       ],
       "note": "75 Middlesex Turnpike, Burlington, MA · Weekdays: 10AM - 8PM\r\nSaturday: 10AM - 9PM\r\nSunday: 12PM - 6PM",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Five_Guys%2C_Burlington_MA.jpg/500px-Five_Guys%2C_Burlington_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4879,7 +5073,9 @@
         "restrooms"
       ],
       "note": "29 Center St, Burlington, MA · Monday, Tuesday, Thursday: 8:30 AM - 4:30 PM\r\nWednesday: 8:30 AM - 7:00 PM\r\nFriday: 8:30 AM - 1:00 PM",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Burlington_Town_Hall%3B_Burlington%2C_MA%3B_southwest_%28front%29_and_southeast_sides.JPG/500px-Burlington_Town_Hall%3B_Burlington%2C_MA%3B_southwest_%28front%29_and_southeast_sides.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4895,7 +5091,9 @@
         "restrooms"
       ],
       "note": "22 Sears St, Burlington, MA · Monday - Thursday: 10AM - 9PM\r\nFriday: 10AM - 6PM\r\nSaturday: 10AM - 2PM\r\nSunday: CLOSED",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Burlington_Public_Library%3B_west_%28front%29_and_south_sides.JPG/500px-Burlington_Public_Library%3B_west_%28front%29_and_south_sides.JPG"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -4975,7 +5173,9 @@
         "restrooms"
       ],
       "note": "1245 Worcester St, Natick, MA · Monday - Thursday: 11AM - 7PM\r\nFriday - Saturday: 10AM - 9PM\r\nSunday: 11AM - 6PM",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Wegmans_%28Natick_Mall%2C_Natick%2C_Massachusetts%29_%2840338832533%29.jpg/500px-Wegmans_%28Natick_Mall%2C_Natick%2C_Massachusetts%29_%2840338832533%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -5071,7 +5271,9 @@
         "restrooms"
       ],
       "note": "110 South Rd, Bedford, MA · TBD",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Bedford_Depot_Park.jpg/500px-Bedford_Depot_Park.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -5215,7 +5417,9 @@
         "restrooms"
       ],
       "note": "1471 Highland Ave, Needham, MA · Monday, Wednesday, Thursday: 8AM–5PM\r\nTuesday: 8AM–6:30PM\r\nFriday: 8AM–12PM\r\nWeekends: CLOSED",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Little_Free_Library%2C_Needham_MA.jpg/500px-Little_Free_Library%2C_Needham_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -152779,7 +152983,9 @@
         "restrooms"
       ],
       "note": "60 Center Square, East Longmeadow, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/East_Longmeadow%2C_MA_Town_Hall.jpg/500px-East_Longmeadow%2C_MA_Town_Hall.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -152907,7 +153113,9 @@
         "restrooms"
       ],
       "note": "50 Middle Street, Hadley, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Goodwin_Memorial_Library%2C_Hadley_MA.jpg/500px-Goodwin_Memorial_Library%2C_Hadley_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -152923,7 +153131,9 @@
         "restrooms"
       ],
       "note": "625 Main St., Hampden, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Hampden_Free_Library%2C_Hampden_MA.jpg/500px-Hampden_Free_Library%2C_Hampden_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -152939,7 +153149,9 @@
         "restrooms"
       ],
       "note": "39 Main St., Hatfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Dickinson_Memorial_Hall%2C_Hatfield_MA.jpg/500px-Dickinson_Memorial_Hall%2C_Hatfield_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153003,7 +153215,9 @@
         "restrooms"
       ],
       "note": "75 Montague Road, Leverett, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Leverett_Public_Library%2C_Leverett_MA.jpg/500px-Leverett_Public_Library%2C_Leverett_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153035,7 +153249,9 @@
         "restrooms"
       ],
       "note": "693 Longmeadow St., Longmeadow, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Storrs_House_Museum%2C_Longmeadow_MA.jpg/500px-Storrs_House_Museum%2C_Longmeadow_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153067,7 +153283,9 @@
         "restrooms"
       ],
       "note": "3B School St., Monroe Bridge, MA . -1",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Monroe_Town_Offices_and_Public_Library_2020.jpg/500px-Monroe_Town_Offices_and_Public_Library_2020.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153211,7 +153429,9 @@
         "restrooms"
       ],
       "note": "10 Cooleyville Road, Shutesbury, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/M.N._Spear_Memorial_Library%2C_Shutesbury_Massachusetts.jpg/500px-M.N._Spear_Memorial_Library%2C_Shutesbury_Massachusetts.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153227,7 +153447,9 @@
         "restrooms"
       ],
       "note": "2 Canal Street, South Hadley, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/South_Hadley_Public_Library%2C_South_Hadley_Falls_MA.jpg/500px-South_Hadley_Public_Library%2C_South_Hadley_Falls_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153323,7 +153545,9 @@
         "restrooms"
       ],
       "note": "6 Elm St., Westfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Westfield_Athenaeum_Children%27s_Library_Entrance.jpg/500px-Westfield_Athenaeum_Children%27s_Library_Entrance.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153339,7 +153563,9 @@
         "restrooms"
       ],
       "note": "1 North Road, Westhampton, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Westhampton_Memorial_Library%2C_Westhampton_MA.jpg/500px-Westhampton_Memorial_Library%2C_Westhampton_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153371,7 +153597,9 @@
         "restrooms"
       ],
       "note": "25 Crane Park Drive, Wilbraham, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Public_Library%2C_Wilbraham_MA.jpg/500px-Public_Library%2C_Wilbraham_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153387,7 +153615,9 @@
         "restrooms"
       ],
       "note": "2 Williams St., Williamsburg, MA . -1",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Meekins_Public_Library%2C_Williamsburg_MA.jpg/500px-Meekins_Public_Library%2C_Williamsburg_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153435,7 +153665,9 @@
         "restrooms"
       ],
       "note": "19 Meadow St., Florence, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lilly_Library%2C_Florence_MA.jpg/500px-Lilly_Library%2C_Florence_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153515,7 +153747,9 @@
         "restrooms"
       ],
       "note": "4024 Guilford Ctr Rd, Guilford, VT",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Guilford_Center_Meeting_House%2C_Guilford%2C_Vermont.jpg/500px-Guilford_Center_Meeting_House%2C_Guilford%2C_Vermont.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153611,7 +153845,9 @@
         "restrooms"
       ],
       "note": "488 Chapin Street, Ludlow, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ludlow_Town_Office_Building.jpg/500px-Ludlow_Town_Office_Building.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153627,7 +153863,9 @@
         "restrooms"
       ],
       "note": "325 Main Road, Gill, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gill_Town_Hall%2C_Gill_MA.jpg/500px-Gill_Town_Hall%2C_Gill_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153755,7 +153993,9 @@
         "restrooms"
       ],
       "note": "1 South Road, Westhampton, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Fountain%2C_Westhampton_MA.jpg/500px-Fountain%2C_Westhampton_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153787,7 +154027,9 @@
         "restrooms"
       ],
       "note": "1 Cooleyville Road, Shutesbury, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/M.N._Spear_Memorial_Library%2C_Shutesbury_Massachusetts.jpg/500px-M.N._Spear_Memorial_Library%2C_Shutesbury_Massachusetts.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153819,7 +154061,9 @@
         "restrooms"
       ],
       "note": "69 Main Street, Northfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Southern_view_in_the_central_part_of_Northfield.png/500px-Southern_view_in_the_central_part_of_Northfield.png"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153867,7 +154111,9 @@
         "restrooms"
       ],
       "note": "1 East Main Street, Heath, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Heath_Union_Church%2C_Heath%2C_Massachusetts.jpg/500px-Heath_Union_Church%2C_Heath%2C_Massachusetts.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153899,7 +154145,9 @@
         "restrooms"
       ],
       "note": "210 College Highway, Southampton, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/First_Congregational_Church_of_Southampton.jpg/500px-First_Congregational_Church_of_Southampton.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -153947,7 +154195,9 @@
         "restrooms"
       ],
       "note": "51 Bridge Street, Shelburne, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Shelburne_Falls_October_2021_003.jpg/500px-Shelburne_Falls_October_2021_003.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154027,7 +154277,9 @@
         "restrooms"
       ],
       "note": "15 Middlefield Road, Chester, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Chester_Town_Hall%2C_Massachusetts_%2830767581850%29.jpg/500px-Chester_Town_Hall%2C_Massachusetts_%2830767581850%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154091,7 +154343,9 @@
         "restrooms"
       ],
       "note": "8 Conway Street, Deerfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/South_Deerfield%2C_Massachusetts_-_5481941916.jpg/500px-South_Deerfield%2C_Massachusetts_-_5481941916.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154139,7 +154393,9 @@
         "restrooms"
       ],
       "note": "38 Church Street, Bernardston, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Bernardston%2C_Massachusetts_-_6748336199.jpg/500px-Bernardston%2C_Massachusetts_-_6748336199.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154251,7 +154507,9 @@
         "restrooms"
       ],
       "note": "2 Jabish Street, Belchertown, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Belchertown%2C_United_States_%28Unsplash%29.jpg/500px-Belchertown%2C_United_States_%28Unsplash%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154299,7 +154557,9 @@
         "restrooms"
       ],
       "note": "100 Middle Street, Hadley, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Goodwin_Memorial_Library%2C_Hadley_MA.jpg/500px-Goodwin_Memorial_Library%2C_Hadley_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154315,7 +154575,9 @@
         "restrooms"
       ],
       "note": "59 Main Street, Hatfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Hatfield_Variety%2C_Hatfield_MA.jpg/500px-Hatfield_Variety%2C_Hatfield_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154363,7 +154625,9 @@
         "restrooms"
       ],
       "note": "8 Montague Road, Amherst, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/North_Amherst_Public_Library_%2853841655476%29.jpg/500px-North_Amherst_Public_Library_%2853841655476%29.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154443,7 +154707,9 @@
         "restrooms"
       ],
       "note": "47 College Street, South Hadley, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gaylord_Memorial_Library%2C_South_Hadley_MA.jpg/500px-Gaylord_Memorial_Library%2C_South_Hadley_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154475,7 +154741,9 @@
         "restrooms"
       ],
       "note": "21 Osborne Terrace, Springfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/East_Springfield_Branch_Library%2C_Springfield_MA.jpg/500px-East_Springfield_Branch_Library%2C_Springfield_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154491,7 +154759,9 @@
         "restrooms"
       ],
       "note": "380 Belmont Avenue, Springfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Forest_Park_Branch_Library%2C_Springfield_MA.jpg/500px-Forest_Park_Branch_Library%2C_Springfield_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154523,7 +154793,9 @@
         "restrooms"
       ],
       "note": "765 State Street, Springfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mason_Square_Branch_Library%2C_Springfield_MA.jpg/500px-Mason_Square_Branch_Library%2C_Springfield_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -154555,7 +154827,9 @@
         "restrooms"
       ],
       "note": "1187 Parker Street, Springfield, MA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sixteen_Acres_Branch_Library%2C_Springfield_MA.jpg/500px-Sixteen_Acres_Branch_Library%2C_Springfield_MA.jpg"
+      ],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
