@@ -72,6 +72,17 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .route-btn .route-count{display:none}
 
 /* MAP — fills available space */
+/* STACKING ORDER (read before changing z-index or moving elements):
+   .map-wrap has z-index:0 to create a stacking context that confines
+   Leaflet's internal panes (markers 600, popups 700, controls 800),
+   keeping them from leaking on top of .bottom-panel on desktop where
+   the panel overlays the map.
+   Bottom→top, in document order:
+     1. .map-wrap (z:0, contains all Leaflet content)
+     2. .bottom-panel (auto z, painted after map-wrap by tree order)
+     3. .spot-sheet (position:fixed, z:1100 in ROOT context)
+   .spot-sheet MUST stay a child of <body> — if you move it into
+   .map-wrap its z:1100 gets trapped at level 0 and the panel covers it. */
 .map-wrap{flex:1;position:relative;min-height:200px;z-index:0}
 #map{position:absolute;top:0;left:0;right:0;bottom:0}
 
