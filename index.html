@@ -702,14 +702,52 @@ function updateRouteCards(){
   const directions = ['east','north','south','west'];
   const labels = {east:'Going East →',north:'Going North ↑',south:'Going South ↓',west:'Going West ←'};
   const colors = {east:'var(--sky)',north:'var(--pine)',south:'var(--sunset)',west:'var(--gold)'};
+  const MAX_STOPS = 15;
+
+  // Origin: user GPS if known, else Chelmsford center.
+  const origin = lastUserLatLng
+    ? [lastUserLatLng.lat, lastUserLatLng.lng]
+    : NEARBY_CENTER_DEFAULT;
+  const originLabel = lastUserLatLng ? 'from your location' : 'from Chelmsford';
+
+  const dm = (a, b) => {
+    const dlat = (a[0]-b[0])*111000;
+    const dlng = (a[1]-b[1])*111000*Math.cos(a[0]*Math.PI/180);
+    return Math.sqrt(dlat*dlat + dlng*dlng);
+  };
+
+  // Greedy nearest-neighbor from origin through up to maxN scenic spots.
+  function nearestOrder(spots, maxN){
+    const out = [];
+    let cur = origin;
+    const remaining = spots.slice();
+    while (out.length < maxN && remaining.length){
+      let bestIdx = 0, bestD = Infinity;
+      for (let i = 0; i < remaining.length; i++){
+        const d = dm(cur, [remaining[i].lat, remaining[i].lng]);
+        if (d < bestD){ bestD = d; bestIdx = i; }
+      }
+      const next = remaining.splice(bestIdx, 1)[0];
+      out.push(next);
+      cur = [next.lat, next.lng];
+    }
+    return out;
+  }
 
   document.getElementById('routeCards').innerHTML = directions.map(dir=>{
-    const order = ROUTE_ORDER[dir];
-    const stops = order.map((id,i)=>{
-      const s = SPOTS.find(x=>x.id===id);
-      return '<div class="route-stop" onclick="flyTo('+s.id+')"><span class="stop-num">'+(i+1)+'</span>'+s.name+'</div>';
-    }).join('');
-    return '<div class="route-card" style="border-color:'+colors[dir]+'"><h3>'+labels[dir]+'</h3>'+stops+'</div>';
+    const candidates = SPOTS.filter(s => s.routes.includes(dir) && !isToggleSpot(s));
+    const ordered = nearestOrder(candidates, MAX_STOPS);
+    const stops = ordered.map((s, i) =>
+      '<div class="route-stop" onclick="flyTo('+s.id+')"><span class="stop-num">'+(i+1)+'</span>'+s.name+'</div>'
+    ).join('');
+    const more = candidates.length > MAX_STOPS
+      ? '<div class="route-stop" style="opacity:.5;font-style:italic">+'+(candidates.length-MAX_STOPS)+' more</div>'
+      : '';
+    return '<div class="route-card" style="border-color:'+colors[dir]+'">'+
+      '<h3>'+labels[dir]+'</h3>'+
+      '<div style="font-size:.62rem;color:var(--text-light);margin-bottom:6px">'+candidates.length+' stops '+originLabel+'</div>'+
+      stops+more+
+    '</div>';
   }).join('');
 }
 
@@ -784,10 +822,13 @@ map.on('locationfound',function(e){
     userMarker = L.marker(e.latlng,{icon:userIcon,interactive:false,keyboard:false,zIndexOffset:1000}).addTo(map);
     userAccuracy = L.circle(e.latlng,{radius:e.accuracy,color:'#3b82f6',weight:1,fillColor:'#3b82f6',fillOpacity:.08,interactive:false}).addTo(map);
   }
-  // If 'Within 30 mi' is active, recompute the filter against the new center.
-  // Recompute on every fix only on the first one; otherwise small jitter would
-  // refit map bounds on every GPS tick.
-  if(activeRoute === 'nearby' && firstFix) updateAll();
+  // On first GPS fix, recompute things that depend on the user's origin
+  // without yanking the map view. Refresh route planner unconditionally;
+  // only fitBounds the active filter if 'Within 30 mi' is selected.
+  if(firstFix){
+    if(activeRoute === 'nearby') updateAll();
+    else updateRouteCards();
+  }
 });
 
 map.on('locationerror',function(){
