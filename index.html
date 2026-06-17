@@ -510,7 +510,8 @@ function openSheet(s){
 
   ssImg.innerHTML = '<span class="ss-loading">Loading...</span><div class="ss-cat" style="background:'+cat.color+'">'+cat.label+'</div>';
   ssName.textContent = s.name;
-  ssNote.innerHTML = '#'+s.id+' · '+s.note+'<div style="margin-top:6px;display:flex;gap:4px;flex-wrap:wrap">'+catBadges+'</div>';
+  const idPrefix = s.cats.includes('restroom') ? '' : '#'+s.id+' · ';
+  ssNote.innerHTML = idPrefix+s.note+'<div style="margin-top:6px;display:flex;gap:4px;flex-wrap:wrap">'+catBadges+'</div>';
   ssGrid.innerHTML = '<div><strong>GPS:</strong> '+s.lat.toFixed(4)+', '+s.lng.toFixed(4)+'</div>'+(s.w3w?'<div><strong>W3W:</strong> '+s.w3w+'</div>':'');
   ssLinks.innerHTML =
     '<a href="'+mapsUrl+'" target="_blank" rel="noopener" class="ss-link ss-link-maps">&#x1F5FA; Maps</a>'+
@@ -631,7 +632,8 @@ document.querySelectorAll('.route-btn').forEach(btn=>{
 function updateTable(data){
   document.getElementById('tableBody').innerHTML = data.map(s=>{
     const badges = s.cats.map(c=>{const cc=CATS[c];return '<span class="cat-badge" style="background:'+cc.color+'">'+cc.label+'</span>';}).join(' ');
-    return '<tr onclick="flyTo('+s.id+')"><td style="font-weight:700;color:var(--text-light)">#'+s.id+'</td><td><strong>'+s.name+'</strong><br><span style="font-size:.68rem;color:var(--text-light)">'+s.note+'</span></td><td><div style="display:flex;gap:3px;flex-wrap:wrap">'+badges+'</div></td><td class="col-gps" style="font-size:.68rem;font-family:monospace"><a href="https://www.google.com/maps?q='+s.lat+','+s.lng+'" target="_blank" rel="noopener" style="color:var(--sky);text-decoration:none">'+s.lat.toFixed(4)+', '+s.lng.toFixed(4)+'</a></td><td class="col-w3w" style="font-size:.68rem">'+(s.w3w?'<a href="https://what3words.com/'+s.w3w+'" target="_blank" rel="noopener" style="color:var(--sunset);text-decoration:none">///'+s.w3w+'</a>':'—')+'</td></tr>';
+    const idCell = s.cats.includes('restroom') ? '' : '#'+s.id;
+    return '<tr onclick="flyTo('+s.id+')"><td style="font-weight:700;color:var(--text-light)">'+idCell+'</td><td><strong>'+s.name+'</strong><br><span style="font-size:.68rem;color:var(--text-light)">'+s.note+'</span></td><td><div style="display:flex;gap:3px;flex-wrap:wrap">'+badges+'</div></td><td class="col-gps" style="font-size:.68rem;font-family:monospace"><a href="https://www.google.com/maps?q='+s.lat+','+s.lng+'" target="_blank" rel="noopener" style="color:var(--sky);text-decoration:none">'+s.lat.toFixed(4)+', '+s.lng.toFixed(4)+'</a></td><td class="col-w3w" style="font-size:.68rem">'+(s.w3w?'<a href="https://what3words.com/'+s.w3w+'" target="_blank" rel="noopener" style="color:var(--sunset);text-decoration:none">///'+s.w3w+'</a>':'—')+'</td></tr>';
   }).join('');
 }
 
