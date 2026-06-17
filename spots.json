@@ -11855,7 +11855,9 @@
         "north"
       ],
       "note": "NER NH BONE pick",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/KF2.jpg/330px-KF2.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11887,7 +11889,9 @@
         "north"
       ],
       "note": "Bear Notch Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bar_Nothing_%281921%29_-_1.jpg/330px-Bar_Nothing_%281921%29_-_1.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11903,7 +11907,9 @@
         "north"
       ],
       "note": "Bear Notch",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bar_Nothing_%281921%29_-_1.jpg/330px-Bar_Nothing_%281921%29_-_1.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11919,7 +11925,9 @@
         "north"
       ],
       "note": "Bartlett Twn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bar_Nothing_%281921%29_-_1.jpg/330px-Bar_Nothing_%281921%29_-_1.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11935,10 +11943,12 @@
         "north"
       ],
       "note": "N44.92006° W71.46467°",
-      "images": [],
-      "icon": "osa:special/photo_camera",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BeaverBrookFallsWaysidePark0.jpg/330px-BeaverBrookFallsWaysidePark0.jpg"
+      ],
+      "icon": "osa:water/waterfall",
       "cats": [
-        "lookout"
+        "waterfall"
       ]
     },
     {
@@ -11951,7 +11961,9 @@
         "north"
       ],
       "note": "NER NH BONE pick",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Beaver_Pond_Formation_map.svg/330px-Beaver_Pond_Formation_map.svg.png"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11967,10 +11979,12 @@
         "north"
       ],
       "note": "Echo Lake-Cathedral Ledge St Park",
-      "images": [],
-      "icon": "osa:special/photo_camera",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cathedral_Basilica_of_Our_Lady_of_Peace_-_Honolulu_03.jpg/330px-Cathedral_Basilica_of_Our_Lady_of_Peace_-_Honolulu_03.jpg"
+      ],
+      "icon": "osa:tourist/monument",
       "cats": [
-        "lookout"
+        "historic"
       ]
     },
     {
@@ -11983,7 +11997,9 @@
         "north"
       ],
       "note": "Crawford Notch State Park",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/A_View_of_the_Mountain_Pass_Called_the_Notch_of_the_White_Mountans_%28Crawford_Notch%29-1839-Thomas_Cole.jpg/330px-A_View_of_the_Mountain_Pass_Called_the_Notch_of_the_White_Mountans_%28Crawford_Notch%29-1839-Thomas_Cole.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -11999,7 +12015,9 @@
         "north"
       ],
       "note": "1352 Crawford Notch Rd / Bartlett, NH, 03812, USA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/A_View_of_the_Mountain_Pass_Called_the_Notch_of_the_White_Mountans_%28Crawford_Notch%29-1839-Thomas_Cole.jpg/330px-A_View_of_the_Mountain_Pass_Called_the_Notch_of_the_White_Mountans_%28Crawford_Notch%29-1839-Thomas_Cole.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12015,7 +12033,9 @@
         "north"
       ],
       "note": "N44.86391° W71.29429°",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Balsams_Grand_Hotel_-_Dixville_NH.JPG/330px-Balsams_Grand_Hotel_-_Dixville_NH.JPG"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12032,9 +12052,9 @@
       ],
       "note": "Franconia Notch State Park",
       "images": [],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:tourist/beach2",
       "cats": [
-        "lookout"
+        "beach"
       ]
     },
     {
@@ -12047,7 +12067,9 @@
         "north"
       ],
       "note": "NER NH BONE pick",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Franconia_Notch.jpg/330px-Franconia_Notch.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12079,7 +12101,9 @@
         "north"
       ],
       "note": "Hancock",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/HancockNH_TownHall.jpg/330px-HancockNH_TownHall.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12095,7 +12119,9 @@
         "west"
       ],
       "note": "665 Greenville Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/HighPoint%2CNC.jpg/330px-HighPoint%2CNC.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12111,7 +12137,9 @@
         "north"
       ],
       "note": "Intervale",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/IntervaleScenicVistaNH.jpg/330px-IntervaleScenicVistaNH.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12127,7 +12155,9 @@
         "north"
       ],
       "note": "1801 Hwy 115",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jefferson_NH_10-25-25.jpg/330px-Jefferson_NH_10-25-25.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12143,7 +12173,9 @@
         "north"
       ],
       "note": "N44.03996° W71.79196°",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Beaver_Pond_Kinsman_Notch_NH.jpg/330px-Beaver_Pond_Kinsman_Notch_NH.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12159,10 +12191,12 @@
         "north"
       ],
       "note": "NER NH BONE pick",
-      "images": [],
-      "icon": "osa:special/photo_camera",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Libby_Museum_2010-10-17.jpg/330px-Libby_Museum_2010-10-17.jpg"
+      ],
+      "icon": "osa:tourist/monument",
       "cats": [
-        "lookout"
+        "historic"
       ]
     },
     {
@@ -12175,7 +12209,9 @@
         "north"
       ],
       "note": "Little Squam",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Little_Squam_Lake_Ashland_NH_2018.jpg/330px-Little_Squam_Lake_Ashland_NH_2018.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12191,7 +12227,9 @@
         "north"
       ],
       "note": "Kearsarge Mountain Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mount_Kearsarge_from_The_Bulkhead.jpg/330px-Mount_Kearsarge_from_The_Bulkhead.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12207,7 +12245,9 @@
         "north"
       ],
       "note": "308 Mt Washington Hotel Rd / Bretton Woods, NH, 03575, USA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Mount_Washington_Hotel%2C_Bretton_Woods%2C_NH.jpg/330px-Mount_Washington_Hotel%2C_Bretton_Woods%2C_NH.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12223,10 +12263,12 @@
         "north"
       ],
       "note": "Mt Washington Auto Rd",
-      "images": [],
-      "icon": "osa:special/photo_camera",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/White_Mountains_12_30_09_81.jpg/330px-White_Mountains_12_30_09_81.jpg"
+      ],
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "lookout"
+        "mountain"
       ]
     },
     {
@@ -12239,7 +12281,9 @@
         "north"
       ],
       "note": "Alton Twn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ice_houses_Alton_Bay.jpg/330px-Ice_houses_Alton_Bay.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12255,7 +12299,9 @@
         "north"
       ],
       "note": "Route 118",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Kia_UVO_Premium_1.0_Headunit_from_a_2015_K900.png/330px-Kia_UVO_Premium_1.0_Headunit_from_a_2015_K900.png"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12271,7 +12317,9 @@
         "north"
       ],
       "note": "Moultonborough Twn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/NH_Route_171.svg/330px-NH_Route_171.svg.png"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12287,7 +12335,9 @@
         "north"
       ],
       "note": "Pemi",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Peru_-_143_E.JPG/330px-Peru_-_143_E.JPG"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12303,7 +12353,9 @@
         "north"
       ],
       "note": "Pinkham",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Pinkhamtopo.jpg/330px-Pinkhamtopo.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12335,7 +12387,9 @@
         "east"
       ],
       "note": "N43.06947° W70.71288°",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Portsmouth_Guildhall_-_geograph.org.uk_-_5431834.jpg/330px-Portsmouth_Guildhall_-_geograph.org.uk_-_5431834.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12367,7 +12421,9 @@
         "north"
       ],
       "note": "NER NH BONE pick",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Salt_Lake_Union_Pacific_Railroad_Station%2C_South_Temple_at_400_West%2C_Central_City_West%2C_Salt_Lake_City%2C_UT%2C_USA.jpg/330px-Salt_Lake_Union_Pacific_Railroad_Station%2C_South_Temple_at_400_West%2C_Central_City_West%2C_Salt_Lake_City%2C_UT%2C_USA.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12383,10 +12439,12 @@
         "north"
       ],
       "note": "NER NH BONE pick",
-      "images": [],
-      "icon": "osa:special/photo_camera",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Silver_Cascade_Falls_02.jpg/330px-Silver_Cascade_Falls_02.jpg"
+      ],
+      "icon": "osa:water/waterfall",
       "cats": [
-        "lookout"
+        "waterfall"
       ]
     },
     {
@@ -12415,7 +12473,9 @@
         "north"
       ],
       "note": "N44.00966° W71.42766°",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Sunset_Hill_House%2C_Sugar_Hill%2C_NH.jpg/330px-The_Sunset_Hill_House%2C_Sugar_Hill%2C_NH.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12431,7 +12491,9 @@
         "north"
       ],
       "note": "N43° 23.132' W72° 04.820'",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Sunapee_NH_5-22-26.jpg/330px-Sunapee_NH_5-22-26.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12447,7 +12509,9 @@
         "north"
       ],
       "note": "N43° 25.803' W72° 04.005'",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Sunapee-islands.jpg/330px-Sunapee-islands.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12463,7 +12527,9 @@
         "north"
       ],
       "note": "181 Sunset Hill Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/St._Louis_County_Missouri_Incorporated_and_Unincorporated_areas_Sunset_Hills_Highlighted.svg/330px-St._Louis_County_Missouri_Incorporated_and_Unincorporated_areas_Sunset_Hills_Highlighted.svg.png"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12479,7 +12545,9 @@
         "north"
       ],
       "note": "Livermore Twn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Beacon_St%2C_Waban_MA.jpg/330px-Beacon_St%2C_Waban_MA.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12495,10 +12563,12 @@
         "north"
       ],
       "note": "71 Lakeside Ave",
-      "images": [],
-      "icon": "osa:special/photo_camera",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Weirs_Beach.jpg/330px-Weirs_Beach.jpg"
+      ],
+      "icon": "osa:tourist/beach2",
       "cats": [
-        "lookout"
+        "beach"
       ]
     },
     {
@@ -12543,7 +12613,9 @@
         "south"
       ],
       "note": "NER MA BONE pick",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Cape_Cod_Canal_-_Railroad_Bridge.jpg/330px-Cape_Cod_Canal_-_Railroad_Bridge.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12591,7 +12663,9 @@
         "east"
       ],
       "note": "Chatham Twn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Chatham_Light_MA.jpg/330px-Chatham_Light_MA.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12607,7 +12681,9 @@
         "south"
       ],
       "note": "NER MA BONE pick",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Moswetuset.jpg/330px-Moswetuset.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12623,7 +12699,9 @@
         "south"
       ],
       "note": "171 N Water St",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/EdgartownLight2006Dawn.jpg/330px-EdgartownLight2006Dawn.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12639,7 +12717,9 @@
         "west"
       ],
       "note": "Ware Twn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Fountain_Island_%281%29.jpg/330px-Fountain_Island_%281%29.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12655,10 +12735,12 @@
         "east"
       ],
       "note": "N42.30435° W70.90369°",
-      "images": [],
-      "icon": "osa:special/photo_camera",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fort_Revere_park_overlooking_Allerton%2C_Hull_MA.jpg/330px-Fort_Revere_park_overlooking_Allerton%2C_Hull_MA.jpg"
+      ],
+      "icon": "osa:tourist/monument",
       "cats": [
-        "lookout"
+        "historic"
       ]
     },
     {
@@ -12688,9 +12770,9 @@
       ],
       "note": "Shelburne Twn",
       "images": [],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:water/waterfall",
       "cats": [
-        "lookout"
+        "waterfall"
       ]
     },
     {
@@ -12704,9 +12786,9 @@
       ],
       "note": "Hammond Castle Museum",
       "images": [],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "lookout"
+        "historic"
       ]
     },
     {
@@ -12751,7 +12833,9 @@
         "east"
       ],
       "note": "N42.50492° W70.83285°",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Marblehead_Light.JPG/330px-Marblehead_Light.JPG"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12767,7 +12851,9 @@
         "south"
       ],
       "note": "Menemsha",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Marthasvineyard-Chilmark-Menemsha.jpg/330px-Marthasvineyard-Chilmark-Menemsha.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12783,7 +12869,9 @@
         "west"
       ],
       "note": "Florida Twn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Charlemont-Mohawk_Trail.JPG/330px-Charlemont-Mohawk_Trail.JPG"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12799,7 +12887,9 @@
         "west"
       ],
       "note": "Skinner Park Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg/330px-Cole_Thomas_The_Oxbow_%28The_Connecticut_River_near_Northampton_1836%29.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12815,7 +12905,9 @@
         "west"
       ],
       "note": "Christopher Clark Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mount_Tambora_Volcano%2C_Sumbawa_Island%2C_Indonesia.jpg/330px-Mount_Tambora_Volcano%2C_Sumbawa_Island%2C_Indonesia.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12831,7 +12923,9 @@
         "west"
       ],
       "note": "Road",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/North_County_Massachusetts.png/330px-North_County_Massachusetts.png"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12847,10 +12941,12 @@
         "west"
       ],
       "note": "Mt Greylock State Reservation",
-      "images": [],
-      "icon": "osa:special/photo_camera",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/2025-09-09_16_23_18_View_southeast_towards_Mount_Greylock_from_the_summit_of_Berlin_Mountain_in_Berlin%2C_Rensselaer_County%2C_New_York.jpg/330px-2025-09-09_16_23_18_View_southeast_towards_Mount_Greylock_from_the_summit_of_Berlin_Mountain_in_Berlin%2C_Rensselaer_County%2C_New_York.jpg"
+      ],
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "lookout"
+        "mountain"
       ]
     },
     {
@@ -12864,9 +12960,9 @@
       ],
       "note": "Falmouth Twn",
       "images": [],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:tourist/beach2",
       "cats": [
-        "lookout"
+        "beach"
       ]
     },
     {
@@ -12895,7 +12991,9 @@
         "east"
       ],
       "note": "Provincetown Twn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/PilgrimMonumentbasrelief.jpg/330px-PilgrimMonumentbasrelief.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12927,7 +13025,9 @@
         "east"
       ],
       "note": "Powder Point Brg",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Duxbury_Beach%2C_Duxbury_MA.jpg/330px-Duxbury_Beach%2C_Duxbury_MA.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -13120,9 +13220,9 @@
       ],
       "note": "Deerfield Twn",
       "images": [],
-      "icon": "osa:special/photo_camera",
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "lookout"
+        "mountain"
       ]
     },
     {
@@ -15536,9 +15636,9 @@
       ],
       "note": "Cannon Mountain Aerial Tramway",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "attraction"
+        "mountain"
       ]
     },
     {
@@ -15552,9 +15652,9 @@
       ],
       "note": "N43.72961° W71.33731°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15568,9 +15668,9 @@
       ],
       "note": "Cathedral of the Pines",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15600,9 +15700,9 @@
       ],
       "note": "Road",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:water/waterfall",
       "cats": [
-        "attraction"
+        "waterfall"
       ]
     },
     {
@@ -15616,9 +15716,9 @@
       ],
       "note": "N44.01590° W71.24566°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:water/waterfall",
       "cats": [
-        "attraction"
+        "waterfall"
       ]
     },
     {
@@ -15632,9 +15732,9 @@
       ],
       "note": "N43.93189° W71.16722°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15648,9 +15748,9 @@
       ],
       "note": "Mt Washington Auto Road",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "attraction"
+        "mountain"
       ]
     },
     {
@@ -15664,9 +15764,9 @@
       ],
       "note": "Base Station Rd",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/mountain",
       "cats": [
-        "attraction"
+        "mountain"
       ]
     },
     {
@@ -15680,9 +15780,9 @@
       ],
       "note": "N43.85440° W71.28000°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15712,9 +15812,9 @@
       ],
       "note": "N43.92521° W71.89154°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15728,9 +15828,9 @@
       ],
       "note": "Albany Twn",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:water/waterfall",
       "cats": [
-        "attraction"
+        "waterfall"
       ]
     },
     {
@@ -15744,9 +15844,9 @@
       ],
       "note": "NER NH BONE pick",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:water/waterfall",
       "cats": [
-        "attraction"
+        "waterfall"
       ]
     },
     {
@@ -15776,9 +15876,9 @@
       ],
       "note": "E Stanley Wright Museum",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15792,9 +15892,9 @@
       ],
       "note": "NER MA BONE pick",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:water/waterfall",
       "cats": [
-        "attraction"
+        "waterfall"
       ]
     },
     {
@@ -15840,9 +15940,9 @@
       ],
       "note": "Bunker Hill Monument",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15888,9 +15988,9 @@
       ],
       "note": "N42.52708° W70.86714°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15904,9 +16004,9 @@
       ],
       "note": "N42.61021° W70.67035°",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15920,9 +16020,9 @@
       ],
       "note": "Freetown Twn",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -15984,9 +16084,9 @@
       ],
       "note": "National Monument To the Forefathers",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
@@ -16000,9 +16100,9 @@
       ],
       "note": "New Bedford Whaling Museum / 18 Johnny Cake Hl / New Bedford, MA, 02740, USA / 508-997-0046",
       "images": [],
-      "icon": "osa:tourist/museum",
+      "icon": "osa:tourist/monument",
       "cats": [
-        "attraction"
+        "historic"
       ]
     },
     {
