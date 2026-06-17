@@ -3492,6 +3492,8358 @@
       "cats": [
         "restroom"
       ]
+    },
+    {
+      "id": 274,
+      "name": "Fire Station Headquarters",
+      "lat": 42.3908,
+      "lng": -71.0912,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "266 Broadway, Somerville Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 275,
+      "name": "Somerville Fire Department",
+      "lat": 42.3917,
+      "lng": -71.1108,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "265 Highland Ave, Somerville Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 276,
+      "name": "Somerville Police Department",
+      "lat": 42.3789,
+      "lng": -71.0926,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "255 Somerville Ave, Somerville Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 277,
+      "name": "Somerville Fire Department",
+      "lat": 42.3847,
+      "lng": -71.1113,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "651 Somerville Ave, Somerville Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 278,
+      "name": "Somerville Fire Department, Engine 6 & Ladder 3",
+      "lat": 42.4025,
+      "lng": -71.127,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "238 Holland St, Somerville Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 279,
+      "name": "Somerville City Hall",
+      "lat": 42.3872,
+      "lng": -71.0982,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "93 Highland Ave, Somerville Ma, MA · Monday - Wednesday: 8:30 AM - 4:30 PM\r\nThursday: 8:30 AM - 7:30 PM\r\nFriday: 8:30 AM - 12:30 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 280,
+      "name": "Somerville City Hall Annex Building City Hall",
+      "lat": 42.3918,
+      "lng": -71.0972,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "50 Evergreen Ave, Somerville Ma, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 281,
+      "name": "Somerville Public Library - Central Library",
+      "lat": 42.3858,
+      "lng": -71.0944,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "79 Highland Ave, Somerville Ma, MA · Monday - Friday: 9:00 AM - 6:00 PM\r\nSaturday: 9:00 AM - 5:00 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 282,
+      "name": "Somerville Public Library - East Branch Library",
+      "lat": 42.3879,
+      "lng": -71.0836,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "115 Broadway, Somerville Ma, MA · Monday - Friday: 9:00 AM - 6:00 PM\r\nSaturday: 9:00 AM - 1:00 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 283,
+      "name": "Somerville Public Library - West Branch Library",
+      "lat": 42.3981,
+      "lng": -71.1217,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "40 College Ave, Somerville Ma, MA · Monday - Friday: 9:00 AM - 6:00 PM\r\nSaturday: 9:00 AM - 1:00 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 284,
+      "name": "Somerville Police East Station",
+      "lat": 42.3874,
+      "lng": -71.0819,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "81 Broadway, Somerville Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 285,
+      "name": "Cha Windsor Street Health Center",
+      "lat": 42.3647,
+      "lng": -71.0966,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "119 Windsor St, Cambridge Ma, MA · 7 a.m. to 9 p.m. weekdays; 9 a.m. to 3 p.m. Saturdays",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 286,
+      "name": "Cha Cambridge Hospital Campus",
+      "lat": 42.3752,
+      "lng": -71.1048,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1493 Cambridge St, Cambridge Ma, MA · 6 a.m. to 8 p.m. in the reception area; \r\n24 hours in the emergency room",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 287,
+      "name": "Cambridge Common",
+      "lat": 42.3644,
+      "lng": -71.1021,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1500 Massachusetts Ave, Cambridge Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 288,
+      "name": "Cha East Cambridge Health Center",
+      "lat": 42.3731,
+      "lng": -71.0854,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "163 Gore St, Cambridge Ma, MA · 8 a.m. to 5 p.m. Mondays, Wednesdays and Fridays; 8 a.m. to 8 p.m. Tuesdays and Thursdays",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 289,
+      "name": "Cha Cambridge Family Health",
+      "lat": 42.374,
+      "lng": -71.1009,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "237 Hampshire St, Cambridge Ma, MA · 8:30 a.m. to 8 p.m. Mondays; 8:30 a.m. to 5 p.m. Tuesdays through Fridays",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 290,
+      "name": "Boudreau Branch Library",
+      "lat": 42.3834,
+      "lng": -71.1326,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "245 Concord Ave, Cambridge Ma, MA · 10 a.m. to 6 p.m. Monday, Wednesday, and Friday",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 291,
+      "name": "Walter Sullivan Water Treatment Plant",
+      "lat": 42.3752,
+      "lng": -71.1394,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "250 Fresh Pond Pkwy, Cambridge, MA · Dawn to dusk",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 292,
+      "name": "Cambridge City Hall Annex City Hall",
+      "lat": 42.3702,
+      "lng": -71.1031,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "345 Broadway, Cambridge Ma, MA · 8:30 a.m. to 8 p.m. Monday; 8:30 a.m. to 5 p.m. Tuesdays through Thursdays; 8:30 a.m. to 12 p.m. Fridays",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 293,
+      "name": "Lombardi Building",
+      "lat": 42.3673,
+      "lng": -71.1064,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "831 Massachusetts Ave, Cambridge Ma, MA · 8:30 a.m. to 5 p.m. weekdays and from 6 to 10 p.m. on hearing (?) nights",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 294,
+      "name": "Cambridge City Hall",
+      "lat": 42.3669,
+      "lng": -71.106,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "795 Massachusetts Ave, Cambridge Ma, MA · 8:30 a.m. to 8 p.m. Monday; 8:30 a.m. to 5 p.m. Tuesdays through Thursdays; 8:30 a.m. to noon Fridays",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 295,
+      "name": "Weston Town Hall",
+      "lat": 42.3693,
+      "lng": -71.2988,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "11 Town House Rd, Weston, MA · Weekdays: 8:30AM-5PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 296,
+      "name": "Weston Public Library",
+      "lat": 42.3621,
+      "lng": -71.2946,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "87 School St, Weston, MA · Mon-Thurs: 9AM-9PM\r\nFriday: 9AM-6PM\r\nSaturday: 10AM-5PM\r\nSunday: 12PM-5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 297,
+      "name": "Weston Police Department",
+      "lat": 42.3636,
+      "lng": -71.3071,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "180 Boston Post Rd Bypass, Weston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 298,
+      "name": "Weston Fire Department",
+      "lat": 42.3671,
+      "lng": -71.3,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "394 Boston Post Rd, Weston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 299,
+      "name": "Wayland Town Hall",
+      "lat": 42.3614,
+      "lng": -71.3613,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "41 Cochituate Road, Wayland, MA · Monday: 8:00 am to 7:00 pm\r\nTuesday - Thursday: 8:00 am to 4:00 pm\r\nFriday: 8:00 am to 12:30 pm",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 300,
+      "name": "Wayland Free Public Library",
+      "lat": 42.3652,
+      "lng": -71.3609,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 Concord Road Wayland, MA · Monday – Thursday 9 a.m. – 9 p.m.\r\nFriday 9 a.m. – 6 p.m.\r\nSaturdays 10 a.m. – 5 p.m.\r\nSundays 2 p.m. – 5 p.m.",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 301,
+      "name": "Boston Police Department District D-14",
+      "lat": 42.3494,
+      "lng": -71.1506,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "301 Washington St, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Boston Fire Department District 4 Engine 33 And Ladder 15",
+      "lat": 42.3504,
+      "lng": -71.0762,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "941 Boylston Street, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Bcyf Clougherty Pool",
+      "lat": 42.3814,
+      "lng": -71.0671,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "331 Bunker Hill St, Boston, MA · ONLY OPEN DURING THE SUMMER, WEATHER PERMITTING\r\n\r\nMonday Through Friday, 11 A.M. - 7 P.M.",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 304,
+      "name": "Bcyf Golden Age",
+      "lat": 42.3798,
+      "lng": -71.0699,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "382 Main St, Charlestown, MA · Monday Through Friday, 9 A.M. - 5 P.M.",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Boston Public Library - Charlestown Library",
+      "lat": 42.3745,
+      "lng": -71.0636,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "179 Main St, Charlestown, MA · Monday: 12 – 8 P.M.\r\nTuesday And Wednesday: 10 A.M. – 6 P.M.\r\nThursday: 12 P.M. – 8 P.M.\r\nFriday: 9 A.M. – 5 P.M.\r\nSaturday: 9 A.M.–2 P.M.\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 306,
+      "name": "Charlestown Marina 1 Pier 8",
+      "lat": 42.377,
+      "lng": -71.0507,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "103 Thirteenth St, Charlestown, MA · 9 A.M. - 5 P.M. Every Day",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 307,
+      "name": "City Toilet",
+      "lat": 42.3734,
+      "lng": -71.052,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "197 Eighth St, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 308,
+      "name": "One Constitution Center",
+      "lat": 42.3715,
+      "lng": -71.0599,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Constitution Plaza, Charlestown, MA · Monday Through Friday, 7 A.M. - 7 P.M.",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 309,
+      "name": "Newton City Hall",
+      "lat": 42.3374,
+      "lng": -71.2087,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1000 Commonwealth Avenue, Newton Centre, MA · 8:30AM–5PM Weekdays",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 310,
+      "name": "Newton Free Library",
+      "lat": 42.3368,
+      "lng": -71.2095,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "330 Homer St, Newton, MA · Mon-Thurs: 9AM-9PM\r\nFri: 9AM-6PM\r\nSat: 9AM-5PM\r\nSun: 1-5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 311,
+      "name": "Bcyf Grove Hall",
+      "lat": 42.3083,
+      "lng": -71.0822,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "51 Geneva Avenue, Dorchester Ma, MA · Monday Through Friday: 10 A.M. - 6 P.M.\r\nSaturday And Sunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 312,
+      "name": "Wellesley Free Library -- Hills Branch Library",
+      "lat": 42.3153,
+      "lng": -71.2705,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "210 Washington St, Wellesley Ma, MA · Tuesday, Thursday: 10 AM - 8 PM\r\nWednesday, Friday, Saturday: 10 AM - 5 PM\r\nSunday, Monday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 313,
+      "name": "Wellesley Free Library -- Fells Branch Library",
+      "lat": 42.3046,
+      "lng": -71.3124,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "308 Weston Road, Wellesley, MA · Tuesday - Saturday: 10 AM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 314,
+      "name": "Wellesley Free Library -- Main Branch Library",
+      "lat": 42.2968,
+      "lng": -71.2907,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "530 Washington Street, Wellesley, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday: 9 AM - 6 PM\r\nSaturday: 9 AM - 5 PM\r\nSunday: 1 PM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 315,
+      "name": "Wellesley City Hall",
+      "lat": 42.298,
+      "lng": -71.2917,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "525 Washington St, Wellesley, MA · Weekdays: 8 AM - 5 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 316,
+      "name": "Wellesley Fire Department",
+      "lat": 42.3115,
+      "lng": -71.2778,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "457 Worcester St, Wellesley Ma, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 317,
+      "name": "Wellesley Police Department",
+      "lat": 42.3005,
+      "lng": -71.2882,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "485 Washington St, Wellesley Ma, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 318,
+      "name": "Hunnewell Field",
+      "lat": 42.3036,
+      "lng": -71.2831,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "438 Washington Street, Wellesley, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 319,
+      "name": "Waltham City Hall",
+      "lat": 42.3761,
+      "lng": -71.2353,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "610 Main St, Waltham, MA · Weekdays: 8:30 AM - 4:30 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 320,
+      "name": "Waltham Public Library",
+      "lat": 42.3763,
+      "lng": -71.2398,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "735 Main St, Waltham, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: 1 PM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 321,
+      "name": "Arlington Town Hall",
+      "lat": 42.4163,
+      "lng": -71.1573,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "730 Massachusetts Avenue Arlington, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 322,
+      "name": "Bcyf Mason Pool",
+      "lat": 42.3258,
+      "lng": -71.0709,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "159 Norfolk Avenue, Dorchester Ma, MA · Tuesday and Friday, 12 - 8 P.M.\r\nWednesday and Thursday, 10 A.M. - 6 P.M.\r\nSaturday, 9 A.M. - 5 P.M.",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 323,
+      "name": "Boston Fire Department District 7, Engine 17, And Ladder 7",
+      "lat": 42.3079,
+      "lng": -71.0624,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Parish Street, Dorchester Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 324,
+      "name": "Boston Police Department District C-11",
+      "lat": 42.2978,
+      "lng": -71.0592,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "40 Gibson Street, Dorchester Ma, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 325,
+      "name": "Boston Public Library - Grove Hall Library",
+      "lat": 42.3041,
+      "lng": -71.0735,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "41 Geneva Avenue, Dorchester, MA · Monday through Wedneday: 10 A.M. – 6 P.M.\r\nThursday: 12 – 8 P.M.\r\nFriday and Saturday: 9 A.M. – 5 P.M.\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 326,
+      "name": "Edward M. Kennedy Institute For The United State Senate",
+      "lat": 42.3126,
+      "lng": -71.0461,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "210 Morrissey Boulevard, Dorchester, MA · Tuesday - Sunday: 10 AM - 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 327,
+      "name": "Umass Boston East Building Residential Hall",
+      "lat": 42.3163,
+      "lng": -71.0397,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "240 Morrissey Blvd, Boston, MA · 7AM - 12AM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 328,
+      "name": "Brookline Town Hall",
+      "lat": 42.334,
+      "lng": -71.1206,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "333 Washington Street, Brookline, MA · Weekdays: 8AM-5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 329,
+      "name": "Brookline Main Library",
+      "lat": 42.3346,
+      "lng": -71.1214,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "361 Washington Street, Brookline, MA · Closed weekends in summer\r\n\r\nMonday-Thursday: 10AM–9PM\r\nFriday: 10AM–5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 330,
+      "name": "Coolidge Corner Branch Library",
+      "lat": 42.3433,
+      "lng": -71.1196,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "31 Pleasant Street, Brookline, MA · Closed Sundays in summer",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 331,
+      "name": "Brookline Public Safety Building",
+      "lat": 42.3338,
+      "lng": -71.1215,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "350 Washington Street, Brookline, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 332,
+      "name": "Putterham Branch Library",
+      "lat": 42.3016,
+      "lng": -71.1495,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "959 West Roxbury Pkwy, Brookline, MA · Closed weekends in summer\r\n\r\nMonday, Wednesday: 10AM–9PM\r\nTuesday, Thursday: 10AM–6PM\r\nFriday: 10AM–5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 333,
+      "name": "Eliot Administration Building",
+      "lat": 42.3289,
+      "lng": -71.1491,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "133 Eliot Street, Brookline, MA · Weekdays: 8:30AM-5PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 334,
+      "name": "Brookline Senior Center",
+      "lat": 42.3435,
+      "lng": -71.128,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "93 Winchester Street, Brookline, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 335,
+      "name": "Faneuil Hall",
+      "lat": 42.3597,
+      "lng": -71.0551,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 S Market St, Boston, MA · Monday through Saturday: 10AM - 9PM\r\nSunday: 11AM - 7PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 336,
+      "name": "Bcyf Paris Street Pool",
+      "lat": 42.3724,
+      "lng": -71.0369,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "113 Paris St, Boston, MA · Weekdays: 6:30 AM - 8:30 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 337,
+      "name": "Bcyf Pino",
+      "lat": 42.3898,
+      "lng": -71.0113,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "86 Boardman St, Boston, MA · Monday through Friday: 6:30 AM - 9 PM\r\nSaturday: 9 AM - 5 PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 338,
+      "name": "Boston Police Department District A-7",
+      "lat": 42.3712,
+      "lng": -71.0387,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "69 Paris Street, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 339,
+      "name": "Boston Public Library - East Boston Library",
+      "lat": 42.3754,
+      "lng": -71.0314,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "365 S Bremen St, Boston, MA · Monday, Thursday: 12PM - 8PM\r\nTuesday, Wednesday: 10AM - 6PM\r\nFriday, Saturday: 9AM - 5PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 340,
+      "name": "Portside At East Pier",
+      "lat": 42.3664,
+      "lng": -71.0401,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "40 E Pier Dr, East Boston, MA · 10AM - 7PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 341,
+      "name": "Independence Wharf",
+      "lat": 42.3544,
+      "lng": -71.0517,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "470 Atlantic Avenue, Boston, MA · 7AM - 6PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 342,
+      "name": "Boston Police Department District E-18",
+      "lat": 42.2564,
+      "lng": -71.1243,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1249 Hyde Park Ave, Hyde Park, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 343,
+      "name": "Boston Police Department District E-13",
+      "lat": 42.3096,
+      "lng": -71.1046,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3347 Washington St, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 344,
+      "name": "Bcyf Gallivan",
+      "lat": 42.2752,
+      "lng": -71.0824,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "61 Woodruff Way, Boston, MA · Weekdays: 6:30AM - 9PM\r\nSaturday: 9AM - 5PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 345,
+      "name": "Boston Police Department District B-3",
+      "lat": 42.2847,
+      "lng": -71.0917,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1165 Blue Hill Avenue, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 346,
+      "name": "Boston Fire Department Marine 1",
+      "lat": 42.3667,
+      "lng": -71.0493,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "50 Battery St, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 347,
+      "name": "Boston Yacht Haven Inn And Marina",
+      "lat": 42.3624,
+      "lng": -71.0515,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "87 Commercial Wharf, Boston, MA · 8AM - 6PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 348,
+      "name": "Pilot House",
+      "lat": 42.3634,
+      "lng": -71.0508,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "32 Atlantic Ave, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 349,
+      "name": "Bcyf Flaherty Pool",
+      "lat": 42.2884,
+      "lng": -71.1222,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "160 Florence St, Roslindale, MA · Weekdays: 5:30AM - 9PM\r\nSaturday: 7AM - 3PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 350,
+      "name": "Bcyf Menino",
+      "lat": 42.2924,
+      "lng": -71.1202,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "125 Brookway Rd, Boston, MA · Weekdays: 6:30 AM - 9PM\r\nSaturday: 9AM - 5PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 351,
+      "name": "Boston Police Headquarters",
+      "lat": 42.3341,
+      "lng": -71.0909,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Schroeder Plaza, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 352,
+      "name": "Boston Police Department District B-2",
+      "lat": 42.3284,
+      "lng": -71.0857,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2400 Washington Street, Roxbury, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 353,
+      "name": "Bcyf Curley",
+      "lat": 42.3292,
+      "lng": -71.0368,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1663 Columbia Rd, Boston, MA · Monday through Saturday: 6:30AM - 9PM\r\nSunday: 9AM - 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 354,
+      "name": "Boston Police Department District C-6",
+      "lat": 42.3411,
+      "lng": -71.055,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "101 W Broadway, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 355,
+      "name": "Boston Police Department District D-4",
+      "lat": 42.3394,
+      "lng": -71.0692,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "650 Harrison Ave, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 356,
+      "name": "Bcyf Draper Pool",
+      "lat": 42.2602,
+      "lng": -71.1598,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5275 Washington St, West Roxbury, MA · Weekdays: 6AM - 9PM\r\nSaturday: 9AM - 4PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 357,
+      "name": "Boston Police Department District E-5",
+      "lat": 42.2868,
+      "lng": -71.1484,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1708 Centre St, West Roxbury, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 358,
+      "name": "Back Bay Station (Mbta)",
+      "lat": 42.3467,
+      "lng": -71.0754,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "131 Dartmouth St, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 359,
+      "name": "Harvard Station (Mbta)",
+      "lat": 42.3741,
+      "lng": -71.119,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1400 Massachusetts Avenue, Cambridge, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 360,
+      "name": "Assembly Station (Mbta)",
+      "lat": 42.3929,
+      "lng": -71.0815,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "499 Foley St, Somerville, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 361,
+      "name": "Alewife Station (Mbta)",
+      "lat": 42.3947,
+      "lng": -71.1431,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "35 Cambridgepark Dr, Cambridge, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 362,
+      "name": "Sawyer Free Library",
+      "lat": 42.6137,
+      "lng": -70.6632,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Dale Ave, Gloucester, MA · Monday-Wednesday: 8AM - 6PM\r\nThursday: 10AM - 7PM\r\nFriday and Sunday: 10AM - 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 363,
+      "name": "Assembly Row",
+      "lat": 42.3951,
+      "lng": -71.0794,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "355 Artisan Way, Somerville, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 364,
+      "name": "Prospect Hill",
+      "lat": 42.397,
+      "lng": -71.2509,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "314 Totten Pond Rd, Waltham, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 365,
+      "name": "Burlington Mall",
+      "lat": 42.4709,
+      "lng": -71.2105,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "75 Middlesex Turnpike, Burlington, MA · Weekdays: 10AM - 8PM\r\nSaturday: 10AM - 9PM\r\nSunday: 12PM - 6PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 366,
+      "name": "Burlington Town Hall",
+      "lat": 42.5062,
+      "lng": -71.1939,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "29 Center St, Burlington, MA · Monday, Tuesday, Thursday: 8:30 AM - 4:30 PM\r\nWednesday: 8:30 AM - 7:00 PM\r\nFriday: 8:30 AM - 1:00 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 367,
+      "name": "Burlington Public Library",
+      "lat": 42.506,
+      "lng": -71.1923,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "22 Sears St, Burlington, MA · Monday - Thursday: 10AM - 9PM\r\nFriday: 10AM - 6PM\r\nSaturday: 10AM - 2PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 368,
+      "name": "Woburn Public Library",
+      "lat": 42.4792,
+      "lng": -71.1544,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "45 Pleasant St, Woburn, MA · Monday - Thursday: 9AM - 9PM\r\nFriday - Saturday: 9AM - 5:30PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 369,
+      "name": "Woburn City Hall",
+      "lat": 42.4791,
+      "lng": -71.1526,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 Common St, Woburn, MA · Monday - Wednesday: 9AM - 4:30PM\r\nThursday: 9AM - 7PM\r\nFriday: 9AM - 1PM\r\nWeekends: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 370,
+      "name": "Lexington Town Office Building",
+      "lat": 42.447,
+      "lng": -71.2245,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1625 Massachusetts Ave, Lexington, MA · Monday, Wednesday, Thursday: 8:30AM - 4:30PM\r\nTuesday: 8:30AM - 7PM\r\nFriday: 8:30AM - 1PM\r\nWeekends: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 371,
+      "name": "Cary Memorial Library",
+      "lat": 42.4485,
+      "lng": -71.2296,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1874 Massachusetts Ave, Lexington, MA · Monday - Thursday: 9AM - 9PM\r\nFriday - Saturday: 9AM - 5PM\r\nSunday: 1PM - 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 372,
+      "name": "Natick Mall",
+      "lat": 42.3018,
+      "lng": -71.3858,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1245 Worcester St, Natick, MA · Monday - Thursday: 11AM - 7PM\r\nFriday - Saturday: 10AM - 9PM\r\nSunday: 11AM - 6PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 373,
+      "name": "Framingham Public Library",
+      "lat": 42.2819,
+      "lng": -71.4167,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "49 Lexington St, Framingham, MA · Monday - Thursday: 9AM - 9PM\r\nFriday - Saturday: 9AM - 5PM\r\nSunday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 374,
+      "name": "Marlborough City Hall",
+      "lat": 42.3467,
+      "lng": -71.5478,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "140 Main St, Marlborough, MA · Monday: 8:30AM - 7PM\r\nTuesday - Friday: 8:30AM - 5PM\r\nWeekends: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 375,
+      "name": "Marlborough Public Library",
+      "lat": 42.3473,
+      "lng": -71.5523,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "255 Main St, Marlborough, MA · Tuesday-Thursday: 9AM - 7:45PM\r\nFriday - Saturday: 9AM - 5PM\r\nSunday - Monday: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 376,
+      "name": "Bedford Town Clerk",
+      "lat": 42.4917,
+      "lng": -71.2817,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 Mudge Way, Bedford, MA · Monday: 8AM – 7PM\r\nTuesday - Thursday: 8AM – 4PM\r\nFriday: 8AM – 1PM\r\nWeekends: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 377,
+      "name": "Bedford Free Public Library",
+      "lat": 42.4923,
+      "lng": -71.2842,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Mudge Way, Bedford, MA · Monday - Thursday: 9AM – 9PM\r\nFriday: 9AM – 6PM\r\nSaturday: 9AM – 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 378,
+      "name": "Depot Park",
+      "lat": 42.486,
+      "lng": -71.2771,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "110 South Rd, Bedford, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 379,
+      "name": "Memorial Hall Library",
+      "lat": 42.6569,
+      "lng": -71.141,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 North Main St, Andover, MA · Monday - Thursday: 9AM - 9PM\r\nFriday, Saturday: 9AM - 5PM\r\nSunday: 1PM - 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 380,
+      "name": "Stevens Memorial Library",
+      "lat": 42.6962,
+      "lng": -71.1263,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "345 Main St, North Andover, MA · Monday - Thursday: 10AM - 9PM\r\nFriday: 10AM - 6PM\r\nSaturday: 10AM - 5PM\r\nSunday: 1PM - 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 381,
+      "name": "North Andover Town Hall",
+      "lat": 42.7031,
+      "lng": -71.1309,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "120 Main St, North Andover, MA · Monday, Wednesday, Thursday: 8AM - 4:30PM\r\nTuesday: 8AM - 6PM\r\nFriday: 8AM - 12PM\r\nWeekends: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 382,
+      "name": "Andover Town Offices",
+      "lat": 42.6562,
+      "lng": -71.1398,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "36 Bartlet St, Andover, MA · Weekdays: 8:30 AM - 4:30 PM\r\nWeekends: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 383,
+      "name": "Edith M Fox Library",
+      "lat": 42.4054,
+      "lng": -71.1417,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "175 Massachusetts Ave, Arlington, MA · Sunday, Monday, Saturday: CLOSED\r\nTuesday, Thursday, Friday: 9AM – 5PM\r\nWednesday: 12PM – 8PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 384,
+      "name": "Public Safety Center",
+      "lat": 42.6581,
+      "lng": -71.1425,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "32 N Main Street, Andover, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 385,
+      "name": "Ballardvale Fire Station",
+      "lat": 42.6292,
+      "lng": -71.1615,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "161 Andover St, Andover, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 386,
+      "name": "Needham Free Public Library",
+      "lat": 42.2879,
+      "lng": -71.2356,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1139 Highland Avenue Needham, MA · Monday-Thursday: 9 AM-9 PM\r\nFriday: 9 AM- 5:30 PM\r\nSaturday: 9 AM- 5 PM\r\nSunday: 1-5 PM (in July & August)",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 387,
+      "name": "Needham Town Hall",
+      "lat": 42.2811,
+      "lng": -71.2365,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1471 Highland Ave, Needham, MA · Monday, Wednesday, Thursday: 8AM–5PM\r\nTuesday: 8AM–6:30PM\r\nFriday: 8AM–12PM\r\nWeekends: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 388,
+      "name": "Watertown Free Public Library",
+      "lat": 42.367,
+      "lng": -71.1867,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "123 Main St, Watertown, MA · Monday - Thursday: 9AM - 9PM\r\nFriday: 9AM - 7PM\r\nSaturday: 9AM - 5PM\r\nSunday: 1PM - 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 389,
+      "name": "Watertown Town Hall",
+      "lat": 42.3679,
+      "lng": -71.1874,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "149 Main St, Watertown, MA · Monday, Wednesday - Friday: 8:30AM - 5PM\r\nTuesday: 8:30AM - 7PM\r\nWeekends: CLOSED",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 390,
+      "name": "Portland Loo",
+      "lat": 42.3727,
+      "lng": -71.0747,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "222 Jacobs Street, Cambridge, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 391,
+      "name": "Mount Auburn Hospital",
+      "lat": 42.3741,
+      "lng": -71.1342,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "330 MT Auburn St, Cambridge, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 392,
+      "name": "Bemis Playground",
+      "lat": 42.3659,
+      "lng": -71.2045,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "76 Bridge Street, Watertown, MA · TBD",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 393,
+      "name": "Logan Airport",
+      "lat": 42.3632,
+      "lng": -71.0136,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Harborside Drive, Boston, MA · 24/7",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 394,
+      "name": "Cambridgeside Mall",
+      "lat": 42.3688,
+      "lng": -71.076,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 Cambridgeside Place, Cambridge, MA · Monday — Thursday: 11 AM - 7 PM\r\nFriday: 11 AM - 8 PM\r\nSaturday: 11 AM - 6 PM\r\nSunday: 12 PM - 6 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 395,
+      "name": "Concord Free Public Library",
+      "lat": 42.4588,
+      "lng": -71.3534,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "129 Main St, Concord, MA · Monday: 10 AM - 8PM\r\nTuesday - Thursday: 9 AM - 8 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: 1 PM - 5 PM (but closed June-August)",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 396,
+      "name": "Concord Library Fowler Branch Library",
+      "lat": 42.455,
+      "lng": -71.3955,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1322 Main St, Concord, MA · Monday - Thursday: 10 AM - 6 PM\r\nFriday, Saturday: 10 AM - 5 PM\r\nSaturday: 10 AM - 5 PM (but closed July and August)\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 397,
+      "name": "Concord Town Hall",
+      "lat": 42.4611,
+      "lng": -71.3486,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "22 Monument Square, Concord, MA · Monday - Thursday: 8:30 AM - 4:30 PM\r\nFriday: 8:30 AM - 12:30 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 398,
+      "name": "Memorial Park",
+      "lat": 42.2872,
+      "lng": -71.235,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "92 Rosemary Street, Needham, MA · limited hours depending on field usage",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 399,
+      "name": "Thomas Crane Public Library (Main) Library",
+      "lat": 42.2515,
+      "lng": -71.0008,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "40 Washington Street, Quincy, MA · Monday - Thursday: 9 AM – 9 PM\r\nFriday - Saturday: 9 AM - 5 PM \r\nSunday: 1 PM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 400,
+      "name": "Thomas Crane Public Library (Adams Shore) Library",
+      "lat": 42.2606,
+      "lng": -70.9791,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "519 Sea Street, Quincy, MA · Monday: 1 PM - 9 PM\r\nTuesday: 9 AM - 5 PM\r\nWednesday, Thursday: 1 PM - 5 PM\r\nFriday, Saturday, Sunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 401,
+      "name": "Revere City Hall",
+      "lat": 42.4079,
+      "lng": -71.0132,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "281 Broadway, Revere, MA · Monday - Thursday: 8:15 AM - 5 PM\r\nFriday: 8:15 AM - 12:15 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 402,
+      "name": "Revere Public Library",
+      "lat": 42.408,
+      "lng": -71.0092,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "179 Beach St, Revere, MA · Monday - Thursday: 8 AM - 8 PM\r\nFriday - Saturday: 9 AM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 403,
+      "name": "Thomas Crane Public Library (North Quincy) Library",
+      "lat": 42.274,
+      "lng": -71.0264,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "381 Hancock Street, Quincy, MA · Monday, Wednesday, Saturday: 9 AM - 5 PM\r\nTuesday: 1 PM - 9 PM\r\nThursday: 1 PM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 404,
+      "name": "Thomas Crane Public Library (Wollaston) Library",
+      "lat": 42.2667,
+      "lng": -71.0178,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "41 Beale Street, Quincy, MA · Monday, Tuesday: 1 PM - 5 PM\r\nWednesday: 1 PM - 9 PM\r\nThursday: 9 AM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 405,
+      "name": "Milton Town Hall",
+      "lat": 42.2541,
+      "lng": -71.0797,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "525 Canton Ave, Milton, MA · Monday - Thursday: 8 AM - 5 PM\r\nFriday: 8 AM - 1:30 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 406,
+      "name": "Milton Public Library",
+      "lat": 42.2542,
+      "lng": -71.0777,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "476 Canton Ave, Milton, MA · Monday - Wednesday: 9 AM - 9 PM\r\nThursday: 1 PM - 9 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: 1 PM - 5PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 407,
+      "name": "Blue Hills Trailside Museum",
+      "lat": 42.2185,
+      "lng": -71.1187,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1904 Canton Ave, Milton, MA · Wednesday - Sunday: 9 AM - 4 PM\r\nMonday, Tuesday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 408,
+      "name": "Belmont Public Library",
+      "lat": 42.3946,
+      "lng": -71.1724,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "336 Concord Avenue, Belmont, MA · Monday - Wednesday: 9 AM - 9 PM\r\nThursday: 11 AM - 9 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 409,
+      "name": "Belmont Town Hall",
+      "lat": 42.3966,
+      "lng": -71.1773,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "455 Concord Ave, Belmont, MA · Monday: 8 AM - 7 PM\r\nTuesday - Thursday: 8 AM - 4 PM\r\nFriday: 8 AM - 12 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 410,
+      "name": "Winchester Public Library",
+      "lat": 42.4523,
+      "lng": -71.1341,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "80 Washington St, Winchester, MA · Monday - Thursday: 9:30 AM - 9 PM\r\nFriday, Saturday: 9:30 AM - 5 PM\r\nSunday: 1 PM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 411,
+      "name": "Winchester Town Hall",
+      "lat": 42.4528,
+      "lng": -71.1346,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "71 MT Vernon St, Winchester, MA · Monday: 8 AM - 7 PM\r\nTuesday - Thursday: 8 AM - 4 PM\r\nFriday: 8 AM - 12 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 412,
+      "name": "Framingham City Hall",
+      "lat": 42.2798,
+      "lng": -71.417,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "150 Concord St, Framingham, MA · Monday, Wednesday, Thursday: 8:30 AM - 5 PM\r\nTuesday: 8:30 AM - 7 PM\r\nFriday: 8:30 AM - 2 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 413,
+      "name": "Morse Institute Library",
+      "lat": 42.2846,
+      "lng": -71.3458,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "14 E Central St, Natick, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday: 9 AM - 6 PM\r\nSaturday: 9 AM - 5 PM\r\nSunday: 1 PM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 414,
+      "name": "Bacon Free Library",
+      "lat": 42.2618,
+      "lng": -71.3291,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "58 Eliot St, Natick, MA · Monday, Wednesday - Friday: 9:30 AM - 5:30 PM\r\nTuesday: 9:30 AM - 7:00 PM\r\nSaturday: 9:30 AM – 1:30 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 415,
+      "name": "Natick Town Hall",
+      "lat": 42.2837,
+      "lng": -71.3459,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "13 E Central St, Natick, MA · Monday - Wednesday: 8 AM - 5 PM\r\nThursday: 8 AM - 7 PM\r\nFriday: 8 AM - 12:30 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 416,
+      "name": "Malden Public Library",
+      "lat": 42.4279,
+      "lng": -71.0661,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "36 Salem Street, Malden, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday, Saturday: 9 AM - 6 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 417,
+      "name": "Malden City Hall",
+      "lat": 42.4273,
+      "lng": -71.0727,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "215 Pleasant Street, Malden, MA · Monday, Wednesday, Thursday: 8 AM - 5 PM\r\nTuesday: 8 AM - 7 PM\r\nFriday - Sunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 418,
+      "name": "Medford City Hall",
+      "lat": 42.4181,
+      "lng": -71.1058,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "85 George P Hassett Drive, Medford, MA · Monday, Tuesday, Thursday: 8:30 AM - 4:30 PM\r\nWednesday: 8:30 AM - 7:30 PM\r\nFriday: 8:30 AM - 12:30 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 419,
+      "name": "Charlotte And William Bloomberg Medford Public Library",
+      "lat": 42.4197,
+      "lng": -71.1135,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "111 High St, Medford, MA · Monday - Thursday: 9 AM - 5 PM\r\nFriday: 9 AM - 6 PM\r\nSaturday: 9 AM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 420,
+      "name": "Winthrop City Hall",
+      "lat": 42.3778,
+      "lng": -70.9849,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "31 Hermon St, Winthrop, MA · Monday, Wednesday: 8 AM - 4:30 PM\r\nTuesday, Thursday: 8 AM - 7 PM\r\nFriday - Saturday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 421,
+      "name": "Winthrop Public Library And Museum Library",
+      "lat": 42.3776,
+      "lng": -70.9835,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "257 Winthrop St, Winthrop, MA · Monday: 10 AM - 6 PM\r\nTuesday - Thursday: 10 AM - 8 PM\r\nFriday, Saturday: 10 AM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 422,
+      "name": "Chelsea Public Library",
+      "lat": 42.3936,
+      "lng": -71.0321,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "569 Broadway, Chelsea, MA · Monday - Thursday: 9 AM - 8 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 423,
+      "name": "Chelsea City Hall",
+      "lat": 42.3935,
+      "lng": -71.0335,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "500 Broadway, Chelsea, MA · Monday, Wednesday, Thursday: 8 AM - 4 PM\r\nTuesday: 8 AM - 7 PM\r\nFriday: 8 AM - 12 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 424,
+      "name": "Parlin Memorial Library",
+      "lat": 42.4056,
+      "lng": -71.0569,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "410 Broadway, Everett, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday: 9 AM - 5 PM\r\nSaturday: 10 AM - 2 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 425,
+      "name": "Everett City Hall",
+      "lat": 42.4084,
+      "lng": -71.0547,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "484 Broadway, Everett, MA · Monday, Thursday: 8 AM - 7:30 PM\r\nTuesday, Wednesday: 8 AM - 5 PM\r\nFriday - Sunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 426,
+      "name": "Lynn City Hall",
+      "lat": 42.4648,
+      "lng": -70.9512,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 City Hall Square, Lynn, MA · Monday, Wednesday, Thursday: 8:30 AM - 4 PM\r\nTuesday: 8:30 AM - 8 PM\r\nFriday: 8:30 AM - 12:30 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 427,
+      "name": "Lynn Public Library",
+      "lat": 42.4644,
+      "lng": -70.9524,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 N Common St, Lynn, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 428,
+      "name": "Nahant Public Library",
+      "lat": 42.4242,
+      "lng": -70.9129,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "15 Pleasant St, Nahant, MA · Tuesday: 10 AM - 7 PM\r\nWednesday, Friday: 10 AM - 5 PM\r\nThursday: 10 AM - 8 PM\r\nSaturday: 12 PM - 4 PM\r\nSunday, Monday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 429,
+      "name": "Nahant Town Hall",
+      "lat": 42.4243,
+      "lng": -70.9136,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "334 Nahant Rd, Nahant, MA · Monday - Thursday: 7:30 AM - 4 PM\r\nFriday: 7:30 AM - 12:30 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 430,
+      "name": "Swampscott Public Library",
+      "lat": 42.4695,
+      "lng": -70.9191,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "61 Burrill St, Swampscott, MA · Monday - Wednesday: 9 AM - 8:30 PM\r\nThursday: 1:30 PM - 8:30 PM\r\nFriday, Saturday: 9 AM - 1:30 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 431,
+      "name": "Swampscott Town Hall",
+      "lat": 42.4696,
+      "lng": -70.9183,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "22 Monument Ave, Swampscott, MA · Monday, Wednesday, Thursday: 8 AM - 5 PM\r\nWednesday: 8 AM - 7 PM\r\nFriday - Sunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 432,
+      "name": "Marblehead Town Hall",
+      "lat": 42.5026,
+      "lng": -70.8524,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "188 Washington St, Marblehead, MA · Monday, Tuesday, Thursday: 8 AM to 5 PM\r\nWednesday: 8 AM to 6 PM\r\nFriday: 8 AM to 12:30 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 433,
+      "name": "Abbot Public Library",
+      "lat": 42.4845,
+      "lng": -70.8793,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 Brook Rd, Marblehead, MA · Monday, Wednesday: 9:30 AM - 8 PM\r\nTuesday: 9:30 AM - 6 PM\r\nThursday: 12 PM - 6 PM\r\nFriday, Saturday: 9:30 AM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 434,
+      "name": "Salem Library",
+      "lat": 42.5203,
+      "lng": -70.9032,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "370 Essex St, Salem, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: 1 PM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 435,
+      "name": "Salem City Hall",
+      "lat": 42.5218,
+      "lng": -70.8954,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "93 Washington St, Salem, MA · Monday - Wednesday: 8 AM - 4 PM\r\nThursday: 8 AM - 7 PM\r\nFriday: 8 AM - 12 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 436,
+      "name": "South Harbor Garage",
+      "lat": 42.5206,
+      "lng": -70.8897,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "245 Derby Street, Salem, MA · 9 AM - 8 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 437,
+      "name": "Artists Row",
+      "lat": 42.5198,
+      "lng": -70.8946,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "24 New Derby Street, Salem, MA · 8 AM - 9 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 438,
+      "name": "Beverly Public Library (Farms) Library",
+      "lat": 42.5623,
+      "lng": -70.8124,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "24 Vine Street, Beverly, MA · Monday, Wednesday: 10 AM - 6 PM\r\nTuesday, Thursday: 10 AM - 9 PM\r\nFriday, Saturday: 10 AM - 5 PM\r\nSunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 439,
+      "name": "Beverly City Hall",
+      "lat": 42.5478,
+      "lng": -70.8785,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "191 Cabot St, Beverly, MA · Monday - Wednesday: 8:30 AM - 4:30 PM\r\nThursday: 8:30 AM - 7:30 PM\r\nFriday: 8:30 AM - 1 PM\r\nWeekends: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 440,
+      "name": "Manchester-By-The-Sea Town Hall",
+      "lat": 42.5749,
+      "lng": -70.7723,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 Central St, Manchester-By-The-Sea, MA · Monday - Wednesday: 8:30 AM - 5 PM\r\nThursday: 8:30 AM - 6:30 PM\r\nFriday - Sunday: Closed",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 441,
+      "name": "Manchester-By-The-Sea Public Library",
+      "lat": 42.575,
+      "lng": -70.7713,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "15 Union St, Manchester-By-The-Sea, MA · Monday, Wednesday, Friday: 10 AM - 5 PM\r\nTuesday, Thursday: 10 AM - 7 PM\r\nSaturday: 10 AM - 4 PM\r\nSunday: 1 PM - 4 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 442,
+      "name": "Beverly Public Library (Main) Library",
+      "lat": 42.551,
+      "lng": -70.8761,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "32 Essex Street, Beverly, MA · Monday - Thursday: 9 AM - 9 PM\r\nFriday, Saturday: 9 AM - 5 PM\r\nSunday: 1 PM - 5 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 443,
+      "name": "Great Brook Farm State Park",
+      "lat": 42.5549,
+      "lng": -71.3499,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "165 North Rd, Carlisle, MA · 7:30 AM - 6:30 PM",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 444,
+      "name": "Abington Public Library",
+      "lat": 42.1178,
+      "lng": -70.9573,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "600 Gliniewicz Way, Abington, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 445,
+      "name": "Acton Memorial Library",
+      "lat": 42.4865,
+      "lng": -71.4333,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "486 Main St., Acton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 446,
+      "name": "Amesbury Public Library",
+      "lat": 42.8554,
+      "lng": -70.9329,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "149 Main St., Amesbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 447,
+      "name": "Robbins Library",
+      "lat": 42.4157,
+      "lng": -71.1552,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "700 Massachusetts Avenue, Arlington, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 448,
+      "name": "Stevens Memorial Library",
+      "lat": 42.6378,
+      "lng": -71.9094,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "20 Memorial Drive, Ashburnham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 449,
+      "name": "Ashby Free Public Library",
+      "lat": 42.6771,
+      "lng": -71.8195,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "812 Main Street, Ashby, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 450,
+      "name": "Ashland Public Library",
+      "lat": 42.2608,
+      "lng": -71.4632,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "66 Front St., Ashland, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 451,
+      "name": "Auburn Free Public Library",
+      "lat": 42.2047,
+      "lng": -71.8351,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "369 Southbridge St., Auburn, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 452,
+      "name": "Avon Public Library",
+      "lat": 42.1291,
+      "lng": -71.0416,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "280 West Main St., Avon, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 453,
+      "name": "Ayer Library",
+      "lat": 42.558,
+      "lng": -71.583,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "26 East Main St., Ayer, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 454,
+      "name": "Berlin Public Library",
+      "lat": 42.3831,
+      "lng": -71.6354,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "23 Carter Street, Berlin, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 455,
+      "name": "Billerica Public Library",
+      "lat": 42.5584,
+      "lng": -71.27,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "15 Concord Rd., Billerica, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 456,
+      "name": "Bolton Public Library",
+      "lat": 42.4346,
+      "lng": -71.6118,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "738 Main St., Bolton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 457,
+      "name": "Sargent Memorial Library",
+      "lat": 42.4822,
+      "lng": -71.5047,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "427 Mass. Ave., Boxborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 458,
+      "name": "Boxford Town Library",
+      "lat": 42.6941,
+      "lng": -71.0145,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7A Spofford Road, Boxford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 459,
+      "name": "Boylston Public Library",
+      "lat": 42.3535,
+      "lng": -71.7349,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "695 Main St., Boylston, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 460,
+      "name": "Thayer Public Library",
+      "lat": 42.2056,
+      "lng": -71.0043,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "798 Washington Street, Braintree, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 461,
+      "name": "Cambridge Public Library",
+      "lat": 42.3741,
+      "lng": -71.1109,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "449 Broadway, Cambridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 462,
+      "name": "Canton Public Library",
+      "lat": 42.1588,
+      "lng": -71.1456,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "786 Washington St., Canton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 463,
+      "name": "Gleason Public Library",
+      "lat": 42.5288,
+      "lng": -71.3482,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "22 Bedford Road, Carlisle, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 464,
+      "name": "Charlton Public Library",
+      "lat": 42.134,
+      "lng": -71.9704,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "40 Main St., Charlton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 465,
+      "name": "Chelmsford Public Library",
+      "lat": 42.5939,
+      "lng": -71.3519,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Boston Rd., Chelmsford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 466,
+      "name": "Bigelow Free Public Library",
+      "lat": 42.4174,
+      "lng": -71.6833,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "54 Walnut St., Clinton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 467,
+      "name": "Paul Pratt Memorial Library",
+      "lat": 42.2422,
+      "lng": -70.8091,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "35 Ripley Rd., Cohasset, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 468,
+      "name": "Peabody Institute Library",
+      "lat": 42.5617,
+      "lng": -70.941,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "15 Sylvan St., Danvers, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 469,
+      "name": "Dedham Public Library",
+      "lat": 42.2478,
+      "lng": -71.1761,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "43 Church St., Dedham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 470,
+      "name": "Dover Town Library",
+      "lat": 42.247,
+      "lng": -71.2793,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "56 Dedham St., Dover, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 471,
+      "name": "Moses Greeley Parker Memorial Lib.",
+      "lat": 42.6701,
+      "lng": -71.3023,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "28 Arlington Street, Dracut, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 472,
+      "name": "Dunstable Free Public Library",
+      "lat": 42.6744,
+      "lng": -71.4874,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "588 Main St., Dunstable, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 473,
+      "name": "East Brookfield Public Library",
+      "lat": 42.2249,
+      "lng": -72.0524,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "122 Connie Mack Drive, East Brookfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 474,
+      "name": "T.O.H.P. Burnham Free Library",
+      "lat": 42.6316,
+      "lng": -70.7832,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "30 Martin St., Essex, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 475,
+      "name": "Fitchburg Public Library",
+      "lat": 42.5832,
+      "lng": -71.8018,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "610 Main St., Fitchburg, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 476,
+      "name": "Levi Heywood Memorial Library",
+      "lat": 42.5761,
+      "lng": -71.9934,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "55 West Lynde St., Gardner, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 477,
+      "name": "Georgetown Peabody Library",
+      "lat": 42.7247,
+      "lng": -70.9892,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Maple St, Georgetown, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 478,
+      "name": "Grafton Public Library",
+      "lat": 42.206,
+      "lng": -71.6846,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "35 Grafton Common, Grafton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 479,
+      "name": "Groton Public Library",
+      "lat": 42.6051,
+      "lng": -71.5683,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "99 Main Street, Groton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 480,
+      "name": "Langley Adams Library",
+      "lat": 42.7675,
+      "lng": -71.0257,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "185 Main Street, Groveland, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 481,
+      "name": "John Curtis Free Library",
+      "lat": 42.1161,
+      "lng": -70.8437,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "534 Hanover St., Hanover, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 482,
+      "name": "Harvard Public Library",
+      "lat": 42.4976,
+      "lng": -71.584,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 Pond Rd., Harvard, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 483,
+      "name": "Haverhill Public Library",
+      "lat": 42.7772,
+      "lng": -71.0768,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "99 Main St., Haverhill, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 484,
+      "name": "Hingham Public Library",
+      "lat": 42.2354,
+      "lng": -70.875,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "66 Leavitt St., Hingham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 485,
+      "name": "Holbrook Public Library",
+      "lat": 42.155,
+      "lng": -71.0077,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Plymouth St., Holbrook, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 486,
+      "name": "Gale Free Library",
+      "lat": 42.3515,
+      "lng": -71.8613,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "23 Highland St., Holden, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 487,
+      "name": "Holliston Public Library",
+      "lat": 42.2004,
+      "lng": -71.4291,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "752 Washington St., Holliston, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 488,
+      "name": "Bancroft Memorial Library",
+      "lat": 42.1301,
+      "lng": -71.5414,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "50 Hopedale Street, Hopedale, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 489,
+      "name": "Hopkinton Public Library",
+      "lat": 42.2288,
+      "lng": -71.5196,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "13 Main Street, Hopkinton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 490,
+      "name": "Hubbardston Public Library",
+      "lat": 42.475,
+      "lng": -72.0072,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Main Street, Hubbardston, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 491,
+      "name": "Hudson Public Library",
+      "lat": 42.3916,
+      "lng": -71.5707,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 Washington Street, Hudson, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 492,
+      "name": "Hull Public Library",
+      "lat": 42.3021,
+      "lng": -70.9066,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "9 Main St., Hull, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 493,
+      "name": "Ipswich Public Library",
+      "lat": 42.6806,
+      "lng": -70.8358,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 North Main St., Ipswich, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 494,
+      "name": "Thayer Memorial Library",
+      "lat": 42.4552,
+      "lng": -71.6725,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "717 Main St., Lancaster, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 495,
+      "name": "Lawrence Public Library",
+      "lat": 42.7107,
+      "lng": -71.1622,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "51 Lawrence St., Lawrence, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 496,
+      "name": "Leicester Public Library",
+      "lat": 42.2461,
+      "lng": -71.9123,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1136 Main St., Leicester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 497,
+      "name": "Leominster Public Library",
+      "lat": 42.5264,
+      "lng": -71.762,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "30 West St., Leominster, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 498,
+      "name": "Lincoln Public Library",
+      "lat": 42.4261,
+      "lng": -71.3029,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "Bedford Road, Lincoln, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 499,
+      "name": "Reuben Hoar Library",
+      "lat": 42.5422,
+      "lng": -71.4806,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "35 Shattuck St., Littleton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 500,
+      "name": "Samuel S. Pollard Memorial Library",
+      "lat": 42.6466,
+      "lng": -71.3147,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "401 Merrimack St., Lowell, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 501,
+      "name": "Lunenburg Public Library",
+      "lat": 42.5963,
+      "lng": -71.7224,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1023 Massachusetts Ave., Lunenburg, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 502,
+      "name": "Lynn Public Library",
+      "lat": 42.4645,
+      "lng": -70.9537,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 North Common St., Lynn, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 503,
+      "name": "Lynnfield Public Library",
+      "lat": 42.5394,
+      "lng": -71.0478,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "18 Summer St., Lynnfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 504,
+      "name": "Abbot Public Library",
+      "lat": 42.4964,
+      "lng": -70.8632,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "235 Pleasant Street, Marblehead, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 505,
+      "name": "Marlborough Public Library",
+      "lat": 42.346,
+      "lng": -71.5545,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "35 West Main St., Marlborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 506,
+      "name": "Maynard Public Library",
+      "lat": 42.4343,
+      "lng": -71.4521,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "77 Nason St., Maynard, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 507,
+      "name": "Medfield Memorial Library",
+      "lat": 42.1866,
+      "lng": -71.305,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "468 Main Street, Medfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 508,
+      "name": "Medway Public Library",
+      "lat": 42.144,
+      "lng": -71.4299,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "26 High St., Medway, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 509,
+      "name": "Melrose Public Library",
+      "lat": 42.4593,
+      "lng": -71.0666,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "69 West Emerson St., Melrose, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 510,
+      "name": "Taft Public Library",
+      "lat": 42.1121,
+      "lng": -71.5567,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "29 North Avenue, Mendon, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 511,
+      "name": "Merrimac Public Library",
+      "lat": 42.8274,
+      "lng": -71.0129,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "86 West Main St., Merrimac, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 512,
+      "name": "Nevins Memorial Library",
+      "lat": 42.7304,
+      "lng": -71.189,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "305 Broadway, Methuen, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 513,
+      "name": "Flint Public Library",
+      "lat": 42.5948,
+      "lng": -71.0161,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 South Main St., Middleton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 514,
+      "name": "Milford Town Library",
+      "lat": 42.1424,
+      "lng": -71.5203,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "80 Spruce Street, Milford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 515,
+      "name": "Millbury Public Library",
+      "lat": 42.1904,
+      "lng": -71.7632,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "128 Elm St., Millbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 516,
+      "name": "Millis Public Library",
+      "lat": 42.1658,
+      "lng": -71.3616,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "961 Main Street, Millis, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 517,
+      "name": "Newbury Town Library",
+      "lat": 42.7575,
+      "lng": -70.9482,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "0 Lunt St., Byfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 518,
+      "name": "Newburyport Public Library",
+      "lat": 42.809,
+      "lng": -70.8712,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "94 State St., Newburyport, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 519,
+      "name": "Newton Free Library",
+      "lat": 42.3359,
+      "lng": -71.2079,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "330 Homer Street, Newton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 520,
+      "name": "Norfolk Public Library",
+      "lat": 42.1188,
+      "lng": -71.3258,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Liberty Lane, Norfolk, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 521,
+      "name": "Haston Free Public Library",
+      "lat": 42.2678,
+      "lng": -72.0852,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "161 North Main Street, North Brookfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 522,
+      "name": "Flint Memorial Library",
+      "lat": 42.5747,
+      "lng": -71.0763,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "147 Park Street, North Reading, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 523,
+      "name": "Northborough Free Library",
+      "lat": 42.3191,
+      "lng": -71.6402,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "34 Main Street, Northborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 524,
+      "name": "Whitinsville Social Library",
+      "lat": 42.1113,
+      "lng": -71.6636,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "17 Church St., Whitinsville, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 525,
+      "name": "Norwell Public Library",
+      "lat": 42.1527,
+      "lng": -70.8375,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "64 South St., Norwell, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 526,
+      "name": "Morrill Memorial Library",
+      "lat": 42.1913,
+      "lng": -71.2039,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "33 Walpole St., Norwood, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 527,
+      "name": "Fobes Memorial Library",
+      "lat": 42.3534,
+      "lng": -72.0429,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 Maple Street Unit #9, Oakham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 528,
+      "name": "Oxford Free Public Library",
+      "lat": 42.1186,
+      "lng": -71.8652,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "339 Main St., Oxford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 529,
+      "name": "Richards Memorial Library",
+      "lat": 42.3129,
+      "lng": -71.9272,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "44 Richards Ave., Paxton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 530,
+      "name": "Peabody Institute Library",
+      "lat": 42.525,
+      "lng": -70.9242,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "82 Main St., Peabody, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 531,
+      "name": "Lawrence Library",
+      "lat": 42.6672,
+      "lng": -71.5961,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "15 Main St., Pepperell, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 532,
+      "name": "Princeton Public Library",
+      "lat": 42.4501,
+      "lng": -71.8783,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Town Hall Drive, Princeton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 533,
+      "name": "Turner Free Library",
+      "lat": 42.1629,
+      "lng": -71.0421,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 North Main Street, Randolph, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 534,
+      "name": "Reading Public Library",
+      "lat": 42.5261,
+      "lng": -71.1103,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "64 Middlesex Ave., Reading, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 535,
+      "name": "Rockland Memorial Library",
+      "lat": 42.1321,
+      "lng": -70.9168,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "20 Belmont St., Rockland, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 536,
+      "name": "Rockport Public Library",
+      "lat": 42.6575,
+      "lng": -70.6178,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "17 School Street, Rockport, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 537,
+      "name": "Rowley Public Library",
+      "lat": 42.7148,
+      "lng": -70.8793,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "141 Main St., Rowley, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 538,
+      "name": "Rutland Free Public Library",
+      "lat": 42.3762,
+      "lng": -71.9571,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "280 Main Street, Rutland, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 539,
+      "name": "Salisbury Public Library",
+      "lat": 42.8397,
+      "lng": -70.8615,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "17 Elm Street, Salisbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 540,
+      "name": "Saugus Public Library",
+      "lat": 42.4653,
+      "lng": -71.0101,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "295 Central St., Saugus, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 541,
+      "name": "Scituate Town Library",
+      "lat": 42.2027,
+      "lng": -70.7564,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "85 Branch St., Scituate, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 542,
+      "name": "Sharon Public Library",
+      "lat": 42.1241,
+      "lng": -71.1782,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "11 North Main St., Sharon, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 543,
+      "name": "Sherborn Library",
+      "lat": 42.2397,
+      "lng": -71.3706,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 Sanger St., Sherborn, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 544,
+      "name": "Hazen Memorial Library",
+      "lat": 42.5458,
+      "lng": -71.6413,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 Keady Way, Shirley, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 545,
+      "name": "Shrewsbury Free Public Library",
+      "lat": 42.2971,
+      "lng": -71.7128,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "609 Main St., Shrewsbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 546,
+      "name": "Southborough Public Library",
+      "lat": 42.3062,
+      "lng": -71.5301,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Main St., Southborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 547,
+      "name": "Richard Sugden Public Library",
+      "lat": 42.2445,
+      "lng": -71.9947,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "8 Pleasant Street, Spencer, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 548,
+      "name": "Conant Free Public Library",
+      "lat": 42.4377,
+      "lng": -71.7611,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 Meetinghouse Hill Road, Sterling, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 549,
+      "name": "Stoneham Public Library",
+      "lat": 42.4779,
+      "lng": -71.1007,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "431 Main St., Stoneham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 550,
+      "name": "Stoughton Public Library",
+      "lat": 42.1228,
+      "lng": -71.0989,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "84 Park Street, Stoughton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 551,
+      "name": "Randall Library",
+      "lat": 42.4371,
+      "lng": -71.5047,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "19 Crescent Street, Stow, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 552,
+      "name": "Joshua Hyde Public Library",
+      "lat": 42.1082,
+      "lng": -72.08,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "306 Main Street, Sturbridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 553,
+      "name": "Goodnow Library",
+      "lat": 42.3633,
+      "lng": -71.4169,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "21 Concord Road, Sudbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 554,
+      "name": "Sutton Free Public Library",
+      "lat": 42.1496,
+      "lng": -71.7628,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 Uxbridge Road, Sutton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 555,
+      "name": "Boynton Public Library",
+      "lat": 42.5568,
+      "lng": -72.0677,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "27 Boynton Road, Templeton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 556,
+      "name": "Tewksbury Public Library",
+      "lat": 42.6067,
+      "lng": -71.2252,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "300 Chandler Street, Tewksbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 557,
+      "name": "Topsfield Town Library",
+      "lat": 42.6409,
+      "lng": -70.9497,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 South Common Street, Topsfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 558,
+      "name": "Townsend Public Library",
+      "lat": 42.6761,
+      "lng": -71.701,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "12 Dudley Rd., Townsend, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 559,
+      "name": "Tyngsborough Public Library",
+      "lat": 42.6806,
+      "lng": -71.4287,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Bryant Lane, Tyngsborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 560,
+      "name": "Upton Town Library",
+      "lat": 42.1732,
+      "lng": -71.6032,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Main Street, Upton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 561,
+      "name": "Lucius Beebe Memorial Library",
+      "lat": 42.5046,
+      "lng": -71.0719,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "345 Main Street, Wakefield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 562,
+      "name": "Walpole Public Library",
+      "lat": 42.1447,
+      "lng": -71.2502,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "143 School St., Walpole, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 563,
+      "name": "Waltham Public Library",
+      "lat": 42.3767,
+      "lng": -71.2395,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "735 Main St., Waltham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 564,
+      "name": "Watertown Free Public Library",
+      "lat": 42.3675,
+      "lng": -71.1868,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "123 Main St., Watertown, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 565,
+      "name": "Beaman Memorial Public Library",
+      "lat": 42.3652,
+      "lng": -71.7833,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "8 Newton St., West Boylston, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 566,
+      "name": "G. A. R. Memorial Library",
+      "lat": 42.8053,
+      "lng": -70.9815,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "490 Main St., West Newbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 567,
+      "name": "Westborough Public Library",
+      "lat": 42.2679,
+      "lng": -71.6155,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "55 West Main St., Westborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 568,
+      "name": "J. V. Fletcher Library",
+      "lat": 42.5818,
+      "lng": -71.4386,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "50 Main St., Westford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 569,
+      "name": "Forbush Memorial Library",
+      "lat": 42.5459,
+      "lng": -71.9119,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "118 Main St., Westminster, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 570,
+      "name": "Westwood Public Library",
+      "lat": 42.2258,
+      "lng": -71.2217,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "660 High St., Westwood, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 571,
+      "name": "Weymouth Public Libraries",
+      "lat": 42.2157,
+      "lng": -70.9653,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "46 Broad St., Weymouth, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 572,
+      "name": "Wilmington Memorial Library",
+      "lat": 42.5575,
+      "lng": -71.164,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "175 Middlesex Ave., Wilmington, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 573,
+      "name": "Beals Memorial Library",
+      "lat": 42.6826,
+      "lng": -72.0492,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "50 Pleasant St., Winchendon, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 574,
+      "name": "Winthrop Public Library & Museum Library",
+      "lat": 42.3777,
+      "lng": -70.9843,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Metcalf Square, Winthrop, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 575,
+      "name": "Worcester Public Library",
+      "lat": 42.2605,
+      "lng": -71.8003,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 Salem Square, Worcester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 576,
+      "name": "Bacon Free Library",
+      "lat": 42.2719,
+      "lng": -71.3163,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "58 Eliot Street, South Natick, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 577,
+      "name": "Hamilton-Wenham Public Library",
+      "lat": 42.6122,
+      "lng": -70.8802,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "14 Union St., South Hamilton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 578,
+      "name": "Rice Public Library",
+      "lat": 43.0868,
+      "lng": -70.7428,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "8 Wentworth Street, Kittery, ME",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 579,
+      "name": "Hollis Social Library",
+      "lat": 42.7397,
+      "lng": -71.5893,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Monument Square, Hollis, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 580,
+      "name": "Hooksett Public Library",
+      "lat": 43.0941,
+      "lng": -71.4517,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "31 Mount Saint Mary'S Way, Hooksett, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 581,
+      "name": "George H. And Ella M. Rodgers Memorial Library",
+      "lat": 42.7911,
+      "lng": -71.4387,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "194 Derry Road, Hudson, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 582,
+      "name": "Kimball Library",
+      "lat": 42.8388,
+      "lng": -71.1504,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 Academy Avenue, Atkinson, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 583,
+      "name": "Jaffrey Public Library",
+      "lat": 42.8155,
+      "lng": -72.0249,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "38 Main Street, Jaffrey, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 584,
+      "name": "Kensington Social & Public Library",
+      "lat": 42.9281,
+      "lng": -70.9436,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "126 Amesbury Road, Kensington, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 585,
+      "name": "Kingston Community Library",
+      "lat": 42.9477,
+      "lng": -71.0594,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Library Lane, Kingston, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 586,
+      "name": "Griffin Free Public Library",
+      "lat": 43.0059,
+      "lng": -71.3486,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "22 Hooksett Road, Auburn, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 587,
+      "name": "Aaron Cutler Memorial Library",
+      "lat": 42.8447,
+      "lng": -71.4797,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "269 Charles Bancroft Highway, Litchfield, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 588,
+      "name": "Leach Library",
+      "lat": 42.8688,
+      "lng": -71.376,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "276 Mammoth Road, Londonderry, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 589,
+      "name": "J.A. Tarbell Library",
+      "lat": 42.8787,
+      "lng": -71.7826,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "136 Forest Road, Lyndeborough, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 590,
+      "name": "Manchester City Library",
+      "lat": 42.9923,
+      "lng": -71.4593,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "405 Pine Street, Manchester, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 591,
+      "name": "Mason Public Library",
+      "lat": 42.7445,
+      "lng": -71.769,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "16 Darling Hill Road, Mason, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 592,
+      "name": "Merrimack Public Library",
+      "lat": 42.8675,
+      "lng": -71.4934,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "470 Daniel Webster Highway, Merrimack, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 593,
+      "name": "William Y. Wadleigh Memorial Library",
+      "lat": 42.8355,
+      "lng": -71.6479,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "49 Nashua Street, Milford, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 594,
+      "name": "Daland Memorial Library",
+      "lat": 42.8951,
+      "lng": -71.6744,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 North Main Street, Mont Vernon, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 595,
+      "name": "Nashua Public Library",
+      "lat": 42.7629,
+      "lng": -71.4649,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Court Street, Nashua, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 596,
+      "name": "Whipple Free Library",
+      "lat": 42.9713,
+      "lng": -71.6965,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "67 Mont Vernon Rd, New Boston, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 597,
+      "name": "New Castle Public Library",
+      "lat": 43.0648,
+      "lng": -70.7168,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "301 Wentworth Road, New Castle, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 598,
+      "name": "Paul Memorial Library",
+      "lat": 43.0362,
+      "lng": -70.9418,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "76 Main Street, Newfields, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 599,
+      "name": "Langdon Library",
+      "lat": 43.0974,
+      "lng": -70.8326,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "328 Nimble Hill Road, Newington, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 600,
+      "name": "New Ipswich Library",
+      "lat": 42.7573,
+      "lng": -71.8541,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "6 Main Street, New Ipswich, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 601,
+      "name": "Newmarket Public Library",
+      "lat": 43.0816,
+      "lng": -70.9352,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Elm Street, Newmarket, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 602,
+      "name": "Gale Library",
+      "lat": 42.8674,
+      "lng": -71.0364,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "16 South Main Street, Newton, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 603,
+      "name": "North Hampton Public Library",
+      "lat": 42.9732,
+      "lng": -70.8314,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "239 Atlantic Avenue, North Hampton, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 604,
+      "name": "Pelham Public Library",
+      "lat": 42.7319,
+      "lng": -71.3263,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "24 Village Green, Pelham, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 605,
+      "name": "Peterborough Town Library",
+      "lat": 42.8778,
+      "lng": -71.9479,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Concord Street, Peterborough, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 606,
+      "name": "Bedford Public Library",
+      "lat": 42.9464,
+      "lng": -71.5161,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 Meetinghouse Road, Bedford, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 607,
+      "name": "Plaistow Public Library",
+      "lat": 42.8286,
+      "lng": -71.093,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "85 Main Street, Plaistow, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 608,
+      "name": "Portsmouth Public Library",
+      "lat": 43.0716,
+      "lng": -70.7593,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "175 Parrott Avenue, Portsmouth, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 609,
+      "name": "Dudley-Tucker Library",
+      "lat": 43.0367,
+      "lng": -71.1828,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "6 Epping Street, Raymond, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 610,
+      "name": "Ingalls Memorial Library",
+      "lat": 42.7484,
+      "lng": -72.0093,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "203 Main Street, Rindge, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 611,
+      "name": "Rye Public Library",
+      "lat": 43.0115,
+      "lng": -70.7733,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "581 Washington Road, Rye, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 612,
+      "name": "Kelley Library",
+      "lat": 42.7847,
+      "lng": -71.2114,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "234 Main Street, Salem, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 613,
+      "name": "Sandown Public Library",
+      "lat": 42.9247,
+      "lng": -71.1867,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "305 Main Street, Sandown, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 614,
+      "name": "Seabrook Library",
+      "lat": 42.8849,
+      "lng": -70.8608,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Liberty Lane, Seabrook, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 615,
+      "name": "G.E.P. Dodge Library",
+      "lat": 43.0011,
+      "lng": -71.9232,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Main Street, Bennington, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 616,
+      "name": "South Hampton Free Public Library",
+      "lat": 42.8811,
+      "lng": -70.9632,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3-1 Hilldale Avenue, South Hampton, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 617,
+      "name": "Wiggin Memorial Library",
+      "lat": 43.0116,
+      "lng": -70.9155,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 Bunker Hill Ave., Stratham, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 618,
+      "name": "Mansfield Public Library",
+      "lat": 42.8203,
+      "lng": -71.8514,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 Main Street, Temple, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 619,
+      "name": "Weare Public Library",
+      "lat": 43.0954,
+      "lng": -71.7295,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 Paige Memorial Lane, Weare, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 620,
+      "name": "Wilton Public & Gregg Free Library",
+      "lat": 42.8451,
+      "lng": -71.7387,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Forest Road, Wilton, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 621,
+      "name": "Nesmith Library",
+      "lat": 42.8033,
+      "lng": -71.2983,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "8 Fellows Road, Windham, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 622,
+      "name": "Mary E. Bartlett Library",
+      "lat": 42.9809,
+      "lng": -71.0727,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "22 Dalton Road, Brentwood, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 623,
+      "name": "Brookline Public Library",
+      "lat": 42.7328,
+      "lng": -71.6596,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "16 Main Street, Brookline, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 624,
+      "name": "Smyth Public Library",
+      "lat": 43.0619,
+      "lng": -71.2903,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "55 High Street, Candia, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 625,
+      "name": "Colby Memorial Library",
+      "lat": 42.9131,
+      "lng": -71.1245,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Colby Road, Danville, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 626,
+      "name": "Deering Public Library",
+      "lat": 43.0744,
+      "lng": -71.8461,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "762 Deering Center Road, Deering, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 627,
+      "name": "Derry Public Library",
+      "lat": 42.8831,
+      "lng": -71.3222,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "64 East Broadway, Derry, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 628,
+      "name": "Taylor Library",
+      "lat": 42.8943,
+      "lng": -71.2942,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "49 East Derry Road, East Derry, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 629,
+      "name": "Dublin Public Library",
+      "lat": 42.9059,
+      "lng": -72.0614,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1114 Main Street, Dublin, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 630,
+      "name": "East Kingston Public Library",
+      "lat": 42.9243,
+      "lng": -71.0094,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "47 Maplevale Road, East Kingston, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 631,
+      "name": "Amherst Town Library",
+      "lat": 42.8627,
+      "lng": -71.6277,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "14 Main Street, Amherst, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 632,
+      "name": "Harvey-Mitchell Memorial Library",
+      "lat": 43.039,
+      "lng": -71.0733,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "151 Main Street, Epping, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 633,
+      "name": "Exeter Public Library",
+      "lat": 42.9825,
+      "lng": -70.9446,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 Chestnut Street, Exeter, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 634,
+      "name": "George Holmes Bixby Memorial Library",
+      "lat": 42.9891,
+      "lng": -71.8138,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "52 Main Street, Francestown, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 635,
+      "name": "Fremont Public Library",
+      "lat": 42.9797,
+      "lng": -71.1223,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Jackie Bernier Drive, Fremont, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 636,
+      "name": "Goffstown Public Library",
+      "lat": 43.0204,
+      "lng": -71.6002,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 High Street, Goffstown, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 637,
+      "name": "Stephenson Memorial Library",
+      "lat": 42.9503,
+      "lng": -71.8708,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "761 Forest Road, Greenfield, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 638,
+      "name": "Weeks Public Library",
+      "lat": 43.0354,
+      "lng": -70.8326,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "36 Post Road, Greenland, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 639,
+      "name": "Chamberlin Free Public Library",
+      "lat": 42.7675,
+      "lng": -71.8121,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "46 Main Street, Greenville, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 640,
+      "name": "Hampstead Public Library",
+      "lat": 42.8615,
+      "lng": -71.1748,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "9 Mary E. Clark Drive, Hampstead, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 641,
+      "name": "Lane Memorial Library",
+      "lat": 42.9379,
+      "lng": -70.8335,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Academy Avenue, Hampton, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 642,
+      "name": "James A. Tuttle Library",
+      "lat": 43.0281,
+      "lng": -71.9379,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "45 Main Street, Antrim, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 643,
+      "name": "Hampton Falls Free Library",
+      "lat": 42.9207,
+      "lng": -70.875,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Drinkwater Road, Hampton Falls, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 644,
+      "name": "Hancock Town Library",
+      "lat": 42.9731,
+      "lng": -71.9823,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Main Street, Hancock, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 645,
+      "name": "Harrisville Public Library",
+      "lat": 42.9461,
+      "lng": -72.0959,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Canal Street, Harrisville, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 646,
+      "name": "Chester Public Library",
+      "lat": 42.9578,
+      "lng": -71.2576,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 Chester Street, Chester, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 647,
+      "name": "Paxton Town Hall",
+      "lat": 42.3115,
+      "lng": -71.9283,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "697 Pleasant Street, Paxton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 648,
+      "name": "Holden Town Hall",
+      "lat": 42.3512,
+      "lng": -71.8624,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1196 Main Street, Holden, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 649,
+      "name": "Oxford Town Hall",
+      "lat": 42.1176,
+      "lng": -71.8652,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "325 Main Street, Oxford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 650,
+      "name": "Essex Town Hall",
+      "lat": 42.6297,
+      "lng": -70.7857,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "74 Martin Street, Essex, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 651,
+      "name": "Boxborough Town Hall",
+      "lat": 42.4829,
+      "lng": -71.5139,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "29 Middle Road, Boxborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 652,
+      "name": "Millis Town Hall",
+      "lat": 42.1662,
+      "lng": -71.3586,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "900 Main Street, Millis, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 653,
+      "name": "Maynard Town Hall",
+      "lat": 42.4304,
+      "lng": -71.4614,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "195 Main Street, Maynard, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 654,
+      "name": "Northbridge Town Hall",
+      "lat": 42.1101,
+      "lng": -71.6655,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Main Street, Northbridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 655,
+      "name": "Merrimac Town Hall",
+      "lat": 42.8335,
+      "lng": -71.0019,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 School Street, Merrimac, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 656,
+      "name": "Cohasset Town Hall",
+      "lat": 42.2431,
+      "lng": -70.8025,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "41 Highland Avenue, Cohasset, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 657,
+      "name": "Chelmsford Town Hall",
+      "lat": 42.5987,
+      "lng": -71.3471,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "50 Billerica Road, Chelmsford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 658,
+      "name": "Shrewsbury Town Hall",
+      "lat": 42.2915,
+      "lng": -71.7223,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "100 Maple Avenue, Shrewsbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 659,
+      "name": "Stoneham Town Hall",
+      "lat": 42.4802,
+      "lng": -71.0982,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "35 Central Street, Stoneham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 660,
+      "name": "Tewksbury Town Hall",
+      "lat": 42.6119,
+      "lng": -71.2343,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1009 Main Street, Tewksbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 661,
+      "name": "Groton Town Hall",
+      "lat": 42.6081,
+      "lng": -71.5716,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "173 Main Street, Groton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 662,
+      "name": "Hamilton Town Hall",
+      "lat": 42.6196,
+      "lng": -70.8541,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "577 Bay Road, Hamilton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 663,
+      "name": "Rockport Town Hall",
+      "lat": 42.6567,
+      "lng": -70.6195,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "34 Broadway, Rockport, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 664,
+      "name": "Boylston Town Hall",
+      "lat": 42.3298,
+      "lng": -71.7546,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "221 Main Street, Boylston, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 665,
+      "name": "Berlin Town Hall",
+      "lat": 42.3807,
+      "lng": -71.6401,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "23 Linden Street, Berlin, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 666,
+      "name": "Dunstable Town Hall",
+      "lat": 42.6749,
+      "lng": -71.4817,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "511 Main Street, Dunstable, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 667,
+      "name": "Tyngsborough Town Hall",
+      "lat": 42.6804,
+      "lng": -71.4272,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Bryants Lane, Tyngsborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 668,
+      "name": "Avon Town Hall",
+      "lat": 42.1292,
+      "lng": -71.0394,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "65 East Main Street, Avon, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 669,
+      "name": "Auburn Town Hall",
+      "lat": 42.1954,
+      "lng": -71.8361,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "104 Central Street, Auburn, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 670,
+      "name": "Newburyport City Hall",
+      "lat": 42.8112,
+      "lng": -70.8727,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "60 Pleasant Street, Newburyport, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 671,
+      "name": "Millbury Town Hall",
+      "lat": 42.1891,
+      "lng": -71.7621,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "127 Elm Street, Millbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 672,
+      "name": "Braintree Town Hall",
+      "lat": 42.2061,
+      "lng": -71.0053,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 John F Kennedy Memorial Drive, Braintree, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 673,
+      "name": "Ashby Town Hall",
+      "lat": 42.6784,
+      "lng": -71.8225,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "895 Main Street, Ashby, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 674,
+      "name": "Townsend Town Hall",
+      "lat": 42.667,
+      "lng": -71.707,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "272 Main Street, Townsend, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 675,
+      "name": "Gardner City Hall",
+      "lat": 42.574,
+      "lng": -71.9963,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "95 Pleasant Street, Gardner, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 676,
+      "name": "Lynnfield Town Hall",
+      "lat": 42.5385,
+      "lng": -71.0473,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "55 Summer Street, Lynnfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 677,
+      "name": "Sturbridge Town Hall",
+      "lat": 42.1088,
+      "lng": -72.0806,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "308 Main Street, Sturbridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 678,
+      "name": "Hopkinton Town Hall",
+      "lat": 42.2291,
+      "lng": -71.5203,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "18 Main Street, Hopkinton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 679,
+      "name": "Saugus Town Hall",
+      "lat": 42.4653,
+      "lng": -71.0091,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "298 Central Street, Saugus, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 680,
+      "name": "Worcester City Hall",
+      "lat": 42.2626,
+      "lng": -71.802,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "455 Main Street, Worcester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 681,
+      "name": "Hull Town Hall",
+      "lat": 42.2653,
+      "lng": -70.8461,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "253 Atlantic Avenue, Hull, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 682,
+      "name": "Dover Town Hall",
+      "lat": 42.2451,
+      "lng": -71.2808,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 Springdale Avenue, Dover, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 683,
+      "name": "Dracut Town Hall",
+      "lat": 42.6708,
+      "lng": -71.3012,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "62 Arlington Street, Dracut, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 684,
+      "name": "Norfolk Town Hall",
+      "lat": 42.118,
+      "lng": -71.3265,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Liberty Lane, Norfolk, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 685,
+      "name": "Carlisle Town Hall",
+      "lat": 42.5294,
+      "lng": -71.3513,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "66 Westford Street, Carlisle, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 686,
+      "name": "Haverhill City Hall",
+      "lat": 42.7781,
+      "lng": -71.0768,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "4 Summer Street, Haverhill, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 687,
+      "name": "Lawrence City Hall",
+      "lat": 42.7083,
+      "lng": -71.16,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "200 Common Street, Lawrence, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 688,
+      "name": "Newbury Town Hall",
+      "lat": 42.7978,
+      "lng": -70.8612,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 High Road, Newbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 689,
+      "name": "Salisbury Town Hall",
+      "lat": 42.8418,
+      "lng": -70.8593,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "5 Beach Road, Salisbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 690,
+      "name": "Sudbury Town Hall",
+      "lat": 42.3828,
+      "lng": -71.4111,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "322 Concord Road, Sudbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 691,
+      "name": "Holbrook Town Hall",
+      "lat": 42.1557,
+      "lng": -71.0093,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "50 North Franklin Street, Holbrook, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 692,
+      "name": "Winchendon Town Hall",
+      "lat": 42.6815,
+      "lng": -72.0491,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "109 Front Street, Winchendon, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 693,
+      "name": "Middleton Town Hall",
+      "lat": 42.5931,
+      "lng": -71.0143,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "48 South Main Street, Middleton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 694,
+      "name": "Holliston Town Hall",
+      "lat": 42.2022,
+      "lng": -71.4296,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "703 Washington Street, Holliston, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 695,
+      "name": "West Boylston Town Hall",
+      "lat": 42.3603,
+      "lng": -71.7811,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "140 Worcester Street, West Boylston, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 696,
+      "name": "Danvers Town Hall",
+      "lat": 42.5626,
+      "lng": -70.9395,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Sylvan Street, Danvers, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 697,
+      "name": "Randolph Town Hall",
+      "lat": 42.1613,
+      "lng": -71.0427,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "41 South Main Street, Randolph, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 698,
+      "name": "Sherborn Town Hall",
+      "lat": 42.2397,
+      "lng": -71.3713,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "19 Washington Street, Sherborn, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 699,
+      "name": "Quincy City Hall",
+      "lat": 42.2509,
+      "lng": -71.0043,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1305 Hancock Street, Quincy, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 700,
+      "name": "Northborough Town Hall",
+      "lat": 42.3206,
+      "lng": -71.638,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "63 Main Street, Northborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 701,
+      "name": "Canton Town Hall",
+      "lat": 42.1591,
+      "lng": -71.1443,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "801 Washington Street, Canton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 702,
+      "name": "Amesbury Town Hall",
+      "lat": 42.8563,
+      "lng": -70.9333,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "62 Friend Street, Amesbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 703,
+      "name": "Melrose City Hall",
+      "lat": 42.4566,
+      "lng": -71.0648,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "562 Main Street, Melrose, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 704,
+      "name": "Ayer Town Hall",
+      "lat": 42.5595,
+      "lng": -71.5868,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Main Street, Ayer, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 705,
+      "name": "Rockland Town Hall",
+      "lat": 42.1287,
+      "lng": -70.9157,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "242 Union Street, Rockland, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 706,
+      "name": "Norwood Town Hall",
+      "lat": 42.1949,
+      "lng": -71.1998,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "566 Washington Street, Norwood, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 707,
+      "name": "Lunenburg Town Hall",
+      "lat": 42.5955,
+      "lng": -71.7252,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "17 Main Street, Lunenburg, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 708,
+      "name": "Rowley Town Hall",
+      "lat": 42.7147,
+      "lng": -70.8799,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "139 Main Street, Rowley, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 709,
+      "name": "Billerica Town Hall",
+      "lat": 42.5626,
+      "lng": -71.2714,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "365 Boston Road, Billerica, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 710,
+      "name": "Templeton Town Hall",
+      "lat": 42.5609,
+      "lng": -72.0398,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "160 Patriots Road, Templeton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 711,
+      "name": "Topsfield Town Hall",
+      "lat": 42.6418,
+      "lng": -70.9512,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "8 West Common Street, Topsfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 712,
+      "name": "Grafton Town Hall",
+      "lat": 42.2092,
+      "lng": -71.6941,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "30 Providence Road, Grafton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 713,
+      "name": "Gloucester City Hall",
+      "lat": 42.6141,
+      "lng": -70.6627,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "9 Dale Avenue, Gloucester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 714,
+      "name": "Wakefield Town Hall",
+      "lat": 42.5062,
+      "lng": -71.0729,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Lafayette Street, Wakefield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 715,
+      "name": "Leicester Town Hall",
+      "lat": 42.2473,
+      "lng": -71.9061,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "3 Washburn Square, Leicester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 716,
+      "name": "Sterling Town Hall",
+      "lat": 42.4385,
+      "lng": -71.7596,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Park Street, Sterling, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 717,
+      "name": "Westford Town Hall",
+      "lat": 42.5821,
+      "lng": -71.4372,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "55 Main Street, Westford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 718,
+      "name": "Hopedale Town Hall",
+      "lat": 42.129,
+      "lng": -71.5399,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "78 Hopedale Street, Hopedale, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 719,
+      "name": "Groveland Town Hall",
+      "lat": 42.768,
+      "lng": -71.0255,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "183 Main Street, Groveland, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 720,
+      "name": "Lancaster Town Hall",
+      "lat": 42.4547,
+      "lng": -71.6726,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "695 Main Street, Lancaster, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 721,
+      "name": "Westborough Town Hall",
+      "lat": 42.2684,
+      "lng": -71.6137,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "34 West Main Street, Westborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 722,
+      "name": "Scituate Town Hall",
+      "lat": 42.1975,
+      "lng": -70.7684,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "600 Chief Justice Cushing Highway, Scituate, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 723,
+      "name": "Ipswich Town Hall",
+      "lat": 42.6796,
+      "lng": -70.8326,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 Green Street, Ipswich, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 724,
+      "name": "Medfield Town Hall",
+      "lat": 42.1872,
+      "lng": -71.3051,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "459 Main Street, Medfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 725,
+      "name": "Spencer Town Hall",
+      "lat": 42.2445,
+      "lng": -71.9926,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "157 Main Street, Spencer, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 726,
+      "name": "Ashland Town Hall",
+      "lat": 42.2611,
+      "lng": -71.4663,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "101 Main Street, Ashland, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 727,
+      "name": "Norwell Town Hall",
+      "lat": 42.1581,
+      "lng": -70.8178,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "345 Main Street, Norwell, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 728,
+      "name": "Andover Town Hall",
+      "lat": 42.6546,
+      "lng": -71.1365,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "36 Bartlet Street, Andover, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 729,
+      "name": "Bolton Town Hall",
+      "lat": 42.4335,
+      "lng": -71.6052,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "663 Main Street, Bolton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 730,
+      "name": "Pepperell Town Hall",
+      "lat": 42.6674,
+      "lng": -71.5978,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Main Street, Pepperell, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 731,
+      "name": "West Newbury Town Hall",
+      "lat": 42.8004,
+      "lng": -70.9893,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "381 Main Street, West Newbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 732,
+      "name": "Milford Town Hall",
+      "lat": 42.1426,
+      "lng": -71.5166,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "52 Main Street, Milford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 733,
+      "name": "North Brookfield Town Hall",
+      "lat": 42.2692,
+      "lng": -72.0856,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "215 North Main Street, North Brookfield, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 734,
+      "name": "Methuen City Hall",
+      "lat": 42.7299,
+      "lng": -71.1835,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "41 Pleasant Street, Methuen, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 735,
+      "name": "Ashburnham Town Hall",
+      "lat": 42.6363,
+      "lng": -71.909,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "32 Main Street, Ashburnham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 736,
+      "name": "Weymouth Town Hall",
+      "lat": 42.222,
+      "lng": -70.9391,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "75 Middle Street, Weymouth, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 737,
+      "name": "Sharon Town Hall",
+      "lat": 42.1205,
+      "lng": -71.1801,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "90 South Main Street, Sharon, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 738,
+      "name": "North Reading Town Hall",
+      "lat": 42.5868,
+      "lng": -71.1197,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "235 North Street, North Reading, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 739,
+      "name": "Reading Town Hall",
+      "lat": 42.5254,
+      "lng": -71.1036,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "16 Lowell Street, Reading, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 740,
+      "name": "Oakham Town Hall",
+      "lat": 42.3535,
+      "lng": -72.0421,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "2 Coldbrook Road, Oakham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 741,
+      "name": "Watertown Town Hall",
+      "lat": 42.3686,
+      "lng": -71.1878,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "149 Main Street, Watertown, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 742,
+      "name": "Lowell City Hall",
+      "lat": 42.6463,
+      "lng": -71.3142,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "375 Merrimack Street, Lowell, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 743,
+      "name": "Rutland Town Hall",
+      "lat": 42.3771,
+      "lng": -71.9551,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "250 Main Street, Rutland, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 744,
+      "name": "Harvard Town Hall",
+      "lat": 42.5026,
+      "lng": -71.5848,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "13 Ayer Road, Harvard, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 745,
+      "name": "Abington Town Hall",
+      "lat": 42.1175,
+      "lng": -70.9567,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "500 R F Gliniewicz Way, Abington, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 746,
+      "name": "Princeton Town Hall",
+      "lat": 42.4499,
+      "lng": -71.8789,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "6 Town Hall Drive, Princeton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 747,
+      "name": "Westminster Town Hall",
+      "lat": 42.5432,
+      "lng": -71.9129,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "11 South Street, Westminster, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 748,
+      "name": "Wenham Town Hall",
+      "lat": 42.6043,
+      "lng": -70.8868,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "138 Main Street, Wenham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 749,
+      "name": "Shirley Town Hall",
+      "lat": 42.5452,
+      "lng": -71.6416,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "7 Keady Way, Shirley, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 750,
+      "name": "Westwood Town Hall",
+      "lat": 42.2284,
+      "lng": -71.2208,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "580 High Street, Westwood, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 751,
+      "name": "Hingham Town Hall",
+      "lat": 42.2314,
+      "lng": -70.8859,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "210 Central Street, Hingham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 752,
+      "name": "Leominster City Hall",
+      "lat": 42.5272,
+      "lng": -71.7614,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "25 West Street, Leominster, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 753,
+      "name": "Charlton Town Hall",
+      "lat": 42.1341,
+      "lng": -71.9691,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "37 Main Street, Charlton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 754,
+      "name": "Upton Town Hall",
+      "lat": 42.1736,
+      "lng": -71.6037,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Main Street, Upton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 755,
+      "name": "Clinton Town Hall",
+      "lat": 42.4174,
+      "lng": -71.6826,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "242 Church Street, Clinton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 756,
+      "name": "Wilmington Town Hall",
+      "lat": 42.5658,
+      "lng": -71.1801,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "121 Glen Road, Wilmington, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 757,
+      "name": "Mendon Town Hall",
+      "lat": 42.1055,
+      "lng": -71.5513,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "20 Main Street, Mendon, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 758,
+      "name": "Hudson Town Hall",
+      "lat": 42.3916,
+      "lng": -71.5677,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "78 Main Street, Hudson, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 759,
+      "name": "Medway Town Hall",
+      "lat": 42.1399,
+      "lng": -71.3984,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "155 Village Street, Medway, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 760,
+      "name": "Stoughton Town Hall",
+      "lat": 42.1255,
+      "lng": -71.1031,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 Pearl Street, Stoughton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 761,
+      "name": "Stow Town Hall",
+      "lat": 42.4363,
+      "lng": -71.5066,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "380 Great Road, Stow, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 762,
+      "name": "Walpole Town Hall",
+      "lat": 42.1452,
+      "lng": -71.2502,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "135 School Street, Walpole, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 763,
+      "name": "Lincoln Town Hall",
+      "lat": 42.424,
+      "lng": -71.307,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "16 Lincoln Road, Lincoln, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 764,
+      "name": "Dedham Town Hall",
+      "lat": 42.2464,
+      "lng": -71.1732,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "26 Bryant Street, Dedham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 765,
+      "name": "Peabody City Hall",
+      "lat": 42.526,
+      "lng": -70.9288,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "24 Lowell Street, Peabody, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 766,
+      "name": "Arlington Town Hall",
+      "lat": 42.4158,
+      "lng": -71.1564,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "730 Massachusetts Avenue, Arlington, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 767,
+      "name": "Georgetown Town Hall",
+      "lat": 42.7226,
+      "lng": -70.9929,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Library Street, Georgetown, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 768,
+      "name": "Fitchburg City Hall",
+      "lat": 42.5819,
+      "lng": -71.8016,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "166 Boulder Drive, Fitchburg, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 769,
+      "name": "Southborough Town House",
+      "lat": 42.3061,
+      "lng": -71.532,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "17 Common Street, Southborough, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 770,
+      "name": "West Acton Citizen'S Library",
+      "lat": 42.4754,
+      "lng": -71.4737,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "21 Windsor Ave., Acton, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 771,
+      "name": "Beverly Farms Branch Library",
+      "lat": 42.5628,
+      "lng": -70.8137,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "24 Vine Street, Beverly, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 772,
+      "name": "East Boston Branch Library",
+      "lat": 42.3766,
+      "lng": -71.0394,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "365 Bremen Street, East Boston, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 773,
+      "name": "Roxbury Branch",
+      "lat": 42.3286,
+      "lng": -71.0837,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "149 Dudley St., Roxbury, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 774,
+      "name": "Putterham Branch Library",
+      "lat": 42.3025,
+      "lng": -71.1501,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "959 West Roxbury Parkway, Chestnut Hill, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 775,
+      "name": "Central Square Branch Library",
+      "lat": 42.3641,
+      "lng": -71.1037,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "45 Pearl Street, Cambridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 776,
+      "name": "William Cardinal O`Connell Branch",
+      "lat": 42.3705,
+      "lng": -71.0848,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "48 Sixth Street, Cambridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 777,
+      "name": "Salvatore Valente Branch Library",
+      "lat": 42.3717,
+      "lng": -71.0905,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "826 Cambridge Street, Cambridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 778,
+      "name": "Daniel P. Collins Branch Library",
+      "lat": 42.3769,
+      "lng": -71.1469,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "64 Aberdeen Avenue, Cambridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 779,
+      "name": "Mildred A. O`Neill Branch",
+      "lat": 42.392,
+      "lng": -71.1284,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "70 Rindge Avenue, Cambridge, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 780,
+      "name": "Mackay Branch Library",
+      "lat": 42.6372,
+      "lng": -71.3839,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "43 Newfield Street, North Chelmsford, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 781,
+      "name": "Endicott Branch Library",
+      "lat": 42.24,
+      "lng": -71.1609,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "257 Mount Vernon Street, Dedham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 782,
+      "name": "Shute Memorial Library",
+      "lat": 42.4167,
+      "lng": -71.0466,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "781 Broadway, Everett, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 783,
+      "name": "Mcauliffe Branch Library",
+      "lat": 42.3265,
+      "lng": -71.4036,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "10 Nicholas Road, Framingham, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 784,
+      "name": "South Branch",
+      "lat": 42.5127,
+      "lng": -70.9465,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "78 Lynn Street, Peabody, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 785,
+      "name": "West Branch",
+      "lat": 42.5491,
+      "lng": -70.9924,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "603 Lowell St., Peabody, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 786,
+      "name": "Hills Branch Library",
+      "lat": 42.3148,
+      "lng": -71.271,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "210 Washington Street, Wellesley, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 787,
+      "name": "Islington Branch Library",
+      "lat": 42.2194,
+      "lng": -71.1878,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "273 Washington Street, Westwood, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 788,
+      "name": "Fogg Library",
+      "lat": 42.1748,
+      "lng": -70.9509,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1 Columbian Square, South Weymouth, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 789,
+      "name": "Great Brook Valley Branch Library",
+      "lat": 42.3055,
+      "lng": -71.769,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "89 Tacoma Street, Worcester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 790,
+      "name": "Frances Perkins Branch Library At Greendale Library",
+      "lat": 42.3074,
+      "lng": -71.799,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "470 West Boylston Street, Worcester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 791,
+      "name": "Roosevelt Branch",
+      "lat": 42.2432,
+      "lng": -71.7571,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1006 Grafton Street, Worcester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 792,
+      "name": "Tatnuck Branch",
+      "lat": 42.2785,
+      "lng": -71.8509,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "1083 Pleasant Street, Worcester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 793,
+      "name": "Goddard Branch",
+      "lat": 42.2476,
+      "lng": -71.8244,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "14 Richards Street, Worcester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 794,
+      "name": "Burncoat Branch",
+      "lat": 42.3218,
+      "lng": -71.7926,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "526 Burncoat Street, Worcester, MA",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
+    },
+    {
+      "id": 795,
+      "name": "West Side Community Library",
+      "lat": 42.9852,
+      "lng": -71.474,
+      "w3w": "",
+      "routes": [
+        "restrooms"
+      ],
+      "note": "76 North Main Street, Manchester, NH",
+      "images": [],
+      "icon": "osa:amenity/toilets",
+      "cats": [
+        "restroom"
+      ]
     }
   ],
   "wikiTerms": {
