@@ -8,7 +8,8 @@
       "w3w": "descended.soils.unity",
       "routes": [
         "local",
-        "north"
+        "north",
+        "boston"
       ],
       "note": "Where the riverwalk meets the beach",
       "images": [
@@ -154,7 +155,8 @@
       "w3w": "charity.brushing.money",
       "routes": [
         "ponds",
-        "west"
+        "west",
+        "boston"
       ],
       "note": "Secluded heart-shaped pond",
       "images": [
@@ -706,7 +708,8 @@
       "lng": -71.3696,
       "w3w": "",
       "routes": [
-        "south"
+        "south",
+        "boston"
       ],
       "note": "625-acre lake park in Natick — swimming, boating, and woodland trails.",
       "images": [
@@ -12054,7 +12057,8 @@
       "w3w": "",
       "routes": [
         "north",
-        "ponds"
+        "ponds",
+        "boston"
       ],
       "note": "Franconia Notch State Park",
       "images": [
@@ -12596,7 +12600,8 @@
       "lng": -71.4569,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "boston"
       ],
       "note": "71 Lakeside Ave",
       "images": [
@@ -13000,7 +13005,8 @@
       "lng": -70.6395,
       "w3w": "",
       "routes": [
-        "south"
+        "south",
+        "boston"
       ],
       "note": "",
       "images": [
