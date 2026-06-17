@@ -491,7 +491,7 @@ function loadSpotImg(el, spot){
       el.querySelectorAll('.gallery-dot').forEach(d=>d.addEventListener('click',function(e){e.stopPropagation();galleryIdx=+this.dataset.i;updateGallery(el,trackEl);}));
     }
   } else {
-    const emoji = {mountain:'⛰️',waterfall:'💧',beach:'🏖️',river:'🌊',canal:'🚣',lookout:'🔭',historic:'🏛️',park:'🌳'}[spot.cats[0]];
+    const emoji = {mountain:'⛰️',waterfall:'💧',beach:'🏖️',river:'🌊',canal:'🚣',lookout:'🔭',historic:'🏛️',park:'🌳',restroom:'🚻'}[spot.cats[0]] || '📍';
     el.innerHTML = '<span class="ss-loading" style="font-size:2rem">'+emoji+'</span><div class="ss-cat" style="background:'+cat.color+'">'+cat.label+'</div>';
   }
 }
