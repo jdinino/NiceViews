@@ -13309,9 +13309,9 @@
       "routes": [],
       "note": "There are 14 zip-lines on 2 separate courses covering over 2 miles of exhilaration through and above the treetops at heights of up to 200&#8242; above the forest floor.",
       "images": [],
-      "icon": "osa:functional-icons/tree_broadleaved",
+      "icon": "osa:special/photo_camera",
       "cats": [
-        "park"
+        "lookout"
       ]
     },
     {
@@ -13520,9 +13520,9 @@
       "routes": [],
       "note": "Join in the fun as we take a 2 1/2 to 3 hour journey through the majestic White Mountains in our air conditioned bus in search of the gentle giant of the North Country. Our nightly excursions feature a guided tour of the local area, a video about Moose, and interesting historical sites along the way.",
       "images": [],
-      "icon": "osa:functional-icons/tree_broadleaved",
+      "icon": "osa:special/photo_camera",
       "cats": [
-        "park"
+        "lookout"
       ]
     },
     {
@@ -13586,7 +13586,7 @@
       "routes": [],
       "note": "Exhibits many different wild animals, including river otters, mountain lions, bobcats, deer, bears, birds, foxes, and skunks. Most are orphaned, injured, or otherwise unable to survive in the wild. Hiking and lake cruises also available.",
       "images": [],
-      "icon": "osa:functional-icons/tree_broadleaved",
+      "icon": "osa:entertainment_colored/park",
       "cats": [
         "park"
       ]
@@ -230865,7 +230865,7 @@
       "color": "#2D5F3A",
       "bg": "rgba(45,95,58,.12)",
       "svg": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><polygon points=\"12,2 7,10 10,10 5,17 11,17 11,22 13,22 13,17 19,17 14,10 17,10\" fill=\"#2D5F3A\" stroke=\"#1A3D24\" stroke-width=\"0.75\" stroke-linejoin=\"round\"/><rect x=\"11\" y=\"17\" width=\"2\" height=\"5\" fill=\"#6B4A2B\"/></svg>",
-      "icon": "osa:functional-icons/tree_broadleaved"
+      "icon": "osa:entertainment_colored/park"
     },
     "canal": {
       "label": "Dam / Canal",
