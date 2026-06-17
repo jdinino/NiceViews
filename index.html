@@ -717,12 +717,18 @@ function updateRouteCards(){
       ? '<div class="route-stop" style="opacity:.5;font-style:italic">+'+(candidates.length-MAX_STOPS)+' more</div>'
       : '';
     const activeClass = (dir === activeRoute) ? ' active' : '';
-    return '<div class="route-card'+activeClass+'" style="border-color:'+colors[dir]+'">'+
+    return '<div class="route-card'+activeClass+'" data-dir="'+dir+'" style="border-color:'+colors[dir]+'">'+
       '<h3>'+labels[dir]+'</h3>'+
       '<div style="font-size:.62rem;color:var(--text-light);margin-bottom:6px">'+candidates.length+' stops '+originLabel+'</div>'+
       stops+more+
     '</div>';
   }).join('');
+  // Scroll the active directional card into view (helps on mobile where the
+  // bottom panel has limited height and the card may be off-screen).
+  if(['north','south','east','west'].includes(activeRoute)){
+    const active = document.querySelector('.route-card[data-dir="'+activeRoute+'"]');
+    if(active) active.scrollIntoView({behavior:'smooth', block:'nearest', inline:'nearest'});
+  }
 }
 
 window.flyTo = function(id){
