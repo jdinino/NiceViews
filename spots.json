@@ -11974,17 +11974,19 @@
       "lng": -71.1672,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
-      "note": "Echo Lake-Cathedral Ledge St Park",
+      "note": "700-foot granite cliff above Echo Lake; drivable summit with sweeping Mount Washington Valley views. Popular with rock climbers.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cathedral_Basilica_of_Our_Lady_of_Peace_-_Honolulu_03.jpg/330px-Cathedral_Basilica_of_Our_Lady_of_Peace_-_Honolulu_03.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Cathedra_Ledge.jpg?width=500",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/View_from_Cathedral_Ledge%2C_North_Conway_%28494299%29_%2811925391816%29.jpg/500px-View_from_Cathedral_Ledge%2C_North_Conway_%28494299%29_%2811925391816%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cathedral_Ledge%2C_Cathedral_Ledge_Rd%2C_North_Conway_%28494290%29_%2811925330426%29.jpg/500px-Cathedral_Ledge%2C_Cathedral_Ledge_Rd%2C_North_Conway_%28494290%29_%2811925330426%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cathedral_Ledge%2C_Cathedral_Ledge_Rd%2C_North_Conway_%28494291%29_%2811924930264%29.jpg/500px-Cathedral_Ledge%2C_Cathedral_Ledge_Rd%2C_North_Conway_%28494291%29_%2811924930264%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg/500px-Echo_Lake_and_Cathedral_Ledge%2C_North_Conway_%28494301%29_%2811924544465%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Chapel_Rd_from_Cathedral_Ledge%2C_North_Conway_%28494294%29_%2811924480285%29.jpg/500px-Chapel_Rd_from_Cathedral_Ledge%2C_North_Conway_%28494294%29_%2811924480285%29.jpg"
       ],
-      "icon": "osa:tourist/monument",
+      "icon": "osa:special/photo_camera",
       "cats": [
-        "historic"
+        "lookout"
       ]
     },
     {
