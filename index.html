@@ -210,29 +210,14 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
   flex-shrink:0;max-height:40vh;display:flex;flex-direction:column;
   padding-bottom:env(safe-area-inset-bottom);
 }
-.tab-bar{display:flex;background:var(--night);padding:0;flex-shrink:0}
-.tab-btn{
-  padding:10px 16px;border:none;background:transparent;color:rgba(255,255,255,.4);
+.panel-header{
+  padding:10px 16px;background:var(--night);color:var(--gold);
   font-family:inherit;font-size:.7rem;font-weight:600;text-transform:uppercase;
-  letter-spacing:1.2px;cursor:pointer;transition:all .2s;position:relative;
-  touch-action:manipulation;
+  letter-spacing:1.2px;flex-shrink:0;
 }
-.tab-btn.active{color:var(--gold)}
-.tab-btn.active::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--gold)}
-
-.tab-content{display:none;padding:12px;overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1}
-.tab-content.active{display:block}
+.panel-body{padding:12px;overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1}
 
 /* TABLE — hide GPS & W3W on mobile */
-.spot-table{width:100%;border-collapse:collapse;font-size:.72rem;table-layout:fixed}
-.spot-table th{text-align:left;padding:6px 6px;background:var(--night);color:var(--gold-light);font-weight:600;text-transform:uppercase;letter-spacing:.7px;font-size:.55rem;position:sticky;top:0;cursor:pointer;white-space:nowrap;z-index:1}
-.spot-table th:hover{background:var(--night-mid)}
-.spot-table th:nth-child(1){width:28px}
-.spot-table th:nth-child(3){width:70px}
-.spot-table td{padding:5px 6px;border-bottom:1px solid rgba(15,26,46,.05);overflow:hidden;text-overflow:ellipsis}
-.spot-table tr:hover td{background:var(--gold-dim)}
-.spot-table tr{cursor:pointer}
-.col-gps,.col-w3w{display:none}
 .cat-badge{display:inline-block;padding:2px 6px;border-radius:10px;font-size:.5rem;font-weight:700;text-transform:uppercase;letter-spacing:.2px;color:#fff;white-space:nowrap}
 
 /* ROUTE CARDS */
@@ -261,12 +246,6 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
   .vp-img{height:140px}
   .vp-name{font-size:1.05rem}
   .vp-grid{grid-template-columns:1fr 1fr}
-  .col-gps{display:table-cell}
-  .spot-table{table-layout:auto;font-size:.76rem}
-  .spot-table th{padding:7px 10px;font-size:.6rem}
-  .spot-table th:nth-child(1){width:auto}
-  .spot-table th:nth-child(3){width:auto}
-  .spot-table td{padding:7px 10px}
   .cat-badge{font-size:.58rem;padding:2px 8px}
   .route-cards{grid-template-columns:1fr 1fr}
 }
@@ -315,9 +294,6 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
   .vp-img{height:150px}
   .vp-name{font-size:1.1rem}
   .vp-body{padding:14px 16px 12px}
-  .col-gps,.col-w3w{display:table-cell}
-  .spot-table{table-layout:auto}
-  .spot-table th,.spot-table td{padding:8px 10px}
   .route-cards{grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 }
 
@@ -354,23 +330,8 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
   </div>
 
   <div class="bottom-panel">
-    <div class="tab-bar">
-      <button class="tab-btn active" data-tab="list">All Spots</button>
-      <button class="tab-btn" data-tab="routes">Route Planner</button>
-    </div>
-    <div class="tab-content active" id="tab-list">
-      <table class="spot-table" id="spotTable">
-        <thead><tr>
-          <th>#</th>
-          <th>Name</th>
-          <th>Category</th>
-          <th class="col-gps">GPS</th>
-          <th class="col-w3w">What3Words</th>
-        </tr></thead>
-        <tbody id="tableBody"></tbody>
-      </table>
-    </div>
-    <div class="tab-content" id="tab-routes">
+    <div class="panel-header">Route Planner</div>
+    <div class="panel-body">
       <div class="route-cards" id="routeCards"></div>
     </div>
   </div>
@@ -663,7 +624,6 @@ function updateAll(){
     map.setView([filtered[0].lat,filtered[0].lng],14);
   }
 
-  updateTable(filtered);
   updateRouteCards();
 }
 
@@ -689,14 +649,6 @@ document.querySelectorAll('.route-btn').forEach(btn=>{
     updateAll();
   });
 });
-
-function updateTable(data){
-  document.getElementById('tableBody').innerHTML = data.map(s=>{
-    const badges = s.cats.map(c=>{const cc=CATS[c];return '<span class="cat-badge" style="background:'+cc.color+'">'+cc.label+'</span>';}).join(' ');
-    const idCell = s.id < 100 ? '#'+s.id : '';
-    return '<tr onclick="flyTo('+s.id+')"><td style="font-weight:700;color:var(--text-light)">'+idCell+'</td><td><strong>'+s.name+'</strong><br><span style="font-size:.68rem;color:var(--text-light)">'+s.note+'</span></td><td><div style="display:flex;gap:3px;flex-wrap:wrap">'+badges+'</div></td><td class="col-gps" style="font-size:.68rem;font-family:monospace"><a href="https://www.google.com/maps?q='+s.lat+','+s.lng+'" target="_blank" rel="noopener" style="color:var(--sky);text-decoration:none">'+s.lat.toFixed(4)+', '+s.lng.toFixed(4)+'</a></td><td class="col-w3w" style="font-size:.68rem">'+(s.w3w?'<a href="https://what3words.com/'+s.w3w+'" target="_blank" rel="noopener" style="color:var(--sunset);text-decoration:none">///'+s.w3w+'</a>':'—')+'</td></tr>';
-  }).join('');
-}
 
 function updateRouteCards(){
   const directions = ['east','north','south','west'];
@@ -779,7 +731,6 @@ window.flyTo = function(id){
       filtered.forEach(x => allLayer.addLayer(spotMarkers[x.id]));
       document.getElementById('spotCount').textContent = filtered.length + ' spots';
       document.getElementById('spotDetail').textContent = ROUTES[newRoute] ? ROUTES[newRoute].label : 'All locations';
-      updateTable(filtered);
     }
   }
   map.flyTo([s.lat,s.lng],15,{duration:1});
@@ -789,16 +740,6 @@ window.flyTo = function(id){
 function isNearbyMatches(s){
   return !isToggleSpot(s) && nearbyDist(s) <= NEARBY_M;
 }
-
-document.querySelectorAll('.tab-btn').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
-    document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById('tab-'+btn.dataset.tab).classList.add('active');
-    closeSheet();
-  });
-});
 
 setTimeout(()=>map.invalidateSize(),100);
 // Scroll active pill into view on load
