@@ -85,6 +85,32 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .om-marker{width:36px;height:36px;pointer-events:none;filter:drop-shadow(0 2px 3px rgba(0,0,0,.35))}
 @media(min-width:768px){.mk-marker{width:36px;height:36px}.mk-marker img{width:22px;height:22px}.mk-marker.bg-svg img{width:32px;height:32px}.mk-marker.white-svg img{width:26px;height:26px}.om-marker{width:42px;height:42px}}
 
+/* USER LOCATION — pulsing blue dot */
+.user-dot{position:relative;width:18px;height:18px}
+.user-dot::before{
+  content:'';position:absolute;inset:0;border-radius:50%;
+  background:#3b82f6;opacity:.4;
+  animation:userPulse 2s ease-out infinite;
+}
+.user-dot::after{
+  content:'';position:absolute;top:3px;left:3px;width:12px;height:12px;
+  border-radius:50%;background:#3b82f6;border:2px solid #fff;
+  box-shadow:0 0 0 1px rgba(0,0,0,.2);
+}
+@keyframes userPulse{
+  0%{transform:scale(1);opacity:.5}
+  100%{transform:scale(2.6);opacity:0}
+}
+.leaflet-control-locate{
+  background:#fff;width:34px;height:34px;border-radius:4px;
+  box-shadow:0 1px 5px rgba(0,0,0,.4);border:none;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;font-size:1.1rem;
+  color:var(--text-mid);transition:color .15s;
+}
+.leaflet-control-locate:hover{color:#3b82f6}
+.leaflet-control-locate.active{color:#3b82f6}
+.leaflet-control-locate.error{color:#ef4444}
+
 /* POPUP — hidden on mobile, used on desktop */
 .leaflet-popup-content-wrapper{border-radius:12px;box-shadow:var(--shadow-lg);overflow:hidden;padding:0}
 .leaflet-popup-content{margin:0;min-width:200px;max-width:260px}
@@ -615,6 +641,61 @@ setTimeout(()=>map.invalidateSize(),100);
 const activePill=document.querySelector('.route-btn.active');
 if(activePill)activePill.scrollIntoView({block:'nearest',inline:'start'});
 updateAll();
+
+// ===== USER GPS LOCATION =====
+let userMarker=null, userAccuracy=null, lastUserLatLng=null;
+const userIcon = L.divIcon({className:'',html:'<div class="user-dot"></div>',iconSize:[18,18],iconAnchor:[9,9]});
+
+const LocateControl = L.Control.extend({
+  options:{position:'topleft'},
+  onAdd:function(){
+    const btn = L.DomUtil.create('button','leaflet-control-locate');
+    btn.type='button';
+    btn.title='Show my location';
+    btn.innerHTML='&#x25CE;';
+    btn.setAttribute('aria-label','Show my location');
+    L.DomEvent.disableClickPropagation(btn);
+    L.DomEvent.on(btn,'click',function(e){
+      L.DomEvent.stop(e);
+      if(lastUserLatLng){
+        map.setView(lastUserLatLng,15);
+      } else {
+        startLocate();
+      }
+    });
+    this._btn = btn;
+    return btn;
+  },
+  setActive:function(on){if(this._btn)this._btn.classList.toggle('active',on);},
+  setError:function(on){if(this._btn)this._btn.classList.toggle('error',on);}
+});
+const locateCtl = new LocateControl();
+locateCtl.addTo(map);
+
+function startLocate(){
+  if(!navigator.geolocation) return;
+  map.locate({watch:true,enableHighAccuracy:true,maximumAge:10000,timeout:15000});
+}
+
+map.on('locationfound',function(e){
+  locateCtl.setActive(true);
+  locateCtl.setError(false);
+  lastUserLatLng = e.latlng;
+  if(userMarker){
+    userMarker.setLatLng(e.latlng);
+    userAccuracy.setLatLng(e.latlng).setRadius(e.accuracy);
+  } else {
+    userMarker = L.marker(e.latlng,{icon:userIcon,interactive:false,keyboard:false,zIndexOffset:1000}).addTo(map);
+    userAccuracy = L.circle(e.latlng,{radius:e.accuracy,color:'#3b82f6',weight:1,fillColor:'#3b82f6',fillOpacity:.08,interactive:false}).addTo(map);
+  }
+});
+
+map.on('locationerror',function(){
+  locateCtl.setActive(false);
+  locateCtl.setError(true);
+});
+
+startLocate();
 
 } // end initApp
 </script>
