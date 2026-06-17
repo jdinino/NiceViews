@@ -68,7 +68,8 @@
       "w3w": "chains.engine.early",
       "routes": [
         "local",
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "Dramatic falls on the Concord River",
       "images": [
@@ -87,7 +88,8 @@
       "w3w": "milk.markers.tins",
       "routes": [
         "local",
-        "south"
+        "south",
+        "ponds"
       ],
       "note": "Historic 1803 canal towpath",
       "images": [
@@ -107,7 +109,8 @@
       "w3w": "scale.excusing.veggies",
       "routes": [
         "local",
-        "south"
+        "south",
+        "ponds"
       ],
       "note": "Quiet pond with reflections",
       "images": [
@@ -126,7 +129,8 @@
       "w3w": "premiums.server.borders",
       "routes": [
         "local",
-        "east"
+        "east",
+        "ponds"
       ],
       "note": "Hidden gem at 105 Mill Rd. Park across the street, knock on the white door — if no answer, walk the property.",
       "images": [
@@ -317,7 +321,8 @@
       "w3w": "earliest.splint.repels",
       "routes": [
         "boston",
-        "south"
+        "south",
+        "ponds"
       ],
       "note": "National Historic Landmark — where Thoreau lived 1845–47. Crystal clear glacial water, no streams in or out.",
       "images": [
@@ -504,7 +509,8 @@
       "lng": -71.7182,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "Wide 12-foot cascade fanning over rocky ledges — Tucker Brook Town Forest, Milford NH.",
       "images": [
@@ -523,7 +529,8 @@
       "lng": -71.7,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "12-foot waterfall splitting over a massive glacial boulder — gushes in spring.",
       "images": [
@@ -562,7 +569,8 @@
       "lng": -71.8786,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "2,290 ft summit in Miller State Park, Peterborough NH — auto road to the top.",
       "images": [
@@ -581,7 +589,8 @@
       "lng": -71.9558,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "10-foot cascade tumbling under a historic stone arch bridge, Hillsborough NH.",
       "images": [
@@ -11929,7 +11938,8 @@
       "lng": -71.4648,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -11947,7 +11957,8 @@
       "lng": -71.7927,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -12037,7 +12048,8 @@
       "lng": -71.6962,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "Franconia Notch State Park",
       "images": [
@@ -12107,7 +12119,8 @@
       "lng": -71.7761,
       "w3w": "",
       "routes": [
-        "west"
+        "west",
+        "ponds"
       ],
       "note": "665 Greenville Rd",
       "images": [
@@ -12199,7 +12212,8 @@
       "lng": -71.6101,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "Little Squam",
       "images": [
@@ -12217,7 +12231,8 @@
       "lng": -71.8582,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "Kearsarge Mountain Rd",
       "images": [
@@ -12253,7 +12268,8 @@
       "lng": -71.3025,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "Mt Washington Auto Rd",
       "images": [
@@ -12398,7 +12414,8 @@
       "lng": -71.1205,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "",
       "images": [],
@@ -12414,7 +12431,8 @@
       "lng": -71.4105,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -12434,7 +12452,8 @@
       "lng": -71.4032,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -12468,7 +12487,8 @@
       "lng": -71.4278,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -12504,7 +12524,8 @@
       "lng": -72.0668,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "N43° 25.803' W72° 04.005'",
       "images": [
@@ -12522,7 +12543,8 @@
       "lng": -71.7873,
       "w3w": "",
       "routes": [
-        "north"
+        "north",
+        "ponds"
       ],
       "note": "181 Sunset Hill Rd",
       "images": [
@@ -12630,7 +12652,8 @@
       "lng": -70.499,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "ponds"
       ],
       "note": "Canal Service Rd",
       "images": [
@@ -12775,7 +12798,8 @@
       "lng": -72.7393,
       "w3w": "",
       "routes": [
-        "west"
+        "west",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -12907,7 +12931,8 @@
       "lng": -72.5871,
       "w3w": "",
       "routes": [
-        "west"
+        "west",
+        "ponds"
       ],
       "note": "Skinner Park Rd",
       "images": [
@@ -12925,7 +12950,8 @@
       "lng": -72.6391,
       "w3w": "",
       "routes": [
-        "west"
+        "west",
+        "ponds"
       ],
       "note": "Christopher Clark Rd",
       "images": [],
@@ -12941,7 +12967,8 @@
       "lng": -73.165,
       "w3w": "",
       "routes": [
-        "west"
+        "west",
+        "ponds"
       ],
       "note": "Mt Greylock State Reservation",
       "images": [
@@ -13036,7 +13063,8 @@
       "lng": -71.6076,
       "w3w": "",
       "routes": [
-        "west"
+        "west",
+        "ponds"
       ],
       "note": "Fruitlands Museums",
       "images": [],
@@ -13068,7 +13096,8 @@
       "lng": -72.3327,
       "w3w": "",
       "routes": [
-        "west"
+        "west",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -13172,7 +13201,8 @@
       "lng": -70.18,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -13210,7 +13240,8 @@
       "lng": -72.5921,
       "w3w": "",
       "routes": [
-        "west"
+        "west",
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -13263,9 +13294,7 @@
       "lat": 44.0389,
       "lng": -71.675,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "There are 14 zip-lines on 2 separate courses covering over 2 miles of exhilaration through and above the treetops at heights of up to 200&#8242; above the forest floor.",
       "images": [],
       "icon": "osa:functional-icons/tree_broadleaved",
@@ -13279,9 +13308,7 @@
       "lat": 44.167,
       "lng": -71.9655,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "The Brick Store",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/JSHS_Red_Brick_Store_P6081169.JPG/500px-JSHS_Red_Brick_Store_P6081169.JPG",
@@ -13300,7 +13327,7 @@
       "lng": -71.6881,
       "w3w": "",
       "routes": [
-        "attractions"
+        "ponds"
       ],
       "note": "An 80-passenger cable car brings visitors to the 4,080-foot summit of Cannon Mountain in under ten minutes. On a clear day, you can see the mountains of four states and Canada! At the summit, you&#8217;ll find spectacular scenic walking paths, a 360 degree observation deck, a cafeteria, bar and restrooms.",
       "images": [
@@ -13319,9 +13346,7 @@
       "lat": 43.7296,
       "lng": -71.3373,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "When we come here with the kids we spend most of the day on the property. The house itself has breathtaking views of Lake Winnipesaukee and the hills and mountains beyond. There are miles of hiking trails on the site as well. We usually eat a light lunch in the old horse barn, were the tables are set up in the stalls. You can also take a tour of Castle Springs bottling plant and see the actual spring that produces the water for bottling.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Castle_in_the_Clouds_in_summer.jpg/500px-Castle_in_the_Clouds_in_summer.jpg",
@@ -13339,9 +13364,7 @@
       "lat": 42.7734,
       "lng": -71.988,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Situated on a hilltop with a panoramic view of Grand Monadnock, the Cathedral of the Pines is a breathtaking open-air cathedral and meeting space on 236 acres. Our historic monuments honor the service of American men and women—both military and civilian.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Plaque_-_Cathedral_of_the_Pines_-_DSC01476.JPG/500px-Plaque_-_Cathedral_of_the_Pines_-_DSC01476.JPG",
@@ -13359,9 +13382,7 @@
       "lat": 44.0523,
       "lng": -71.1287,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Enjoy some of the finest natural scenery in the East as you travel through spectacular Crawford Notch &#8211; past sheer bluffs, steep ravines, cascading brooks and streams, panoramic mountain vistas, and across the famed Frankenstein Trestle and Willey Brook Bridge &#8211; enroute to Crawford Depot or Fabyan Station. Live commentary covers history and folklore of the railroad and area, as well as points of interest",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Conway_Scenic_Railroad_216_and_4268%2C_September_2012.jpg/500px-Conway_Scenic_Railroad_216_and_4268%2C_September_2012.jpg",
@@ -13379,7 +13400,7 @@
       "lng": -71.6805,
       "w3w": "",
       "routes": [
-        "attractions"
+        "ponds"
       ],
       "note": "An 800-foot gorge that extends from the base of Mount Liberty. Geological formation, Scenic/historic walking area, Waterfall",
       "images": [
@@ -13398,7 +13419,7 @@
       "lng": -71.2458,
       "w3w": "",
       "routes": [
-        "attractions"
+        "ponds"
       ],
       "note": "",
       "images": [
@@ -13417,9 +13438,7 @@
       "lat": 43.9319,
       "lng": -71.1672,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "The Madison Boulder is one of the largest known glacial erratics in North America and among the largest in the world; it is preserved in the 17-acre Madison Boulder Natural Area in Madison, New Hampshire.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Madison_boulder_%284024978136%29.jpg/500px-Madison_boulder_%284024978136%29.jpg",
@@ -13437,7 +13456,7 @@
       "lng": -71.2274,
       "w3w": "",
       "routes": [
-        "attractions"
+        "ponds"
       ],
       "note": "Opened in 1861, the Mt. Washington Auto Road is America’s Oldest Manmade Tourist Attraction. Experience the wonders of Mt. Washington’s weather, scenery and history.",
       "images": [
@@ -13455,7 +13474,7 @@
       "lng": -71.3562,
       "w3w": "",
       "routes": [
-        "attractions"
+        "ponds"
       ],
       "note": "The Cog Railway is one of the world&#8217;s great railway adventures. The track runs up a three mile-long trestle with a maximum gradient of over 37%, making it the second-steepest mountain climbing train in the world and the only one entirely built on a trestle.",
       "images": [
@@ -13472,9 +13491,7 @@
       "lat": 43.8544,
       "lng": -71.28,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "",
       "images": [],
       "icon": "osa:tourist/monument",
@@ -13488,9 +13505,7 @@
       "lat": 44.029,
       "lng": -71.6856,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Join in the fun as we take a 2 1/2 to 3 hour journey through the majestic White Mountains in our air conditioned bus in search of the gentle giant of the North Country. Our nightly excursions feature a guided tour of the local area, a video about Moose, and interesting historical sites along the way.",
       "images": [],
       "icon": "osa:functional-icons/tree_broadleaved",
@@ -13504,9 +13519,7 @@
       "lat": 43.9252,
       "lng": -71.8915,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Only Town With a Real Redstone Missile. The same kind of engine booster used as a to hurl New Hampshire native Alan Shepard into space. Brought here in 1971.",
       "images": [],
       "icon": "osa:tourist/monument",
@@ -13521,7 +13534,7 @@
       "lng": -71.2771,
       "w3w": "",
       "routes": [
-        "attractions"
+        "ponds"
       ],
       "note": "Foot bridge over a scenic rocky gorge. Mile long hike around a fishing pond. Restrooms available.",
       "images": [
@@ -13539,7 +13552,7 @@
       "lng": -71.3934,
       "w3w": "",
       "routes": [
-        "attractions"
+        "ponds"
       ],
       "note": "Pleasant 0.3 mile walk to a scenic waterfall, by the Kancamagus Highway. Restrooms available.",
       "images": [
@@ -13558,9 +13571,7 @@
       "lat": 43.7318,
       "lng": -71.5884,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Exhibits many different wild animals, including river otters, mountain lions, bobcats, deer, bears, birds, foxes, and skunks. Most are orphaned, injured, or otherwise unable to survive in the wild. Hiking and lake cruises also available.",
       "images": [],
       "icon": "osa:functional-icons/tree_broadleaved",
@@ -13574,9 +13585,7 @@
       "lat": 43.5891,
       "lng": -71.2056,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "A World War II Museum located in Wolfeboro, featuring authentic displays of Home Front America between the years 1939 and 1945. The displays are truly amazing. They have Zero&#8217;s hanging from the ceiling, amfibs, tanks of several types, and lots of informative displays. Really a great place to stop when in the Lake Winnipesaukee area.",
       "images": [],
       "icon": "osa:tourist/monument",
@@ -13591,7 +13600,7 @@
       "lng": -73.4913,
       "w3w": "",
       "routes": [
-        "attractions"
+        "ponds"
       ],
       "note": "Highest single-drop waterfall in Massachusetts.",
       "images": [
@@ -13609,9 +13618,7 @@
       "lat": 41.7045,
       "lng": -71.1621,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "World&#8217;s largest historic naval ship exhibit, including USS Massachusetts.",
       "images": [],
       "icon": "osa:tourist/monument",
@@ -13625,9 +13632,7 @@
       "lat": 42.6041,
       "lng": -72.7404,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "400 foot trolley bridge converted into a unique garden. Worth a stop during a Mohawk Trail Ride.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Bridge_of_Flowers_-_Burnham_memorial_plaque.jpg/500px-Bridge_of_Flowers_-_Burnham_memorial_plaque.jpg",
@@ -13645,9 +13650,7 @@
       "lat": 42.376,
       "lng": -71.061,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "The monument was erected to commemorate the Battle of Bunker Hill, the first major conflict between British and Patriot forces in the Revolutionary War, fought there June 17, 1775.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bunker_Hill_Monument_-_panoramio.jpg/500px-Bunker_Hill_Monument_-_panoramio.jpg",
@@ -13665,9 +13668,7 @@
       "lat": 42.1543,
       "lng": -71.8948,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "The Clara Barton Birthplace Museum is open seasonally and by appointment. Guests enjoy a rich learning experience touring Clara’s childhood home.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Clara_Barton_Homestead%2C_Oxford%2C_MA..JPG/500px-Clara_Barton_Homestead%2C_Oxford%2C_MA..JPG",
@@ -13685,9 +13686,7 @@
       "lat": 41.5474,
       "lng": -71.1254,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "",
       "images": [],
       "icon": "osa:tourist/monument",
@@ -13701,9 +13700,7 @@
       "lat": 42.5271,
       "lng": -70.8671,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Overexposed_Fort_Pickering_Light_%2819847321933%29.jpg/500px-Overexposed_Fort_Pickering_Light_%2819847321933%29.jpg",
@@ -13721,9 +13718,7 @@
       "lat": 42.6102,
       "lng": -70.6704,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Gloucester_MA_-_Fisherman%27s_Memorial.jpg/500px-Gloucester_MA_-_Fisherman%27s_Memorial.jpg",
@@ -13741,9 +13736,7 @@
       "lat": 41.7637,
       "lng": -71.0134,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "",
       "images": [],
       "icon": "osa:tourist/monument",
@@ -13757,9 +13750,7 @@
       "lat": 42.6748,
       "lng": -72.9957,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "N42° 40.493' W72° 59.748'",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/NS_SD60E_Hoosac_Brigde.png/500px-NS_SD60E_Hoosac_Brigde.png",
@@ -13777,9 +13768,7 @@
       "lat": 42.3573,
       "lng": -71.4692,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Longfellow's Wayside Inn",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Wayside_Inn_Grist_Mill.jpg/500px-Wayside_Inn_Grist_Mill.jpg",
@@ -13797,9 +13786,7 @@
       "lat": 42.4482,
       "lng": -71.2696,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Battle Road Visitor Center",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/15-23-0429%2C_walkway_to_minuteman_visitor_center_-_panoramio.jpg/500px-15-23-0429%2C_walkway_to_minuteman_visitor_center_-_panoramio.jpg"
@@ -13815,9 +13802,7 @@
       "lat": 41.9599,
       "lng": -70.6749,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "National Monument To the Forefathers",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Forefathers_Monument_On_A_Cold_Winter%E2%80%99s_Day%2C_Plymouth%2C_MA%2C_2016.jpg/500px-Forefathers_Monument_On_A_Cold_Winter%E2%80%99s_Day%2C_Plymouth%2C_MA%2C_2016.jpg",
@@ -13835,9 +13820,7 @@
       "lat": 41.6347,
       "lng": -70.9234,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Museum in the former hub of 19th century whaling.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/New_Bedford%2C_MA%2C_USA_-_panoramio_%286%29.jpg/500px-New_Bedford%2C_MA%2C_USA_-_panoramio_%286%29.jpg",
@@ -13855,9 +13838,7 @@
       "lat": 42.4707,
       "lng": -71.3535,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "On April 19, 1775, the American Revolution began at Lexington and Concord with a clash of arms known to history as &#8220;the shot heard round the world.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Minuteman_statue_at_Minuteman_National_Historic_Park._This_is_the_spot_where_the_Minutemen_faced_down_British_troops_across_the_Old_North_Bridge._-_panoramio.jpg/500px-thumbnail.jpg",
@@ -13874,9 +13855,7 @@
       "lat": 42.0828,
       "lng": -72.378,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "Large roadside rock painted to look like Snoopy.",
       "images": [],
       "icon": "osa:tourist/monument",
@@ -13890,9 +13869,7 @@
       "lat": 42.683,
       "lng": -70.6239,
       "w3w": "",
-      "routes": [
-        "attractions"
-      ],
+      "routes": [],
       "note": "37 Phillips Ave / Rockport Twn,MA 01966",
       "images": [],
       "icon": "osa:tourist/monument",
