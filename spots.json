@@ -3378,9 +3378,7 @@
         "restrooms"
       ],
       "note": "100 Huntington Avenue, Boston, MA 02116 · Year-round",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Copley_Place%2C_Boston%2C_United_States_%28Unsplash%29.jpg/500px-Copley_Place%2C_Boston%2C_United_States_%28Unsplash%29.jpg"
-      ],
+      "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
@@ -12244,8 +12242,7 @@
       ],
       "note": "Kearsarge Mountain Rd",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mount_Kearsarge_from_The_Bulkhead.jpg/330px-Mount_Kearsarge_from_The_Bulkhead.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Mount_Kearsarge%2C_Warner%2C_United_States_%28Unsplash%29.jpg/500px-Mount_Kearsarge%2C_Warner%2C_United_States_%28Unsplash%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mount_Kearsarge_from_The_Bulkhead.jpg/330px-Mount_Kearsarge_from_The_Bulkhead.jpg"
       ],
       "icon": "osa:tourist/mountain",
       "cats": [
@@ -12414,7 +12411,6 @@
       ],
       "note": "",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Portsmouth_Guildhall_-_geograph.org.uk_-_5431834.jpg/330px-Portsmouth_Guildhall_-_geograph.org.uk_-_5431834.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Portsmouth_Harbor_Lighthouse.jpg/330px-Portsmouth_Harbor_Lighthouse.jpg"
       ],
       "icon": "osa:tourist/monument",
@@ -13840,8 +13836,8 @@
       "note": "Museum in the former hub of 19th century whaling.",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/New_Bedford%2C_MA%2C_USA_-_panoramio_%286%29.jpg/500px-New_Bedford%2C_MA%2C_USA_-_panoramio_%286%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NEW_ENGLAND_WHALING_MUSEUM_-_panoramio_%282%29.jpg/500px-NEW_ENGLAND_WHALING_MUSEUM_-_panoramio_%282%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/New_Bedford%2C_MA%2C_USA_-_panoramio_%287%29.jpg/500px-New_Bedford%2C_MA%2C_USA_-_panoramio_%287%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/New_Bedford%2C_MA%2C_USA_-_panoramio_%287%29.jpg/500px-New_Bedford%2C_MA%2C_USA_-_panoramio_%287%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NEW_ENGLAND_WHALING_MUSEUM_-_panoramio_%282%29.jpg/500px-NEW_ENGLAND_WHALING_MUSEUM_-_panoramio_%282%29.jpg"
       ],
       "icon": "osa:tourist/monument",
       "cats": [
@@ -13857,8 +13853,8 @@
       "routes": [],
       "note": "On April 19, 1775, the American Revolution began at Lexington and Concord with a clash of arms known to history as &#8220;the shot heard round the world.",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Minuteman_statue_at_Minuteman_National_Historic_Park._This_is_the_spot_where_the_Minutemen_faced_down_British_troops_across_the_Old_North_Bridge._-_panoramio.jpg/500px-thumbnail.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/North_Bridge%2C_Concord_%282638714745%29.jpg/500px-North_Bridge%2C_Concord_%282638714745%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/North_Bridge%2C_Concord_%282638714745%29.jpg/500px-North_Bridge%2C_Concord_%282638714745%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Minuteman_statue_at_Minuteman_National_Historic_Park._This_is_the_spot_where_the_Minutemen_faced_down_British_troops_across_the_Old_North_Bridge._-_panoramio.jpg/500px-thumbnail.jpg"
       ],
       "icon": "osa:tourist/monument",
       "cats": [
@@ -155818,9 +155814,7 @@
         "restrooms"
       ],
       "note": "2 Jabish Street, Belchertown, MA",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Belchertown%2C_United_States_%28Unsplash%29.jpg/500px-Belchertown%2C_United_States_%28Unsplash%29.jpg"
-      ],
+      "images": [],
       "icon": "osa:amenity/toilets",
       "cats": [
         "restroom"
