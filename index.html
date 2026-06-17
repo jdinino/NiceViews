@@ -110,6 +110,22 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 .leaflet-control-locate:hover{color:#3b82f6}
 .leaflet-control-locate.active{color:#3b82f6}
 .leaflet-control-locate.error{color:#ef4444}
+.leaflet-control-fs{
+  background:#fff;width:34px;height:34px;border-radius:4px;
+  box-shadow:0 1px 5px rgba(0,0,0,.4);border:none;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;font-size:1rem;
+  color:var(--text-mid);transition:color .15s;
+}
+.leaflet-control-fs:hover{color:var(--night)}
+body.map-fullscreen .header,
+body.map-fullscreen .sidebar,
+body.map-fullscreen .bottom-panel{display:none!important}
+body.map-fullscreen .main{height:100vh;height:100dvh}
+body.map-fullscreen .map-wrap{flex:1 1 100%}
+@media(min-width:1024px){
+  body.map-fullscreen .bottom-panel{display:none!important}
+  body.map-fullscreen .main{flex-direction:row}
+}
 
 /* POPUP — hidden on mobile, used on desktop */
 .leaflet-popup-content-wrapper{border-radius:12px;box-shadow:var(--shadow-lg);overflow:hidden;padding:0}
@@ -696,6 +712,28 @@ map.on('locationerror',function(){
 });
 
 startLocate();
+
+// ===== FULLSCREEN MAP TOGGLE =====
+const FullscreenControl = L.Control.extend({
+  options:{position:'topright'},
+  onAdd:function(){
+    const btn = L.DomUtil.create('button','leaflet-control-fs');
+    btn.type='button';
+    btn.title='Toggle fullscreen map';
+    btn.innerHTML='&#x26F6;';
+    btn.setAttribute('aria-label','Toggle fullscreen map');
+    L.DomEvent.disableClickPropagation(btn);
+    L.DomEvent.on(btn,'click',function(e){
+      L.DomEvent.stop(e);
+      const on = document.body.classList.toggle('map-fullscreen');
+      btn.innerHTML = on ? '&#x2715;' : '&#x26F6;';
+      btn.title = on ? 'Exit fullscreen' : 'Toggle fullscreen map';
+      setTimeout(()=>map.invalidateSize(),200);
+    });
+    return btn;
+  }
+});
+new FullscreenControl().addTo(map);
 
 } // end initApp
 </script>
