@@ -20,7 +20,7 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 - **Within 30 mi** — anything within 30 miles of Chelmsford (the original curated scope)
 - **Local Loop** — Chelmsford-area afternoon trip
 - **Ponds, Falls & Mountains** — Wachusett, Walden Pond, Trap Falls, and more
-- **Boston & Beaches** — Singing Beach, Winter Island, Forest River Park, and Boston-area picks
+- **Ocean & Beaches** — Singing Beach, Crane Beach, Cape Cod lighthouses, Rockport harbor, and more, and Boston-area picks
 - **Going North / South / East / West** — directional tours from Chelmsford
 
 **Toggle layers (overlay independently on top of any radio filter):**

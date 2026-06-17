@@ -322,7 +322,6 @@
       "lng": -71.3349,
       "w3w": "earliest.splint.repels",
       "routes": [
-        "boston",
         "south",
         "ponds"
       ],
@@ -345,7 +344,6 @@
       "lng": -71.2552,
       "w3w": "chemistry.cones.march",
       "routes": [
-        "boston",
         "south"
       ],
       "note": "Distant Boston skyline vista",
@@ -428,7 +426,6 @@
       "lng": -71.1143,
       "w3w": "",
       "routes": [
-        "boston",
         "south"
       ],
       "note": "Weather observatory with Boston skyline views",
@@ -670,7 +667,8 @@
       "lng": -70.6328,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "boston"
       ],
       "note": "Abandoned granite quarry at Cape Ann's tip with rocky Atlantic shoreline views.",
       "images": [
@@ -689,7 +687,8 @@
       "lng": -70.6151,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "boston"
       ],
       "note": "Famous red fishing shack called the most-painted building in America — Rockport harbor.",
       "images": [
@@ -708,8 +707,7 @@
       "lng": -71.3696,
       "w3w": "",
       "routes": [
-        "south",
-        "boston"
+        "south"
       ],
       "note": "625-acre lake park in Natick — swimming, boating, and woodland trails.",
       "images": [
@@ -12413,7 +12411,8 @@
       "lng": -70.7129,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "boston"
       ],
       "note": "",
       "images": [
@@ -12619,7 +12618,8 @@
       "lng": -70.8362,
       "w3w": "",
       "routes": [
-        "south"
+        "south",
+        "boston"
       ],
       "note": "43 Aquinnah Cir",
       "images": [
@@ -12672,7 +12672,8 @@
       "w3w": "",
       "routes": [
         "east",
-        "ponds"
+        "ponds",
+        "boston"
       ],
       "note": "Canal Service Rd",
       "images": [
@@ -12743,7 +12744,8 @@
       "lng": -70.5062,
       "w3w": "",
       "routes": [
-        "south"
+        "south",
+        "boston"
       ],
       "note": "171 N Water St",
       "images": [
@@ -13044,7 +13046,8 @@
       "lng": -70.6645,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "boston"
       ],
       "note": "",
       "images": [
@@ -13137,7 +13140,8 @@
       "lng": -70.6147,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "boston"
       ],
       "note": "99 T Whrf / Rockport Twn, MA, 01966, USA",
       "images": [
@@ -13240,7 +13244,8 @@
       "lng": -70.7163,
       "w3w": "",
       "routes": [
-        "east"
+        "east",
+        "boston"
       ],
       "note": "90 Lighthouse Rd",
       "images": [
@@ -13638,7 +13643,9 @@
       "lat": 41.7045,
       "lng": -71.1621,
       "w3w": "",
-      "routes": [],
+      "routes": [
+        "boston"
+      ],
       "note": "World&#8217;s largest historic naval ship exhibit, including USS Massachusetts.",
       "images": [],
       "icon": "osa:tourist/monument",
@@ -151300,7 +151307,9 @@
       "lat": 41.5155,
       "lng": -70.6553,
       "w3w": "",
-      "routes": [],
+      "routes": [
+        "boston"
+      ],
       "note": "398 Nobska Rd / Falmouth Twn, MA 02543",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Nobska_Lighthouse%2C_Falmouth%2C_Massachusetts%2C_US_%28PPL2-Enhanced%29_julesvernex2.jpg/500px-Nobska_Lighthouse%2C_Falmouth%2C_Massachusetts%2C_US_%28PPL2-Enhanced%29_julesvernex2.jpg",
@@ -233901,7 +233910,7 @@
       "icon": "☀"
     },
     "boston": {
-      "label": "Boston & Beaches",
+      "label": "Ocean & Beaches",
       "icon": "⚓"
     },
     "north": {
