@@ -59,7 +59,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 }
 .sidebar::-webkit-scrollbar{display:none}
 .sidebar .section-title,.sidebar .legend-grid,.sidebar .spot-count,.sidebar .spot-detail{display:none}
-#routeButtons{display:flex;gap:5px;flex-shrink:0}
+#routeButtons,#directionButtons{display:flex;gap:5px;flex-shrink:0}
 
 /* ROUTE BUTTONS — pills on mobile */
 .route-btn{
@@ -268,7 +268,13 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
     border-bottom:none;border-right:1px solid rgba(15,26,46,.06);
     gap:0;
   }
-  #routeButtons{display:block}
+  #routeButtons,#directionButtons{display:block}
+  /* Desktop: visually distinguish the Route Planner directional frame */
+  #directionButtons{
+    border:1px solid rgba(15,26,46,.08);
+    border-radius:8px;padding:6px;margin-top:2px;
+    background:rgba(245,237,224,.4);
+  }
   .sidebar .section-title{display:block;font-size:.58rem;text-transform:uppercase;letter-spacing:2px;color:var(--text-light);font-weight:600;margin-bottom:8px;margin-top:14px}
   .sidebar .section-title:first-child{margin-top:0}
   .sidebar .legend-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px}
@@ -316,6 +322,9 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
   <div class="sidebar">
     <div class="section-title">Routes</div>
     <div id="routeButtons"></div>
+
+    <div class="section-title">Route Planner</div>
+    <div id="directionButtons"></div>
 
     <div class="section-title">Legend</div>
     <div class="legend-grid" id="legendGrid"></div>
@@ -392,11 +401,19 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
     if(key==='nearby') return SPOTS.filter(s=>!isToggleSpot(s) && nearbyDist(s) <= NEARBY_M).length;
     return SPOTS.filter(s=>s.routes.includes(key)).length;
   };
-  const order = ['all','nearby','local','ponds','boston','north','south','east','west','restrooms','roads'];
-  container.innerHTML = order.filter(k=>k==='all'||ROUTES[k]).map((k,i)=>{
-    const r = k==='all' ? {label:'All Spots', icon:'◎'} : ROUTES[k];
-    return `<button class="route-btn${i===0?' active':''}" data-route="${k}"><span class="route-icon">${r.icon}</span>${r.label}<span class="route-count">${countFor(k)}</span></button>`;
-  }).join('');
+  const themedOrder = ['all','nearby','local','ponds','boston','restrooms','roads'];
+  const directionOrder = ['north','south','east','west'];
+  function renderGroup(arr){
+    return arr.filter(k=>k==='all'||ROUTES[k]).map((k,i)=>{
+      const r = k==='all' ? {label:'All Spots', icon:'◎'} : ROUTES[k];
+      // Only the first themed button starts active (All Spots). Direction
+      // buttons never start active.
+      const isActiveDefault = (arr === themedOrder && i === 0);
+      return `<button class="route-btn${isActiveDefault?' active':''}" data-route="${k}"><span class="route-icon">${r.icon}</span>${r.label}<span class="route-count">${countFor(k)}</span></button>`;
+    }).join('');
+  }
+  container.innerHTML = renderGroup(themedOrder);
+  document.getElementById('directionButtons').innerHTML = renderGroup(directionOrder);
 })();
 
 // Render legend from cats — use map-marker style (disc + representative OsmAnd icon per cat)
