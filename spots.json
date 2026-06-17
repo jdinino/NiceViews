@@ -11848,7 +11848,7 @@
       "routes": [
         "north"
       ],
-      "note": "NER NH BONE pick",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -11912,7 +11912,7 @@
       "routes": [
         "north"
       ],
-      "note": "Bartlett Twn",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -11928,7 +11928,7 @@
       "routes": [
         "north"
       ],
-      "note": "N44.92006° W71.46467°",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BeaverBrookFallsWaysidePark0.jpg/330px-BeaverBrookFallsWaysidePark0.jpg"
       ],
@@ -11946,7 +11946,7 @@
       "routes": [
         "north"
       ],
-      "note": "NER NH BONE pick",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Beaver_Pond_Formation_map.svg/330px-Beaver_Pond_Formation_map.svg.png"
       ],
@@ -12018,7 +12018,7 @@
       "routes": [
         "north"
       ],
-      "note": "N44.86391° W71.29429°",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Balsams_Grand_Hotel_-_Dixville_NH.JPG/330px-Balsams_Grand_Hotel_-_Dixville_NH.JPG"
       ],
@@ -12037,7 +12037,9 @@
         "north"
       ],
       "note": "Franconia Notch State Park",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Echo_Lake_Beach.jpg/500px-Echo_Lake_Beach.jpg"
+      ],
       "icon": "osa:tourist/beach2",
       "cats": [
         "beach"
@@ -12052,7 +12054,7 @@
       "routes": [
         "north"
       ],
-      "note": "NER NH BONE pick",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Franconia_Notch.jpg/330px-Franconia_Notch.jpg"
       ],
@@ -12103,7 +12105,11 @@
         "west"
       ],
       "note": "665 Greenville Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/High_Point_High_School_sign_building_Beltsville_MD_2022-07-14_16-30-22.jpg/500px-High_Point_High_School_sign_building_Beltsville_MD_2022-07-14_16-30-22.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Pic_des_C%C3%A8dres_%E2%80%93_High_Point_of_the_B%C3%A9lezma_National_Park_9.jpg/500px-Pic_des_C%C3%A8dres_%E2%80%93_High_Point_of_the_B%C3%A9lezma_National_Park_9.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2014-08-28_16_35_04_View_west-northwest_from_the_west_corner_of_the_base_of_High_Point_Monument_in_High_Point_State_Park%2C_New_Jersey.JPG/500px-2014-08-28_16_35_04_View_west-northwest_from_the_west_corner_of_the_base_of_High_Point_Monument_in_High_Point_State_Park%2C_New_Jersey.JPG"
+      ],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -12154,7 +12160,7 @@
       "routes": [
         "north"
       ],
-      "note": "N44.03996° W71.79196°",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Beaver_Pond_Kinsman_Notch_NH.jpg/330px-Beaver_Pond_Kinsman_Notch_NH.jpg"
       ],
@@ -12172,7 +12178,7 @@
       "routes": [
         "north"
       ],
-      "note": "NER NH BONE pick",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Libby_Museum_2010-10-17.jpg/330px-Libby_Museum_2010-10-17.jpg"
       ],
@@ -12262,7 +12268,7 @@
       "routes": [
         "north"
       ],
-      "note": "Alton Twn",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ice_houses_Alton_Bay.jpg/330px-Ice_houses_Alton_Bay.jpg"
       ],
@@ -12296,7 +12302,7 @@
       "routes": [
         "north"
       ],
-      "note": "Moultonborough Twn",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/NH_Route_171.svg/330px-NH_Route_171.svg.png"
       ],
@@ -12364,7 +12370,7 @@
       "routes": [
         "east"
       ],
-      "note": "N43.06947° W70.71288°",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Portsmouth_Guildhall_-_geograph.org.uk_-_5431834.jpg/330px-Portsmouth_Guildhall_-_geograph.org.uk_-_5431834.jpg"
       ],
@@ -12382,7 +12388,7 @@
       "routes": [
         "north"
       ],
-      "note": "NER NH BONE pick",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -12398,8 +12404,12 @@
       "routes": [
         "north"
       ],
-      "note": "NER NH BONE pick",
-      "images": [],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Walk_around_Saco_Lake%2C_White_Mountains%2C_N._H_%28NYPL_b12647398-68917%29.tiff/lossy-page1-500px-Walk_around_Saco_Lake%2C_White_Mountains%2C_N._H_%28NYPL_b12647398-68917%29.tiff.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Saco_Lake_and_Crawford_House%2C_White_Mts_%28NYPL_b11708022-G91F017_304ZF%29.tiff/lossy-page1-500px-Saco_Lake_and_Crawford_House%2C_White_Mts_%28NYPL_b11708022-G91F017_304ZF%29.tiff.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Saco_Lake_and_Crawford_House%2C_White_Mts%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views_2.jpg/500px-Saco_Lake_and_Crawford_House%2C_White_Mts%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views_2.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12414,7 +12424,7 @@
       "routes": [
         "north"
       ],
-      "note": "NER NH BONE pick",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Silver_Cascade_Falls_02.jpg/330px-Silver_Cascade_Falls_02.jpg"
       ],
@@ -12448,7 +12458,7 @@
       "routes": [
         "north"
       ],
-      "note": "N44.00966° W71.42766°",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Sunset_Hill_House%2C_Sugar_Hill%2C_NH.jpg/330px-The_Sunset_Hill_House%2C_Sugar_Hill%2C_NH.jpg"
       ],
@@ -12520,7 +12530,7 @@
       "routes": [
         "north"
       ],
-      "note": "Livermore Twn",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -12555,7 +12565,9 @@
         "south"
       ],
       "note": "43 Aquinnah Cir",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Marthasvineyard-Aquinnah-cliffs-summer.jpeg/500px-Marthasvineyard-Aquinnah-cliffs-summer.jpeg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12586,7 +12598,7 @@
       "routes": [
         "south"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Cape_Cod_Canal_-_Railroad_Bridge.jpg/330px-Cape_Cod_Canal_-_Railroad_Bridge.jpg"
       ],
@@ -12620,7 +12632,7 @@
       "routes": [
         "east"
       ],
-      "note": "Chatham Twn",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -12636,7 +12648,7 @@
       "routes": [
         "east"
       ],
-      "note": "Chatham Twn",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Chatham_Light_MA.jpg/330px-Chatham_Light_MA.jpg"
       ],
@@ -12654,7 +12666,7 @@
       "routes": [
         "south"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -12688,8 +12700,12 @@
       "routes": [
         "west"
       ],
-      "note": "Ware Twn",
-      "images": [],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Enfield_Lookout%2C_Ware_MA.jpg/500px-Enfield_Lookout%2C_Ware_MA.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/General_view_along_Administration_Road%2C_for_vista_clearing%2C_Quabbin_Reservoir%2C_Mass.%2C_Sept._15%2C_1941_At_Enfield_Lookout_-_DPLA_-_753f125925b3312063f6d068dfe40591.jpg/500px-thumbnail.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/General_view_along_Administration_Road%2C_for_vista_clearing%2C_Quabbin_Reservoir%2C_Mass.%2C_Sept._15%2C_1941_At_Enfield_Lookout_-_DPLA_-_8b70bf85d54708edb69b372199b1d623.jpg/500px-thumbnail.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12704,7 +12720,7 @@
       "routes": [
         "east"
       ],
-      "note": "N42.30435° W70.90369°",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fort_Revere_park_overlooking_Allerton%2C_Hull_MA.jpg/330px-Fort_Revere_park_overlooking_Allerton%2C_Hull_MA.jpg"
       ],
@@ -12722,8 +12738,10 @@
       "routes": [
         "west"
       ],
-      "note": "Gill Twn",
-      "images": [],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/French_King_Bridge_Massachusetts_October_2021_001.jpg/500px-French_King_Bridge_Massachusetts_October_2021_001.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -12738,7 +12756,7 @@
       "routes": [
         "west"
       ],
-      "note": "Shelburne Twn",
+      "note": "",
       "images": [],
       "icon": "osa:water/waterfall",
       "cats": [
@@ -12747,7 +12765,7 @@
     },
     {
       "id": 1053,
-      "name": "Hammond Castle Museum1",
+      "name": "Hammond Castle Museum",
       "lat": 42.5853,
       "lng": -70.6936,
       "w3w": "",
@@ -12755,7 +12773,11 @@
         "east"
       ],
       "note": "Hammond Castle Museum",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hammond_Castle_Museum%2C_80_Hesperus_Ave%2C_Gloucester_%28493846%29_%2811682391694%29.jpg/500px-Hammond_Castle_Museum%2C_80_Hesperus_Ave%2C_Gloucester_%28493846%29_%2811682391694%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hammond_Castle_Museum%2C_80_Hesperus_Ave%2C_Gloucester_%28493858%29_%2811682371223%29.jpg/500px-Hammond_Castle_Museum%2C_80_Hesperus_Ave%2C_Gloucester_%28493858%29_%2811682371223%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Hammond_Castle_Museum%2C_80_Hesperus_Ave%2C_Gloucester_%28493824%29_%2811682640156%29.jpg/500px-Hammond_Castle_Museum%2C_80_Hesperus_Ave%2C_Gloucester_%28493824%29_%2811682640156%29.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -12770,7 +12792,7 @@
       "routes": [
         "west"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -12786,7 +12808,7 @@
       "routes": [
         "east"
       ],
-      "note": "N42.50785° W70.84367°",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -12802,7 +12824,7 @@
       "routes": [
         "east"
       ],
-      "note": "N42.50492° W70.83285°",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Marblehead_Light.JPG/330px-Marblehead_Light.JPG"
       ],
@@ -12838,7 +12860,7 @@
       "routes": [
         "west"
       ],
-      "note": "Florida Twn",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Charlemont-Mohawk_Trail.JPG/330px-Charlemont-Mohawk_Trail.JPG"
       ],
@@ -12908,8 +12930,12 @@
       "routes": [
         "south"
       ],
-      "note": "Falmouth Twn",
-      "images": [],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Old_Silver_Beach%2C_Falmouth%2C_Mass_%2877255%29.jpg/500px-Old_Silver_Beach%2C_Falmouth%2C_Mass_%2877255%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sea_Crest_Hotel_on_famous_Old_Silver_Beach_%2889674%29.jpg/500px-Sea_Crest_Hotel_on_famous_Old_Silver_Beach_%2889674%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/St_Francis_of_Assisi_at_Rest%2C_Old_Silver_Beach%2C_North_Falmouth%2C_Barnstable_County%2C_Massachusetts.jpg/500px-St_Francis_of_Assisi_at_Rest%2C_Old_Silver_Beach%2C_North_Falmouth%2C_Barnstable_County%2C_Massachusetts.jpg"
+      ],
       "icon": "osa:tourist/beach2",
       "cats": [
         "beach"
@@ -12917,14 +12943,14 @@
     },
     {
       "id": 1065,
-      "name": "Pilgrim Monument1",
+      "name": "Pilgrim Monument",
       "lat": 42.0528,
       "lng": -70.1893,
       "w3w": "",
       "routes": [
         "east"
       ],
-      "note": "Provincetown Twn",
+      "note": "",
       "images": [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/PilgrimMonumentbasrelief.jpg/330px-PilgrimMonumentbasrelief.jpg"
       ],
@@ -12942,8 +12968,12 @@
       "routes": [
         "east"
       ],
-      "note": "Plymouth Twn",
-      "images": [],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/View_from_Mayflower_II_to_Plymouth_Harbor_Tavern_on_the_Warf.jpg/500px-View_from_Mayflower_II_to_Plymouth_Harbor_Tavern_on_the_Warf.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hotel_1620_at_Plymouth_Harbor%2C_rear_entrance.jpg/500px-Hotel_1620_at_Plymouth_Harbor%2C_rear_entrance.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Plymouth_Harbor_boats%2C_Massachusetts_%282024%29.jpg/500px-Plymouth_Harbor_boats%2C_Massachusetts_%282024%29.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12959,7 +12989,11 @@
         "east"
       ],
       "note": "Powder Point Brg",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sunset_Over_Powder_Point_Bridge_%28201080531%29.jpeg/500px-Sunset_Over_Powder_Point_Bridge_%28201080531%29.jpeg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Duxbury_Beach_from_Powder_Point_Bridge.jpg/500px-Duxbury_Beach_from_Powder_Point_Bridge.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Duxbury_Powder_Point_Bridge.jpg/500px-Duxbury_Powder_Point_Bridge.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -12975,7 +13009,11 @@
         "west"
       ],
       "note": "Fruitlands Museums",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Prospect_Hill_Peking-20131229-RM-120510.jpg/500px-Prospect_Hill_Peking-20131229-RM-120510.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Main_gates_-_Prospect_Hill_Cemetery_-_2014.jpg/500px-Main_gates_-_Prospect_Hill_Cemetery_-_2014.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Isle_of_Man_Bank%2C_Prospect_Hill%2C_Douglas_-_geograph.org.uk_-_5732500.jpg/500px-Isle_of_Man_Bank%2C_Prospect_Hill%2C_Douglas_-_geograph.org.uk_-_5732500.jpg"
+      ],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -12990,7 +13028,7 @@
       "routes": [
         "east"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -13006,7 +13044,7 @@
       "routes": [
         "west"
       ],
-      "note": "Ware Twn",
+      "note": "",
       "images": [],
       "icon": "osa:tourist/mountain",
       "cats": [
@@ -13023,7 +13061,9 @@
         "east"
       ],
       "note": "99 T Whrf / Rockport Twn, MA, 01966, USA",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Early_Morning%2C_Rockport_Wharf_by_Charles_Paul_Gruppe.jpg/500px-Early_Morning%2C_Rockport_Wharf_by_Charles_Paul_Gruppe.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -13038,7 +13078,7 @@
       "routes": [
         "west"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -13070,7 +13110,7 @@
       "routes": [
         "west"
       ],
-      "note": "Clarksburg Twn",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -13102,7 +13142,7 @@
       "routes": [
         "east"
       ],
-      "note": "Dennis Twn",
+      "note": "",
       "images": [],
       "icon": "osa:tourist/mountain",
       "cats": [
@@ -13119,7 +13159,11 @@
         "east"
       ],
       "note": "90 Lighthouse Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Old_Scituate_Light_House%2C_Sand_Hills%2C_Scituate%2C_Mass_%2878285%29.jpg/500px-Old_Scituate_Light_House%2C_Sand_Hills%2C_Scituate%2C_Mass_%2878285%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Scituate_Light_at_Cedar_Point..jpg/500px-Scituate_Light_at_Cedar_Point..jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Old_Scituate_Light_House%2C_Sand_Hills%2C_Scituate%2C_Mass_%2878265%29.jpg/500px-Old_Scituate_Light_House%2C_Sand_Hills%2C_Scituate%2C_Mass_%2878265%29.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13134,8 +13178,12 @@
       "routes": [
         "west"
       ],
-      "note": "Deerfield Twn",
-      "images": [],
+      "note": "",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Rio_de_Janeiro_from_Sugarloaf_mountain%2C_May_2004.jpg/500px-Rio_de_Janeiro_from_Sugarloaf_mountain%2C_May_2004.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sugarloaf_Mountain_Dutchess_County_in_summer_2.jpg/500px-Sugarloaf_Mountain_Dutchess_County_in_summer_2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sugarloaf_Mountain%2C_Rio_de_Janeiro%2C_Brazil.jpg/500px-Sugarloaf_Mountain%2C_Rio_de_Janeiro%2C_Brazil.jpg"
+      ],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -13143,14 +13191,14 @@
     },
     {
       "id": 1080,
-      "name": "Surf Drive Falmouth1",
+      "name": "Surf Drive Falmouth",
       "lat": 41.5401,
       "lng": -70.6304,
       "w3w": "",
       "routes": [
         "south"
       ],
-      "note": "Falmouth Twn",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -13166,7 +13214,7 @@
       "routes": [
         "east"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [],
       "icon": "osa:special/photo_camera",
       "cats": [
@@ -13199,7 +13247,11 @@
         "attractions"
       ],
       "note": "The Brick Store",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/JSHS_Red_Brick_Store_P6081169.JPG/500px-JSHS_Red_Brick_Store_P6081169.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Red_Brick_Store_old_sign.jpg/500px-Red_Brick_Store_old_sign.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/JSHS_Red_Brick_Store_P6081168.JPG/500px-JSHS_Red_Brick_Store_P6081168.JPG"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13215,7 +13267,11 @@
         "attractions"
       ],
       "note": "An 80-passenger cable car brings visitors to the 4,080-foot summit of Cannon Mountain in under ten minutes. On a clear day, you can see the mountains of four states and Canada! At the summit, you&#8217;ll find spectacular scenic walking paths, a 360 degree observation deck, a cafeteria, bar and restrooms.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Fog_Cannon_Mountain_Aerial_Tramway_Franconia_Notch_State_Park.jpg/500px-Fog_Cannon_Mountain_Aerial_Tramway_Franconia_Notch_State_Park.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cannon_Mountain_Aerial_Tramway.jpg/500px-Cannon_Mountain_Aerial_Tramway.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tram_Car%2C_Cannon_Mountain_Aerial_Tramway%2C_Franconia_Notch%2C_White_Mts.%2C_N.H_%2870329%29.jpg/500px-Tram_Car%2C_Cannon_Mountain_Aerial_Tramway%2C_Franconia_Notch%2C_White_Mts.%2C_N.H_%2870329%29.jpg"
+      ],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -13231,7 +13287,11 @@
         "attractions"
       ],
       "note": "When we come here with the kids we spend most of the day on the property. The house itself has breathtaking views of Lake Winnipesaukee and the hills and mountains beyond. There are miles of hiking trails on the site as well. We usually eat a light lunch in the old horse barn, were the tables are set up in the stalls. You can also take a tour of Castle Springs bottling plant and see the actual spring that produces the water for bottling.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Castle_in_the_Clouds_in_summer.jpg/500px-Castle_in_the_Clouds_in_summer.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Castle_in_the_Clouds.jpg/500px-Castle_in_the_Clouds.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Castle_in_the_Clouds_03.jpg/500px-Castle_in_the_Clouds_03.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13247,7 +13307,11 @@
         "attractions"
       ],
       "note": "Situated on a hilltop with a panoramic view of Grand Monadnock, the Cathedral of the Pines is a breathtaking open-air cathedral and meeting space on 236 acres. Our historic monuments honor the service of American men and women—both military and civilian.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Plaque_-_Cathedral_of_the_Pines_-_DSC01476.JPG/500px-Plaque_-_Cathedral_of_the_Pines_-_DSC01476.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Masonry_detail_-_Cathedral_of_the_Pines_-_DSC01525.JPG/500px-Masonry_detail_-_Cathedral_of_the_Pines_-_DSC01525.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cathedral_of_the_Pines_-_DSC01514.JPG/500px-Cathedral_of_the_Pines_-_DSC01514.JPG"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13263,7 +13327,10 @@
         "attractions"
       ],
       "note": "Enjoy some of the finest natural scenery in the East as you travel through spectacular Crawford Notch &#8211; past sheer bluffs, steep ravines, cascading brooks and streams, panoramic mountain vistas, and across the famed Frankenstein Trestle and Willey Brook Bridge &#8211; enroute to Crawford Depot or Fabyan Station. Live commentary covers history and folklore of the railroad and area, as well as points of interest",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Conway_Scenic_Railroad_216_and_4268%2C_September_2012.jpg/500px-Conway_Scenic_Railroad_216_and_4268%2C_September_2012.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/20120916_38_Conway_Scenic_Railroad.jpg/500px-20120916_38_Conway_Scenic_Railroad.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13279,7 +13346,10 @@
         "attractions"
       ],
       "note": "An 800-foot gorge that extends from the base of Mount Liberty. Geological formation, Scenic/historic walking area, Waterfall",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flume_Gorge_-_The_Basin_%283371396221%29.jpg/500px-Flume_Gorge_-_The_Basin_%283371396221%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Flume_Gorge_-_The_Basin_%283372217600%29.jpg/500px-Flume_Gorge_-_The_Basin_%283372217600%29.jpg"
+      ],
       "icon": "osa:water/waterfall",
       "cats": [
         "waterfall"
@@ -13294,7 +13364,7 @@
       "routes": [
         "attractions"
       ],
-      "note": "N44.01590° W71.24566°",
+      "note": "",
       "images": [],
       "icon": "osa:water/waterfall",
       "cats": [
@@ -13311,7 +13381,10 @@
         "attractions"
       ],
       "note": "The Madison Boulder is one of the largest known glacial erratics in North America and among the largest in the world; it is preserved in the 17-acre Madison Boulder Natural Area in Madison, New Hampshire.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Madison_boulder_%284024978136%29.jpg/500px-Madison_boulder_%284024978136%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Madison_Boulder%2C_Madison%2C_NH.jpg/500px-Madison_Boulder%2C_Madison%2C_NH.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13327,7 +13400,9 @@
         "attractions"
       ],
       "note": "Opened in 1861, the Mt. Washington Auto Road is America’s Oldest Manmade Tourist Attraction. Experience the wonders of Mt. Washington’s weather, scenery and history.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Road_to_the_Sky_Mt_Washington_auto_road_New_Hampshire.jpg/500px-Road_to_the_Sky_Mt_Washington_auto_road_New_Hampshire.jpg"
+      ],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -13343,7 +13418,9 @@
         "attractions"
       ],
       "note": "The Cog Railway is one of the world&#8217;s great railway adventures. The track runs up a three mile-long trestle with a maximum gradient of over 37%, making it the second-steepest mountain climbing train in the world and the only one entirely built on a trestle.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Jacob%27s_Ladder%2C_Mt._Washington_Cog_Railway%2C_White_Mountains%2C_N.H_%2862504%29.jpg/500px-Jacob%27s_Ladder%2C_Mt._Washington_Cog_Railway%2C_White_Mountains%2C_N.H_%2862504%29.jpg"
+      ],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -13358,7 +13435,7 @@
       "routes": [
         "attractions"
       ],
-      "note": "N43.85440° W71.28000°",
+      "note": "",
       "images": [],
       "icon": "osa:tourist/monument",
       "cats": [
@@ -13550,7 +13627,7 @@
       "routes": [
         "attractions"
       ],
-      "note": "NER MA BONE pick",
+      "note": "",
       "images": [],
       "icon": "osa:tourist/monument",
       "cats": [
@@ -13566,7 +13643,7 @@
       "routes": [
         "attractions"
       ],
-      "note": "N42.52708° W70.86714°",
+      "note": "",
       "images": [],
       "icon": "osa:tourist/monument",
       "cats": [
@@ -13582,7 +13659,7 @@
       "routes": [
         "attractions"
       ],
-      "note": "N42.61021° W70.67035°",
+      "note": "",
       "images": [],
       "icon": "osa:tourist/monument",
       "cats": [
@@ -13598,7 +13675,7 @@
       "routes": [
         "attractions"
       ],
-      "note": "Freetown Twn",
+      "note": "",
       "images": [],
       "icon": "osa:tourist/monument",
       "cats": [
