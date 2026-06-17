@@ -593,13 +593,20 @@ SPOTS.forEach(s => {
 
 let activeRoute = 'all';
 const allLayer = L.layerGroup();
-SPOTS.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
+SPOTS.forEach(s => { if(!s.cats.includes('restroom')) allLayer.addLayer(spotMarkers[s.id]); });
 allLayer.addTo(map);
 
+// Restrooms live on their own independent layer — toggled on/off by the
+// Restrooms button without affecting activeRoute or the map view.
+const restroomLayer = L.layerGroup(
+  SPOTS.filter(s => s.cats.includes('restroom')).map(s => spotMarkers[s.id])
+);
+let restroomsOn = false;
+
 function getFiltered(){
-  // 'All Spots' excludes restrooms — they only show via their own filter.
+  // Scenic routes only — restrooms render via restroomLayer, never here.
   if(activeRoute === 'all') return SPOTS.filter(s => !s.cats.includes('restroom'));
-  return SPOTS.filter(s => s.routes.includes(activeRoute));
+  return SPOTS.filter(s => s.routes.includes(activeRoute) && !s.cats.includes('restroom'));
 }
 
 function updateAll(){
@@ -623,7 +630,15 @@ function updateAll(){
 
 document.querySelectorAll('.route-btn').forEach(btn=>{
   btn.addEventListener('click',()=>{
-    document.querySelectorAll('.route-btn').forEach(b=>b.classList.remove('active'));
+    if(btn.dataset.route === 'restrooms'){
+      restroomsOn = !restroomsOn;
+      btn.classList.toggle('active', restroomsOn);
+      btn.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
+      if(restroomsOn) restroomLayer.addTo(map);
+      else map.removeLayer(restroomLayer);
+      return;
+    }
+    document.querySelectorAll('.route-btn:not([data-route="restrooms"])').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     btn.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
     closeSheet();
