@@ -11865,7 +11865,10 @@
         "north"
       ],
       "note": "Hwy 26",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Balsam_hotel_from_lake_Gloriette_1993_-_panoramio.jpg/500px-Balsam_hotel_from_lake_Gloriette_1993_-_panoramio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Balsams_grand_resort_hotel_1993_-_panoramio.jpg/500px-Balsams_grand_resort_hotel_1993_-_panoramio.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12089,7 +12092,9 @@
         "north"
       ],
       "note": "Hancock",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/WMNF_Misc_Kanc_tree_20140922_%2815137377798%29.jpg/500px-WMNF_Misc_Kanc_tree_20140922_%2815137377798%29.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12321,7 +12326,10 @@
         "north"
       ],
       "note": "Pemi",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/10_2024_Kancamagus_View_from_Pemi_Overlook_Kristen_Coates_%2854053447792%29.jpg/500px-10_2024_Kancamagus_View_from_Pemi_Overlook_Kristen_Coates_%2854053447792%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/WMNF_Misc_Pemi_Overlook_sign_20140921_%2815323979255%29.jpg/500px-WMNF_Misc_Pemi_Overlook_sign_20140921_%2815323979255%29.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12355,7 +12363,11 @@
         "north"
       ],
       "note": "672 Sugar Hill Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Polly%27s_Pancake_Parlor_-_48353579817.jpg/500px-Polly%27s_Pancake_Parlor_-_48353579817.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Polly%27s_Pancake_Parlor_-_48353446611.jpg/500px-Polly%27s_Pancake_Parlor_-_48353446611.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polly%27s_Pancake_Parlor_-_48353447236.jpg/500px-Polly%27s_Pancake_Parlor_-_48353447236.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12531,7 +12543,11 @@
         "north"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/WMNF_Wangan_20141006_%2815283657617%29.jpg/500px-WMNF_Wangan_20141006_%2815283657617%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/WMNF_Wangan_20140925_%2815394345565%29.jpg/500px-WMNF_Wangan_20140925_%2815394345565%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/WMNF_Wangan_20140921_down_the_Kanc_%2815137315048%29.jpg/500px-WMNF_Wangan_20140921_down_the_Kanc_%2815137315048%29.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12617,7 +12633,10 @@
         "east"
       ],
       "note": "Canal Service Rd",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Cape_Cod_Canal_Visitor_Center.jpg/500px-Cape_Cod_Canal_Visitor_Center.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Cape_Cod_Canal_by_Sandwich%2C_Massachusetts.jpg/500px-Cape_Cod_Canal_by_Sandwich%2C_Massachusetts.jpg"
+      ],
       "icon": "osa:water/dam",
       "cats": [
         "canal"
@@ -12633,7 +12652,9 @@
         "east"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Seals_in_Chatham%2C_MA_-_panoramio.jpg/500px-Seals_in_Chatham%2C_MA_-_panoramio.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12757,7 +12778,11 @@
         "west"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Shelburne_Falls%2C_MA_01370%2C_USA_-_panoramio_%286%29.jpg/500px-Shelburne_Falls%2C_MA_01370%2C_USA_-_panoramio_%286%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Shelburne_Falls%2C_MA_01370%2C_USA_-_panoramio_%289%29.jpg/500px-Shelburne_Falls%2C_MA_01370%2C_USA_-_panoramio_%289%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Shelburne_Falls_October_2021_001.jpg/500px-Shelburne_Falls_October_2021_001.jpg"
+      ],
       "icon": "osa:water/waterfall",
       "cats": [
         "waterfall"
@@ -12793,7 +12818,9 @@
         "west"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Connecticut_River_Greenway_State_Park.JPG/500px-Connecticut_River_Greenway_State_Park.JPG"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12809,7 +12836,11 @@
         "east"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Marblehead_-_At_Front_street%2C_winter_-_panoramio.jpg/500px-Marblehead_-_At_Front_street%2C_winter_-_panoramio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Fort_Sewall_Marblehead%2CMA_-_panoramio.jpg/500px-Fort_Sewall_Marblehead%2CMA_-_panoramio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Small_boats_at_Fort_Sewall_cove_-_panoramio.jpg/500px-Small_boats_at_Fort_Sewall_cove_-_panoramio.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -12970,7 +13001,6 @@
       ],
       "note": "",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/View_from_Mayflower_II_to_Plymouth_Harbor_Tavern_on_the_Warf.jpg/500px-View_from_Mayflower_II_to_Plymouth_Harbor_Tavern_on_the_Warf.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hotel_1620_at_Plymouth_Harbor%2C_rear_entrance.jpg/500px-Hotel_1620_at_Plymouth_Harbor%2C_rear_entrance.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Plymouth_Harbor_boats%2C_Massachusetts_%282024%29.jpg/500px-Plymouth_Harbor_boats%2C_Massachusetts_%282024%29.jpg"
       ],
@@ -13009,11 +13039,7 @@
         "west"
       ],
       "note": "Fruitlands Museums",
-      "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Prospect_Hill_Peking-20131229-RM-120510.jpg/500px-Prospect_Hill_Peking-20131229-RM-120510.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Main_gates_-_Prospect_Hill_Cemetery_-_2014.jpg/500px-Main_gates_-_Prospect_Hill_Cemetery_-_2014.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Isle_of_Man_Bank%2C_Prospect_Hill%2C_Douglas_-_geograph.org.uk_-_5732500.jpg/500px-Isle_of_Man_Bank%2C_Prospect_Hill%2C_Douglas_-_geograph.org.uk_-_5732500.jpg"
-      ],
+      "images": [],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -13045,7 +13071,11 @@
         "west"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Quabbin_Reservoir%2C_Hill_Road%2C_Ware%2C_MA_01082%2C_USA_-_panoramio_%2846%29.jpg/500px-Quabbin_Reservoir%2C_Hill_Road%2C_Ware%2C_MA_01082%2C_USA_-_panoramio_%2846%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Quabbin_Reservoir%2C_Hill_Road%2C_Ware%2C_MA_01082%2C_USA_-_panoramio_%2840%29.jpg/500px-Quabbin_Reservoir%2C_Hill_Road%2C_Ware%2C_MA_01082%2C_USA_-_panoramio_%2840%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Quabbin_Reservoir%2C_Hill_Road%2C_Ware%2C_MA_01082%2C_USA_-_panoramio_%2842%29.jpg/500px-Quabbin_Reservoir%2C_Hill_Road%2C_Ware%2C_MA_01082%2C_USA_-_panoramio_%2842%29.jpg"
+      ],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -13127,7 +13157,9 @@
         "south"
       ],
       "note": "36 Canal St",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Keith_Field_Sagamore_2019.jpg/500px-Keith_Field_Sagamore_2019.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13143,7 +13175,9 @@
         "east"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/View_of_Dennis_from_Scargo_Tower.jpg/500px-View_of_Dennis_from_Scargo_Tower.jpg"
+      ],
       "icon": "osa:tourist/mountain",
       "cats": [
         "mountain"
@@ -13180,9 +13214,7 @@
       ],
       "note": "",
       "images": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Rio_de_Janeiro_from_Sugarloaf_mountain%2C_May_2004.jpg/500px-Rio_de_Janeiro_from_Sugarloaf_mountain%2C_May_2004.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sugarloaf_Mountain_Dutchess_County_in_summer_2.jpg/500px-Sugarloaf_Mountain_Dutchess_County_in_summer_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sugarloaf_Mountain%2C_Rio_de_Janeiro%2C_Brazil.jpg/500px-Sugarloaf_Mountain%2C_Rio_de_Janeiro%2C_Brazil.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sugarloaf_Mountain_Dutchess_County_in_summer_2.jpg/500px-Sugarloaf_Mountain_Dutchess_County_in_summer_2.jpg"
       ],
       "icon": "osa:tourist/mountain",
       "cats": [
@@ -13215,7 +13247,11 @@
         "east"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Caution_sign_from_a_beach_in_Wellfleet%2C_reading_%E2%80%9Ccaution_No_lifeguards_on_duty_High_levels_of_shark_activity%E2%80%9D_with_waves_design.jpg/500px-Caution_sign_from_a_beach_in_Wellfleet%2C_reading_%E2%80%9Ccaution_No_lifeguards_on_duty_High_levels_of_shark_activity%E2%80%9D_with_waves_design.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/White_Crest_Beach%2C_Wellfleet%2C_MA%2C_USA_-_panoramio.jpg/500px-White_Crest_Beach%2C_Wellfleet%2C_MA%2C_USA_-_panoramio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Wellfleet_banner_White_Crest_Beach.jpg/500px-Wellfleet_banner_White_Crest_Beach.jpg"
+      ],
       "icon": "osa:special/photo_camera",
       "cats": [
         "lookout"
@@ -13365,7 +13401,11 @@
         "attractions"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Lower_falls%2C_Kancamagus_highway_%288109104463%29.jpg/500px-Lower_falls%2C_Kancamagus_highway_%288109104463%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Falls_1_%286235156978%29.jpg/500px-Falls_1_%286235156978%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Falls_3_%286235160978%29.jpg/500px-Falls_3_%286235160978%29.jpg"
+      ],
       "icon": "osa:water/waterfall",
       "cats": [
         "waterfall"
@@ -13484,7 +13524,9 @@
         "attractions"
       ],
       "note": "Foot bridge over a scenic rocky gorge. Mile long hike around a fishing pond. Restrooms available.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/20221022-FS-Rocky_Gorge_Scenic_Area_2_USDA_Forest_Service_photo_by_Nicolette_Keown_%2852407420498%29.jpg/500px-20221022-FS-Rocky_Gorge_Scenic_Area_2_USDA_Forest_Service_photo_by_Nicolette_Keown_%2852407420498%29.jpg"
+      ],
       "icon": "osa:water/waterfall",
       "cats": [
         "waterfall"
@@ -13500,7 +13542,11 @@
         "attractions"
       ],
       "note": "Pleasant 0.3 mile walk to a scenic waterfall, by the Kancamagus Highway. Restrooms available.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/WMNF_misc_Sabbaday_Falls_Sign_20140921_%2815137427757%29.jpg/500px-WMNF_misc_Sabbaday_Falls_Sign_20140921_%2815137427757%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sabbaday_Falls_Trail%2C_Kancamagus_Hwy%2C_Waterville_Valley_%28494201%29_%2811924922296%29.jpg/500px-Sabbaday_Falls_Trail%2C_Kancamagus_Hwy%2C_Waterville_Valley_%28494201%29_%2811924922296%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sabbaday_Brook_%28240902591%29.jpeg/500px-Sabbaday_Brook_%28240902591%29.jpeg"
+      ],
       "icon": "osa:water/waterfall",
       "cats": [
         "waterfall"
@@ -13548,7 +13594,10 @@
         "attractions"
       ],
       "note": "Highest single-drop waterfall in Massachusetts.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bash_Bish_Falls%2C_Mount_Washington_State_Forest.jpg/500px-Bash_Bish_Falls%2C_Mount_Washington_State_Forest.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bashbish_Falls_from_upper_overlook.jpg/500px-Bashbish_Falls_from_upper_overlook.jpg"
+      ],
       "icon": "osa:water/waterfall",
       "cats": [
         "waterfall"
@@ -13580,7 +13629,11 @@
         "attractions"
       ],
       "note": "400 foot trolley bridge converted into a unique garden. Worth a stop during a Mohawk Trail Ride.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Bridge_of_Flowers_-_Burnham_memorial_plaque.jpg/500px-Bridge_of_Flowers_-_Burnham_memorial_plaque.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Shelburne_Falls_-_Bridge_of_Flowers_sign_on_lantern.jpg/500px-Shelburne_Falls_-_Bridge_of_Flowers_sign_on_lantern.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Bridge_of_Flowers_-_restoration_plaque.jpg/500px-Bridge_of_Flowers_-_restoration_plaque.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13596,7 +13649,11 @@
         "attractions"
       ],
       "note": "The monument was erected to commemorate the Battle of Bunker Hill, the first major conflict between British and Patriot forces in the Revolutionary War, fought there June 17, 1775.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bunker_Hill_Monument_-_panoramio.jpg/500px-Bunker_Hill_Monument_-_panoramio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bunker-Hill-Monument-statue-Col-William-Prescott.jpg/500px-Bunker-Hill-Monument-statue-Col-William-Prescott.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Thompson_Square_-_Bunker_Hill%2C_Boston%2C_MA%2C_USA_-_panoramio_%281%29.jpg/500px-Thompson_Square_-_Bunker_Hill%2C_Boston%2C_MA%2C_USA_-_panoramio_%281%29.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13612,7 +13669,11 @@
         "attractions"
       ],
       "note": "The Clara Barton Birthplace Museum is open seasonally and by appointment. Guests enjoy a rich learning experience touring Clara’s childhood home.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Clara_Barton_Homestead%2C_Oxford%2C_MA..JPG/500px-Clara_Barton_Homestead%2C_Oxford%2C_MA..JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Clara_Barton_Homestead%2C_porch.JPG/500px-Clara_Barton_Homestead%2C_porch.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Clara_Barton_Homestead%2C_front_door.jpg/500px-Clara_Barton_Homestead%2C_front_door.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13644,7 +13705,11 @@
         "attractions"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Overexposed_Fort_Pickering_Light_%2819847321933%29.jpg/500px-Overexposed_Fort_Pickering_Light_%2819847321933%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Salem_Harbor_%26_Fort_Pickering_Light_%2820442020266%29.jpg/500px-Salem_Harbor_%26_Fort_Pickering_Light_%2820442020266%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Fort_Pickering_in_the_sunrise_%2820469015525%29.jpg/500px-Fort_Pickering_in_the_sunrise_%2820469015525%29.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13660,7 +13725,11 @@
         "attractions"
       ],
       "note": "",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Gloucester_MA_-_Fisherman%27s_Memorial.jpg/500px-Gloucester_MA_-_Fisherman%27s_Memorial.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Gloucester_Fisherman_Statue_and_Memorial_9-17-25.jpg/500px-Gloucester_Fisherman_Statue_and_Memorial_9-17-25.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gloucester_Fisherman%27s_Memorial_2019.jpg/500px-Gloucester_Fisherman%27s_Memorial_2019.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13692,7 +13761,11 @@
         "attractions"
       ],
       "note": "N42° 40.493' W72° 59.748'",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/NS_SD60E_Hoosac_Brigde.png/500px-NS_SD60E_Hoosac_Brigde.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Near_east_entrance_of_Hoosac_Tunnel.jpg/500px-Near_east_entrance_of_Hoosac_Tunnel.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Hoosac_Tunnel_east_portal_undivided_back_postcard.jpg/500px-Hoosac_Tunnel_east_portal_undivided_back_postcard.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13708,7 +13781,11 @@
         "attractions"
       ],
       "note": "Longfellow's Wayside Inn",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Wayside_Inn_Grist_Mill.jpg/500px-Wayside_Inn_Grist_Mill.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/US_Route_20_underpass_near_the_Wayside_Inn%2C_South_Sudbury_MA.jpg/500px-US_Route_20_underpass_near_the_Wayside_Inn%2C_South_Sudbury_MA.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Wayside_Inn_-_Redstone_School%2C_South_Sudbury_MA.jpg/500px-Wayside_Inn_-_Redstone_School%2C_South_Sudbury_MA.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13724,7 +13801,9 @@
         "attractions"
       ],
       "note": "Battle Road Visitor Center",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/15-23-0429%2C_walkway_to_minuteman_visitor_center_-_panoramio.jpg/500px-15-23-0429%2C_walkway_to_minuteman_visitor_center_-_panoramio.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13740,7 +13819,11 @@
         "attractions"
       ],
       "note": "National Monument To the Forefathers",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Forefathers_Monument_On_A_Cold_Winter%E2%80%99s_Day%2C_Plymouth%2C_MA%2C_2016.jpg/500px-Forefathers_Monument_On_A_Cold_Winter%E2%80%99s_Day%2C_Plymouth%2C_MA%2C_2016.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/National_Monument_To_Our_Forefathers.jpg/500px-National_Monument_To_Our_Forefathers.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/15_23_0540_monument.jpg/500px-15_23_0540_monument.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13756,7 +13839,11 @@
         "attractions"
       ],
       "note": "Museum in the former hub of 19th century whaling.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/New_Bedford%2C_MA%2C_USA_-_panoramio_%286%29.jpg/500px-New_Bedford%2C_MA%2C_USA_-_panoramio_%286%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NEW_ENGLAND_WHALING_MUSEUM_-_panoramio_%282%29.jpg/500px-NEW_ENGLAND_WHALING_MUSEUM_-_panoramio_%282%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/New_Bedford%2C_MA%2C_USA_-_panoramio_%287%29.jpg/500px-New_Bedford%2C_MA%2C_USA_-_panoramio_%287%29.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -13772,7 +13859,10 @@
         "attractions"
       ],
       "note": "On April 19, 1775, the American Revolution began at Lexington and Concord with a clash of arms known to history as &#8220;the shot heard round the world.",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Minuteman_statue_at_Minuteman_National_Historic_Park._This_is_the_spot_where_the_Minutemen_faced_down_British_troops_across_the_Old_North_Bridge._-_panoramio.jpg/500px-thumbnail.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/North_Bridge%2C_Concord_%282638714745%29.jpg/500px-North_Bridge%2C_Concord_%282638714745%29.jpg"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
@@ -82661,7 +82751,7 @@
     },
     {
       "id": 1166,
-      "name": "Glezen Road",
+      "name": "Glezen Lane",
       "lat": 42.368,
       "lng": -71.2915,
       "w3w": "",
@@ -82673,6 +82763,1142 @@
       "icon": "tb:motorbike",
       "cats": [
         "road"
+      ],
+      "way": [
+        [
+          [
+            42.38241,
+            -71.35788
+          ],
+          [
+            42.38242,
+            -71.35778
+          ],
+          [
+            42.38243,
+            -71.3577
+          ],
+          [
+            42.38244,
+            -71.35721
+          ],
+          [
+            42.38245,
+            -71.35683
+          ],
+          [
+            42.38247,
+            -71.35651
+          ],
+          [
+            42.3825,
+            -71.35617
+          ],
+          [
+            42.38252,
+            -71.35603
+          ],
+          [
+            42.38265,
+            -71.35553
+          ],
+          [
+            42.38284,
+            -71.35461
+          ],
+          [
+            42.38294,
+            -71.35416
+          ],
+          [
+            42.38294,
+            -71.35413
+          ],
+          [
+            42.38301,
+            -71.35397
+          ],
+          [
+            42.38311,
+            -71.3538
+          ],
+          [
+            42.38324,
+            -71.35361
+          ],
+          [
+            42.38337,
+            -71.35339
+          ],
+          [
+            42.38349,
+            -71.35316
+          ],
+          [
+            42.38354,
+            -71.35302
+          ],
+          [
+            42.38358,
+            -71.35287
+          ],
+          [
+            42.38361,
+            -71.35256
+          ],
+          [
+            42.3837,
+            -71.35217
+          ],
+          [
+            42.38374,
+            -71.35181
+          ],
+          [
+            42.38383,
+            -71.35157
+          ],
+          [
+            42.38393,
+            -71.35136
+          ],
+          [
+            42.38403,
+            -71.35118
+          ],
+          [
+            42.38433,
+            -71.35077
+          ],
+          [
+            42.3846,
+            -71.3504
+          ],
+          [
+            42.3847,
+            -71.35028
+          ],
+          [
+            42.38483,
+            -71.35002
+          ],
+          [
+            42.38496,
+            -71.34965
+          ],
+          [
+            42.38499,
+            -71.34957
+          ],
+          [
+            42.38515,
+            -71.34906
+          ],
+          [
+            42.3853,
+            -71.34857
+          ],
+          [
+            42.38538,
+            -71.34825
+          ],
+          [
+            42.38544,
+            -71.34796
+          ],
+          [
+            42.38548,
+            -71.34771
+          ],
+          [
+            42.38549,
+            -71.34753
+          ],
+          [
+            42.3855,
+            -71.34737
+          ],
+          [
+            42.3855,
+            -71.3471
+          ],
+          [
+            42.3855,
+            -71.34691
+          ],
+          [
+            42.38551,
+            -71.34674
+          ],
+          [
+            42.38558,
+            -71.34658
+          ],
+          [
+            42.38567,
+            -71.34645
+          ],
+          [
+            42.38596,
+            -71.34614
+          ],
+          [
+            42.38612,
+            -71.34599
+          ],
+          [
+            42.3862,
+            -71.34586
+          ],
+          [
+            42.38625,
+            -71.3457
+          ],
+          [
+            42.38627,
+            -71.34553
+          ],
+          [
+            42.38631,
+            -71.34521
+          ],
+          [
+            42.38632,
+            -71.34513
+          ],
+          [
+            42.38638,
+            -71.34457
+          ],
+          [
+            42.38641,
+            -71.3443
+          ],
+          [
+            42.38646,
+            -71.34416
+          ],
+          [
+            42.38652,
+            -71.34398
+          ],
+          [
+            42.38666,
+            -71.34352
+          ],
+          [
+            42.38688,
+            -71.34296
+          ],
+          [
+            42.38693,
+            -71.3428
+          ],
+          [
+            42.38702,
+            -71.34253
+          ],
+          [
+            42.38715,
+            -71.3422
+          ],
+          [
+            42.38718,
+            -71.34213
+          ],
+          [
+            42.38729,
+            -71.34186
+          ],
+          [
+            42.38737,
+            -71.34161
+          ],
+          [
+            42.38742,
+            -71.34141
+          ],
+          [
+            42.38745,
+            -71.34131
+          ],
+          [
+            42.38747,
+            -71.3412
+          ],
+          [
+            42.38749,
+            -71.34106
+          ],
+          [
+            42.3875,
+            -71.34091
+          ],
+          [
+            42.38748,
+            -71.34068
+          ],
+          [
+            42.38742,
+            -71.34026
+          ],
+          [
+            42.38736,
+            -71.33997
+          ],
+          [
+            42.38732,
+            -71.33979
+          ],
+          [
+            42.38729,
+            -71.33959
+          ],
+          [
+            42.38728,
+            -71.3394
+          ],
+          [
+            42.38726,
+            -71.33931
+          ],
+          [
+            42.38724,
+            -71.33921
+          ],
+          [
+            42.3872,
+            -71.33911
+          ],
+          [
+            42.38714,
+            -71.33898
+          ],
+          [
+            42.38706,
+            -71.33883
+          ],
+          [
+            42.38701,
+            -71.33872
+          ],
+          [
+            42.38698,
+            -71.33863
+          ],
+          [
+            42.38696,
+            -71.33855
+          ],
+          [
+            42.38694,
+            -71.33845
+          ],
+          [
+            42.38696,
+            -71.33814
+          ],
+          [
+            42.38698,
+            -71.33798
+          ],
+          [
+            42.38699,
+            -71.33782
+          ],
+          [
+            42.38699,
+            -71.3378
+          ],
+          [
+            42.38699,
+            -71.33768
+          ],
+          [
+            42.38698,
+            -71.33757
+          ],
+          [
+            42.38695,
+            -71.3374
+          ],
+          [
+            42.38683,
+            -71.33705
+          ],
+          [
+            42.3867,
+            -71.33671
+          ],
+          [
+            42.38662,
+            -71.33649
+          ],
+          [
+            42.38657,
+            -71.3363
+          ],
+          [
+            42.38652,
+            -71.33609
+          ],
+          [
+            42.3864,
+            -71.33555
+          ],
+          [
+            42.38634,
+            -71.3353
+          ],
+          [
+            42.38631,
+            -71.33522
+          ],
+          [
+            42.38629,
+            -71.33514
+          ],
+          [
+            42.38625,
+            -71.335
+          ]
+        ],
+        [
+          [
+            42.37788,
+            -71.36714
+          ],
+          [
+            42.37806,
+            -71.36704
+          ],
+          [
+            42.37819,
+            -71.36691
+          ],
+          [
+            42.37832,
+            -71.36674
+          ],
+          [
+            42.37841,
+            -71.36653
+          ],
+          [
+            42.37848,
+            -71.3663
+          ],
+          [
+            42.3785,
+            -71.3662
+          ],
+          [
+            42.37852,
+            -71.366
+          ],
+          [
+            42.37855,
+            -71.36552
+          ],
+          [
+            42.37856,
+            -71.36536
+          ],
+          [
+            42.37861,
+            -71.36469
+          ],
+          [
+            42.37865,
+            -71.36396
+          ],
+          [
+            42.37866,
+            -71.36389
+          ],
+          [
+            42.37867,
+            -71.36382
+          ],
+          [
+            42.37867,
+            -71.36377
+          ],
+          [
+            42.37868,
+            -71.36372
+          ],
+          [
+            42.3787,
+            -71.36366
+          ],
+          [
+            42.37872,
+            -71.3636
+          ],
+          [
+            42.37874,
+            -71.36355
+          ],
+          [
+            42.37876,
+            -71.36349
+          ],
+          [
+            42.37878,
+            -71.36343
+          ],
+          [
+            42.37881,
+            -71.36337
+          ],
+          [
+            42.37884,
+            -71.36331
+          ],
+          [
+            42.37888,
+            -71.36325
+          ],
+          [
+            42.37925,
+            -71.3626
+          ],
+          [
+            42.37926,
+            -71.36257
+          ],
+          [
+            42.37929,
+            -71.36254
+          ],
+          [
+            42.37931,
+            -71.36251
+          ],
+          [
+            42.37934,
+            -71.36249
+          ],
+          [
+            42.37938,
+            -71.36247
+          ],
+          [
+            42.37941,
+            -71.36245
+          ],
+          [
+            42.37946,
+            -71.36243
+          ],
+          [
+            42.37951,
+            -71.36241
+          ],
+          [
+            42.37955,
+            -71.36239
+          ],
+          [
+            42.37959,
+            -71.36237
+          ],
+          [
+            42.37965,
+            -71.36236
+          ],
+          [
+            42.3797,
+            -71.36234
+          ],
+          [
+            42.37993,
+            -71.3623
+          ],
+          [
+            42.38,
+            -71.36228
+          ],
+          [
+            42.38006,
+            -71.36226
+          ],
+          [
+            42.38027,
+            -71.3622
+          ],
+          [
+            42.38046,
+            -71.36214
+          ],
+          [
+            42.38051,
+            -71.36211
+          ],
+          [
+            42.38056,
+            -71.36209
+          ],
+          [
+            42.38062,
+            -71.36206
+          ],
+          [
+            42.38065,
+            -71.36204
+          ],
+          [
+            42.38068,
+            -71.36202
+          ],
+          [
+            42.38071,
+            -71.36199
+          ],
+          [
+            42.38077,
+            -71.36193
+          ],
+          [
+            42.38083,
+            -71.36187
+          ],
+          [
+            42.38087,
+            -71.36183
+          ],
+          [
+            42.3809,
+            -71.36179
+          ],
+          [
+            42.38093,
+            -71.36174
+          ],
+          [
+            42.38101,
+            -71.36168
+          ],
+          [
+            42.38115,
+            -71.36148
+          ],
+          [
+            42.38125,
+            -71.36127
+          ],
+          [
+            42.38132,
+            -71.36103
+          ],
+          [
+            42.38143,
+            -71.36065
+          ],
+          [
+            42.38146,
+            -71.36056
+          ],
+          [
+            42.38149,
+            -71.36047
+          ],
+          [
+            42.38152,
+            -71.36038
+          ],
+          [
+            42.38155,
+            -71.36031
+          ],
+          [
+            42.38158,
+            -71.36023
+          ],
+          [
+            42.38161,
+            -71.36015
+          ],
+          [
+            42.38165,
+            -71.36008
+          ],
+          [
+            42.38168,
+            -71.36002
+          ],
+          [
+            42.38172,
+            -71.35995
+          ],
+          [
+            42.38175,
+            -71.3599
+          ],
+          [
+            42.38205,
+            -71.35948
+          ],
+          [
+            42.3821,
+            -71.3594
+          ],
+          [
+            42.38215,
+            -71.35933
+          ],
+          [
+            42.38219,
+            -71.35925
+          ],
+          [
+            42.38224,
+            -71.35917
+          ],
+          [
+            42.38228,
+            -71.35909
+          ],
+          [
+            42.38237,
+            -71.35892
+          ],
+          [
+            42.38238,
+            -71.35882
+          ],
+          [
+            42.38238,
+            -71.35874
+          ],
+          [
+            42.38239,
+            -71.35865
+          ],
+          [
+            42.38239,
+            -71.35856
+          ],
+          [
+            42.3824,
+            -71.35813
+          ],
+          [
+            42.3824,
+            -71.35806
+          ],
+          [
+            42.3824,
+            -71.35798
+          ],
+          [
+            42.38241,
+            -71.35788
+          ]
+        ],
+        [
+          [
+            42.38237,
+            -71.35892
+          ],
+          [
+            42.38256,
+            -71.35854
+          ],
+          [
+            42.38269,
+            -71.35828
+          ],
+          [
+            42.38282,
+            -71.35803
+          ],
+          [
+            42.38291,
+            -71.35785
+          ],
+          [
+            42.38295,
+            -71.35777
+          ]
+        ],
+        [
+          [
+            42.38246,
+            -71.35812
+          ],
+          [
+            42.38246,
+            -71.3581
+          ],
+          [
+            42.38246,
+            -71.35809
+          ],
+          [
+            42.38246,
+            -71.35808
+          ],
+          [
+            42.38246,
+            -71.35808
+          ],
+          [
+            42.38246,
+            -71.35807
+          ],
+          [
+            42.38246,
+            -71.35806
+          ],
+          [
+            42.38247,
+            -71.35806
+          ],
+          [
+            42.38247,
+            -71.35805
+          ],
+          [
+            42.38247,
+            -71.35804
+          ],
+          [
+            42.38247,
+            -71.35804
+          ],
+          [
+            42.38248,
+            -71.35803
+          ],
+          [
+            42.38248,
+            -71.35802
+          ],
+          [
+            42.38249,
+            -71.35802
+          ],
+          [
+            42.38249,
+            -71.35801
+          ],
+          [
+            42.38249,
+            -71.35801
+          ],
+          [
+            42.3825,
+            -71.358
+          ],
+          [
+            42.3825,
+            -71.358
+          ],
+          [
+            42.38251,
+            -71.358
+          ],
+          [
+            42.38251,
+            -71.35799
+          ],
+          [
+            42.38253,
+            -71.35799
+          ],
+          [
+            42.38269,
+            -71.35795
+          ],
+          [
+            42.3827,
+            -71.35795
+          ],
+          [
+            42.38271,
+            -71.35795
+          ],
+          [
+            42.38272,
+            -71.35795
+          ],
+          [
+            42.38272,
+            -71.35796
+          ],
+          [
+            42.38273,
+            -71.35796
+          ],
+          [
+            42.38273,
+            -71.35796
+          ],
+          [
+            42.38274,
+            -71.35797
+          ],
+          [
+            42.38274,
+            -71.35797
+          ],
+          [
+            42.38274,
+            -71.35798
+          ],
+          [
+            42.38275,
+            -71.35799
+          ],
+          [
+            42.38275,
+            -71.35799
+          ],
+          [
+            42.38275,
+            -71.358
+          ],
+          [
+            42.38275,
+            -71.35801
+          ],
+          [
+            42.38275,
+            -71.35802
+          ],
+          [
+            42.38275,
+            -71.35803
+          ],
+          [
+            42.38275,
+            -71.35803
+          ],
+          [
+            42.38275,
+            -71.35804
+          ],
+          [
+            42.38274,
+            -71.35805
+          ],
+          [
+            42.38271,
+            -71.35812
+          ],
+          [
+            42.38251,
+            -71.35852
+          ],
+          [
+            42.38251,
+            -71.35852
+          ],
+          [
+            42.3825,
+            -71.35853
+          ],
+          [
+            42.3825,
+            -71.35853
+          ],
+          [
+            42.38249,
+            -71.35853
+          ],
+          [
+            42.38249,
+            -71.35853
+          ],
+          [
+            42.38248,
+            -71.35853
+          ],
+          [
+            42.38248,
+            -71.35853
+          ],
+          [
+            42.38247,
+            -71.35853
+          ],
+          [
+            42.38247,
+            -71.35852
+          ],
+          [
+            42.38246,
+            -71.35852
+          ],
+          [
+            42.38246,
+            -71.35851
+          ],
+          [
+            42.38246,
+            -71.3585
+          ],
+          [
+            42.38246,
+            -71.3585
+          ],
+          [
+            42.38246,
+            -71.35812
+          ]
+        ],
+        [
+          [
+            42.37271,
+            -71.37141
+          ],
+          [
+            42.37297,
+            -71.37111
+          ],
+          [
+            42.3731,
+            -71.37095
+          ],
+          [
+            42.37335,
+            -71.37065
+          ],
+          [
+            42.37349,
+            -71.37047
+          ],
+          [
+            42.37362,
+            -71.37034
+          ],
+          [
+            42.37372,
+            -71.37022
+          ],
+          [
+            42.37385,
+            -71.37002
+          ],
+          [
+            42.37391,
+            -71.36994
+          ],
+          [
+            42.37405,
+            -71.36973
+          ],
+          [
+            42.37413,
+            -71.36961
+          ],
+          [
+            42.37431,
+            -71.36932
+          ],
+          [
+            42.37439,
+            -71.36923
+          ],
+          [
+            42.37443,
+            -71.36917
+          ],
+          [
+            42.37449,
+            -71.36912
+          ],
+          [
+            42.37467,
+            -71.36896
+          ],
+          [
+            42.37505,
+            -71.36864
+          ],
+          [
+            42.37514,
+            -71.36858
+          ],
+          [
+            42.37521,
+            -71.36852
+          ],
+          [
+            42.37549,
+            -71.36829
+          ],
+          [
+            42.37552,
+            -71.36827
+          ],
+          [
+            42.37568,
+            -71.36814
+          ],
+          [
+            42.37578,
+            -71.36808
+          ],
+          [
+            42.37582,
+            -71.36805
+          ],
+          [
+            42.37593,
+            -71.368
+          ],
+          [
+            42.37611,
+            -71.36792
+          ],
+          [
+            42.37623,
+            -71.36787
+          ],
+          [
+            42.37638,
+            -71.36782
+          ],
+          [
+            42.37655,
+            -71.36777
+          ],
+          [
+            42.37669,
+            -71.36772
+          ],
+          [
+            42.37695,
+            -71.36761
+          ],
+          [
+            42.37716,
+            -71.36751
+          ],
+          [
+            42.37727,
+            -71.36746
+          ],
+          [
+            42.37735,
+            -71.36742
+          ],
+          [
+            42.37752,
+            -71.36733
+          ],
+          [
+            42.37763,
+            -71.36727
+          ],
+          [
+            42.37788,
+            -71.36714
+          ]
+        ]
       ]
     },
     {
@@ -147093,7 +148319,11 @@
       "w3w": "",
       "routes": [],
       "note": "398 Nobska Rd / Falmouth Twn, MA 02543",
-      "images": [],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Nobska_Lighthouse%2C_Falmouth%2C_Massachusetts%2C_US_%28PPL2-Enhanced%29_julesvernex2.jpg/500px-Nobska_Lighthouse%2C_Falmouth%2C_Massachusetts%2C_US_%28PPL2-Enhanced%29_julesvernex2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nobska_Light_Blue_Hour.jpg/500px-Nobska_Light_Blue_Hour.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Nobska_Light.JPG/500px-Nobska_Light.JPG"
+      ],
       "icon": "osa:tourist/monument",
       "cats": [
         "historic"
