@@ -222,7 +222,8 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
 
 /* ROUTE CARDS */
 .route-cards{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.route-card{background:var(--cream);border-radius:8px;padding:10px;border-left:3px solid var(--gold)}
+.route-card{background:var(--cream);border-radius:8px;padding:10px;border-left:3px solid var(--gold);transition:box-shadow .2s,background .2s}
+.route-card.active{box-shadow:0 0 0 3px var(--gold);background:var(--gold-pale)}
 .route-card h3{font-family:'Playfair Display',serif;font-size:.85rem;color:var(--night);margin-bottom:6px}
 .route-stop{display:flex;align-items:center;gap:6px;padding:3px 0;font-size:.7rem;color:var(--text-mid);cursor:pointer;touch-action:manipulation}
 .route-stop .stop-num{width:16px;height:16px;border-radius:50%;background:var(--night);color:var(--gold);font-size:.5rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -715,7 +716,8 @@ function updateRouteCards(){
     const more = candidates.length > MAX_STOPS
       ? '<div class="route-stop" style="opacity:.5;font-style:italic">+'+(candidates.length-MAX_STOPS)+' more</div>'
       : '';
-    return '<div class="route-card" style="border-color:'+colors[dir]+'">'+
+    const activeClass = (dir === activeRoute) ? ' active' : '';
+    return '<div class="route-card'+activeClass+'" style="border-color:'+colors[dir]+'">'+
       '<h3>'+labels[dir]+'</h3>'+
       '<div style="font-size:.62rem;color:var(--text-light);margin-bottom:6px">'+candidates.length+' stops '+originLabel+'</div>'+
       stops+more+
