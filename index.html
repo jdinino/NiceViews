@@ -799,6 +799,30 @@ function isNearbyMatches(s){
   return !isToggleSpot(s) && nearbyDist(s) <= NEARBY_M;
 }
 
+// Distance-based filters (Local Loop, Within 30 mi) are origin-bound, so
+// when the user pans/zooms the map they're signalling 'I want to look
+// elsewhere' — auto-switch to All Spots so they're not stuck inside the
+// distance circle. Other filters (Ocean & Beaches, Going North, etc.)
+// are geographic by intent; panning should NOT change those.
+function autoExpandIfDistanceFilter(){
+  if(activeRoute !== 'local' && activeRoute !== 'nearby') return;
+  activeRoute = 'all';
+  document.querySelectorAll('.route-btn').forEach(b => {
+    if(!toggleState[b.dataset.route]) b.classList.toggle('active', b.dataset.route === 'all');
+  });
+  const filtered = getFiltered();
+  allLayer.clearLayers();
+  filtered.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
+  document.getElementById('spotCount').textContent = filtered.length + ' spots';
+  document.getElementById('spotDetail').textContent = 'All locations';
+  updateRouteCards();
+}
+map.on('dragstart', autoExpandIfDistanceFilter);
+map.getContainer().addEventListener('wheel', autoExpandIfDistanceFilter, {passive:true});
+map.getContainer().addEventListener('touchstart', (e) => {
+  if(e.touches && e.touches.length >= 2) autoExpandIfDistanceFilter();
+}, {passive:true});
+
 
 setTimeout(()=>map.invalidateSize(),100);
 // Scroll active pill into view on load
