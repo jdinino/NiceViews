@@ -865,6 +865,31 @@ const FullscreenControl = L.Control.extend({
 });
 new FullscreenControl().addTo(map);
 
+// On mobile, slowly autoscroll the sidebar pill bar once on load so users
+// can see all the filter buttons (themed + directional). Stops on any user
+// interaction (touch, click, scroll).
+(function autoscrollSidebar(){
+  if(window.matchMedia('(min-width:1024px)').matches) return;
+  const sidebar = document.querySelector('.sidebar');
+  if(!sidebar) return;
+  const max = sidebar.scrollWidth - sidebar.clientWidth;
+  if(max <= 0) return;  // already fits
+  let stopped = false;
+  const stop = ()=>{ stopped = true; };
+  ['touchstart','mousedown','wheel','scroll'].forEach(ev =>
+    sidebar.addEventListener(ev, stop, {once:true, passive:true}));
+  let pos = 0, dir = 1;
+  function step(){
+    if(stopped) return;
+    pos += dir * 0.6;  // ~36 px/sec at 60fps — slow scroll
+    if(pos >= max){ pos = max; dir = -1; }
+    else if(pos <= 0 && dir === -1){ return; }  // one round trip then stop
+    sidebar.scrollLeft = pos;
+    requestAnimationFrame(step);
+  }
+  setTimeout(()=>requestAnimationFrame(step), 800);
+})();
+
 } // end initApp
 </script>
 </body>
