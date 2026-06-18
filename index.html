@@ -406,8 +406,8 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
   };
   const themedOrder = ['all','nearby','local','ponds','boston','restrooms','roads'];
   const directionOrder = ['north','south','east','west'];
-  // Buttons starting in the 'active' state: 'All Spots' radio + 'roads' toggle.
-  const ACTIVE_AT_LOAD = new Set(['all','roads']);
+  // Buttons starting in the 'active' state: 'Local Loop' radio + 'roads' toggle.
+  const ACTIVE_AT_LOAD = new Set(['local','roads']);
   function renderGroup(arr){
     return arr.filter(k=>k==='all'||ROUTES[k]).map((k,i)=>{
       const r = k==='all' ? {label:'All Spots', icon:'◎'} : ROUTES[k];
@@ -594,7 +594,7 @@ SPOTS.forEach(s => {
   spotMarkers[s.id] = m;
 });
 
-let activeRoute = 'all';
+let activeRoute = 'local';
 const TOGGLE_CATS = ['restroom','road','attraction'];
 const isToggleSpot = s => s.cats.some(c => TOGGLE_CATS.includes(c));
 const allLayer = L.layerGroup();
