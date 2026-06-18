@@ -918,9 +918,9 @@ function autoscrollOnce(el, axis, pxPerFrame=0.6, startDelay=800){
 }
 
 if(!window.matchMedia('(min-width:1024px)').matches){
-  // Sidebar: horizontal scroll through filter buttons
-  autoscrollOnce(document.querySelector('.sidebar'), 'x', 0.6, 800);
-  // Bottom panel: vertical scroll through Route Planner cards
+  // Sidebar: horizontal scroll through filter buttons (~15 px/sec)
+  autoscrollOnce(document.querySelector('.sidebar'), 'x', 0.25, 800);
+  // Bottom panel: vertical scroll through Route Planner cards (~18 px/sec)
   autoscrollOnce(document.querySelector('.panel-body'), 'y', 0.3, 2000);
 }
 
