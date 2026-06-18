@@ -799,27 +799,6 @@ function isNearbyMatches(s){
   return !isToggleSpot(s) && nearbyDist(s) <= NEARBY_M;
 }
 
-// When the user starts panning or zooming, switch to All Spots so every
-// marker is visible while they're exploring. Doesn't re-fit the map.
-function switchToAllOnInteract(){
-  if(activeRoute === 'all') return;
-  activeRoute = 'all';
-  document.querySelectorAll('.route-btn').forEach(b => {
-    if(!toggleState[b.dataset.route]) b.classList.toggle('active', b.dataset.route === 'all');
-  });
-  const filtered = getFiltered();
-  allLayer.clearLayers();
-  filtered.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
-  document.getElementById('spotCount').textContent = filtered.length + ' spots';
-  document.getElementById('spotDetail').textContent = 'All locations';
-  updateRouteCards();
-}
-map.on('dragstart', switchToAllOnInteract);
-map.getContainer().addEventListener('wheel', switchToAllOnInteract, {passive:true});
-// Pinch zoom on mobile: detect 2-finger touch
-map.getContainer().addEventListener('touchstart', (e) => {
-  if(e.touches && e.touches.length >= 2) switchToAllOnInteract();
-}, {passive:true});
 
 setTimeout(()=>map.invalidateSize(),100);
 // Scroll active pill into view on load
