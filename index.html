@@ -644,7 +644,13 @@ function updateAll(){
   document.getElementById('spotDetail').textContent = activeRoute==='all' ? 'All locations' : ROUTES[activeRoute].label;
 
   if(filtered.length > 1){
-    const bounds = L.latLngBounds(filtered.map(s=>[s.lat,s.lng]));
+    // For N/S/E/W routes, zoom to the 10 nearest spots from origin instead
+    // of all 30-50 stretching to Canada — showing all is too zoomed-out.
+    let boundsSpots = filtered;
+    if(['north','south','east','west'].includes(activeRoute)){
+      boundsSpots = filtered.slice().sort((a,b) => nearbyDist(a) - nearbyDist(b)).slice(0, 10);
+    }
+    const bounds = L.latLngBounds(boundsSpots.map(s=>[s.lat,s.lng]));
     map.fitBounds(bounds,{padding:[40,40],maxZoom:13});
   } else if(filtered.length === 1){
     map.setView([filtered[0].lat,filtered[0].lng],14);
