@@ -895,7 +895,10 @@ new FullscreenControl().addTo(map);
   if(max <= 0) return;  // already fits
   let stopped = false;
   const stop = ()=>{ stopped = true; };
-  ['touchstart','mousedown','wheel','scroll'].forEach(ev =>
+  // Only user-initiated events stop the autoscroll. NOT 'scroll' — programmatic
+  // scrollLeft writes fire scroll events too, which would kill the animation
+  // on its first frame.
+  ['touchstart','mousedown','wheel','keydown'].forEach(ev =>
     sidebar.addEventListener(ev, stop, {once:true, passive:true}));
   let pos = 0, dir = 1;
   function step(){
