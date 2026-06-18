@@ -676,6 +676,11 @@ document.querySelectorAll('.route-btn').forEach(btn=>{
   });
 });
 
+// Per-direction expansion state for the Route Planner "+N more" toggles.
+// Persists across re-renders so an expanded card stays expanded when the
+// user clicks a different filter or GPS recomputes the order.
+const expandedDirs = new Set();
+
 function updateRouteCards(){
   const directions = ['north','south','east','west'];
   const labels = {east:'Going East →',north:'Going North ↑',south:'Going South ↓',west:'Going West ←'};
@@ -714,13 +719,17 @@ function updateRouteCards(){
 
   document.getElementById('routeCards').innerHTML = directions.map(dir=>{
     const candidates = SPOTS.filter(s => s.routes.includes(dir) && !isToggleSpot(s));
-    const ordered = nearestOrder(candidates, MAX_STOPS);
+    const expanded = expandedDirs.has(dir);
+    const limit = expanded ? candidates.length : MAX_STOPS;
+    const ordered = nearestOrder(candidates, limit);
     const stops = ordered.map((s, i) =>
       '<div class="route-stop" onclick="flyTo('+s.id+')"><span class="stop-num">'+(i+1)+'</span>'+s.name+'</div>'
     ).join('');
-    const more = candidates.length > MAX_STOPS
-      ? '<div class="route-stop" style="opacity:.5;font-style:italic">+'+(candidates.length-MAX_STOPS)+' more</div>'
-      : '';
+    let more = '';
+    if(candidates.length > MAX_STOPS){
+      const label = expanded ? '− show fewer' : ('+ ' + (candidates.length-MAX_STOPS) + ' more (tap to expand)');
+      more = '<div class="route-stop route-stop-more" data-dir-more="'+dir+'" style="opacity:.7;font-style:italic;cursor:pointer">'+label+'</div>';
+    }
     const activeClass = (dir === activeRoute) ? ' active' : '';
     return '<div class="route-card'+activeClass+'" data-dir="'+dir+'" style="border-color:'+colors[dir]+'">'+
       '<h3>'+labels[dir]+'</h3>'+
@@ -728,6 +737,16 @@ function updateRouteCards(){
       stops+more+
     '</div>';
   }).join('');
+  // Wire +more / show-fewer toggles
+  document.querySelectorAll('.route-stop-more').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const d = el.dataset.dirMore;
+      if(expandedDirs.has(d)) expandedDirs.delete(d);
+      else expandedDirs.add(d);
+      updateRouteCards();
+    });
+  });
   // Scroll the active directional card into view (helps on mobile where the
   // bottom panel has limited height and the card may be off-screen).
   if(['north','south','east','west'].includes(activeRoute)){
