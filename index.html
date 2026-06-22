@@ -877,12 +877,43 @@ map.on('locationfound',function(e){
     userMarker = L.marker(e.latlng,{icon:userIcon,interactive:false,keyboard:false,zIndexOffset:1000}).addTo(map);
     userAccuracy = L.circle(e.latlng,{radius:e.accuracy,color:'#3b82f6',weight:1,fillColor:'#3b82f6',fillOpacity:.08,interactive:false}).addTo(map);
   }
-  // On first GPS fix, recompute things that depend on the user's origin
-  // without yanking the map view. Refresh route planner unconditionally;
-  // only fitBounds the active filter if 'Within 30 mi' is selected.
+  // On first GPS fix, recenter the map and recompute origin-dependent filters.
   if(firstFix){
-    if(activeRoute === 'nearby' || activeRoute === 'local') updateAll();
-    else updateRouteCards();
+    if(activeRoute === 'nearby' || activeRoute === 'local'){
+      // Re-filter against the user's actual position
+      const filtered = getFiltered();
+      allLayer.clearLayers();
+      filtered.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
+      document.getElementById('spotCount').textContent = filtered.length + ' spots';
+      document.getElementById('spotDetail').textContent = ROUTES[activeRoute].label;
+      if(filtered.length === 0){
+        // No spots within the distance circle — auto-expand to All Spots and
+        // fit user + nearest scenic spot so the user can see something.
+        activeRoute = 'all';
+        document.querySelectorAll('.route-btn').forEach(b => {
+          if(!toggleState[b.dataset.route]) b.classList.toggle('active', b.dataset.route === 'all');
+        });
+        document.getElementById('spotDetail').textContent = 'All locations';
+        const scenic = SPOTS.filter(s => !isToggleSpot(s));
+        allLayer.clearLayers();
+        scenic.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
+        document.getElementById('spotCount').textContent = scenic.length + ' spots';
+        if(scenic.length){
+          scenic.sort((a,b) => nearbyDist(a) - nearbyDist(b));
+          const nearest = scenic[0];
+          const b = L.latLngBounds([[e.latlng.lat, e.latlng.lng], [nearest.lat, nearest.lng]]);
+          map.fitBounds(b, {padding:[40,40], maxZoom:11});
+        } else {
+          map.setView(e.latlng, 12);
+        }
+      } else {
+        // Fit user + filtered spots
+        const pts = filtered.map(s => [s.lat, s.lng]);
+        pts.push([e.latlng.lat, e.latlng.lng]);
+        map.fitBounds(L.latLngBounds(pts), {padding:[40,40], maxZoom:13});
+      }
+    }
+    updateRouteCards();
   }
 });
 
