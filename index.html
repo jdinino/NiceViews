@@ -562,30 +562,6 @@ SPOTS.forEach(s => {
   });
   const m = L.marker([s.lat,s.lng],{icon});
 
-  // Popup content (created on demand for desktop)
-  const imgId = 'vp-img-'+s.id;
-  const svUrl = 'https://www.google.com/maps/@'+s.lat+','+s.lng+',3a,75y,90t/data=!3m4!1e1!3m2!1d'+s.lat+'!2d'+s.lng;
-  const mapsUrl = 'https://www.google.com/maps?q='+s.lat+','+s.lng;
-  const w3wUrl = s.w3w ? 'https://what3words.com/'+s.w3w : null;
-  const popupHtml = `
-    <div class="vp">
-      <div class="vp-img" id="${imgId}"><span class="vp-loading">Loading image...</span><div class="vp-cat" style="background:${cat.color}">${cat.label}</div></div>
-      <div class="vp-body">
-        <div class="vp-name">${s.name}</div>
-        <div class="vp-num">#${s.id} &middot; ${s.note}</div>
-        <div class="vp-grid">
-          <div class="vp-item"><strong>GPS:</strong> ${s.lat.toFixed(4)}, ${s.lng.toFixed(4)}</div>
-          ${s.w3w ? '<div class="vp-item"><strong>W3W:</strong> '+s.w3w+'</div>' : ''}
-        </div>
-        <div class="vp-links">
-          <a href="${mapsUrl}" target="_blank" rel="noopener" class="vp-link vp-link-maps">&#x1F5FA; Maps</a>
-          <a href="${svUrl}" target="_blank" rel="noopener" class="vp-link vp-link-sv">&#x1F4CD; Street View</a>
-          ${w3wUrl ? '<a href="'+w3wUrl+'" target="_blank" rel="noopener" class="vp-link vp-link-w3w">/// W3W</a>' : ''}
-        </div>
-      </div>
-    </div>
-  `;
-
   m.on('click', function(){
     map.closePopup();
     openSheet(s);
@@ -776,7 +752,10 @@ window.flyTo = function(id){
   // Otherwise: if the spot isn't in the current radio filter, switch to a
   // filter that includes it (its first route, or 'all').
   if(!isToggleSpot(s)){
-    const inFilter = (activeRoute === 'all') || (activeRoute === 'nearby' && isNearbyMatches(s)) || (s.routes||[]).includes(activeRoute);
+    const inFilter = (activeRoute === 'all')
+      || (activeRoute === 'nearby' && nearbyDist(s) <= NEARBY_M)
+      || (activeRoute === 'local' && nearbyDist(s) <= LOCAL_M)
+      || (s.routes||[]).includes(activeRoute);
     if(!inFilter){
       const newRoute = (s.routes && s.routes.length) ? s.routes[0] : 'all';
       activeRoute = newRoute;
@@ -789,14 +768,20 @@ window.flyTo = function(id){
       filtered.forEach(x => allLayer.addLayer(spotMarkers[x.id]));
       document.getElementById('spotCount').textContent = filtered.length + ' spots';
       document.getElementById('spotDetail').textContent = ROUTES[newRoute] ? ROUTES[newRoute].label : 'All locations';
+      updateRouteCards(); // keep the active card highlight in sync
     }
   }
   map.flyTo([s.lat,s.lng],15,{duration:1});
   setTimeout(()=>openSheet(s),800);
 };
 
-function isNearbyMatches(s){
-  return !isToggleSpot(s) && nearbyDist(s) <= NEARBY_M;
+// Distance-filter button counts depend on the origin (GPS or Chelmsford).
+// Recompute them whenever the origin changes meaningfully.
+function updateRouteCounts(){
+  [['nearby', NEARBY_M], ['local', LOCAL_M]].forEach(([k, lim]) => {
+    const el = document.querySelector('.route-btn[data-route="'+k+'"] .route-count');
+    if(el) el.textContent = SPOTS.filter(s => !isToggleSpot(s) && nearbyDist(s) <= lim).length;
+  });
 }
 
 // Distance-based filters (Local Loop, Within 30 mi) are origin-bound, so
@@ -832,6 +817,8 @@ updateAll();
 
 // ===== USER GPS LOCATION =====
 let userMarker=null, userAccuracy=null;
+// Position the distance filters were last computed from (re-filter after ~1 mi).
+let lastFilterOrigin=null;
 const userIcon = L.divIcon({className:'',html:'<div class="user-dot"></div>',iconSize:[18,18],iconAnchor:[9,9]});
 
 const LocateControl = L.Control.extend({
@@ -913,6 +900,20 @@ map.on('locationfound',function(e){
         map.fitBounds(L.latLngBounds(pts), {padding:[40,40], maxZoom:13});
       }
     }
+    lastFilterOrigin = e.latlng;
+    updateRouteCounts();
+    updateRouteCards();
+  } else if((activeRoute === 'local' || activeRoute === 'nearby')
+            && lastFilterOrigin && map.distance(e.latlng, lastFilterOrigin) > 1609){
+    // User has moved >1 mile since the distance filter was last computed
+    // (e.g., riding with the map open). Re-filter around the new position
+    // without yanking the view.
+    lastFilterOrigin = e.latlng;
+    const filtered = getFiltered();
+    allLayer.clearLayers();
+    filtered.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
+    document.getElementById('spotCount').textContent = filtered.length + ' spots';
+    updateRouteCounts();
     updateRouteCards();
   }
 });
