@@ -29,7 +29,7 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 - **Local Loop** — within 10 miles of your GPS location (or Chelmsford default)
 - **Ponds, Falls & Mountains** — Wachusett, Walden Pond, Trap Falls, and more
 - **Ocean & Beaches** — Singing Beach, Crane Beach, Cape Cod lighthouses, Hampton Beach, Rockport, and Boston-area picks
-- **State Parks** — 63 top parks across all six states (Baxter, Smugglers' Notch, Purgatory Chasm, Camden Hills…), selected by Wikipedia popularity
+- **State Parks** — 76 top parks across all six states (Baxter, Smugglers' Notch, Purgatory Chasm, Camden Hills…), selected by Wikipedia popularity
 - **Going North / South / East / West** — directional tours from Chelmsford
 
 **Toggle layers (overlay on top of any radio filter):**
