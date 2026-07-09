@@ -10,15 +10,15 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 | --- | --- | --- |
 | Scenic spots & landmarks | 385 | Hand-curated + [NER B-O-N-E](https://www.newenglandriders.org/b-o-n-e/) |
 | Reference photos | 243 / 385 (63%) | Wikipedia/Commons + originals |
-| Motorcycle-friendly road segments | 322 | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
-| Public restrooms | 2,306 | [Boston Public Amenities Map](https://www.google.com/maps/d/viewer?mid=1yciPnqgJqtqKFcZI4NAvRm6ey9A_wT0) + [bathroomaccess.com](https://bathroomaccess.com) + [OSM amenity=toilets](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets) |
-| **Total spots** | **3,013** | |
+| Motorcycle-friendly road segments | 315 | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
+| Public restrooms | 2,287 | [Boston Public Amenities Map](https://www.google.com/maps/d/viewer?mid=1yciPnqgJqtqKFcZI4NAvRm6ey9A_wT0) + [bathroomaccess.com](https://bathroomaccess.com) + [OSM amenity=toilets](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets) |
+| **Total spots** | **2,987** | |
 
 ### Coverage
-- **Massachusetts** ~1,765 spots
-- **New Hampshire / Maine** ~459
-- **Vermont** ~283
-- **Rhode Island** ~282
+- **Massachusetts** ~1,763 spots
+- **New Hampshire / Maine** ~440
+- **Vermont** ~279
+- **Rhode Island** ~281
 - **Connecticut** ~223
 
 ## Filters
@@ -32,7 +32,7 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 - **Going North / South / East / West** — directional tours from Chelmsford
 
 **Toggle layers (overlay on top of any radio filter):**
-- 🚻 **Restrooms** — 2,306 public restrooms
+- 🚻 **Restrooms** — 2,287 public restrooms
 - 🏍️ **Riders' Roads** — motorcycle routes with road geometry highlighted
 
 ## Spot Details

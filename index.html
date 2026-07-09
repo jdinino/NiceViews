@@ -6,6 +6,13 @@
 <title>Nice Views &mdash; Scenic Spots, Roads, &amp; Restrooms Across New England</title>
 <meta name="description" content="Interactive Leaflet map of 3,000+ curated scenic viewpoints, waterfalls, beaches, mountain vistas, motorcycle routes, and public restrooms across MA, NH, ME, VT, RI, and CT.">
 <meta name="theme-color" content="#0F1A2E">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x26F0;&#xFE0F;</text></svg>">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nice Views — Scenic Spots, Roads, &amp; Restrooms Across New England">
+<meta property="og:description" content="Interactive map of 3,000+ scenic viewpoints, waterfalls, beaches, motorcycle routes, and public restrooms across New England.">
+<meta property="og:url" content="https://jdinino.github.io/NiceViews/">
+<meta property="og:image" content="https://jdinino.github.io/NiceViews/images/22a.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -141,11 +148,6 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
   body.map-fullscreen .main{flex-direction:row}
 }
 
-/* POPUP — hidden on mobile, used on desktop */
-.leaflet-popup-content-wrapper{border-radius:12px;box-shadow:var(--shadow-lg);overflow:hidden;padding:0}
-.leaflet-popup-content{margin:0;min-width:200px;max-width:260px}
-.leaflet-popup-tip{box-shadow:none}
-
 /* BOTTOM SHEET — mobile spot detail */
 .spot-sheet{
   position:fixed;bottom:0;left:0;right:0;z-index:1100;
@@ -183,26 +185,15 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
 .spot-sheet-grid strong{color:var(--night);font-weight:600}
 .spot-sheet-links{display:flex;gap:6px;flex-wrap:wrap}
 
-.vp{font-family:'Source Sans 3',sans-serif}
-.vp-img{width:100%;height:120px;background:var(--night-light);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
-.vp-img img{width:100%;height:100%;object-fit:cover}
-.vp-img .vp-loading{color:rgba(255,255,255,.3);font-size:.7rem}
-.vp-img .vp-cat{position:absolute;top:8px;left:8px;padding:3px 10px;border-radius:12px;font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#fff}
-.vp-body{padding:12px 14px 10px}
-.vp-name{font-family:'Playfair Display',serif;font-size:.95rem;color:var(--night);line-height:1.2;margin-bottom:2px}
-.vp-num{font-size:.62rem;color:var(--text-light);font-weight:600;margin-bottom:6px}
-.vp-grid{display:grid;grid-template-columns:1fr;gap:2px}
-.vp-item{font-size:.72rem;color:var(--text-mid)}
-.vp-item strong{color:var(--night);font-weight:600}
-.vp-links,.spot-sheet-links a{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
-.vp-link,.ss-link{
+.spot-sheet-links a{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
+.ss-link{
   display:inline-flex;align-items:center;gap:3px;padding:8px 14px;
   border-radius:8px;font-size:.7rem;font-weight:600;text-decoration:none;transition:all .2s;
   touch-action:manipulation;
 }
-.vp-link-maps,.ss-link-maps{background:rgba(91,143,185,.12);color:var(--sky)}
-.vp-link-sv,.ss-link-sv{background:rgba(232,168,56,.12);color:var(--gold)}
-.vp-link-w3w,.ss-link-w3w{background:rgba(212,98,59,.1);color:var(--sunset)}
+.ss-link-maps{background:rgba(91,143,185,.12);color:var(--sky)}
+.ss-link-sv{background:rgba(232,168,56,.12);color:var(--gold)}
+.ss-link-w3w{background:rgba(212,98,59,.1);color:var(--sunset)}
 
 /* BOTTOM PANEL */
 .bottom-panel{
@@ -243,10 +234,6 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
   .main{height:calc(100vh - 100px);height:calc(100dvh - 100px)}
   .sidebar{padding:10px 16px;gap:8px}
   .route-btn{padding:9px 14px;font-size:.76rem}
-  .leaflet-popup-content{min-width:240px;max-width:300px}
-  .vp-img{height:140px}
-  .vp-name{font-size:1.05rem}
-  .vp-grid{grid-template-columns:1fr 1fr}
   .cat-badge{font-size:.58rem;padding:2px 8px}
   .route-cards{grid-template-columns:1fr 1fr}
 }
@@ -297,10 +284,6 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
   .bottom-panel{position:absolute;bottom:0;left:260px;right:0;max-height:320px}
   .main{position:relative}
 
-  .leaflet-popup-content{min-width:260px;max-width:300px}
-  .vp-img{height:150px}
-  .vp-name{font-size:1.1rem}
-  .vp-body{padding:14px 16px 12px}
   .route-cards{grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 }
 
@@ -360,14 +343,12 @@ body.map-fullscreen .map-wrap{flex:1 1 100%}
 </div>
 
 <script>
-let SPOTS, WIKI_TERMS, CATS, ROUTES, ROUTE_ORDER;
+let SPOTS, CATS, ROUTES;
 
 fetch('spots.json').then(r=>r.json()).then(data=>{
   SPOTS = data.spots;
-  WIKI_TERMS = data.wikiTerms;
   CATS = data.cats;
   ROUTES = data.routes;
-  ROUTE_ORDER = data.routeOrder;
   initApp();
 });
 
@@ -563,7 +544,6 @@ SPOTS.forEach(s => {
   const m = L.marker([s.lat,s.lng],{icon});
 
   m.on('click', function(){
-    map.closePopup();
     openSheet(s);
   });
 

@@ -1,1 +1,7 @@
 .vercel
+.claude/
+# Local utility/pipeline scripts — never commit (see repo policy)
+_*.py
+*.bak
+# Local screenshots
+Screenshot*.png
