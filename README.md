@@ -8,18 +8,18 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 
 | Layer | Count | Source |
 | --- | --- | --- |
-| Scenic spots & landmarks | 385 | Hand-curated + [NER B-O-N-E](https://www.newenglandriders.org/b-o-n-e/) |
-| Reference photos | 243 / 385 (63%) | Wikipedia/Commons + originals |
-| Motorcycle-friendly road segments | 315 | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
+| Scenic spots & landmarks | 438 | Hand-curated + [NER B-O-N-E](https://www.newenglandriders.org/b-o-n-e/) + top state parks |
+| Reference photos | 306 / 438 (70%) | Wikipedia/Commons + originals — every remote photo visually verified |
+| Motorcycle-friendly road segments | 315 (279 with drawn geometry) | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
 | Public restrooms | 2,287 | [Boston Public Amenities Map](https://www.google.com/maps/d/viewer?mid=1yciPnqgJqtqKFcZI4NAvRm6ey9A_wT0) + [bathroomaccess.com](https://bathroomaccess.com) + [OSM amenity=toilets](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets) |
-| **Total spots** | **2,987** | |
+| **Total spots** | **3,040** | |
 
 ### Coverage
-- **Massachusetts** ~1,763 spots
-- **New Hampshire / Maine** ~440
-- **Vermont** ~279
-- **Rhode Island** ~281
-- **Connecticut** ~223
+- **Massachusetts** ~1,790 spots
+- **New Hampshire / Maine** ~445
+- **Vermont** ~285
+- **Rhode Island** ~292
+- **Connecticut** ~226
 
 ## Filters
 
@@ -47,10 +47,10 @@ Each marker opens a sheet with:
 ## Features
 
 - Leaflet map with category-specific icons (mountain, waterfall, beach, lookout, historic, park, canal, road, restroom)
-- Live GPS location: auto-locate on load, pulsing blue dot, recenter button, auto-expands filter if no spots near you
+- Live GPS location: auto-locate on load, pulsing blue dot, recenter button, auto-expands filter if no spots near you, and distance filters re-center as you ride
 - Fullscreen map toggle (top-right) for mobile real-estate
+- All Spots toggles scenic markers off while a Restrooms/Riders' Roads overlay is on (overlay-only browsing)
 - Route Planner with nearest-neighbor stop ordering from GPS (or Chelmsford default), 15-stop cap with "+N more" expand
-- Sortable spot table with clickable GPS and What3Words links
 - Mobile-first responsive layout with horizontal pill-bar filters and auto-scrolling card sets
 
 ## Perfect For
@@ -64,4 +64,4 @@ Each marker opens a sheet with:
 
 ## Data Quality
 
-Photos are verified by name-token overlap and Wikipedia globalusage cross-check. Spots are de-duplicated by proximity + name-token overlap on import. Road polylines are sourced from OSM with connectivity filtering to keep only contiguous ways.
+Every remote photo has been geo-anchored to a Wikipedia article at the spot's coordinates and then **visually inspected** against the spot's name and category — wrong-subject, junk, and out-of-region images are removed (a blank spot beats a wrong photo). Spots are de-duplicated by proximity + name-token overlap on import. Road polylines are sourced from OSM with connectivity filtering, simplified to 5 m tolerance, and every path is verified longer than 500 m with its marker on the road.
