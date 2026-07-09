@@ -385,7 +385,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
     if(key==='local')  return SPOTS.filter(s=>!isToggleSpot(s) && nearbyDist(s) <= LOCAL_M).length;
     return SPOTS.filter(s=>s.routes.includes(key)).length;
   };
-  const themedOrder = ['all','nearby','local','ponds','boston','restrooms','roads'];
+  const themedOrder = ['all','nearby','local','ponds','boston','parks','restrooms','roads'];
   const directionOrder = ['north','south','east','west'];
   // Buttons starting in the 'active' state: 'Local Loop' radio + 'roads' toggle.
   const ACTIVE_AT_LOAD = new Set(['local','roads']);
