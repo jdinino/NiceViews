@@ -585,6 +585,7 @@ Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
 
 function getFiltered(){
   // Scenic routes only — toggle-cat spots render via their own layers, never here.
+  if(activeRoute === 'none') return [];   // scenic spots hidden (All Spots toggled off)
   if(activeRoute === 'all') return SPOTS.filter(s => !isToggleSpot(s));
   if(activeRoute === 'nearby') return SPOTS.filter(s => !isToggleSpot(s) && nearbyDist(s) <= NEARBY_M);
   if(activeRoute === 'local')  return SPOTS.filter(s => !isToggleSpot(s) && nearbyDist(s) <= LOCAL_M);
@@ -597,7 +598,9 @@ function updateAll(){
   filtered.forEach(s => allLayer.addLayer(spotMarkers[s.id]));
 
   document.getElementById('spotCount').textContent = filtered.length + ' spots';
-  document.getElementById('spotDetail').textContent = activeRoute==='all' ? 'All locations' : ROUTES[activeRoute].label;
+  document.getElementById('spotDetail').textContent =
+    activeRoute==='all' ? 'All locations' :
+    activeRoute==='none' ? 'Scenic spots hidden' : ROUTES[activeRoute].label;
 
   if(filtered.length > 1){
     // For N/S/E/W routes, zoom to the 10 nearest spots from origin instead
@@ -625,6 +628,27 @@ document.querySelectorAll('.route-btn').forEach(btn=>{
       btn.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
       if(t.on) t.layer.addTo(map);
       else map.removeLayer(t.layer);
+      // If scenic spots are hidden and the last overlay just went off,
+      // bring All Spots back so the map is never blank.
+      if(activeRoute === 'none' && !Object.values(toggleState).some(x => x.on)){
+        activeRoute = 'all';
+        const allBtn = document.querySelector('.route-btn[data-route="all"]');
+        if(allBtn) allBtn.classList.add('active');
+        updateAll();
+      }
+      return;
+    }
+    // All Spots acts as a toggle while an overlay (Restrooms / Riders' Roads)
+    // is on: clicking it again hides the scenic markers so only the overlay
+    // shows. Clicking any radio (or All Spots again) brings them back.
+    if(route === 'all' && activeRoute === 'all'
+       && Object.values(toggleState).some(t => t.on)){
+      activeRoute = 'none';
+      btn.classList.remove('active');
+      allLayer.clearLayers();
+      document.getElementById('spotCount').textContent = '0 spots';
+      document.getElementById('spotDetail').textContent = 'Scenic spots hidden';
+      updateRouteCards();
       return;
     }
     document.querySelectorAll('.route-btn').forEach(b => {
