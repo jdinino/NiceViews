@@ -8,9 +8,9 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 
 | Layer | Count | Source |
 | --- | --- | --- |
-| Scenic spots & landmarks | 437 | Hand-curated + [NER B-O-N-E](https://www.newenglandriders.org/b-o-n-e/) + top state parks |
-| Reference photos | 338 / 437 (77%) | Wikipedia/Commons + Flickr CC + originals — every remote photo visually verified |
-| Motorcycle-friendly road segments | 315 (279 with drawn geometry) | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
+| Scenic spots & landmarks | 438 | Hand-curated + [NER B-O-N-E](https://www.newenglandriders.org/b-o-n-e/) + top state parks |
+| Reference photos | 339 / 438 (77%) | Wikipedia/Commons + Flickr CC + originals — every remote photo visually verified |
+| Motorcycle-friendly road segments | 314 — every road draws its path | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
 | Public restrooms | 2,287 | [Boston Public Amenities Map](https://www.google.com/maps/d/viewer?mid=1yciPnqgJqtqKFcZI4NAvRm6ey9A_wT0) + [bathroomaccess.com](https://bathroomaccess.com) + [OSM amenity=toilets](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets) |
 | **Total spots** | **3,039** | |
 
