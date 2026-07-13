@@ -532,7 +532,7 @@ SPOTS.forEach(s => {
   const html = s.icon
     ? (isStandalone(s.icon)
         ? `<img class="om-marker" src="${iconUrl(s.icon)}" alt="${s.icon}">`
-        : `<div class="mk-marker${extra}" style="background:${cat.color}"><img src="${iconUrl(s.icon)}" alt="${s.icon}"></div>`)
+        : `<div class="mk-marker${extra}" style="background:${s.color || cat.color}"><img src="${iconUrl(s.icon)}" alt="${s.icon}"></div>`)
     : cat.svg;
   const icon = L.divIcon({
     className:'marker-icon',
