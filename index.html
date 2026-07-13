@@ -13,9 +13,14 @@
 <meta property="og:url" content="https://jdinino.github.io/NiceViews/">
 <meta property="og:image" content="https://jdinino.github.io/NiceViews/images/22a.jpg">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://a.basemaps.cartocdn.com" crossorigin>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- defer: don't block first paint on Leaflet; initApp() runs after an async fetch, by which point this has loaded -->
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- fonts non-critical: load without blocking render, system sans shows until ready -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -526,7 +531,7 @@ function isStandalone(ic){return ic.startsWith('om:')||ic.startsWith('fe:');}
 function isBgSvg(ic){return ic.startsWith('sjjb:');}
 function isWhiteSvg(ic){return ic.startsWith('osa:')||ic.startsWith('hi:')||ic.startsWith('tb:');}
 renderLegend();
-SPOTS.forEach(s => {
+function makeMarker(s){
   const cat = CATS[s.cats[0]];
   const extra = s.icon && isBgSvg(s.icon) ? ' bg-svg' : (s.icon && isWhiteSvg(s.icon) ? ' white-svg' : '');
   const html = s.icon
@@ -541,13 +546,13 @@ SPOTS.forEach(s => {
     iconAnchor:[MK_SIZE/2,MK_SIZE/2]
   });
   const m = L.marker([s.lat,s.lng],{icon});
-
-  m.on('click', function(){
-    openSheet(s);
-  });
-
-  spotMarkers[s.id] = m;
-});
+  m.on('click', function(){ openSheet(s); });
+  return m;
+}
+// Build markers eagerly for everything EXCEPT restrooms. The 2,287 restroom
+// markers are created lazily the first time the Restrooms layer is shown, so
+// a phone doesn't pay to instantiate 2,287 marker objects on every page load.
+SPOTS.forEach(s => { if(!s.cats.includes('restroom')) spotMarkers[s.id] = makeMarker(s); });
 
 let activeRoute = 'local';
 const TOGGLE_CATS = ['restroom','road','attraction'];
@@ -561,9 +566,11 @@ allLayer.addTo(map);
 const TOGGLE_LAYERS = {restrooms:'restroom', roads:'road'};
 const TOGGLE_DEFAULTS_ON = new Set(['roads']);
 const toggleState = {};
-Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
+function buildToggleLayer(route){
+  const cat = TOGGLE_LAYERS[route];
   const spotsInCat = SPOTS.filter(s => s.cats.includes(cat));
-  const layers = spotsInCat.map(s => spotMarkers[s.id]);
+  // Lazily instantiate any markers not yet built (restrooms hit this path).
+  const layers = spotsInCat.map(s => spotMarkers[s.id] || (spotMarkers[s.id] = makeMarker(s)));
   // Roads can include OSM polyline geometry (s.way = array of way segments).
   if(cat === 'road'){
     const c = CATS[cat].color;
@@ -577,11 +584,25 @@ Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
       });
     });
   }
+  return L.layerGroup(layers);
+}
+// Roads build eagerly (small, on by default). Restrooms build on first show.
+Object.keys(TOGGLE_LAYERS).forEach(route => {
   const defaultOn = TOGGLE_DEFAULTS_ON.has(route);
-  const lg = L.layerGroup(layers);
-  if(defaultOn) lg.addTo(map);
-  toggleState[route] = { layer: lg, on: defaultOn };
+  if(route === 'restrooms'){
+    toggleState[route] = { layer: null, on: false };
+  } else {
+    const lg = buildToggleLayer(route);
+    if(defaultOn) lg.addTo(map);
+    toggleState[route] = { layer: lg, on: defaultOn };
+  }
 });
+// Return a toggle's layer, building it on first access (lazy restrooms).
+function ensureToggleLayer(route){
+  const t = toggleState[route];
+  if(!t.layer) t.layer = buildToggleLayer(route);
+  return t.layer;
+}
 
 function getFiltered(){
   // Scenic routes only — toggle-cat spots render via their own layers, never here.
@@ -626,8 +647,8 @@ document.querySelectorAll('.route-btn').forEach(btn=>{
       t.on = !t.on;
       btn.classList.toggle('active', t.on);
       btn.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
-      if(t.on) t.layer.addTo(map);
-      else map.removeLayer(t.layer);
+      if(t.on) ensureToggleLayer(route).addTo(map);
+      else if(t.layer) map.removeLayer(t.layer);
       // If scenic spots are hidden and the last overlay just went off,
       // bring All Spots back so the map is never blank.
       if(activeRoute === 'none' && !Object.values(toggleState).some(x => x.on)){
@@ -748,7 +769,7 @@ window.flyTo = function(id){
   Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
     if(s.cats.includes(cat) && !toggleState[route].on){
       toggleState[route].on = true;
-      toggleState[route].layer.addTo(map);
+      ensureToggleLayer(route).addTo(map);
       const btn = document.querySelector('.route-btn[data-route="'+route+'"]');
       if(btn) btn.classList.add('active');
     }
@@ -922,9 +943,19 @@ map.on('locationfound',function(e){
   }
 });
 
-map.on('locationerror',function(){
+map.on('locationerror',function(e){
+  // In watch mode, transient timeouts (code 3) fire while riding through
+  // tunnels/canyons. If we already have a fix, ignore them — don't flash red.
+  if(lastUserLatLng && e && e.code === 3) return;
   locateCtl.setActive(false);
   locateCtl.setError(true);
+  // Tell the user WHY on the button tooltip (1=denied, 2=unavailable, 3=timeout).
+  if(locateCtl._btn){
+    locateCtl._btn.title = (e && e.code === 1)
+      ? 'Location blocked — allow location access for this site in your browser settings'
+      : (e && e.code === 2) ? 'Location unavailable right now'
+      : 'Could not get your location — tap to retry';
+  }
 });
 
 startLocate();
