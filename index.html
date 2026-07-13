@@ -571,7 +571,8 @@ Object.entries(TOGGLE_LAYERS).forEach(([route, cat]) => {
       if(!Array.isArray(s.way)) return;
       s.way.forEach(seg => {
         if(seg && seg.length >= 2){
-          layers.push(L.polyline(seg, {color:c, weight:4, opacity:.7, interactive:false}));
+          // s.color lets special routes (e.g., Iron Butt RAME) use their own color
+          layers.push(L.polyline(seg, {color:s.color || c, weight:4, opacity:.7, interactive:false}));
         }
       });
     });
