@@ -10,9 +10,9 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 | --- | --- | --- |
 | Scenic spots & landmarks | 438 | Hand-curated + [NER B-O-N-E](https://www.newenglandriders.org/b-o-n-e/) + top state parks |
 | Reference photos | 367 / 438 (84%) | Wikipedia/Commons + Flickr CC + originals — every remote photo visually verified |
-| Motorcycle-friendly road segments | 226 — every road draws its path, incl. the 1,079-mile Iron Butt Ride Around Maine loop | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
+| Motorcycle-friendly road segments | 227 — every road draws its path, incl. the 1,079-mile Iron Butt Ride Around Maine loop | NER B-O-N-E + [OpenStreetMap](https://www.openstreetmap.org) via Overpass |
 | Public restrooms | 2,287 | [Boston Public Amenities Map](https://www.google.com/maps/d/viewer?mid=1yciPnqgJqtqKFcZI4NAvRm6ey9A_wT0) + [bathroomaccess.com](https://bathroomaccess.com) + [OSM amenity=toilets](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets) |
-| **Total spots** | **2,951** | |
+| **Total spots** | **2,952** | |
 
 ### Coverage
 - **Massachusetts** ~1,790 spots
