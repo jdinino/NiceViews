@@ -1,6 +1,6 @@
 # Nice Views
 
-Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain vistas, motorcycle routes, and public restrooms across all of New England.
+Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain vistas, motorcycle routes, and public restrooms across all of New England — plus select riders' roads over the border in New York's Adirondacks.
 
 **[View the live map →](https://jdinino.github.io/NiceViews/)**
 
@@ -20,6 +20,7 @@ Interactive map of scenic viewpoints, hidden gems, waterfalls, beaches, mountain
 - **Vermont** ~285
 - **Rhode Island** ~292
 - **Connecticut** ~226
+- **New York (Adirondacks)** — select riders' roads (e.g. Tracy Rd / CR 6, North Hudson)
 
 ## Filters
 
